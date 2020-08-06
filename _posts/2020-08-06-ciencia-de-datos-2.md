@@ -1,4 +1,18 @@
-﻿Ciencia de Datos para la Conservación de la Biodiversidad: El caso de las Islas de México
+﻿# Ciencia de Datos vs Analisis de Datos
+
+- Gartner's analytic value escalator
+    - Analisis de Datos
+        - Descriptivo: ¿Qué pasó?
+        - Diagnostico: ¿Por qué pasó?
+    - Ciencia de Datos
+        - Predictivo: ¿Qué pasará?
+        - Prescriptivo: ¿Cómo podemos hacer que algo pase?
+
+- Enfoque sobre el código, no sobre el resultado
+- Machine Learning
+- Equipo
+
+Ciencia de Datos para la Conservación de la Biodiversidad: El caso de las Islas de México
 Introducción [2 páginas]
 La Ciencia de Datos es un campo académico interdisciplinario, basado en evidencias, que tiene como objeto de estudio las diferentes técnicas de análisis de datos [1]. En años recientes, la popularidad de este campo ha aumentado gracias a las empresas privadas que pretenden maximizar sus ganancias agregando valor al gran volumen de datos  que generamos mediante las tecnologías de la información. Sin embargo, hasta ahora las organizaciones que se dedican a la conservación de la biodiversidad y al desarrollo sustentable habían obtenido poco beneficio del desarrollo de la Ciencia de Datos.
 El Grupo de Ecología y Conservación de Islas, A.C., (GECI), es una asociación civil sin fines de lucro que tiene como misión la protección de los ecosistemas insulares mexicanos y la restauración de su biodiversidad. Gracias al trabajo interdisciplinario en colaboración con las comunidades de pobladores insulares, GECI ha logrado la recuperación de ecosistemas insulares y de numerosas poblaciones de plantas y vertebrados nativos, además de contribuir a mejorar la calidad de vida de las y los habitantes de las islas.
