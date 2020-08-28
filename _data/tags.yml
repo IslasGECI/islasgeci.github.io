@@ -1,0 +1,16 @@
+- name: Automatización y Reproducibilidad
+  id: dataops
+- name: Capacitación continua
+  id: capacitacion
+- name: Curación de Datos
+  id: curacion
+- name: Ecología
+  id: ecologia
+- name: Equipo de Ciencia de Datos
+  id: equipo
+- name: Estadística y Matemáticas
+  id: mate
+- name: Programación
+  id: programacion
+- name: Visualización de datos
+  id: visualizacion

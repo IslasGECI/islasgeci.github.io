@@ -2,7 +2,7 @@
 layout: post
 title: "Crisis de Reproducibilidad"
 author: Evaristo
-tags: reproducibilidad
+tags: dataops
 ---
 
 Ya le dimos una vuelta a la tuerca. Ahora estamos haciendo nuestros pininos en visualizaciones web e interfaces de línea de comandos (CLI). Incluso ya hemos dado nuestros primeros pasos en programación orientada a objetos y arquitectura de software. Eventualmente empezaremos a implementar bases de datos relacionales y a desarrollar aplicaciones móviles. No me sorprendería que algún día avancemos el tema de aprendizaje automatizado mediante el _common task framework_. Pero hay que avanzar cuidando la retaguardia.

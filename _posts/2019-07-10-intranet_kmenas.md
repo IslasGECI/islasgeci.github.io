@@ -2,7 +2,7 @@
 layout: post
 title: "Algoritmo de clasificación k-means"
 author: Efren
-tags: analisis
+tags: mate programacion
 ---
 
 k-means es uno de los algoritmos de _machine learning_ más populares. Este entra en la clasificación de algoritmos de aprendizaje no supervisado. Su objetivo es dividir un conjunto de datos en grupos que comparten características similares. Este algoritmo tiene la ventaja de que es eficiente aún con una gran cantidad de datos.
