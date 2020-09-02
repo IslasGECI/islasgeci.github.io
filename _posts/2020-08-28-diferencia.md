@@ -2,7 +2,7 @@
 layout: post
 title: "¿Cuál es la diferencia entre Ciencia de Datos y Análisis de Datos?"
 author: Evaristo
-tags: capacitacion
+tags: equipo
 ---
 
 - Machine Learning
