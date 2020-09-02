@@ -38,4 +38,4 @@ Otra perspectiva que también permite diferenciar entre la Ciencia de Datos y el
 la de David Donoho. Donoho considera que el Análisis de Datos es el objeto de estudio de la Ciencia
 de Datos. Esa idea merece [su propia entrada](#).
 
-Estas son cuatro diferencias entre la Ciencia de Datos y el Análisis de Datos.
+Esas son cuatro diferencias entre la Ciencia de Datos y el Análisis de Datos.
