@@ -1,64 +1,58 @@
-﻿Equipo con interdiciplinario
+﻿---
+layout: post
+title: "La Ciencia de Datos es una actividad que se realiza en equipo"
+author: Evaristo, Nepo y Maritza
+tags: equipo
+---
 
-Combinación de habilidades computacionales, matemáticas y ecológicas (domain knowledge).
-
-- Ing Software
-- DevOps
-- Estadística y matemáticas
-- Oceanografía y meteorología
-- Ecología
-
-Unicornio o equipo
-
-Ciencia de Datos para la Conservación de la Biodiversidad: El caso de las Islas de México
-Introducción [2 páginas] La Ciencia de Datos es un campo académico interdisciplinario, basado en
-evidencias, que tiene como objeto de estudio las diferentes técnicas de análisis de datos [1]. En
-años recientes, la popularidad de este campo ha aumentado gracias a las empresas privadas que
-pretenden maximizar sus ganancias agregando valor al gran volumen de datos  que generamos mediante
-las tecnologías de la información. Sin embargo, hasta ahora las organizaciones que se dedican a la
-conservación de la biodiversidad y al desarrollo sustentable habían obtenido poco beneficio del
-desarrollo de la Ciencia de Datos. El Grupo de Ecología y Conservación de Islas, A.C., (GECI), es
-una asociación civil sin fines de lucro que tiene como misión la protección de los ecosistemas
-insulares mexicanos y la restauración de su biodiversidad. Gracias al trabajo interdisciplinario en
-colaboración con las comunidades de pobladores insulares, GECI ha logrado la recuperación de
-ecosistemas insulares y de numerosas poblaciones de plantas y vertebrados nativos, además de
-contribuir a mejorar la calidad de vida de las y los habitantes de las islas. En GECI contamos con
-un equipo de Ciencia de Datos cuyos objetivos son optimizar los recursos para la conservación y
-evaluar el impacto de nuestras intervenciones de restauración. El equipo de Ciencia de Datos
-desarrolla diversos estudios y aplicaciones de apoyo para la toma de decisiones y ejecución de
-proyectos de conservación de las islas de México. Nuestro equipo está conformado por mujeres y
-hombres profesionistas en las áreas de oceanología, ingeniería en computación, física y matemáticas.
-Cada una de estas profesiones aporta conocimientos y habilidades distintas, de tal forma que sólo al
-considerar al equipo en su conjunto resulta una unidad completa con todas las habilidades
-requeridas. En la Ciencia de Datos aplicada a la conservación de las islas de México, nos basamos
-principalmente de tres áreas de conocimiento: la ambiental, computacional y matemática. La primera
-área del conocimiento está relacionada con el ambiente. En las islas, los fenómenos oceanográficos y
-meteorológicos de escala regional y global afectan la distribución y abundancia de las poblaciones
-biológicas. El Niño-Oscilación del Sur, las condiciones Santa Ana, y El Blob son ejemplos de
-fenómenos que influyen en la ecología insular. La Ciencia de Datos, aplicada a grandes volúmenes de
-información sobre las variables ambientales, nos permite identificar con prontitud la ocurrencia de
-estos fenómenos y hacer predicciones sobre la magnitud de su impacto sobre las poblaciones que
-pretendemos conservar. La ingeniería en computación abarca el conocimiento relacionado con la
-segunda categoría. Adoptamos las técnicas y herramientas usadas en el desarrollo de software ya que
-nos facilita la reproducibilidad de los resultados, la automatización de procesos y el trabajo
-colaborativo. Con reproducibilidad de resultados nos referimos a la capacidad de replicar, por
-ejemplo, una gráfica, un mapa o un estadístico a partir de los datos originales. La automatización
-de procesos nos permite escalar la producción de resultados que inicialmente generamos para una
-especie particular en una isla específica, generalizando nuestras metodologías para otras especies,
-otras islas y otras temporadas. El trabajo colaborativo nos permite a las científicas y científicos
-de datos participar en cada uno de los análisis realizados por el equipo. Al conjunto de prácticas
-enfocadas en la reproducibilidad, automatización y colaboración en el análisis de datos lo llamamos
-DataOps. La tercera categoría incluye conocimiento matemático. Para elaborar un plan de restauración
-es necesario conocer el estado actual de la población que se desea restaurar. Sin embargo,
-determinar el estado actual de nuestro objeto de conservación mediante observaciones directas es por
-lo general prohibitivo dados los costos de las mediciones. Mediante la abstracción de procesos
-ecológicos complejos y su representación en modelos matemáticos simplificados, podemos inferir el
-estado actual de nuestro objeto de conservación sin necesidad de medirlo directamente. También así
-podemos predecir el impacto de nuestras acciones lo que nos ayuda a optimizar los recursos
-disponibles para la conservación de las islas de México maximizando los beneficios de nuestras
-intervenciones de restauración. Las siguientes secciones tratan sobre el papel que juegan el
-análisis de variables ambientales, la computación y las matemáticas en la Ciencia de Datos aplicada
-a la conservación de las islas de México.
+La Ciencia de Datos es un campo académico interdisciplinario, basado en evidencias, que tiene como
+objeto de estudio las diferentes técnicas de análisis de datos [1]. En años recientes, la
+popularidad de este campo ha aumentado gracias a las empresas privadas que pretenden maximizar sus
+ganancias agregando valor al gran volumen de datos que generamos mediante las tecnologías de la
+información. Sin embargo, hasta ahora las organizaciones que se dedican a la conservación de la
+biodiversidad y al desarrollo sustentable habían obtenido poco beneficio del desarrollo de la
+Ciencia de Datos. El Grupo de Ecología y Conservación de Islas, A.C., (GECI), es una asociación
+civil sin fines de lucro que tiene como misión la protección de los ecosistemas insulares mexicanos
+y la restauración de su biodiversidad. Gracias al trabajo interdisciplinario en colaboración con las
+comunidades de pobladores insulares, GECI ha logrado la recuperación de ecosistemas insulares y de
+numerosas poblaciones de plantas y vertebrados nativos, además de contribuir a mejorar la calidad de
+vida de las y los habitantes de las islas. En GECI contamos con un equipo de Ciencia de Datos cuyos
+objetivos son optimizar los recursos para la conservación y evaluar el impacto de nuestras
+intervenciones de restauración. El equipo de Ciencia de Datos desarrolla diversos estudios y
+aplicaciones de apoyo para la toma de decisiones y ejecución de proyectos de conservación de las
+islas de México. Nuestro equipo está conformado por mujeres y hombres profesionistas en las áreas de
+oceanología, ingeniería en computación, física y matemáticas. Cada una de estas profesiones aporta
+conocimientos y habilidades distintas, de tal forma que sólo al considerar al equipo en su conjunto
+resulta una unidad completa con todas las habilidades requeridas. En la Ciencia de Datos aplicada a
+la conservación de las islas de México, nos basamos principalmente de tres áreas de conocimiento: la
+ambiental, computacional y matemática. La primera área del conocimiento está relacionada con el
+ambiente. En las islas, los fenómenos oceanográficos y meteorológicos de escala regional y global
+afectan la distribución y abundancia de las poblaciones biológicas. El Niño-Oscilación del Sur, las
+condiciones Santa Ana, y El Blob son ejemplos de fenómenos que influyen en la ecología insular. La
+Ciencia de Datos, aplicada a grandes volúmenes de información sobre las variables ambientales, nos
+permite identificar con prontitud la ocurrencia de estos fenómenos y hacer predicciones sobre la
+magnitud de su impacto sobre las poblaciones que pretendemos conservar. La ingeniería en computación
+abarca el conocimiento relacionado con la segunda categoría. Adoptamos las técnicas y herramientas
+usadas en el desarrollo de software ya que nos facilita la reproducibilidad de los resultados, la
+automatización de procesos y el trabajo colaborativo. Con reproducibilidad de resultados nos
+referimos a la capacidad de replicar, por ejemplo, una gráfica, un mapa o un estadístico a partir de
+los datos originales. La automatización de procesos nos permite escalar la producción de resultados
+que inicialmente generamos para una especie particular en una isla específica, generalizando
+nuestras metodologías para otras especies, otras islas y otras temporadas. El trabajo colaborativo
+nos permite a las científicas y científicos de datos participar en cada uno de los análisis
+realizados por el equipo. Al conjunto de prácticas enfocadas en la reproducibilidad, automatización
+y colaboración en el análisis de datos lo llamamos DataOps. La tercera categoría incluye
+conocimiento matemático. Para elaborar un plan de restauración es necesario conocer el estado actual
+de la población que se desea restaurar. Sin embargo, determinar el estado actual de nuestro objeto
+de conservación mediante observaciones directas es por lo general prohibitivo dados los costos de
+las mediciones. Mediante la abstracción de procesos ecológicos complejos y su representación en
+modelos matemáticos simplificados, podemos inferir el estado actual de nuestro objeto de
+conservación sin necesidad de medirlo directamente. También así podemos predecir el impacto de
+nuestras acciones lo que nos ayuda a optimizar los recursos disponibles para la conservación de las
+islas de México maximizando los beneficios de nuestras intervenciones de restauración. Las
+siguientes secciones tratan sobre el papel que juegan el análisis de variables ambientales, la
+computación y las matemáticas en la Ciencia de Datos aplicada a la conservación de las islas de
+México.
 ________________
 Análisis de variables ambientales [4 páginas] La Ciencia de Datos como medio para entender los
 fenómenos oceanográficos y meteorológicos. Los fenómenos oceanográficos y meteorológicos como el
@@ -342,7 +336,7 @@ responsabilidad principal del equipo, la creación de estas herramientas será l
 
 La metodología que seguimos en el equipo de Ciencia de Datos de GECI se llama DataOps. Christopher
 Berg y Gil Benghiat fundadores de DataKitchen consideran que para “cocinar” una gráfica necesitas
-los ingredientes y las recetas correctas. Ellos  descubrieron que el tiempo y la calidad en el ciclo
+los ingredientes y las recetas correctas. Ellos descubrieron que el tiempo y la calidad en el ciclo
 del procesamiento de datos puede ser optimizado con una combinación de herramientas y metodologías
 que ellos llamaron DataOps. DataOps está inspirada en la ingeniería de software y enfatiza la
 automatización de procesos [5]. La automatización de procesos nos permite implementar algoritmos de
@@ -514,9 +508,11 @@ escasos recursos disponibles la restauración de las islas de México con base e
 experiencia que GECI ha generado por más de 20 años.
 
 
-Referencias
-[1] https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf
-[2] http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
-[3] https://doc.arcgis.com/es/arcgis-online/reference/shapefiles.htm
-[4] Montoya, Julio, Daniela Munguía and Yutzil Lora Cabrera. 2014. Laysan albatross chick mortality related to Santa Ana winds. LEO Network (leonetwork.org). Accessed 16 May 2019.
-[5] Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
+Referencias:
+
+- [1] https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf
+- [2] http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
+- [3] https://doc.arcgis.com/es/arcgis-online/reference/shapefiles.htm
+- [4] Montoya, Julio, Daniela Munguía and Yutzil Lora Cabrera. 2014. Laysan albatross chick
+  mortality related to Santa Ana winds. LEO Network (leonetwork.org). Accessed 16 May 2019.
+- [5] Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
