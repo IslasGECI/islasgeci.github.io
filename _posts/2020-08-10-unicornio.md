@@ -21,50 +21,54 @@ objetivos son optimizar los recursos para la conservación y evaluar el impacto 
 intervenciones de restauración. El equipo de Ciencia de Datos desarrolla diversos estudios y
 aplicaciones de apoyo para la toma de decisiones y ejecución de proyectos de conservación de las
 islas de México. Nuestro equipo está conformado por mujeres y hombres profesionistas en las áreas de
-oceanología, ingeniería en computación, física y matemáticas. Cada una de estas profesiones aporta
-conocimientos y habilidades distintas, de tal forma que sólo al considerar al equipo en su conjunto
-resulta una unidad completa con todas las habilidades requeridas. En la Ciencia de Datos aplicada a
-la conservación de las islas de México, nos basamos principalmente de tres áreas de conocimiento: la
-ambiental, computacional y matemática. La primera área del conocimiento está relacionada con el
-ambiente. En las islas, los fenómenos oceanográficos y meteorológicos de escala regional y global
-afectan la distribución y abundancia de las poblaciones biológicas. El Niño-Oscilación del Sur, las
-condiciones Santa Ana, y El Blob son ejemplos de fenómenos que influyen en la ecología insular. La
-Ciencia de Datos, aplicada a grandes volúmenes de información sobre las variables ambientales, nos
-permite identificar con prontitud la ocurrencia de estos fenómenos y hacer predicciones sobre la
-magnitud de su impacto sobre las poblaciones que pretendemos conservar. La ingeniería en computación
-abarca el conocimiento relacionado con la segunda categoría. Adoptamos las técnicas y herramientas
-usadas en el desarrollo de software ya que nos facilita la reproducibilidad de los resultados, la
-automatización de procesos y el trabajo colaborativo. Con reproducibilidad de resultados nos
-referimos a la capacidad de replicar, por ejemplo, una gráfica, un mapa o un estadístico a partir de
-los datos originales. La automatización de procesos nos permite escalar la producción de resultados
-que inicialmente generamos para una especie particular en una isla específica, generalizando
-nuestras metodologías para otras especies, otras islas y otras temporadas. El trabajo colaborativo
-nos permite a las científicas y científicos de datos participar en cada uno de los análisis
-realizados por el equipo. Al conjunto de prácticas enfocadas en la reproducibilidad, automatización
-y colaboración en el análisis de datos lo llamamos DataOps. La tercera categoría incluye
-conocimiento matemático. Para elaborar un plan de restauración es necesario conocer el estado actual
-de la población que se desea restaurar. Sin embargo, determinar el estado actual de nuestro objeto
-de conservación mediante observaciones directas es por lo general prohibitivo dados los costos de
-las mediciones. Mediante la abstracción de procesos ecológicos complejos y su representación en
-modelos matemáticos simplificados, podemos inferir el estado actual de nuestro objeto de
-conservación sin necesidad de medirlo directamente. También así podemos predecir el impacto de
-nuestras acciones lo que nos ayuda a optimizar los recursos disponibles para la conservación de las
-islas de México maximizando los beneficios de nuestras intervenciones de restauración. Las
-siguientes secciones tratan sobre el papel que juegan el análisis de variables ambientales, la
-computación y las matemáticas en la Ciencia de Datos aplicada a la conservación de las islas de
-México.
-________________
-Análisis de variables ambientales [4 páginas] La Ciencia de Datos como medio para entender los
-fenómenos oceanográficos y meteorológicos. Los fenómenos oceanográficos y meteorológicos como el
-ENSO, el Blob y los vientos de Santa Ana, difícilmente podrían caracterizarse sin un monitoreo
-continuo y a largo plazo de las variables atmosféricas y parámetros oceanográficos.
+oceanología, ingeniería en desarrollo de software, ingeniería geofísica, física y matemáticas. Cada
+una de estas profesiones aporta conocimientos y habilidades distintas, de tal forma que sólo al
+considerar al equipo en su conjunto resulta una unidad completa con todas las habilidades
+requeridas.
 
+## Introducción
+
+En la Ciencia de Datos aplicada a la conservación de las islas de México, nos basamos principalmente
+de tres áreas de conocimiento: la ambiental, computacional y matemática. La primera área del
+conocimiento está relacionada con el ambiente. En las islas, los fenómenos oceanográficos y
+meteorológicos de escala regional y global afectan la distribución y abundancia de las poblaciones
+biológicas. El Niño-Oscilación del Sur, las condiciones Santa Ana, y El Blob son ejemplos de
+fenómenos que influyen en la ecología insular. La Ciencia de Datos, aplicada a grandes volúmenes de
+información sobre las variables ambientales, nos permite identificar con prontitud la ocurrencia de
+estos fenómenos y hacer predicciones sobre la magnitud de su impacto sobre las poblaciones que
+pretendemos conservar. La ingeniería en computación abarca el conocimiento relacionado con la
+segunda categoría. Adoptamos las técnicas y herramientas usadas en el desarrollo de software ya que
+nos facilita la reproducibilidad de los resultados, la automatización de procesos y el trabajo
+colaborativo. Con reproducibilidad de resultados nos referimos a la capacidad de replicar, por
+ejemplo, una gráfica, un mapa o un estadístico a partir de los datos originales. La automatización
+de procesos nos permite escalar la producción de resultados que inicialmente generamos para una
+especie particular en una isla específica, generalizando nuestras metodologías para otras especies,
+otras islas y otras temporadas. El trabajo colaborativo nos permite a las científicas y científicos
+de datos participar en cada uno de los análisis realizados por el equipo. Al conjunto de prácticas
+enfocadas en la reproducibilidad, automatización y colaboración en el análisis de datos lo llamamos
+DataOps. La tercera categoría incluye conocimiento matemático. Para elaborar un plan de restauración
+es necesario conocer el estado actual de la población que se desea restaurar. Sin embargo,
+determinar el estado actual de nuestro objeto de conservación mediante observaciones directas es por
+lo general prohibitivo dados los costos de las mediciones. Mediante la abstracción de procesos
+ecológicos complejos y su representación en modelos matemáticos simplificados, podemos inferir el
+estado actual de nuestro objeto de conservación sin necesidad de medirlo directamente. También así
+podemos predecir el impacto de nuestras acciones lo que nos ayuda a optimizar los recursos
+disponibles para la conservación de las islas de México maximizando los beneficios de nuestras
+intervenciones de restauración. Las siguientes secciones tratan sobre el papel que juegan el
+análisis de variables ambientales, la computación y las matemáticas en la Ciencia de Datos aplicada
+a la conservación de las islas de México.
+
+## Análisis de variables ambientales
+
+La Ciencia de Datos como medio para entender los fenómenos oceanográficos y meteorológicos. Los
+fenómenos oceanográficos y meteorológicos como el ENSO, el Blob y los vientos de Santa Ana,
+difícilmente podrían caracterizarse sin un monitoreo continuo y a largo plazo de las variables
+atmosféricas y parámetros oceanográficos.
 
 La Ciencia de Datos nos ayuda a entender condiciones climáticas a lo largo del tiempo, de tal manera
 que podamos saber qué es lo que viene y cómo podemos actuar. Para este fin, la Ciencia de Datos
 aprovecha dos elementos fundamentales: los recursos para el manejo de grandes cantidades de datos y
 las técnicas de análisis de datos.
-
 
 El monitoreo continuo de variables ambientales (tales como la temperatura superficial del mar,
 dirección y velocidad del viento, etc.), es un requerimiento fundamental para poder conocer las
@@ -72,7 +76,6 @@ interacciones, fenómenos y cambios en los sistemas oceanográficos. La gran can
 obtenidos a partir del monitoreo resulta en un almacenamiento masivo de datos. Estas bases de datos
 contienen información significativa y son el recurso fundamental para el análisis a diferentes
 escalas de los fenómenos meteorológicos.
-
 
 Las herramientas que ofrece la Ciencia de Datos para el almacenamiento, manejo y análisis de datos,
 hacen posible la detección de este tipo de fenómenos. De otra forma, sin un análisis adecuado de los
@@ -89,7 +92,6 @@ fortalecimiento de los vientos alisios sobre el Pacífico tropical. Desde hace m
 reconoció que existe una conexión muy estrecha entre El Niño y la Oscilación del Sur, y que ambos
 son dos aspectos diferentes del mismo fenómeno.
 
-
 En el capítulo de El Niño and Southern Oscillation (ENSO): A Review, Chunzai Wang hace notar varios
 puntos relacionados con el ENSO: 1) las anomalías de la temperatura superficial del mar (TSS) y el
 viento zonal están altamente correlacionadas, indicando que el ENSO es un fenómeno acoplado de
@@ -101,13 +103,11 @@ los de El Niño, dentro del mismo fenómeno ENSO. En La Niña los vientos alisio
 cálida superficial hacia el oeste a través del Pacífico, conduciendo a las aguas más frías hacia el
 este y a las más cálidas hacia el oeste.
 
-
 Arne Mooers, en un artículo del 2007 titulado El Niño and Biodiversity, menciona que ambas
 condiciones (El Niño y La Niña) producen efectos marcadamente importantes en los ecosistemas a lo
 largo del planeta, sobre todo a latitudes bajas. La presencia de El Niño y La Niña puede influir
 sobre los patrones meteorológicos, las condiciones oceánicas y las pesquerías marinas a través de
 grandes porciones del planeta por un periodo largo de tiempo. 
-
 
 Arne Marcus England, en su artículo del 2000 “A review of bird responses to El Niño-Southern
 Oscillation conditions in the Neotropics”, dice que las aves marinas son uno de los grupos
@@ -130,7 +130,6 @@ Nevada y Utah, que son regiones altas. En su artículo The Santa Ana Winds of Ca
 Marilyn dice que los vientos de Santa Ana suceden regularmente entre el otoño y el inicio de la
 primavera, entre septiembre y abril, pero tienen mayor ocurrencia en diciembre.
 
-
 En la nota What Are the Santa Ana Winds?, de la página mentalfloss, podemos encontrar una
 descripción del origen de los vientos de Santa Ana. La nota dice que los vientos se originan cuando
 se forman sistemas de alta presión entre la Sierra Nevada y las Montañas Rocosas. El aire dentro del
@@ -141,14 +140,12 @@ va fluyendo hacia la costa, el aire se comprime y su temperatura aumenta. Al mis
 humedad baja a menos de 20% e incluso a veces hasta por debajo de 10%. Los vientos también aumentan
 su velocidad, al verse forzados a pasar entre estrechos pasos de montaña y cañones.
 
-
 Tom Rolinski, en su artículo publicado en el 2019 “Santa Ana Winds: A Descriptive Climatology”,
 menciona que las condiciones extremadamente secas y ventosas durante los eventos Santa Ana crean
 condiciones favorables para producir incendios catastróficos. Estos incendios ocurren regularmente
 en el otoño y a inicios del invierno cuando la vegetación nativa es más susceptible a igniciones.
 Rolinski menciona que, durante dichos eventos, el fuego se puede propagar rápidamente a través de la
 vegetación que existe entre las manchas urbanas, poniendo en riesgo vidas humanas y propiedades.
-
 
 Como ya mencionamos en la sección anterior, las aves marinas son susceptibles a los cambios
 ambientales abruptos, como un aumento en la temperatura del aire debido a los vientos de Santa Ana.
@@ -161,19 +158,16 @@ maduración de las crías de aves marinas, particularmente de albatros de Laysan
 fenómeno fue la mortandad de muchas crías de albatros, debido a la alta temperatura y a la baja
 humedad del ambiente.
 
-
 El Blob Desde diciembre del 2013 hasta marzo del 2015, fueron registradas anomalías positivas de la
 temperatura superficial del mar en el Pacífico noreste. Este evento cálido se esparció hacia el Este
 desde la región centro-sur del Golfo de Alaska hacia la plataforma continental. Este fenómeno
 comenzó a ser conocido como El Blob. El Blob es una masa de agua caliente en el Océano Pacífico
 norte, esta masa de agua está ligada a cambios en el ambiente y en los ecosistemas oceánicos.
 
-
 El Blob es causado por un incremento en la temperatura del aire, cambios en los patrones del viento,
 y la masa de agua caliente persistente a lo largo del ecuador inducida por el ENSO. Según el
 National Park Service (NPS), nunca antes se había registrado un evento como el Blob. El Blob es un
 evento sin precedentes, debido a su magnitud (muy cálido y extendido) y su duración de varios años.
-
 
 Nick Bond, un científico del clima en la Universidad de Washington en Seattle, en su artículo del
 2015 Causes and impacts of the 2014 warm anomaly in the NE Pacific, muestra patrones inusuales de
@@ -184,19 +178,16 @@ años anteriores, el flujo de calor en la capa superficial produjo un efecto de 
 en el curso de 4 meses; sin embargo, el efecto de enfriamiento observado entre el 2013 y el 2014 fue
 solo de 2°C.
 
-
 Las aguas oceánicas frías son en general más productivas. Son ricas en plancton y en peces pequeños,
 como sardinas y anchovetas, los cuales son importantes para especies marinas más grandes, como
 mamíferos y aves marinas. Algunas especies dependientes del agua fría pueden moverse para escapar
 del agua caliente o para poder encontrar suficiente comida. Tal es el caso de las aves marinas que
 se alimentan de peces pequeños.
 
-
 Bond, cuyo trabajo de investigación es en pesquerías y oceanografía, encontró que las condiciones
 físicas que estuvieron relacionadas con las variables ambientales tuvieron impactos biológicos en la
 región. Durante el verano e invierno de 2014 se registraron concentraciones extremadamente bajas de
 clorofila, así como avistamientos inusuales de algunas especies de peces.
-
 
 Las muertes de aves marinas han sido más cuantiosas desde la aparición del Blob. Aunque las muertes
 de aves marinas no son inusuales, el NPS menciona que la cantidad de muertes en el 2015-2016 del
@@ -206,22 +197,21 @@ al Mar de Bering y el Mar de Chukchi. Ya a finales del 2014 las consecuencias en
 eran evidentes, podías ver miles de ellas famélicas en las costas de Oregón y Washington. La alcuela
 es un ave marina que anida en algunas islas mexicanas, por ejemplo, en Guadalupe, San Benito y Todos
 Santos.
-________________
 
+## Computación
 
-Computación [4 páginas] Cuando generamos un análisis estadístico, gráficas o mapas, lo hacemos en un
-documento que contiene instrucciones escritas en lenguajes de programación como Python o R. Esto
-tiene dos beneficios. Uno es que mientras los datos de entrada sean los mismos, obtendremos el mismo
-resultado. Otro, es que el resultado se genera sin la intervención de un humano. Por ejemplo, para
-generar una gráfica en Excel debemos seguir una serie de pasos de manera manual y estos pasos los
-tendríamos que repetir cada vez que tengamos datos nuevos. Por otra parte, si deseamos que el estilo
-de la gráfica sea personalizado (color de la fuente, tamaño de letra, color y tamaño de los
-marcadores, etcétera), hacerlo nos podría tomar mucho tiempo. Tomando en cuenta lo anterior, uno de
-los principios del equipo de Ciencia de Datos, es la automatización de la producción de resultados.
-La automatización es evidencia de reproducibilidad. Si un resultado puede ser producido de forma
-automática sin la intervención de un humano entonces ese resultado es reproducible, lo que facilita
-la revisión por pares y la colaboración.
-
+Cuando generamos un análisis estadístico, gráficas o mapas, lo hacemos en un documento que contiene
+instrucciones escritas en lenguajes de programación como Python o R. Esto tiene dos beneficios. Uno
+es que mientras los datos de entrada sean los mismos, obtendremos el mismo resultado. Otro, es que
+el resultado se genera sin la intervención de un humano. Por ejemplo, para generar una gráfica en
+Excel debemos seguir una serie de pasos de manera manual y estos pasos los tendríamos que repetir
+cada vez que tengamos datos nuevos. Por otra parte, si deseamos que el estilo de la gráfica sea
+personalizado (color de la fuente, tamaño de letra, color y tamaño de los marcadores, etcétera),
+hacerlo nos podría tomar mucho tiempo. Tomando en cuenta lo anterior, uno de los principios del
+equipo de Ciencia de Datos, es la automatización de la producción de resultados. La automatización
+es evidencia de reproducibilidad. Si un resultado puede ser producido de forma automática sin la
+intervención de un humano entonces ese resultado es reproducible, lo que facilita la revisión por
+pares y la colaboración.
 
 Desde que el equipo de Ciencia de Datos se formó en GECI, hemos generado una gran cantidad de
 paquetes de uso interno para facilitar el trabajo que realizamos. Algunos de estos paquetes nos
@@ -244,7 +234,6 @@ permite tomar decisiones sobre cómo optimizar los recursos con los que la organ
 cuantificar el impacto de nuestras intervenciones en la restauración insular. Un ejemplo es la
 posibilidad de optimizar los esfuerzos de monitoreo biológico en campo, encontrando patrones en los
 datos con que ya se cuenta referentes a los sitios de anidación de las aves marinas en las islas.
-
 
 Desde hace años, las biólogas y biólogos de GECI realizan censos de aves marinas en diversas islas
 de México para conocer el estado de sus poblaciones. En el caso de las aves que anidan en
@@ -318,7 +307,6 @@ herramientas que les permitan planificar más fácilmente el trabajo en campo. P
 el mapa se puedan trazar trayectorias que seguirán con los perros y descargarlas a los GPS, esto les
 ayudaría para hacer transectos con base a los datos de capturas diarias.
 
-
 Decidimos que el sistema fuera una aplicación web porque queremos usarla en cualquier lugar, el
 problema con esto es que en la isla no hay internet. Para solucionar este problema la aplicación
 tiene integrado un pequeño servidor que utiliza para servir los archivos de forma local. Una
@@ -347,23 +335,20 @@ datos: desde la curación inicial de los datos hasta la redacción del reporte t
 la reproducibilidad de los resultados también facilita a terceras personas auditar nuestros
 análisis.
 
+## Matemáticas
 
-________________
-
-
-Matemáticas [4 páginas] Puesto que en GECI nuestro principal objetivo de trabajo es propiciar la
-recuperación de poblaciones de especies insulares y prevenir su extinción, el equipo de Ciencia de
-Datos genera modelos matemáticos que nos permiten —a través de la simplificación de las
-interacciones ecológicas— explicar y predecir los comportamientos de las poblaciones biológicas de
-nuestro interés. Además, utilizamos métodos estadísticos para evaluar nuestros modelos y sus
-predicciones. Estos métodos estadísticos se pueden clasificar en dos categorías: métodos
-frecuentistas y bayesianos. Los métodos frecuentistas son aquellos que solemos aprender durante
-nuestra formación profesional. Una diferencia entre los métodos tradicionales y los bayesianos es la
-forma en que cada uno responde a las preguntas. Los métodos frecuentistas se apoyan del hecho de que
-la hipótesis se cumple y nos permiten conocer la probabilidad de reproducir y explicar los datos.
-Por otra parte, los métodos bayesianos utilizan la naturaleza de los datos para calcular la
-probabilidad de comprobar una hipótesis.
-
+Puesto que en GECI nuestro principal objetivo de trabajo es propiciar la recuperación de poblaciones
+de especies insulares y prevenir su extinción, el equipo de Ciencia de Datos genera modelos
+matemáticos que nos permiten —a través de la simplificación de las interacciones ecológicas—
+explicar y predecir los comportamientos de las poblaciones biológicas de nuestro interés. Además,
+utilizamos métodos estadísticos para evaluar nuestros modelos y sus predicciones. Estos métodos
+estadísticos se pueden clasificar en dos categorías: métodos frecuentistas y bayesianos. Los métodos
+frecuentistas son aquellos que solemos aprender durante nuestra formación profesional. Una
+diferencia entre los métodos tradicionales y los bayesianos es la forma en que cada uno responde a
+las preguntas. Los métodos frecuentistas se apoyan del hecho de que la hipótesis se cumple y nos
+permiten conocer la probabilidad de reproducir y explicar los datos. Por otra parte, los métodos
+bayesianos utilizan la naturaleza de los datos para calcular la probabilidad de comprobar una
+hipótesis.
 
 Nosotros utilizamos métodos frecuentistas cuando estamos interesados en cuantificar los cambios en
 el comportamiento del ecosistema con el que estamos trabajando. Por ejemplo, una vez que concluyó un
@@ -384,7 +369,6 @@ Podríamos estar monitoreando la isla de manera inadecuada, por ejemplo, con poc
 cámaras. Ante dicha situación, los métodos bayesianos proporcionan una alternativa para evaluar la
 probabilidad de que la ausencia de la especie exótica es verdadera.
 
-
 La estadística bayesiana utiliza cuatro fuentes de información: los datos, el modelo, la información
 conocida antes de utilizar los datos (prior) y la información conocida después de utilizar los datos
 (posterior). En el proyecto de erradicación de gato feral en Isla Guadalupe los datos consisten en
@@ -393,7 +377,6 @@ el investigador David Ramsey perteneciente al Instituto Arthur Rylah de investig
 en Australia. Nuestra información a priori es que cualquier tamaño inicial de la población es
 igualmente probable. Mientras el proyecto avanza, actualizamos los parámetros de nuestro modelo a
 partir de los datos recolectados, obteniendo el tamaño más probable de la población (posterior). 
-
 
 Otro de los parámetros del modelo relaciona la probabilidad de detectar un gato con el esfuerzo
 hecho para encontrarlo. Así podremos saber cuántas trampas necesitamos para hallar algún individuo
@@ -411,7 +394,6 @@ especies en las islas. La cuestión es que el tamaño de la población de alguna
 difícil de estimar mediante conteo directo. Este es el caso de la pardela de Revillagigedo, el ave
 marina más rara y en mayor peligro de extinción de México. 
 
-
 Para monitorear el tamaño de la población de pardela en las islas del Archipiélago de Revillagigedo,
 utilizamos la tasa de vocalización o número de cantos de aves durante un tiempo determinado. Sin
 embargo, la tasa de vocalización es un ejemplo de datos que no sigue una distribución normal. El
@@ -419,7 +401,6 @@ número de cantos es una variable discreta (podemos tener una vocalización, dos
 vocalizaciones, pero no 2.6 vocalizaciones), así que utilizar un modelo continuo (como la
 distribución normal) no es lo más adecuado. Ante esta situación, los modelos jerárquicos nos
 proporcionan una alternativa puesto que analizan por partes a un sistema. 
-
 
 Los modelos jerárquicos son muy adecuados para describir procesos con escalas múltiples. Por
 ejemplo, en el caso de la pardela de Revillagigedo, consideramos que el número de pardelas no es el
@@ -429,62 +410,17 @@ jerárquico considera que el número de pardelas sigue una distribución log-nor
 cantos sigue una distribución de Poisson. De esta manera, tomamos en cuenta la variación dentro de
 la isla y la naturaleza de los datos que medimos para definir cuál modelo proponer. En ninguna de
 las dos partes de este modelo jerárquico consideramos una distribución normal.
-________________
 
+## Conclusión
 
-El caso de las AICA marinas [1 página] El programa de Áreas de Importancia para la Conservación de
-las Aves (AICA) fue propuesto por BirdLife International con el propósito de identificar y
-documentar las regiones geográficas que son críticas para la conservación de las aves y así
-facilitar la gestión de políticas para su protección. Las AICA son sitios clave lo suficientemente
-pequeños para ser conservados que albergan especies amenazadas globalmente, de distribución
-restringida o con cantidades excepcionales de especies migratorias o congregatorias. El primer paso
-para definir un AICA es identificar las áreas clave para las aves durante su reproducción o
-alimentación. Las zonas de alimentación de las aves tienen ciertas características muy particulares.
-Estas están determinadas por la biología de la especie y su preferencia de alimentación. Algunas
-prefieren aguas costeras y otras prefieren aguas oceánicas, algunas prefieren aguas cálidas y otras
-aguas frías.
-
-
-En nuestro caso nos interesa definir las AICA para las aves marinas que anidan en las islas de
-México. Para identificar las áreas clave del albatros de Laysan y la pardela mexicana en el mar,
-utilizamos datos de seguimiento remoto y modelos de hábitat. El seguimiento remoto consiste en
-colocar dispositivos GPS a algunos individuos adultos durante su temporada de reproducción.
-Estimamos la densidad kernel de sus trayectorias para encontrar el contorno de mayor densidad que
-contiene la mitad de los datos de su localización. Estos contornos son las regiones geográficas que
-prefieren los individuos y suponemos que tienen las características representativas de su hábitat
-idóneo. Haciendo una simplificación del hábitat de las aves marinas, podemos construir un modelo que
-describa cuál es el hábitat preferido para estas especies. Los modelos de hábitat se construyen a
-partir de diversas capas de datos. En particular, nuestro modelo relaciona los datos de la
-localización de los individuos con los datos de variables oceanográficas relacionadas a la presencia
-de aves marinas, tales como batimetría, temperatura superficial del mar y concentración de
-clorofila.
-
-
-Al igual que el modelo de predicción de sexo para albatros, este modelo es logístico. Una vez que
-obtuvimos el modelo encontramos las áreas que tienen características similares a las de las zonas de
-alimentación determinadas con los datos de sus trayectorias. Este modelo es predictivo, por lo que
-nos puede decir cuáles áreas cumplen con las características de una zona de alimentación para años
-donde no tenemos datos de trayectorias y por lo tanto no podemos conocer las regiones utilizadas esa
-temporada. Las áreas predichas por este modelo son insumos para definir las áreas clave para los
-albatros y pardelas.
-
-
-En la fase final para identificar las AICA, expertos en aves marinas usan estos insumos y otra
-información adicional (tamaño de las colonias, radios de forrajeo) para delimitar y describir las
-AICA que serán propuestas a BirdLife International para su validación.
-________________
-
-
-Conclusión [1 página] En GECI utilizamos la Ciencia de Datos para diseñar y evaluar nuestra
-intervención en las islas de México. Esto nos ayuda a enfocar nuestros esfuerzos y así optimizar los
-recursos que tenemos para la restauración y conservación de la biodiversidad insular.
-
+En GECI utilizamos la Ciencia de Datos para diseñar y evaluar nuestra intervención en las islas de
+México. Esto nos ayuda a enfocar nuestros esfuerzos y así optimizar los recursos que tenemos para la
+restauración y conservación de la biodiversidad insular.
 
 Usando la Ciencia de Datos analizamos los datos biológicos en conjunto con los datos ambientales.
 Incorporar el conocimiento oceanográfico y meteorológico al análisis los datos nos permiten
 responder preguntas ecológicas importantes. Un ejemplo de lo anterior es saber cuáles factores
 ambientales determinan una disminución abrupta en la tasa de reproducción de aves marinas.
-
 
 Los avances en la ingeniería en computación y la disminución de costos asociados al poder de cómputo
 nos permiten resolver problemas que antes eran prohibitivos. Inspirados en el desarrollo de
@@ -495,20 +431,17 @@ simulaciones computacionales para predecir estados futuros de una población o d
 Ejemplos de estas predicciones son las que hemos realizado para albatros y pardela mediante la
 implementación de modelos de hábitat que desarrollamos considerando una gran cantidad de variables.
 
-
 Los modelos matemáticos nos permiten explicar el comportamiento ecológico interpretando los datos
 registrados en el campo. También predecimos los resultados que tendrán nuestras acciones a partir
 del conocimiento adquirido y la manipulación de los modelos matemáticos. El sustento matemático nos
 trae certidumbre en nuestro trabajo de restauración en las islas. Además, las matemáticas nos
 permiten considerar como objeto de estudio a cada método de análisis de datos.
 
-
 La Ciencia de Datos combina el conocimiento ambiental, computacional y matemático para optimizar los
 escasos recursos disponibles la restauración de las islas de México con base en el conocimiento y
 experiencia que GECI ha generado por más de 20 años.
 
-
-Referencias:
+## Referencias
 
 - [1] https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf
 - [2] http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
