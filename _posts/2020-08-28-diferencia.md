@@ -11,7 +11,7 @@ lo que actualmente coexisten muchas definiciones. En esta nota no proveeré más
 diferenciaré los conceptos de Ciencia de Datos y Análisis de Datos contrastando algunas de sus
 características.
 
-La Ciencia de Datos usa de algoritmos predictivos de _machine learning_ (aprendizaje automatizado),
+La Ciencia de Datos usa algoritmos predictivos de _machine learning_ (aprendizaje automatizado),
 mientras que el Análisis de Datos usa algoritmos descriptivos.
 
 - Machine Learning
