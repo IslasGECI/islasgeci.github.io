@@ -11,56 +11,64 @@ popularidad de este campo ha aumentado gracias a las empresas privadas que prete
 ganancias agregando valor al gran volumen de datos que generamos mediante las tecnologías de la
 información. Sin embargo, hasta ahora las organizaciones que se dedican a la conservación de la
 biodiversidad y al desarrollo sustentable habían obtenido poco beneficio del desarrollo de la
-Ciencia de Datos. El Grupo de Ecología y Conservación de Islas, A.C., (GECI), es una asociación
-civil sin fines de lucro que tiene como misión la protección de los ecosistemas insulares mexicanos
-y la restauración de su biodiversidad. Gracias al trabajo interdisciplinario en colaboración con las
-comunidades de pobladores insulares, GECI ha logrado la recuperación de ecosistemas insulares y de
-numerosas poblaciones de plantas y vertebrados nativos, además de contribuir a mejorar la calidad de
-vida de las y los habitantes de las islas. En GECI contamos con un equipo de Ciencia de Datos cuyos
-objetivos son optimizar los recursos para la conservación y evaluar el impacto de nuestras
-intervenciones de restauración. El equipo de Ciencia de Datos desarrolla diversos estudios y
-aplicaciones de apoyo para la toma de decisiones y ejecución de proyectos de conservación de las
-islas de México. Nuestro equipo está conformado por mujeres y hombres profesionistas en las áreas de
-oceanología, ingeniería en desarrollo de software, ingeniería geofísica, física y matemáticas. Cada
-una de estas profesiones aporta conocimientos y habilidades distintas, de tal forma que sólo al
-considerar al equipo en su conjunto resulta una unidad completa con todas las habilidades
-requeridas.
+Ciencia de Datos.
+
+El Grupo de Ecología y Conservación de Islas, A.C., (GECI), es una asociación civil sin fines de
+lucro que tiene como misión la protección de los ecosistemas insulares mexicanos y la restauración
+de su biodiversidad. Gracias al trabajo interdisciplinario en colaboración con las comunidades de
+pobladores insulares, GECI ha logrado la recuperación de ecosistemas insulares y de numerosas
+poblaciones de plantas y vertebrados nativos, además de contribuir a mejorar la calidad de vida de
+las y los habitantes de las islas.
+
+En GECI contamos con un equipo de Ciencia de Datos cuyos objetivos son optimizar los recursos para
+la conservación y evaluar el impacto de nuestras intervenciones de restauración. El equipo de
+Ciencia de Datos desarrolla diversos estudios y aplicaciones de apoyo para la toma de decisiones y
+ejecución de proyectos de conservación de las islas de México. Nuestro equipo está conformado por
+mujeres y hombres profesionistas en las áreas de oceanología, ingeniería en desarrollo de software,
+ingeniería geofísica, física y matemáticas. Cada una de estas profesiones aporta conocimientos y
+habilidades distintas, de tal forma que sólo al considerar al equipo en su conjunto resulta una
+unidad completa con todas las habilidades requeridas.
 
 ## Introducción
 
 En la Ciencia de Datos aplicada a la conservación de las islas de México, nos basamos principalmente
-de tres áreas de conocimiento: la ambiental, computacional y matemática. La primera área del
-conocimiento está relacionada con el ambiente. En las islas, los fenómenos oceanográficos y
-meteorológicos de escala regional y global afectan la distribución y abundancia de las poblaciones
-biológicas. El Niño-Oscilación del Sur, las condiciones Santa Ana, y El Blob son ejemplos de
-fenómenos que influyen en la ecología insular. La Ciencia de Datos, aplicada a grandes volúmenes de
-información sobre las variables ambientales, nos permite identificar con prontitud la ocurrencia de
-estos fenómenos y hacer predicciones sobre la magnitud de su impacto sobre las poblaciones que
-pretendemos conservar. La ingeniería en computación abarca el conocimiento relacionado con la
-segunda categoría. Adoptamos las técnicas y herramientas usadas en el desarrollo de software ya que
-nos facilita la reproducibilidad de los resultados, la automatización de procesos y el trabajo
-colaborativo. Con reproducibilidad de resultados nos referimos a la capacidad de replicar, por
-ejemplo, una gráfica, un mapa o un estadístico a partir de los datos originales. La automatización
-de procesos nos permite escalar la producción de resultados que inicialmente generamos para una
-especie particular en una isla específica, generalizando nuestras metodologías para otras especies,
-otras islas y otras temporadas. El trabajo colaborativo nos permite a las científicas y científicos
-de datos participar en cada uno de los análisis realizados por el equipo. Al conjunto de prácticas
-enfocadas en la reproducibilidad, automatización y colaboración en el análisis de datos lo llamamos
-DataOps. La tercera categoría incluye conocimiento matemático. Para elaborar un plan de restauración
-es necesario conocer el estado actual de la población que se desea restaurar. Sin embargo,
-determinar el estado actual de nuestro objeto de conservación mediante observaciones directas es por
-lo general prohibitivo dados los costos de las mediciones. Mediante la abstracción de procesos
-ecológicos complejos y su representación en modelos matemáticos simplificados, podemos inferir el
-estado actual de nuestro objeto de conservación sin necesidad de medirlo directamente. También así
-podemos predecir el impacto de nuestras acciones lo que nos ayuda a optimizar los recursos
-disponibles para la conservación de las islas de México maximizando los beneficios de nuestras
-intervenciones de restauración. Las siguientes secciones tratan sobre el papel que juegan el
-análisis de variables ambientales, la computación y las matemáticas en la Ciencia de Datos aplicada
-a la conservación de las islas de México.
+de tres áreas de conocimiento: la ambiental, computacional y matemática.
+
+La primera área del conocimiento está relacionada con el ambiente. En las islas, los fenómenos
+oceanográficos y meteorológicos de escala regional y global afectan la distribución y abundancia de
+las poblaciones biológicas. El Niño-Oscilación del Sur, las condiciones Santa Ana, y El Blob son
+ejemplos de fenómenos que influyen en la ecología insular. La Ciencia de Datos, aplicada a grandes
+volúmenes de información sobre las variables ambientales, nos permite identificar con prontitud la
+ocurrencia de estos fenómenos y hacer predicciones sobre la magnitud de su impacto sobre las
+poblaciones que pretendemos conservar.
+
+La ingeniería en computación abarca el conocimiento relacionado con la segunda categoría. Adoptamos
+las técnicas y herramientas usadas en el desarrollo de software ya que nos facilita la
+reproducibilidad de los resultados, la automatización de procesos y el trabajo colaborativo. Con
+reproducibilidad de resultados nos referimos a la capacidad de replicar, por ejemplo, una gráfica,
+un mapa o un estadístico a partir de los datos originales. La automatización de procesos nos permite
+escalar la producción de resultados que inicialmente generamos para una especie particular en una
+isla específica, generalizando nuestras metodologías para otras especies, otras islas y otras
+temporadas. El trabajo colaborativo nos permite a todas y todos los integrantes del equipo de
+Ciencia de Datos participar en cada uno de los análisis realizados.
+
+La tercera categoría incluye conocimiento matemático. Para elaborar un plan de restauración es
+necesario conocer el estado actual de la población que se desea restaurar. Sin embargo, determinar
+el estado actual de nuestro objeto de conservación mediante observaciones directas es por lo general
+prohibitivo dados los costos de las mediciones. Mediante la abstracción de procesos ecológicos
+complejos y su representación en modelos matemáticos simplificados, podemos inferir el estado actual
+de nuestro objeto de conservación sin necesidad de medirlo directamente. También así podemos
+predecir el impacto de nuestras acciones lo que nos ayuda a optimizar los recursos disponibles para
+la conservación de las islas de México maximizando los beneficios de nuestras intervenciones de
+restauración.
+
+Las siguientes secciones tratan sobre el papel que juegan el análisis de variables ambientales, la
+computación y las matemáticas en la Ciencia de Datos aplicada a la conservación de las islas de
+México.
 
 ## Análisis de variables ambientales
 
-La Ciencia de Datos como medio para entender los fenómenos oceanográficos y meteorológicos. Los
+La Ciencia de Datos es un medio para entender los fenómenos oceanográficos y meteorológicos. Los
 fenómenos oceanográficos y meteorológicos como el ENSO, el Blob y los vientos de Santa Ana,
 difícilmente podrían caracterizarse sin un monitoreo continuo y a largo plazo de las variables
 atmosféricas y parámetros oceanográficos.
@@ -79,18 +87,20 @@ escalas de los fenómenos meteorológicos.
 
 Las herramientas que ofrece la Ciencia de Datos para el almacenamiento, manejo y análisis de datos,
 hacen posible la detección de este tipo de fenómenos. De otra forma, sin un análisis adecuado de los
-datos, estos fenómenos pasarían inadvertidos excepto por los impactos directos en los ecosistemas
-(por ejemplo, en las aves marinas como lo mencionamos en las siguientes secciones). A continuación,
-describimos tres ejemplos de fenómenos oceanográficos y meteorológicos que podemos estudiar mediante
-el análisis de variables ambientales. ENSO En el 2016, Chunzai Wang describió a El Niño-Oscilación
-del Sur (ENSO, por sus siglas en inglés) como una condición ambiental cíclica que ocurre a través
-del Océano Pacífico Ecuatorial. El Niño es un evento de calentamiento oceánico a gran escala en el
-Pacífico tropical que ocurre con una periodicidad de pocos años. La Oscilación del Sur está
-caracterizada por una fluctuación interanual en la presión del nivel del mar tropical entre el
-Pacífico occidental y el Pacífico oriental. Dicha fluctuación consiste en un debilitamiento y
-fortalecimiento de los vientos alisios sobre el Pacífico tropical. Desde hace medio siglo, Bjerknes
-reconoció que existe una conexión muy estrecha entre El Niño y la Oscilación del Sur, y que ambos
-son dos aspectos diferentes del mismo fenómeno.
+datos, estos fenómenos pasarían inadvertidos excepto por los impactos directos en los ecosistemas. A
+continuación, describimos tres ejemplos de fenómenos oceanográficos y meteorológicos que podemos
+estudiar mediante el análisis de variables ambientales.
+
+### ENSO
+
+En el 2016, Chunzai Wang describió a El Niño-Oscilación del Sur (ENSO, por sus siglas en inglés)
+como una condición ambiental cíclica que ocurre a través del Océano Pacífico Ecuatorial. El Niño es
+un evento de calentamiento oceánico a gran escala en el Pacífico tropical que ocurre con una
+periodicidad de pocos años. La Oscilación del Sur está caracterizada por una fluctuación interanual
+en la presión del nivel del mar tropical entre el Pacífico occidental y el Pacífico oriental. Dicha
+fluctuación consiste en un debilitamiento y fortalecimiento de los vientos alisios sobre el Pacífico
+tropical. Desde hace medio siglo, Bjerknes reconoció que existe una conexión muy estrecha entre El
+Niño y la Oscilación del Sur, y que ambos son dos aspectos diferentes del mismo fenómeno.
 
 En el capítulo de El Niño and Southern Oscillation (ENSO): A Review, Chunzai Wang hace notar varios
 puntos relacionados con el ENSO: 1) las anomalías de la temperatura superficial del mar (TSS) y el
@@ -121,8 +131,11 @@ registrado es el de la pardela mexicana en Isla Natividad en el evento de El Ni�
 la temporada de anidación de la pardela en este año (primavera - verano), las aves comenzaron a
 abandonar sus nidos debido al intenso calor registrado y a la poca disponibilidad de alimento por la
 alta temperatura del mar. La baja productividad (cantidad de volantones por nido activo) es un
-reflejo del abandono de los nidos de la pardela mexicana para ese año. Vientos de Santa Ana Los
-eventos atmosféricos conocidos como vientos de Santa Ana se caracterizan por ser vientos secos y
+reflejo del abandono de los nidos de la pardela mexicana para ese año.
+
+### Vientos de Santa Ana
+
+Los eventos atmosféricos conocidos como vientos de Santa Ana se caracterizan por ser vientos secos y
 regularmente cálidos que afectan el sur de California y el norte de Baja California. Según la
 Universidad de California en Los Ángeles (UCLA, por sus siglas en inglés), los vientos de Santa Ana
 son siempre secos, como resultado de su descenso desde su lugar de origen en la Gran Cuenca de
@@ -158,7 +171,9 @@ maduración de las crías de aves marinas, particularmente de albatros de Laysan
 fenómeno fue la mortandad de muchas crías de albatros, debido a la alta temperatura y a la baja
 humedad del ambiente.
 
-El Blob Desde diciembre del 2013 hasta marzo del 2015, fueron registradas anomalías positivas de la
+### El Blob
+
+Desde diciembre del 2013 hasta marzo del 2015, fueron registradas anomalías positivas de la
 temperatura superficial del mar en el Pacífico noreste. Este evento cálido se esparció hacia el Este
 desde la región centro-sur del Golfo de Alaska hacia la plataforma continental. Este fenómeno
 comenzó a ser conocido como El Blob. El Blob es una masa de agua caliente en el Océano Pacífico
@@ -220,20 +235,26 @@ nos permiten personalizar gráficas, mapas y realizar análisis estadísticos, e
 cosas. Gracias a esto, cada vez podemos generar una mayor cantidad de resultados en menor tiempo.
 Para generar dichos paquetes, actualmente usamos una metodología llamada DataOps. DataOps también
 nos permite implementar algoritmos de aprendizaje automatizado (machine learning) y desarrollar
-nuestras propias aplicaciones para el análisis de datos para la conservación. Aprendizaje
-automatizado En los últimos años, aumentó la utilización de una diversidad de algoritmos que los
-conocemos como de “aprendizaje automatizado” (o machine learning en inglés). Usualmente, estos
-algoritmos se dividen en tres categorías: clasificación, regresión y agrupamiento. Una vez que
-contamos con análisis estadísticos, utilizamos los resultados para entrenar a estos algoritmos que
-nos ayudarán a predecir cosas nuevas. Aunque una limitante que tenemos para aprovecharlos al máximo
-es que requieren una gran cantidad de datos, hemos empezado a utilizarlos con éxito. A continuación,
-se describen tres situaciones que ejemplifican la forma en que lo hemos hecho. Metodología para
-pasar de censo a muestreo La responsabilidad más importante de una científica o un científico de
-datos es poder extraer información relevante a partir de un conjunto de datos. Dicha información nos
-permite tomar decisiones sobre cómo optimizar los recursos con los que la organización cuenta y
-cuantificar el impacto de nuestras intervenciones en la restauración insular. Un ejemplo es la
-posibilidad de optimizar los esfuerzos de monitoreo biológico en campo, encontrando patrones en los
-datos con que ya se cuenta referentes a los sitios de anidación de las aves marinas en las islas.
+nuestras propias aplicaciones para el análisis de datos para la conservación.
+
+### Aprendizaje automatizado
+
+En los últimos años, aumentó la utilización de una diversidad de algoritmos que los conocemos como
+de “aprendizaje automatizado” (o machine learning en inglés). Usualmente, estos algoritmos se
+dividen en tres categorías: clasificación, regresión y agrupamiento. Una vez que contamos con
+análisis estadísticos, utilizamos los resultados para entrenar a estos algoritmos que nos ayudarán a
+predecir cosas nuevas. Aunque una limitante que tenemos para aprovecharlos al máximo es que
+requieren una gran cantidad de datos, hemos empezado a utilizarlos con éxito. A continuación, se
+describen tres situaciones que ejemplifican la forma en que lo hemos hecho.
+
+#### Metodología para pasar de censo a muestreo
+
+La responsabilidad más importante de una científica o un científico de datos es poder extraer
+información relevante a partir de un conjunto de datos. Dicha información nos permite tomar
+decisiones sobre cómo optimizar los recursos con los que la organización cuenta y cuantificar el
+impacto de nuestras intervenciones en la restauración insular. Un ejemplo es la posibilidad de
+optimizar los esfuerzos de monitoreo biológico en campo, encontrando patrones en los datos con que
+ya se cuenta referentes a los sitios de anidación de las aves marinas en las islas.
 
 Desde hace años, las biólogas y biólogos de GECI realizan censos de aves marinas en diversas islas
 de México para conocer el estado de sus poblaciones. En el caso de las aves que anidan en
@@ -258,82 +279,85 @@ monitoreo del 2018, comparamos las dos metodologías: las biólogas y biólogos 
 tanto censos como muestreos con cuadrantes. Al finalizar, analizamos los datos obtenidos a partir de
 ambas metodologías y pudimos validar los resultados provenientes del muestreo con cuadrantes. Como
 resultado, ahora contamos con una metodología que nos permite minimizar el esfuerzo realizado en
-campo con márgenes de error muy pequeños. ¿Cómo determinar el sexo de albatros de Laysan a partir de
-su morfometría? El dimorfismo sexual (las diferencias físicas entre machos y hembras de una especie)
-en la mayoría de las aves marinas es casi inexistente, por lo que la forma más segura de determinar
-el sexo de un individuo es a través de pruebas sanguíneas. Esto no es ideal ya que las pruebas
-sanguíneas son caras, tardadas y la toma de la sangre puede estresar a las aves. Desde hace algunos
-años, en GECI hemos trabajado con albatros de Laysan en Isla Guadalupe. Los últimos cinco años hemos
-tomado muestras de sangre y medidas morfológicas a cerca de cien individuos. Con estas medidas,
-construimos un modelo logístico para determinar el sexo a partir de la morfometría. Para ajustar
-dicho modelo, utilizamos un algoritmo de regresión y de aprendizaje supervisado. Esto quiere decir
-que para utilizarlo necesitamos tener ejemplos de entrada y una salida asociada. Para construirlo,
-utilizamos el 80% de los datos morfométricos para el proceso de entrenamiento y 20% para validar el
-modelo. El modelo construido dio buenos resultados, por lo que se decidió crear una aplicación móvil
-que permitiera utilizarlo en campo y así determinar el sexo de los individuos sin la necesidad de
+campo con márgenes de error muy pequeños.
+
+#### ¿Cómo determinar el sexo de albatros de Laysan a partir de su morfometría?
+
+El dimorfismo sexual (las diferencias físicas entre machos y hembras de una especie) en la mayoría
+de las aves marinas es casi inexistente, por lo que la forma más segura de determinar el sexo de un
+individuo es a través de pruebas sanguíneas. Esto no es ideal ya que las pruebas sanguíneas son
+caras, tardadas y la toma de la sangre puede estresar a las aves. Desde hace algunos años, en GECI
+hemos trabajado con albatros de Laysan en Isla Guadalupe. Los últimos cinco años hemos tomado
+muestras de sangre y medidas morfológicas a cerca de cien individuos. Con estas medidas, construimos
+un modelo logístico para determinar el sexo a partir de la morfometría. Para ajustar dicho modelo,
+utilizamos un algoritmo de regresión y de aprendizaje supervisado. Esto quiere decir que para
+utilizarlo necesitamos tener ejemplos de entrada y una salida asociada. Para construirlo, utilizamos
+el 80% de los datos morfométricos para el proceso de entrenamiento y 20% para validar el modelo. El
+modelo construido dio buenos resultados, por lo que se decidió crear una aplicación móvil que
+permitiera utilizarlo en campo y así determinar el sexo de los individuos sin la necesidad de
 pruebas genéticas. En la sección "El caso de las AICA marinas" hablaremos de otro ejemplo donde
-utilizamos regresión logística. Desarrollo de aplicaciones Algunos de los proyectos de restauración
-que realizamos en GECI generan una gran cantidad de datos, los cuales recolectamos para poder
-evaluar el impacto de nuestras acciones de conservación. La forma tradicional de capturar los datos
-en el campo es anotándolos en bitácoras o en formatos especiales cuando los monitoreos ya están
-estandarizados. Una vez que regresamos a la oficina transcribimos estos datos a hojas de Excel las
-cuales usamos para analizarlos. Esta metodología funciona cuando los proyectos son pequeños, pero
-conforme comienzan a crecer esto ya no es sostenible. Otro problema con esta metodología es que la
-retroalimentación es lenta. Pasa mucho tiempo desde que recolectamos los datos hasta que generamos
-gráficas, mapas o análisis estadísticos. Esto quiere decir que los datos que recolectamos en las
-islas no nos permiten tomar decisiones cuando aún estamos allá. Recientemente, en el equipo de
-Ciencia de Datos hemos empezado a orientar esfuerzos para generar herramientas que ayuden a la
-validación y visualización de los datos para que se puedan utilizar directamente en el campo.
-Nuestros primeros intentos han sido con aplicaciones web. Estas tienen la ventaja de que se pueden
-utilizar sin la necesidad de instalar aplicaciones adicionales, sólo es necesario tener un navegador
-y acceso a internet (aunque ahora ya se pueden utilizar sin acceso continuo). A continuación,
-describimos una aplicación que en el equipo consideramos un éxito. Esta aplicación ya se está
-utilizando en campo y ha comenzado a facilitar la captura y visualización de los datos. Mapa de la
-posición y estado de trampas cepo en Isla Guadalupe En Isla Guadalupe estamos llevando a cabo una de
-las erradicaciones de gato feral más grandes que se han realizado en el mundo. En este proyecto
-generamos una gran cantidad de datos provenientes de diversas fuentes, por ejemplo, posición de las
-trampas, morfometría de los gatos, recorridos con perros rastreadores, entre otros. En un inicio
-seguíamos la metodología tradicional para la toma de datos mencionada anteriormente: se capturaban
-los datos en hojas de Excel y se mandaban a la oficina para procesarlos y obtener diferentes
-resultados. Algunos de estos resultados son mapas de trayectorias de los gatos o posición de las
-trampas que se utilizan para atrapar a los gatos, así como la probabilidad de éxito de la
-erradicación en las diferentes zonas de la isla. Como mencionamos anteriormente, haciendo esto la
-retroalimentación es muy lenta y no tenemos una forma sencilla de validar los datos. Para intentar
-solucionar estos problemas, como primer paso, desarrollamos un sistema para el control y monitoreo
-de las trampas en la isla. Con esta aplicación podemos cargar los datos diarios y así verificar que
-el estado de las trampas sea el reportado en las bitácoras. Con este sistema es más fácil ver las
-capturas diarias y la cantidad de trampas activas. En próximas versiones, esperamos ir agregando
-herramientas que les permitan planificar más fácilmente el trabajo en campo. Por ejemplo, que sobre
-el mapa se puedan trazar trayectorias que seguirán con los perros y descargarlas a los GPS, esto les
-ayudaría para hacer transectos con base a los datos de capturas diarias.
+utilizamos regresión logística.
+
+### Desarrollo de aplicaciones
+
+Algunos de los proyectos de restauración que realizamos en GECI generan una gran cantidad de datos,
+los cuales recolectamos para poder evaluar el impacto de nuestras acciones de conservación. La forma
+tradicional de capturar los datos en el campo es anotándolos en bitácoras o en formatos especiales
+cuando los monitoreos ya están estandarizados. Una vez que regresamos a la oficina transcribimos
+estos datos a hojas de Excel las cuales usamos para analizarlos. Esta metodología funciona cuando
+los proyectos son pequeños, pero conforme comienzan a crecer esto ya no es sostenible. Otro problema
+con esta metodología es que la retroalimentación es lenta. Pasa mucho tiempo desde que recolectamos
+los datos hasta que generamos gráficas, mapas o análisis estadísticos. Esto quiere decir que los
+datos que recolectamos en las islas no nos permiten tomar decisiones cuando aún estamos allá.
+Recientemente, en el equipo de Ciencia de Datos hemos empezado a orientar esfuerzos para generar
+herramientas que ayuden a la validación y visualización de los datos para que se puedan utilizar
+directamente en el campo. Nuestros primeros intentos han sido con aplicaciones web. Estas tienen la
+ventaja de que se pueden utilizar sin la necesidad de instalar aplicaciones adicionales, sólo es
+necesario tener un navegador y acceso a internet (aunque ahora ya se pueden utilizar sin acceso
+continuo). A continuación, describimos una aplicación que en el equipo consideramos un éxito. Esta
+aplicación ya se está utilizando en campo y ha comenzado a facilitar la captura y visualización de
+los datos.
+
+#### Mapa de la posición y estado de trampas cepo en Isla Guadalupe
+
+En Isla Guadalupe estamos llevando a cabo una de las erradicaciones de gato feral más grandes que se
+han realizado en el mundo. En este proyecto generamos una gran cantidad de datos provenientes de
+diversas fuentes, por ejemplo, posición de las trampas, morfometría de los gatos, recorridos con
+perros rastreadores, entre otros. En un inicio seguíamos la metodología tradicional para la toma de
+datos mencionada anteriormente: se capturaban los datos en hojas de Excel y se mandaban a la oficina
+para procesarlos y obtener diferentes resultados. Algunos de estos resultados son mapas de
+trayectorias de los gatos o posición de las trampas que se utilizan para atrapar a los gatos, así
+como la probabilidad de éxito de la erradicación en las diferentes zonas de la isla. Como
+mencionamos anteriormente, haciendo esto la retroalimentación es muy lenta y no tenemos una forma
+sencilla de validar los datos. Para intentar solucionar estos problemas, como primer paso,
+desarrollamos un sistema para el control y monitoreo de las trampas en la isla. Con esta aplicación
+podemos cargar los datos diarios y así verificar que el estado de las trampas sea el reportado en
+las bitácoras. Con este sistema es más fácil ver las capturas diarias y la cantidad de trampas
+activas. En próximas versiones, esperamos ir agregando herramientas que les permitan planificar más
+fácilmente el trabajo en campo. Por ejemplo, que sobre el mapa se puedan trazar trayectorias que
+seguirán con los perros y descargarlas a los GPS, esto les ayudaría para hacer transectos con base a
+los datos de capturas diarias.
 
 Decidimos que el sistema fuera una aplicación web porque queremos usarla en cualquier lugar, el
 problema con esto es que en la isla no hay internet. Para solucionar este problema la aplicación
-tiene integrado un pequeño servidor que utiliza para servir los archivos de forma local. Una
-aplicación web está constituida por dos partes: el back-end y el front-end. La primera se refiere a
-la parte que está en el servidor, esta se encarga de comunicarse con la base de datos y atender las
-peticiones hechas por el cliente. La segunda es la interfaz que utiliza el cliente para comunicarse
-con el servidor. El back-end de la aplicación se desarrolló en Go (Golang). Este lenguaje tiene la
-ventaja de que una vez que se compila los programas no necesitan dependencias externas. Para guardar
-los datos escogimos utilizar SQLite. Esta base de datos tiene la ventaja de que no ocupa que se
-instale ningún gestor de bases de datos. Y para el front-end se utilizó D3.js y jQuery. En el equipo
-esperamos que nuestros esfuerzos por desarrollar aplicaciones sirvan para poder tener una
-retroalimentación rápida y los datos que recolectamos nos ayuden a tomar decisiones mientras aún
-seguimos en el campo. Aún nos falta mucho camino por recorrer y dado que esta no es la
-responsabilidad principal del equipo, la creación de estas herramientas será lenta. DataOps
+tiene integrado un pequeño servidor que utiliza para servir los archivos de forma local.
 
-La metodología que seguimos en el equipo de Ciencia de Datos de GECI se llama DataOps. Christopher
-Berg y Gil Benghiat fundadores de DataKitchen consideran que para “cocinar” una gráfica necesitas
-los ingredientes y las recetas correctas. Ellos descubrieron que el tiempo y la calidad en el ciclo
-del procesamiento de datos puede ser optimizado con una combinación de herramientas y metodologías
-que ellos llamaron DataOps. DataOps está inspirada en la ingeniería de software y enfatiza la
-automatización de procesos [5]. La automatización de procesos nos permite implementar algoritmos de
-aprendizaje automatizado con gran rapidez. Es gracias a la automatización que, los resultados
-producidos mediante DataOps siempre son reproducibles. La reproducibilidad de los resultados
-facilita la colaboración de todas las y los miembros del equipo en cada etapa del análisis de los
-datos: desde la curación inicial de los datos hasta la redacción del reporte técnico final. Además,
-la reproducibilidad de los resultados también facilita a terceras personas auditar nuestros
-análisis.
+Una aplicación web está constituida por dos partes: el back-end y el front-end. La primera se
+refiere a la parte que está en el servidor, esta se encarga de comunicarse con la base de datos y
+atender las peticiones hechas por el cliente. La segunda es la interfaz que utiliza el cliente para
+comunicarse con el servidor.
+
+El back-end de la aplicación se desarrolló en Go (Golang). Este lenguaje tiene la ventaja de que una
+vez que se compila los programas no necesitan dependencias externas. Para guardar los datos
+escogimos utilizar SQLite. Esta base de datos tiene la ventaja de que no ocupa que se instale ningún
+gestor de bases de datos. Y para el front-end se utilizó D3.js y jQuery.
+
+En el equipo esperamos que nuestros esfuerzos por desarrollar aplicaciones sirvan para poder tener
+una retroalimentación rápida y los datos que recolectamos nos ayuden a tomar decisiones mientras aún
+seguimos en el campo.
+
+Aún nos falta mucho camino por recorrer y dado que esta no es la responsabilidad principal del
+equipo, la creación de estas herramientas será lenta.
 
 ## Matemáticas
 
@@ -357,8 +381,11 @@ Archipiélago Revillagigedo, Patrimonio Natural de la Humanidad por la UNESCO), 
 positivo en la vegetación de la isla —ya que aumentó su cobertura—, y lo confirmamos utilizando
 estadística frecuentista. Por otra parte, cuando estamos interesados en evaluar las predicciones de
 nuestro modelo, utilizamos los datos colectados y métodos bayesianos. Hay investigadoras e
-investigadores que consideran que los métodos bayesianos están revolucionando la ecología. Métodos
-bayesianos Entre los proyectos que desarrollamos en GECI, un aspecto crucial es estimar el tamaño de
+investigadores que consideran que los métodos bayesianos están revolucionando la ecología.
+
+### Métodos bayesianos
+
+Entre los proyectos que desarrollamos en GECI, un aspecto crucial es estimar el tamaño de
 poblaciones biológicas. Por ejemplo, para considerar terminado un proyecto de remoción de alguna
 especie invasora, una convención internacional establece, de manera empírica, monitorear la isla
 durante dos años para confirmar la ausencia de individuos de la especie objetivo. Si durante ese
@@ -381,18 +408,21 @@ partir de los datos recolectados, obteniendo el tamaño más probable de la pobl
 Otro de los parámetros del modelo relaciona la probabilidad de detectar un gato con el esfuerzo
 hecho para encontrarlo. Así podremos saber cuántas trampas necesitamos para hallar algún individuo
 remanente. También utilizamos esta probabilidad para dirigir mejor nuestros esfuerzos, ya sea para
-cambiar la zona de búsqueda o para tener un mayor esfuerzo en aquellas que lo requieran. Los modelos
-y las suposiciones Cuando hacemos simplificaciones, la primera aproximación es suponer que los datos
-siguen una distribución normal, en la que la mayor parte de los datos se acumula cerca del promedio.
-La interpretación gráfica de este modelo es un histograma de datos con forma de campana. Pero, a
-veces, en nuestro trabajo cotidiano como científicas y científicos de datos, después de hacer la
-primera exploración de ciertos datos descubrimos que estos no cumplen con la suposición de
-normalidad. Cuando los datos no son “normales”, tenemos que utilizar modelos distintos apoyándonos
-en el conocimiento de nuestros compañeros y compañeras expertas en conservación. Como se mencionó
-más arriba, en varios de los proyectos de GECI estamos interesados en evaluar la población de
-especies en las islas. La cuestión es que el tamaño de la población de algunas especies de aves es
-difícil de estimar mediante conteo directo. Este es el caso de la pardela de Revillagigedo, el ave
-marina más rara y en mayor peligro de extinción de México. 
+cambiar la zona de búsqueda o para tener un mayor esfuerzo en aquellas que lo requieran.
+
+### Los modelos y las suposiciones
+
+Cuando hacemos simplificaciones, la primera aproximación es suponer que los datos siguen una
+distribución normal, en la que la mayor parte de los datos se acumula cerca del promedio. La
+interpretación gráfica de este modelo es un histograma de datos con forma de campana. Pero, a veces,
+en nuestro trabajo cotidiano como científicas y científicos de datos, después de hacer la primera
+exploración de ciertos datos descubrimos que estos no cumplen con la suposición de normalidad.
+Cuando los datos no son “normales”, tenemos que utilizar modelos distintos apoyándonos en el
+conocimiento de nuestros compañeros y compañeras expertas en conservación. Como se mencionó más
+arriba, en varios de los proyectos de GECI estamos interesados en evaluar la población de especies
+en las islas. La cuestión es que el tamaño de la población de algunas especies de aves es difícil de
+estimar mediante conteo directo. Este es el caso de la pardela de Revillagigedo, el ave marina más
+rara y en mayor peligro de extinción de México. 
 
 Para monitorear el tamaño de la población de pardela en las islas del Archipiélago de Revillagigedo,
 utilizamos la tasa de vocalización o número de cantos de aves durante un tiempo determinado. Sin
