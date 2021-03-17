@@ -29,7 +29,7 @@ ser trivial ejecutar una aplicación en el _local host_ durante la revisión. Du
 deben evaluar las pruebas mediante _mutation testing_ automáticamente.
 
 Debemos tener un puño de _cron jobs_ que verifiquen que los procesos automatizados se están
-comportando como esperamos. 
+comportando como esperamos y que nos notifiquen en caso contrario.
 
 Debemos automatizar la simulación aleatoria de catástrofes para verificar constantemente que el
 sistema se restaura a sí mismo.
