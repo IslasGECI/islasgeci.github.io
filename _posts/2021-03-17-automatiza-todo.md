@@ -24,7 +24,7 @@ reproducción de cada reporte con la imagen indicada en el campo `docker_image` 
 así cada reporte puede usar una imagen distinta.
 
 Debemos automatizar la ejecución de aplicaciones web en nuestro servidor islasgeci.org cuando
-hagamos _merge_ hacia la _develop y en islas.org.mx cuando hagamos _merge_ hacia la _master_. Debe
+hagamos _merge_ hacia la _develop_ y en islas.org.mx cuando hagamos _merge_ hacia la _master_. Debe
 ser trivial ejecutar una aplicación en el _local host_ durante la revisión. Durante la revisión, se
 deben evaluar las pruebas mediante _mutation testing_ automáticamente.
 
