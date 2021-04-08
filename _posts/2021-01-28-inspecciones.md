@@ -43,7 +43,7 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
 ## ¿Cuáles son las etapas de una inspección?
 - **La revisión general**: Esta es un reunión la cual dirige el o la autora. El fin es juzgar si las
   o los inspectores tienen la información necesaria para entender el código. Así si en la revisión
-  ellos detectan un _bug_ deberán esperan hasta la reunión de inspección para señalarlo. A más
+  ellos detectan un _bug_ deberán esperar hasta la reunión de inspección para señalarlo. A más
   tardar, al final de la revisión los inspectores deberán tener el paquete de inspección y los
   objetivos del autor.
 
