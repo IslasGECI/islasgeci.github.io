@@ -21,7 +21,7 @@ La inspección consiste en un par de reuniones donde las y los participantes de 
 con diferentes roles. El objetivo principal de la inspección deberá ser encontrar defectos graves en
 nuestro trabajo. A continuación hablaremos brevemente de esta revisión por pares.
 
-## ¿Quiénes son los participantes y cuáles sus roles en una inspección?
+## ¿Quiénes participan y cuáles sus roles en una inspección?
 - **Autor o autora**: No tiene permitido moderar, leer o contar, ya que está muy cerca al trabajo
   como para actuar con objetividad. Además, esto podrá ayudarle a prestar más atención a los
   comentarios que los otros inspectores hagan.
