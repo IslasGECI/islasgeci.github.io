@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TDD es opcional; mutation testing es obligatorio
-author: Evaristo
+author: Nepo, Evaristo
 tags: equipo, programacion
 ---
 
