@@ -38,6 +38,6 @@ _Tabla: Hoja de datos_
 
 ---
 
-&rarr; Siguiente: [Validar un archivo de Excel](validacion.html).
+&rarr; Siguiente: [Referencias](referencias.html).
 
 &larr; Anterior: [Coordenadas UTM](utm.html).

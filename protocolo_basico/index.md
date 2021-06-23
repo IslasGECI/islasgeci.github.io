@@ -23,10 +23,9 @@ Nota que este protocolo está pensado para procesar tus datos mediante algún le
     - [Unidades](units.html)
     - [Variables independientes](axis.html)
 - [Sistema de Coordenadas](coordenadas.html)
-    - [Coordenadas Geográfica](geograficas.html)
+    - [Coordenadas Geográficas](geograficas.html)
     - [Coordenadas UTM](utm.html)
 - [Fecha y hora](tiempo.html)
-- [Validar un archivo de Excel](validacion.html)
 - [Referencias](referencias.html)
 
 ---
