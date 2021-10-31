@@ -38,7 +38,7 @@ de México.
 
 Únete a nuestra comunidad de código abierto:
 
-- [Foro de GECI en GitHub](https://github.com/IslasGECI/islasgeci.github.io/discussions)
+- [Foro de GECI en GitHub](https://github.com/IslasGECI/Foro/discussions)
 - [Chat de GECI en Slack](https://islasgeci.slack.com)
     - [Crear cuenta en
       Slack](https://join.slack.com/t/islasgeci/shared_invite/zt-f8kqlr2t-C8dO0JthMxaT81ShJiNk0w)
