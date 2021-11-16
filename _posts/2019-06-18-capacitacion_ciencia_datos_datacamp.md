@@ -2,7 +2,7 @@
 layout: post
 title: "Bondades del DataCamp"
 author: Nepo
-tags: capacitacion
+tags: aprendizaje
 ---
 
 DataCamp ofrece clases interactivas de R, Python, hojas de cálculo, SQL y Bash. Todo mediante 

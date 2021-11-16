@@ -2,7 +2,7 @@
 layout: post
 title: "Índice de videos"
 author: Evaristo
-tags: capacitacion
+tags: aprendizaje
 ---
 
 - [2018](https://www.youtube.com/playlist?list=PLj7Ainnd4Lf7hWFjb0b0VMRXYeBK0YKD2)

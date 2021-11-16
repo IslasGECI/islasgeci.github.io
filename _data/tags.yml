@@ -1,7 +1,7 @@
+- name: Aprendizaje continuo
+  id: aprendizaje
 - name: Automatización y Reproducibilidad
   id: dataops
-- name: Capacitación continua
-  id: capacitacion
 - name: Curación de Datos
   id: curacion
 - name: Ecología

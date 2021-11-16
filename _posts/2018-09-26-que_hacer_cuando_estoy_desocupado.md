@@ -3,7 +3,7 @@ layout: post
 title: "Qué hacer cuando me quedo sin trabajo"
 
 author: Evaristo
-tags: equipo capacitacion
+tags: equipo aprendizaje
 ---
 
 Cuando terminamos un tarea o esperamos revisión es preferible tomar otra tarea que ya se encuentre
