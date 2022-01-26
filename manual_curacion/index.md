@@ -14,3 +14,8 @@ rápida y puntual cualquier error que pudiese ocurrir.
 
 - [Introducción](introduccion.html)
 - [Paso 1. Verificación estructural](verificacion_estructural.html)
+- [Paso 2. Verificación de contenido. Tipos y formatos de datos.]()
+- [Paso 3. Transcripción de metadatos]()
+- [Paso 4. Verificación de metadatos]()
+- [Paso 5. Reconstrucción del archivo original en excel]()
+
