@@ -14,7 +14,7 @@ El sabor de Ciencia de Datos que practicamos en GECI tiene 5 ingredientes:
 
 ---
 
-El procesamiento y análisis de datos que realizamos  en Ciencia de Datos incluyen:
+En Ciencia de Datos realizamos un procesamiento y análisis de datos que  incluyen:
 
 - Curación y análisis exploratorio de datos
 - Diseño de muestreos
