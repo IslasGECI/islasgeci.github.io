@@ -4,5 +4,7 @@
   link: https://github.com/IslasGECI
 - name: Guía de estilo de Ciencia de Datos
   link: guia_de_estilo
+- name: Manual de curación de datos
+  link: manual_curacion
 - name: Protocolo para guardar datos en Excel
   link: protocolo_basico
