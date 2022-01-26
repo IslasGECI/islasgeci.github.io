@@ -1,5 +1,7 @@
 ---
 
+El sabor de Ciencia de Datos que practicamos en GECI tiene 5 ingredientes:
+
 1. Common task framework
 1. Statistical process control
 1. Machine learning
@@ -10,6 +12,7 @@
 1. DataOps
 1. Reproducible Research
 
+---
 
 El procesamiento y análisis de datos que realizamos  en Ciencia de Datos incluyen:
 
