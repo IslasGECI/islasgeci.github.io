@@ -1,3 +1,15 @@
+---
+
+1. Common task framework
+1. Statistical process control
+1. Machine learning
+    - Keras
+    - PyTorch
+    - Scikit-learn
+    - TensorFlow
+1. DataOps
+1. Reproducible Research
+
 
 El procesamiento y análisis de datos que realizamos  en Ciencia de Datos incluyen:
 
@@ -8,5 +20,6 @@ Análisis de variables ecológicas
 Modelación matemática
 Simulación computacional
 
-El trabajo de Ciencia de Datos brinda sólidas bases científicas a las acciones de conservación que GECI realiza, contribuyendo así a la restauración integral de las islas de México.
+El trabajo de Ciencia de Datos brinda sólidas bases científicas a las acciones de conservación que
+GECI realiza, contribuyendo así a la restauración integral de las islas de México.
 
