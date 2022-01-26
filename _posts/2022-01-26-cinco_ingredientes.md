@@ -19,9 +19,18 @@ integral de las islas de México. El procesamiento y análisis de datos que real
 El sabor de Ciencia de Datos que practicamos en GECI tiene 5 ingredientes:
 
 1. Common task framework
-1. Statistical process control
 1. Machine learning
+1. Statistical process control
 1. DataOps
 1. Reproducible Research
 
+Common task framework
+
 Machine learning por ejemplo: Keras, PyTorch, Scikit-learn o TensorFlow.
+
+Statistical process control
+
+DataOps
+
+Reproducible Research
+
