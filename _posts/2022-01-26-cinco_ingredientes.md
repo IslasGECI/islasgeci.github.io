@@ -5,8 +5,8 @@ author: Evaristo
 tags: Equipo
 ---
 
-En GECI, contamos con un equipo interdisciplinario de Ciencia de Datos que brinda sólidas bases
-científias a las acciones de conservación que realizamos, contribuyendo así a la restauración
+En GECI contamos con un equipo interdisciplinario de Ciencia de Datos que brinda sólidas bases
+científicas a las acciones de conservación que realizamos, contribuyendo así a la restauración
 integral de las islas de México. El procesamiento y análisis de datos que realizamos incluyen:
 
 - Curación y análisis exploratorio de datos,
