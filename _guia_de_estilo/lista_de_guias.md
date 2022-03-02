@@ -22,9 +22,3 @@ Las guías de estilo anteriores no son exhaustivas y este documento las extiende
 
 Los archivos nuevos seguirán la guía de estilo actual. El resto de los archivos que sigan una guía 
 de estilo obsoleta serán uniformizados en el renglón de refactorización.
-
----
-
-&#8811; Siguiente: [Estructura de los directorios](estructura.html)
-
-&#8810; Anterior: [Contenido](index.html)
