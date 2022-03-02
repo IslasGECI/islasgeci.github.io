@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: post
 title: Diagrama de flujo para generar un resultado
-tagline: Guía de estilo
-description: Cómo generamos un resultado en Ciencia de Datos GECI
+author: Equipo
+tags: equipo
 ---
+
 El diagrama representará el flujo de trabajo desde que recibimos la solicitud, hasta que aparece en
 verde en el tablero de reproducibilidad. 
 
