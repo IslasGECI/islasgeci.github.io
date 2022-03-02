@@ -136,9 +136,3 @@ Demostraciones](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#m
 La carpeta `referencias/` contiene artículos, libros y notas que son relevantes para el proyecto en
 general y, en particular, para los resultados que estamos produciendo. Aquí se encuentran los
 artículos que se citan en los reportes y presentaciones que se encuentran en `entrega/`.
-
----
-
-&#8811; Siguiente: [Documentación](documentacion.html)
-
-&#8810; Anterior: [Lista de guías de estilo](introduccion.html)

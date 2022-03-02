@@ -129,9 +129,3 @@ Evaristo Rojas <evaristo.rojas@islas.org.mx>
 c <- add(2,3)
 # Devuelve c = 5
 ```
-
----
-
-&#8811; Siguiente: [Nomenclatura](nomenclatura.html)
-
-&#8810; Anterior: [Estructura de los directorios](estructura.html)

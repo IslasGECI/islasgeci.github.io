@@ -42,9 +42,3 @@ Consideramos _feature_ los cambios que introducen nuevos productos (resultados, 
 - No se consignarán archivos mayores a 1 MB (> 10 mil líneas de código).
 - Se prefieren las imágenes `svg` sobre cualquier formato binario. Excepcionalmente se podrán consignar imágenes binarias si son para una aplicación que depende de las imágenes para funcionar siempre y cuando el lado más grande sea ≤ 256 pixeles
 - Las excepciones a las reglas anteriores serán consensuadas.
-
----
-
-&#8811; Siguiente: [Formato de los archivos](formato_de_archivos.html)
-
-&#8810; Anterior: [Nomenclatura](nomenclatura.html)
