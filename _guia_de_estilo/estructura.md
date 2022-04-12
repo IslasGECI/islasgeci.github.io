@@ -34,7 +34,7 @@ modificar nuestra guía primero debemos consultar aquella para intentar no contr
 ├── references/        <- Artículos, libros y notas que son relevantes para el proyecto y
 │   │                     para los resultados que estamos produciendo. Aquí se encuentran
 │   │                     los artículos que se citan en los reportes que producimos
-│   ├── references.bib <- Archivo de referecias para LaTeX en formato BibTeX
+│   ├── references.bib <- Archivo de referencias para LaTeX en formato BibTeX
 │   └── references.md  <- Lista de referencias con una descripción e hipervínculos en
 │                         Markdown
 │
