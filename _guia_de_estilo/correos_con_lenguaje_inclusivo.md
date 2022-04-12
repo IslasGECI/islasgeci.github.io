@@ -2,7 +2,7 @@
 layout: page
 title: Estilo para escribir correo con lenguaje inclusivo
 tagline: Guía de estilo
-description: Cómo escribimos correo para cuidar el leguaje inclusivo
+description: Cómo escribimos correo para cuidar el lenguaje inclusivo
 ---
 
 Las siguientes sugerencias las escribimos en equipo y las proponemos para tener una guía para que
@@ -14,7 +14,7 @@ Nombraremos a los equipos por la dirección
 
 ### Ejemplos
 
-- Campañeros de Desarrollo a "Equipo de desarrollo"
+- Compañeros de Desarrollo a "Equipo de desarrollo"
 - Todos invitados a "toda la comunidad GECI invitada" o "Todas y todos invitados" 
 
 ## Saludos

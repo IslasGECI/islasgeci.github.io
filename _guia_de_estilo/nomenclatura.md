@@ -74,7 +74,7 @@ Las variables que definen conjuntos de archivos de **resultados** se nombran com
 
 Ejemplo: `png_density_maps_albatross_guadalupe`.
 
-En ambos casos se pueden omitir las palabras reduntantes que se incluyan en el nombre del
+En ambos casos se pueden omitir las palabras redundantes que se incluyan en el nombre del
 repositorio
 
 ### Objetivos _phonies_

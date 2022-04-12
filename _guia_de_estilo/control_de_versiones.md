@@ -35,7 +35,7 @@ Usamos GitFlow como lo muestra el diagrama de abajo.
 
 Para pasar (_merge_) los cambios de una _feature_ a la rama _develop_, o de un _release_ a la ramas _master_ y _develop_, los cambios deben ser aprobados en revisión por pares mediante un _pull request_. Es preferible que el _merge_ lo haga el revisor quien aprobó el _pull request_ pero también lo puede hacer el autor.
 
-Consideramos _feature_ los cambios que introducen nuevos productos (resultados, contentenido, etc.) y que generalmente incrementan la [deuda técnica](https://en.wikipedia.org/wiki/Technical_debt). Consideramos _release_ los cambios que [refactorizan](https://en.wikipedia.org/wiki/Code_refactoring) código existente (5 archivos, reporte, postentrega, documentacion, pruebas, etc.) y que disminuyen la [deuda técnica](https://en.wikipedia.org/wiki/Technical_debt).
+Consideramos _feature_ los cambios que introducen nuevos productos (resultados, contenido, etc.) y que generalmente incrementan la [deuda técnica](https://en.wikipedia.org/wiki/Technical_debt). Consideramos _release_ los cambios que [refactorizan](https://en.wikipedia.org/wiki/Code_refactoring) código existente (5 archivos, reporte, post-entrega, documentación, pruebas, etc.) y que disminuyen la [deuda técnica](https://en.wikipedia.org/wiki/Technical_debt).
 
 ## Contenido
 - Sólo se consignaran archivos de texto simple (csv, json, svg, tex, txt, etc.), nunca binarios.

@@ -46,7 +46,7 @@ las conclusiones
 1. Preferimos la voz activa sobre la voz pasiva
 1. Escoge el sujeto relevante y escríbelo en el inicio de la oración
 1. Pon el sujeto antes del verbo
-1. Manten el sujeto y el verbo lo más cerca posibles el uno del otro
+1. Mantén el sujeto y el verbo lo más cerca posibles el uno del otro
 1. No separes el verbo de su objeto directo
 1. Pon el objeto directo antes del objeto indirecto
 1. Prefiere enunciados cortos para ganar legibilidad (20-25 palabras)

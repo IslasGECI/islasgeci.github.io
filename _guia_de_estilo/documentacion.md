@@ -5,7 +5,7 @@ tagline: Guía de estilo
 description: Cómo escribir la ayuda para el usuario de nuestras funciones
 ---
 
-El reúso de los programas y funciones depende de su documentación. Si el código está bien documentado, será fácil usarlo nuevamente. De lo contrario, el programa será inútil en el futuro. Aquí propongo el contenido mínimo en el texto de ayuda de funciones escritas en R.
+La reutilización de los programas y funciones depende de su documentación. Si el código está bien documentado, será fácil usarlo nuevamente. De lo contrario, el programa será inútil en el futuro. Aquí propongo el contenido mínimo en el texto de ayuda de funciones escritas en R.
 
 ## R
 
