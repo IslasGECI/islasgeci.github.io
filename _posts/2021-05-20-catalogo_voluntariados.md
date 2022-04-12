@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Catálogo de voluntariados
-author: Martha Jiménez, Andrea Sánchez
+author: Alejandro Padilla ,Martha Jiménez, Andrea Sánchez
 tags: equipo
 ---
 
@@ -24,3 +24,14 @@ Aplicadas. Colaboré con el equipo de Ciencias de Datos en GECI, mediante un pro
 por parte de la UABC. El nombre del proyecto es:  “Análisis estadístico de la población de cormorán
 en las islas del Pacífico”. Durante mi voluntariado desarrollé mis habilidades en temas selectos de
 estadística y análisis de datos.
+
+## Francisco Alejandro Padilla Gomez
+![Imagen Alejandro](https://s.gravatar.com/avatar/4bac14a92ea7d870a9c568879448444d?s=150)
+
+Mi nombre es Francisco Alejandro Padilla Gomez y soy estudiante de la Licenciatura en Matemáticas
+Aplicadas. Colaboré con el equipo de Ciencias de Datos en GECI, donde por parte de la UABC realicé
+un proyecto de vinculación. Durante el proyecto no solo puse en práctica mis conocimientos de
+estadística, sino que igualmente, aprendí sobre muchas herramientas computacionales. Los resultados
+del proyecto se encuentran en el [repositorio de
+Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
+

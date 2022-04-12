@@ -20,6 +20,9 @@ mi capacidad y criterio:
 1. Me aseguraré continuamente de que otros me puedan suplir y que yo los pueda suplir.
 1. Produciré estimaciones que sean honestas tanto en magnitud como en precisión. No haré promesas
    sin certeza.
+1. Respetaré a mis compañeras y compañeros del equipo por su ética, estándares, disciplinas y
+   habilidades. Ningún otro atributo o característica será un factor en mi consideración con mis
+   colegas.
 1. Nunca dejaré de aprender y mejorar mi oficio.
 
 ## Referencias
