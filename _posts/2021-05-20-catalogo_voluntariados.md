@@ -35,3 +35,10 @@ estadística, sino que igualmente, aprendí sobre muchas herramientas computacio
 del proyecto se encuentran en el [repositorio de
 Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
 
+## Lizeth Margarita Reyes García
+![Lizeth Reyes](https://s.gravatar.com/avatar/19bb6b6f2b6483346a4e0c1a1110b68b?s=150)
+
+Mi nombre es Lizeth Margarita Reyes García y soy pasante de Ingeniería de Recursos Naturales 
+Renovables por la Universidad Autónoma Chapingo. Colaboré con el equipo de Ciencias de Datos en 
+GECI, en la curación de las bases de datos del proyecto de restauración de Isla 
+Guadalupe. Durante el proyecto puse en práctica mis conocimientos de Git y uso de Docker. 
