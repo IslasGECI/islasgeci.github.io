@@ -5,7 +5,8 @@ author: Francisco Alejandro Padilla Gomez
 tags: equipo
 ---
 
-La implementación de Test Driven Development en el área de ciencia de datos ha sido un reto. 
+<!-- Este es el nombre del párrafo -->
+La implementación de Test Driven Development en el área de ciencia de datos ha sido un reto.
 Mayor aún cuando se lleva a cabo en código de legado, éste siendo no apto para la métodología actual
 de la organización, por lo que mi misión como practicante, fue la implementaicón de dicha metología
 al [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub. Además, dicho código
