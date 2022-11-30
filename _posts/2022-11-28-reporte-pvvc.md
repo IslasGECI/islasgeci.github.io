@@ -5,34 +5,42 @@ author: Francisco Alejandro Padilla Gomez
 tags: equipo
 ---
 
-<!-- Este es el nombre del párrafo -->
-La implementación de Test Driven Development en el área de ciencia de datos ha sido un reto.
-Mayor aún cuando se lleva a cabo en código de legado, éste siendo no apto para la métodología actual
-de la organización, por lo que mi misión como practicante, fue la implementaicón de dicha metología
-al [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub. Además, dicho código
-muchas dependencias del código de producción en las pruebas, por lo que igualmente como misión secundaria
-se me asignó la tarea de hacer que las pruebas no dependieran de este. Por ello se analizará lo realizado
-durante mi instancia en la organización.
+<!-- Introducción -->
+La implementación de _Test-Driven Development_ (TDD) en el área de ciencia de datos ha sido un reto.
+TDD es un reto aún mayor cuando se lleva a cabo en código en ruinas. 
+El código en ruinas no es apto para la métodología actual de la organización.
+Mi misión como practicante fue la implementaicón de dicha metología al [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub. 
+Además, las pruebas dependendian mucho del código de producción. 
+Igualmente otra misión fue hacer que las pruebas no dependieran del código de producción. 
+En este reporte analizamos lo que realicé durante mi instancia en la organización.
 
-Dentro del repositorio, el enfoque realizado fue hacia 3 carpetas `src/`, `tests/` y `R/`. El problema
-principal es que dentro de las pruebas, encontradas en la carpeta `tests/` no debe existir ninguna dependencia
-a la carpeta `src/`. En las pruebas encontramos que tres, de estos archivos tienen dependencias hacia 
-`src/` respectivamente su número de archivo. Esto hace el código mucho más lento a la hora de su ejecución
-y no obedece las metodologías planteadas por el grupo, por lo que la primera instrucción que realizamos
-fue la eliminación de dicha dependencia en las pruebas.
+---
 
-El primer archivo analizado fue `/tests/testthat/tests_01_create_parameter_logistic_model_LAAL.R` el 
-cual realiza
+<!-- Descripción del problema -->
+Dentro del repositorio, el enfoque realizado fue hacia 3 carpetas `src/`, `tests/` y `R/`. 
+Las pruebas se encuentran en la carpeta `tests/`.
+En las pruebas no debe existir ninguna dependencia a la carpeta `src/`.
+El problema principal fue que encontramos dicha dependencia.
+Encontramos que tres archivos de prueba tienen dependencias hacia archivos en `src/`. 
+La dependencia hacia `src/` hace el código mucho más lento a la hora de su ejecución. 
+La dependencia no obedece las metodologías planteadas por el grupo.
+La primera tarea que realizamos fue la eliminar dicha dependencia en las pruebas.
+
+---
+
+<!-- Desarrollo del problema -->
+El primer archivo analizado fue `/tests/testthat/tests_01_create_parameter_logistic_model_LAAL.R`.
+El archivo contiene la instrucción:
 ```R
 source("src/01_create_parameter_logistic_model_LAAL.R")
 ```
-la cual es la dependencia con la carpeta `src/` mencionada con anterioridad. Para eliminar dicha
-dependencia revisamos dicho archivo, con el que nos topamos no era una funcion, si no todo un _script_
-el cual hacia llamar todas las veces cuando se queria verificar una prueba. Por ello comanzamos creando
-una función en la carpeta `R/` que hiciera lo mismo (Copiar y pegar el código), con ello nos encontramos
-con otro problema, era una función _muy grande_ por lo cual ya el objetivo no era solo eliminar la dependencia
-de las pruebas, sino, igualmente _refactorizar_ la función y crear nuevas pruebas para las funciones
-creadas en el proceso de refactorizar la función previa.
+la cual crea la dependencia con la carpeta `src/`.
+Revisamos el archivo encontrando que era de una longitud mayor a la esperada.
+Creamos una función en la carpeta `R/` que hiciera lo mismo (Copiar y pegar el código). 
+Debido a la longitud de la función, se agregó como objetivo su refactorización.
+Debido a la refactorización, fue necesario crear nuevas pruebas para las funciones hechas.
+
+---
 
 Las pruebas realizadas para las funciones que salieran de la refactorización se localizan en el archivo 
 `/tests/testthat/tests_regretion_to_data_frame_coefficients_function.R` y las funciones en el archivo 
