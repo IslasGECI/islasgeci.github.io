@@ -48,10 +48,13 @@ Las pruebas realizadas para las funciones resultantes de la refactorización se 
 `/R/regretion_to_data_frame_coefficients_function.R`. 
 
 Comenzamos entendiendo los procesos llevados acabo en la función "grande" para posteriormente, separar dichos procesos en funciones diferentes. 
-La refactorización comenzó con unas funciones llamadas `fit_null_model()` `fit_complete_model()`  y `fit_stepwise` de las cuales las primeras dos no hubo problema en su separación.
-La función `fit_stepwise()` tuvo un problema causado por _lazy_ _evaulation_, esto causado por los argumentos de entrada de la función. 
+La refactorización comenzó con las funciones `fit_null_model()` `fit_complete_model()`  y `fit_stepwise`.
+Las funciones `fit_null_model()` `fit_complete_model()` no tuvieron problemas.
+La función `fit_stepwise()` tuvo un problema causado por _lazy evaulation_
 
-La función `fit_stepwise()` usaba como argumentos de entrada modelos realizados por las funciones `fit_null_model()` y `fit_complete_model()` los cuales, en lugar de usarlos de argumentos, copiamos y pegamos dichas funciones completas dentro de `fit_stepwise()`.
+La función `fit_stepwise()` usaba como argumentos de entrada modelos. 
+Los modelos fueron realizados por las funciones `fit_null_model()` y `fit_complete_model()`. 
+La solución obtenida fue poner las funciones anteriores dentro de `fit_stepwise()`.
 
 ---
 
