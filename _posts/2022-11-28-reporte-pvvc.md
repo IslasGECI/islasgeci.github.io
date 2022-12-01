@@ -59,29 +59,28 @@ La solución obtenida fue poner las funciones anteriores dentro de `fit_stepwise
 ---
 
 <!-- Desarrollo del problema -->
-Debido al interés de publicar dicho repositorio, fue el cambio de nombres de español
-a inglés, lo cual no esperaramos que causara problemas porque un buen código no debe de ser sensible 
-a cambios de nombre, pero encontramos que este código si lo era. 
+Debido al interés de publicar dicho repositorio fue el cambio de nombres de español a inglés. 
+El cambio de nombres resultó en un problema, dado que fue sencible al nombre de los datos. 
 
-Al cambiar los nombres, se modificaron archivos de datos, y como funcionaban con el código, lo que nos dio una guía de que deberiamos hacer fueron las pruebas. 
+Al cambiar los nombres se modificaron archivos de datos y como funcionaban con el código.
+Las pruebas fueron la guía de que problemas teniamos que resolver. 
 
-Las pruebas son la guía numero uno para la solución de errores, causados por el cambio
-de nombres, tuvimos que hacer varias modificaciones sobre como el código leia archivos `.csv`. 
+Las pruebas son la guía numero uno para la solución de errores.
+Tuvimos que hacer varias modificaciones sobre como el código leia archivos `.csv` y `json`. 
 
 Igualmente debido a esto se encontraron problemas _invisibles_ para nosotros (objetos sin pruebas). 
 
-Esto fue de mucha utilidad debido a que nos dio una oportunidad de crear nuevas pruebas y asegurar el código de cualquier
-otra instancia como estas.
+Esto nos dio una oportunidad de crear nuevas pruebas y asegurar el código de cualquier otra instancia como estas.
 
 
 ---
 
 <!-- Conclusión -->
-Después del cambio de nombres, así como las pruebas comenzó la refactorización completa de la fución `get_best_json_for_logistic_model()` de arriba 
-hacia abajo. 
+Después del cambio de nombres comenzó la refactorización completa de la fución `get_best_json_for_logistic_model()`.
 
-En su gran mayoría fueron instrucciones sencillas las cuales fueron separables, aquí el 
-reto se centró en ¿Cómo hago la mejor prueba? donde primero se discutió ¿Qué hace la función? ¿Qué se espera que devuelva? ¿Usa variables que utilizamos mas adelante?.
+En su gran mayoría fueron instrucciones sencillas las cuales fueron separables.
+El eje se centró en ¿Cómo hago la mejor prueba?
+De esta pregunta anterior se derivaron ¿Qué hace la función? ¿Qué se espera que devuelva? ¿Usa variables que utilizamos mas adelante?.
 
 Estas preguntas fueron una guía para hacer las pruebas, así como pensar en objetos que no cambien
 independientemente de la situación en la que se encuentre el código, la prueba va a pasar. 
