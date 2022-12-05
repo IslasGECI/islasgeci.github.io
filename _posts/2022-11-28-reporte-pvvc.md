@@ -82,7 +82,8 @@ En su gran mayoría fueron instrucciones sencillas las cuales fueron separables.
 El eje se centró en ¿Cómo hago la mejor prueba?
 De esta pregunta anterior se derivaron ¿Qué hace la función? ¿Qué se espera que devuelva? ¿Usa variables que utilizamos mas adelante?.
 
-Estas preguntas fueron una guía para hacer las pruebas, así como pensar en objetos que no cambien
-independientemente de la situación en la que se encuentre el código, la prueba va a pasar. 
+El trabajo realizado durante mi periodo en GECI fue muy interesante y me integré a una nueva cultura.
+DevOps es una cultura interesante, la implementación de esta en equipos diferentes será diferente.
+Sin duda, nuestro equipo tuvo una gran guía en la adaptación cultural y en la práctica creando pruebas. 
 
 ---
