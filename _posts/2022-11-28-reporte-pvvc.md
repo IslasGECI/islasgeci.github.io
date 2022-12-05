@@ -11,7 +11,7 @@ TDD es un reto aún mayor cuando se lleva a cabo en código reliquia.
 El código reliquia es un código fuente relacionado a una tecnología sin soporte técnico.
 El código reliquia no es apto para la metodología actual de la organización.
 Mi misión como practicante fue la implementación de dicha metodología al [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub. 
-Además, las pruebas dependian mucho del código de producción. 
+Además, las pruebas dependían mucho del código de producción. 
 Igualmente otra misión fue hacer que las pruebas no dependieran del código de producción. 
 En este reporte analizamos lo que realicé durante mi instancia en la organización.
 
