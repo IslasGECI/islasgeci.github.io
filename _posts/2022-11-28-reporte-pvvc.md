@@ -9,9 +9,9 @@ tags: equipo
 La implementación de _Test-Driven Development_ (TDD) en el área de ciencia de datos ha sido un reto.
 TDD es un reto aún mayor cuando se lleva a cabo en código reliquia.
 El código reliquia es un código fuente relacionado a una tecnología sin soporte técnico.
-El código reliquia no es apto para la métodología actual de la organización.
-Mi misión como practicante fue la implementaicón de dicha metología al [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub. 
-Además, las pruebas dependendian mucho del código de producción. 
+El código reliquia no es apto para la metodología actual de la organización.
+Mi misión como practicante fue la implementación de dicha metodología al [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub. 
+Además, las pruebas dependian mucho del código de producción. 
 Igualmente otra misión fue hacer que las pruebas no dependieran del código de producción. 
 En este reporte analizamos lo que realicé durante mi instancia en la organización.
 
@@ -53,14 +53,14 @@ La solución obtenida fue poner las funciones anteriores dentro de `fit_stepwise
 Debido al interés de publicar dicho repositorio fue el cambio de nombres de español a inglés. 
 El cambio de nombres resultó en un problema, dado que fue sensible al nombre de los datos. 
 Al cambiar los nombres se modificaron archivos de datos y como funcionaban con el código.
-Las pruebas fueron la guía de que problemas teniamos que resolver. 
+Las pruebas fueron la guía de que problemas teníamos que resolver. 
 Las pruebas son la guía numero uno para la solución de errores.
 Tuvimos que hacer varias modificaciones sobre cómo el código leía archivos `.csv` y `json`. 
 Igualmente debido a esto se encontraron problemas _invisibles_ para nosotros (objetos sin pruebas). 
 Esto nos dio una oportunidad de crear nuevas pruebas y asegurar el código de cualquier otra instancia como estas.
 
 <!-- Conclusión -->
-Después del cambio de nombres comenzó la refactorización completa de la fución `get_best_json_for_logistic_model()`.
+Después del cambio de nombres comenzó la refactorización completa de la función `get_best_json_for_logistic_model()`.
 En su gran mayoría fueron instrucciones sencillas las cuales fueron separables.
 El eje se centró en ¿Cómo hago la mejor prueba?
 De esta pregunta anterior se derivaron ¿Qué hace la función? ¿Qué se espera que devuelva? ¿Usa variables que utilizamos mas adelante?.
