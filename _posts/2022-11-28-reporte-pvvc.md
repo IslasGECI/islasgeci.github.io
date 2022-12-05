@@ -15,8 +15,6 @@ Además, las pruebas dependendian mucho del código de producción.
 Igualmente otra misión fue hacer que las pruebas no dependieran del código de producción. 
 En este reporte analizamos lo que realicé durante mi instancia en la organización.
 
----
-
 <!-- Descripción del problema -->
 Dentro del repositorio, el enfoque realizado fue hacia 3 carpetas `src/`, `tests/` y `R/`. 
 Las pruebas se encuentran en la carpeta `tests/`.
@@ -26,8 +24,6 @@ Encontramos que tres archivos de prueba tienen dependencias hacia archivos en `s
 La dependencia hacia `src/` hace el código mucho más lento a la hora de su ejecución. 
 La dependencia no obedece las metodologías planteadas por el grupo.
 La primera tarea que realizamos fue la eliminar dicha dependencia en las pruebas.
-
----
 
 <!-- Desarrollo del problema -->
 El primer archivo analizado fue `/tests/testthat/tests_01_create_parameter_logistic_model_LAAL.R`.
@@ -41,8 +37,6 @@ Creamos una función en la carpeta `R/` que hiciera lo mismo (Copiar y pegar el 
 Debido a la longitud de la función, se agregó como objetivo su refactorización.
 Debido a la refactorización, fue necesario crear nuevas pruebas para las funciones hechas.
 
----
-
 <!-- Pruebas -->
 Las pruebas realizadas para las funciones resultantes de la refactorización se localizan en el archivo 
 `/tests/testthat/tests_regretion_to_data_frame_coefficients_function.R` y las funciones en el archivo 
@@ -55,8 +49,6 @@ La función `fit_stepwise()` usaba como argumentos de entrada modelos.
 Los modelos fueron realizados por las funciones `fit_null_model()` y `fit_complete_model()`. 
 La solución obtenida fue poner las funciones anteriores dentro de `fit_stepwise()`.
 
----
-
 <!-- Nuevos objetivos -->
 Debido al interés de publicar dicho repositorio fue el cambio de nombres de español a inglés. 
 El cambio de nombres resultó en un problema, dado que fue sensible al nombre de los datos. 
@@ -67,8 +59,6 @@ Tuvimos que hacer varias modificaciones sobre cómo el código leía archivos `.
 Igualmente debido a esto se encontraron problemas _invisibles_ para nosotros (objetos sin pruebas). 
 Esto nos dio una oportunidad de crear nuevas pruebas y asegurar el código de cualquier otra instancia como estas.
 
----
-
 <!-- Conclusión -->
 Después del cambio de nombres comenzó la refactorización completa de la fución `get_best_json_for_logistic_model()`.
 En su gran mayoría fueron instrucciones sencillas las cuales fueron separables.
@@ -77,5 +67,3 @@ De esta pregunta anterior se derivaron ¿Qué hace la función? ¿Qué se espera
 El trabajo realizado durante mi periodo en GECI fue muy interesante y me integré a una nueva cultura.
 DevOps es una cultura interesante, la implementación de esta en equipos diferentes será diferente.
 Sin duda, nuestro equipo tuvo una gran guía en la adaptación cultural y en la práctica creando pruebas. 
-
----
