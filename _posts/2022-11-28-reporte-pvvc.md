@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reporte final PVVC"
+title: "Refactorización de código de predicción de sexo de albatros de laysan en isla Guadalupe"
 author: Francisco Alejandro Padilla Gomez
 tags: equipo
 ---
