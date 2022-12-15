@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diagrama de flujo para generar un resultado
-author: Equipo
+author: Nepo
 tags: equipo
 ---
 
