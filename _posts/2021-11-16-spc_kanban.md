@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 📉 Control estadístico de procesos
-author: Equipo
+title: Control estadístico de procesos
+author: Evaristo, Nepo
 tags: mate
 ---
 
