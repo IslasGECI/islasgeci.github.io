@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Catálogo de voluntariados
-author: Alejandro Padilla ,Martha Jiménez, Andrea Sánchez
+author: Andrea Sánchez, Martha Jiménez, Alejandro Padilla, Lizeth Reyes
 tags: equipo
 ---
 
