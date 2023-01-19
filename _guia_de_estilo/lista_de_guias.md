@@ -17,6 +17,7 @@ El equipo de Ciencia de datos en GECI adopta las siguientes guías de estilo:
 - [Shell](https://google.github.io/styleguide/shell.xml)
 - [SQL](https://about.gitlab.com/handbook/business-ops/data-team/sql-style-guide/#sql-style-guide)
 - [Tipografía](https://physics.nist.gov/cuu/pdf/typefaces.pdf)
+- [Formato de mapas, gráficas y documentos](https://docs.google.com/document/d/1w6RXpurkZTLO95Ue-omMGAxD0sAYqqar/edit)
 
 Las guías de estilo anteriores no son exhaustivas y este documento las extiende. Esta guía de estilo es válida sólo en los casos no contemplados en las guías de estilo anteriores. En caso de conflicto, las guías de estilo anteriores tienen preferencia sobre ésta.
 
