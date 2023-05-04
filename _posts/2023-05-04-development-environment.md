@@ -13,7 +13,7 @@ Actualmente, nuestra configuración común de tmux incluye:
 - Cuando alguna de las ventanas tienen actividad esta parpadea.
 - Podemos navegar con el mouse: hacer clic a los nombres de las ventanas y movernos verticalmente
   con el _scroll_ del mouse.
-- Si prefieres usar tu configuración personal puedes cargarla presionando `Ctrl + b` `r`
+- Si prefieres usar tu configuración personal puedes cargarla presionando `Ctrl+b` `r`.
 
 
 Esta configuración la definimos en el archivo
