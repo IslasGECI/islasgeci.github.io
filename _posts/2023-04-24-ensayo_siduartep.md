@@ -57,7 +57,8 @@ Para lograr la reproducibilidad, hemos establecido un flujo de trabajo que inclu
 La documentación detallada de los pasos necesarios para generar los resultados, la separación clara entre código-datos, y la integración de resultados en un informe automatizado.
 El uso de _unit testing_ y _test driving development_ nos ha permitido garantizar que nuestro código funcione correctamente y cumpla con los requisitos del equipo.
 A través de la implementación de pruebas, podemos detectar errores de manera temprana y asegurarnos de que cualquier cambio no cause efectos secundarios no deseados.
-En cuanto a la colaboración, hemos adoptado la técnica de _Ping Pong Programming_, en la que dos desarrolladores trabajan juntos en el mismo proyecto.
+En cuanto a la colaboración, hemos adoptado la técnica de _PPP_, en la que dos desarrolladores trabajan juntos en el mismo proyecto.
+
 Lo que fomenta la comunicación constante entre el equipo y mejorando la comprensión del modelo.
 No adoptar estas prácticas y herramientas puede tener consecuencias negativas en el desarrollo de modelos de ciencia de datos.
 Como la falta de reproducibilidad, la introducción de errores, la dificultad para colaborar en equipo y la lentitud en el proceso de desarrollo.
