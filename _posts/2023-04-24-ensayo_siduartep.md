@@ -2,7 +2,8 @@
 layout: post
 title: "Buenas prácticas en Ciencia de datos"
 author: Simon
-tags: ensayo
+tags: equipo
+
 ---
 
 ## Reproducibilidad
