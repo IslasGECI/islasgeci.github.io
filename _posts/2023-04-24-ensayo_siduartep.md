@@ -11,7 +11,8 @@ tags: equipo
 La reproducibilidad en ciencia de datos es un tema crucial en la actualidad para validar la calidad de nuestros resultados.
 Cuando hablamos de reproducibilidad, nos referimos a la habilidad de obtener los mismos resultados utilizando los mismos datos y métodos de un estudio anterior.
 Esta capacidad es fundamental para verificar la exactitud de los hallazgos y confirmar que los resultados no son producto de errores o sesgos.
-Si no se pueden replicar los resultados, es imposible saber si son válidos o si se deben a errores en la recolección o el análisis.
+Si no podemos replicar los resultados, es imposible saber si son válidos o si se deben a errores en la recolección o el análisis.
+
 Por otro lado, la reproducibilidad también nos permite comparar entre diversos experimentos y detectar posibles errores en los métodos de investigación.
 Para alcanzar estos resultados es necesario una sintonía entre las versiones de los datos, el entorno y el código.
 _Docker_ es una herramienta útil al ser un _software_ que controla las dependencias necesarias para la ejecución de los análisis.
