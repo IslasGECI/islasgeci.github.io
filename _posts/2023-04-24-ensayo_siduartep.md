@@ -37,7 +37,8 @@ Se escriben las pruebas antes de escribir el código, asegurando que el análisi
 Hemos encontrado que esta técnica es efectiva en la prevención de errores y en la creación de análisis más robustos y mantenibles.
 Además, existe una variante de _TDD_ llamada _Ping-Pong Programming (PPP)_, donde dos analistas trabajan en el mismo proyecto, alternándose para escribir pruebas y código.
 Esta técnica promueve la colaboración y comunicación constante entre los miembros del equipo, lo que puede llevar a un mejor diseño del análisis.
-Las pruebas son diseñadas para verificar la calidad de datos, efectividad del modelo y precisión en resultados, conduciendo a modelos más sólidos y confiables.
+Las pruebas verifican la calidad de los datos, la efectividad del modelo y la precisión en resultados, conduciendo a modelos más sólidos y confiables.
+
 La colaboración entre los miembros del equipo en _PPP_ también ha promovido una mejor comprensión del modelo y los datos subyacentes.
 La aplicación en conjunto de _TDD_ y _PPP_ en nuestro equipo ha llevado a una mayor calidad y mantenibilidad de nuestros análisis.
 Además, los miembros del equipo han mejorado su comunicación y colaboración gracias a estas técnicas.
