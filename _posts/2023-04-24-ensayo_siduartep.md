@@ -15,7 +15,8 @@ Si no podemos replicar los resultados, es imposible saber si son válidos o si s
 
 Por otro lado, la reproducibilidad también nos permite comparar entre diversos experimentos y detectar posibles errores en los métodos de investigación.
 Para alcanzar estos resultados es necesario una sintonía entre las versiones de los datos, el entorno y el código.
-_Docker_ es una herramienta útil al ser un _software_ que controla las dependencias necesarias para la ejecución de los análisis.
+_Docker_ es una herramienta útil que controla las dependencias necesarias para la ejecución de los análisis.
+
 Teniendo el control del ambiente a través de contenedores, conduce a la reproducibilidad.
 
 ## Unit testing
