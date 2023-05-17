@@ -35,7 +35,8 @@ Además, teniendo la seguridad de que cada componente individual funcione adecua
 Es una técnica de desarrollo de _software_ que se ha popularizado en los últimos años por su eficacia y cambio en la arquitectura que presenta.
 Se escriben las pruebas antes de escribir el código, asegurando que el análisis se ha diseñado para cumplir con los requisitos establecidos por el usuario.
 Hemos encontrado que esta técnica es efectiva en la prevención de errores y en la creación de análisis más robustos y mantenibles.
-Además, existe una variante de _TDD_ llamada _Ping-Pong Programming (PPP)_, donde dos analistas trabajan en el mismo proyecto, alternándose para escribir pruebas y código.
+_Ping-Pong Programming (PPP)_ es una variante del _TDD_  donde dos analistas trabajan en el mismo proyecto, alternándose para escribir pruebas y código.
+
 Esta técnica promueve la colaboración y comunicación constante entre los miembros del equipo, lo que puede llevar a un mejor diseño del análisis.
 Las pruebas verifican la calidad de los datos, la efectividad del modelo y la precisión en resultados, conduciendo a modelos más sólidos y confiables.
 
