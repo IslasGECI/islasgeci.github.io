@@ -17,7 +17,7 @@ Por otro lado, la reproducibilidad también nos permite comparar entre diversos 
 Para alcanzar estos resultados es necesario una sintonía entre las versiones de los datos, el entorno y el código.
 _Docker_ es una herramienta útil que controla las dependencias necesarias para la ejecución de los análisis.
 
-Teniendo el control del ambiente a través de contenedores, conduce a la reproducibilidad.
+El control del ambiente conduce a la reproducibilidad a través de contenedores.
 
 ## Unit testing
 
