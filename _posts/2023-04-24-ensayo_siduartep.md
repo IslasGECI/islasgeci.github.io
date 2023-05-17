@@ -26,7 +26,8 @@ En lugar de probar todo el modelo completo, nos enfocamos en probar cada compone
 Al probar cada componente por separado, podemos corregir errores específicos antes de afectar a todo el modelo en conjunto.
 El proceso consta de tres pasos:
 Primero, definimos los requisitos que debe cumplir el código de producción, luego creamos las pruebas y finalmente comprobamos si los resultados son correctos o incorrectos.
-La aplicación de esta técnica puede mejorar la calidad y reproducibilidad de nuestros modelos, así como aumentar nuestra confianza en los resultados del análisis.
+La aplicación de esta técnica mejora la calidad y reproducibilidad de nuestros modelos, también aumenta nuestra confianza en los resultados del análisis.
+
 Además, teniendo la seguridad de que cada componente individual funcione adecuadamente, podemos identificar errores específicos y corregirlos antes de implementarlo en un entorno de producción.
 
 ## Test Driven Development (TDD)
