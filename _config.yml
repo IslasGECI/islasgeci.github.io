@@ -8,7 +8,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : CI/CD: Conservación de Islas / Ciencia de Datos
+title : "CI/CD: Conservación de Islas / Ciencia de Datos"
 author :
   name : Evaristo Rojas
   email : evaristo.rojas@islas.org.mx
