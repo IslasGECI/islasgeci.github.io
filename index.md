@@ -6,7 +6,7 @@ description: Página del equipo de Ciencia de Datos de GECI
 ---
 
 El **Grupo de Ecología y Conservación de Islas** (GECI) una asociación civil que trabaja de manera
-interdisciplinaria por la restauración y protección de biodiversidad de las islas de México.
+interdisciplinaria por la restauración y protección de la biodiversidad de las islas de México.
 
 - [Página oficial de GECI](https://islas.org.mx)
 - [Facebook](https://www.facebook.com/IslasGECI)
