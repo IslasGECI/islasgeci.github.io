@@ -5,12 +5,8 @@ tagline: "@IslasGECI"
 description: Página del equipo de Ciencia de Datos de GECI
 ---
 
-El **Grupo de Ecología y Conservación de Islas** (GECI) tiene como misión la conservación de los
-ecosistemas insulares de México, así como fomentar su desarrollo sustentable. Las actividades del
-grupo incluyen: erradicación de mamíferos introducidos; monitoreo de especies y ecosistemas,
-investigación sobre genética, procesos ecológicos y evolutivos; restauración de poblaciones de aves
-marinas; educación ambiental con las comunidades locales; y el desarrollo de políticas públicas y el
-marco legal para su protección.
+El **Grupo de Ecología y Conservación de Islas** (GECI) una asociación civil que trabaja de manera
+interdisciplinaria por la restauración y protección de biodiversidad de las islas de México.
 
 - [Página oficial de GECI](https://islas.org.mx)
 - [Facebook](https://www.facebook.com/IslasGECI)
@@ -23,8 +19,7 @@ marco legal para su protección.
 GECI cuenta con un [equipo](https://github.com/orgs/IslasGECI/people) interdisciplinario de _Ciencia
 de Datos_ que desarrolla diversos estudios y aplicaciones de soporte para las actividades del grupo.
 Los objetivos de Ciencia de Datos en GECI son la optimización de recursos para la conservación, y la
-evaluación de los impactos de nuestros proyectos de restauración sobre la biodiversidad de las islas
-de México.
+evaluación de los impactos de nuestros proyectos de restauración sobre la biodiversidad de las islas de México.
 
 <ul>
   {% for item in site.data.navigation %}
