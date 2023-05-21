@@ -18,8 +18,9 @@ interdisciplinaria por la restauración y protección de la biodiversidad de las
 
 GECI cuenta con un [equipo](https://github.com/orgs/IslasGECI/people) interdisciplinario de _Ciencia
 de Datos_ que desarrolla diversos estudios y aplicaciones de soporte para las actividades del grupo.
-Los objetivos de Ciencia de Datos en GECI son la optimización de recursos para la conservación, y la
-evaluación de los impactos de nuestros proyectos de restauración sobre la biodiversidad de las islas de México.
+Los objetivos de Ciencia de Datos en GECI son la evaluación cuantitativa de nuestros proyectos de
+restauración, la optimización de recursos para la conservación, y la predicción escenerios para la
+protección oportuna de la biodiversidad de las islas de México.
 
 <ul>
   {% for item in site.data.navigation %}
