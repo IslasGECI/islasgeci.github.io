@@ -54,13 +54,14 @@ La retroalimentación constante que obtenemos a través de las pruebas automatiz
 
 El producto final de las diversas prácticas previamente mencionadas traen como resultado una arquitectura distinta, en contraste al no aplicar este enfoque centrado en reproducibilidad.
 Para lograr la reproducibilidad, hemos establecido un flujo de trabajo que incluye la definición de un ambiente virtualizado con las dependencias necesarias para ejecutarlo.
-La documentación detallada de los pasos necesarios para generar los resultados, la separación clara entre código-datos, y la integración de resultados en un informe automatizado.
+La implementación de resultados en un informe, la documentación detallada de los pasos y la separación clara entre código-datos mejoran el entendimiento del producto final.
 El uso de _unit testing_ y _test driving development_ nos ha permitido garantizar que nuestro código funcione correctamente y cumpla con los requisitos del equipo.
 A través de la implementación de pruebas, podemos detectar errores de manera temprana y asegurarnos de que cualquier cambio no cause efectos secundarios no deseados.
 En cuanto a la colaboración, hemos adoptado la técnica de _PPP_, en la que dos desarrolladores trabajan juntos en el mismo proyecto.
 
-Lo que fomenta la comunicación constante entre el equipo y mejorando la comprensión del modelo.
-No adoptar estas prácticas y herramientas puede tener consecuencias negativas en el desarrollo de modelos de ciencia de datos.
-Como la falta de reproducibilidad, la introducción de errores, la dificultad para colaborar en equipo y la lentitud en el proceso de desarrollo.
+Lo anterior fomenta la comunicación constante entre el equipo y mejorando la comprensión del modelo.
+No adoptar estas prácticas y herramientas puede tener consecuencias negativas en el desarrollo de modelos en ciencia de datos.
+La falta de reproducibilidad, la introducción de errores, la dificultad para colaborar en equipo y la lentitud en el proceso de desarrollo son obstáculos.
 Sin embargo, hay que tener en cuenta que estas técnicas pueden requerir más tiempo y esfuerzo al principio del proceso de desarrollo.
-Aunque indiscutiblemente, los resultados que trae consigo sopesan las dificultades para implementar estas técnicas conduciendo hacia un mejor entendimiento de nuestros datos.
+Estas técnicas nos conducen hacia un mejor entendimiento de nuestros datos.
+Indiscutiblemente, estos resultados sopesan las dificultades para implementar estás técnicas.
