@@ -50,7 +50,8 @@ Hace referencia a una serie de prácticas utilizadas en el desarrollo de _softwa
 Este enfoque implica la ejecución de una serie de prácticas que abarcan el desarrollo, entrega, retroalimentación y gestión de calidad de manera simultánea y constante.
 Con ello, logramos ser más eficientes y satisfacer las necesidades de manera más rápida.
 El _pipeline_ de _Continuous Delivery_ comienza con la integración continua (CI) de los cambios realizados en el modelo y sus datos correspondientes.
-Posteriormente, se realiza una fase de pruebas automatizadas para evaluar la calidad del modelo, asegurándonos de que cumpla con los criterios definidos.
+Posteriormente, realizamos una fase de pruebas automatizadas para evaluar la calidad del modelo, asegurándonos de que cumpla con los criterios definidos.
+
 Si el modelo pasa estas pruebas, se implementa automáticamente en producción para que los usuarios finales puedan utilizarlo.
 Gracias a la implementación de _Continuous Delivery_ se ha mejorado la calidad de nuestros análisis y hemos acelerado el proceso de entrega de resultados.
 La retroalimentación constante que obtenemos a través de las pruebas automatizadas nos permite corregir cualquier problema rápidamente manteniendo nuestros modelos actualizados y eficientes.
