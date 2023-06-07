@@ -59,15 +59,16 @@ La retroalimentación constante que obtenemos a través de las pruebas automatiz
 ## Integración
 
 El producto final de las diversas prácticas previamente mencionadas traen como resultado una arquitectura distinta, en contraste al no aplicar este enfoque centrado en reproducibilidad.
+No adoptar estas prácticas y herramientas puede tener consecuencias negativas en el desarrollo de modelos en ciencia de datos.
+La falta de reproducibilidad, la introducción de errores, la dificultad para colaborar en equipo y la lentitud en el proceso de desarrollo son obstáculos.
+Sin embargo, hay que tener en cuenta que estas técnicas pueden requerir más tiempo y esfuerzo al principio del proceso de desarrollo.
+
+
 Para lograr la reproducibilidad, hemos establecido un flujo de trabajo que incluye la definición de un ambiente virtualizado con las dependencias necesarias para ejecutarlo.
 La implementación de resultados en un informe, la documentación detallada de los pasos y la separación clara entre código-datos mejoran el entendimiento del producto final.
 El uso de _unit testing_ y _test driving development_ nos ha permitido garantizar que nuestro código funcione correctamente y cumpla con los requisitos del equipo.
 A través de la implementación de pruebas, podemos detectar errores de manera temprana y asegurarnos de que cualquier cambio no cause efectos secundarios no deseados.
 En cuanto a la colaboración, hemos adoptado la técnica de _PPP_, en la que dos desarrolladores trabajan juntos en el mismo proyecto.
-
 Lo anterior fomenta la comunicación constante entre el equipo y mejorando la comprensión del modelo.
-No adoptar estas prácticas y herramientas puede tener consecuencias negativas en el desarrollo de modelos en ciencia de datos.
-La falta de reproducibilidad, la introducción de errores, la dificultad para colaborar en equipo y la lentitud en el proceso de desarrollo son obstáculos.
-Sin embargo, hay que tener en cuenta que estas técnicas pueden requerir más tiempo y esfuerzo al principio del proceso de desarrollo.
 Estas técnicas nos conducen hacia un mejor entendimiento de nuestros datos.
 Indiscutiblemente, estos resultados sopesan las dificultades para implementar estás técnicas.
