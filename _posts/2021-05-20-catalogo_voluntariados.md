@@ -46,6 +46,14 @@ Guadalupe. Durante el proyecto puse en práctica mis conocimientos de Git y uso 
 ## Simon Leopoldo Duarte Patiño
 ![Simon Duarte](https://s.gravatar.com/avatar/a7341b63ed98c6322306f9b0554e89b7?s=150)
 
-¡Hola! yo soy Simon Duarte, y estudié la licenciatura en psicología, durante tal travesía académica me especialicé en el mundo de las neurociencias y el análisis de bio-señales. Dar un salto hacia la formación complementaria ha sido fundamental para enriquecer mi perspectiva y habilidades en el ámbito multidisciplinario.
-Ser parte del equipo de Ciencia de Datos ha sido una experiencia enriquecedora. Aquí, he tenido la oportunidad de adentrarme en metodologías empleadas propias del campo de ciencias computacionales y aprender sobre las buenas prácticas en el análisis de datos.
-Durante mi estancia, tuve el privilegio de apoyar en el proyecto [Numerical Estimation of Rodenticide Density] (https://github.com/IslasGECI/nerd). Fue un reto apasionante que me permitió aplicar mis habilidades y conocimientos en un contexto real.
+¡Hola! yo soy Simon Duarte, y estudié la licenciatura en psicología, durante tal travesía académica 
+me especialicé en el mundo de las neurociencias y el análisis de bio-señales
+Dar un salto hacia la formación complementaria ha sido fundamental para enriquecer mi perspectiva y 
+habilidades en el ámbito multidisciplinario.
+Ser parte del equipo de Ciencia de Datos ha sido una experiencia enriquecedora. 
+Aquí, he tenido la oportunidad de adentrarme en metodologías empleadas propias del campo de ciencias
+computacionales y aprender sobre las buenas prácticas en el análisis de datos.
+Durante mi estancia, tuve el privilegio de apoyar en el proyecto 
+[Numerical Estimation of Rodenticide Density] (https://github.com/IslasGECI/nerd).
+Fue un reto apasionante que me permitió aplicar mis habilidades 
+y conocimientos en un contexto real.
