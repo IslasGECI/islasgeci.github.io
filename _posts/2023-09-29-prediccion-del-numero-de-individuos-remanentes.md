@@ -8,6 +8,8 @@ Podemos observar que el mínimo del número de individuos de toda la serie de ti
 Hasta julio de 2023 tenemos las estimaciones históricas.
 De julio de 2023 en adelante son las predicciones a partir de las capturas de los último meses.
 
+![erradicación de gato feral en isla socorro](/assets/images/erradicacion-gato-feral-isla-socorro.png)
+
 Abajo describimos el modelo que utilizamos para hacer las predicciones.
 \[ N_{t+1} = N_t + rN_t  - R_t \] El número de individuos está en el
 lado izquierdo del igual.
@@ -24,3 +26,11 @@ Actualmente, predecimos las capturas a partir de los datos de capturas recientes
 Antes, las capturas futuras las obteníamos a partir de un modelo de esfuerzos.
 El modelo consumía los esfuerzos históricos para predecir las capturas.
 Ya no utilizamos los esfuerzos; solo utilizamos los datos de capturas.
+
+Entre marzo y agosto de 2023 retiramos 18 individuos de Isla Socorro.
+En ese mismo periodo nacieron 16 individuos.
+Pasamos de 40 individuos en marzo a 38 en agosto.
+Con el modelo explicado arriba predecimos que en los próximos 6 meses naceran 20 individuos.
+Los datos más recientes nos indican que retiraremos 7 individuos en el mismo periodo.
+Para marzo de 2024, tendremos 51 individuos remanentes.
+Lo anterior representa un incremento del 35%.
