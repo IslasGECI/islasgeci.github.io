@@ -1,5 +1,12 @@
---- usemathjax: true layout: post title: "Predicción del número de individuos remanentes" author:
-Nepo tags: ecologia mate ---
+---
+usemathjax: true
+layout: post
+title: "Predicción del número de individuos remanentes"
+author: Nepo
+tags: ecologia mate
+---
+
+
 
 La figura de abajo muestra la predicción del número de individuos remanentes en Isla Socorro.
 El eje del tiempo va desde julio de 2022 hasta diciembre de 2025.
@@ -11,12 +18,12 @@ De julio de 2023 en adelante son las predicciones a partir de las capturas de lo
 ![erradicación de gato feral en isla socorro](/assets/images/erradicacion-gato-feral-isla-socorro.png)
 
 Abajo describimos el modelo que utilizamos para hacer las predicciones.
-\[ N_{t+1} = N_t + rN_t  - R_t \] El número de individuos está en el
-lado izquierdo del igual.
+\[ N_{t+1} = N_t + rN_t  - R_t \]
+El número de individuos está en el lado izquierdo del igual.
 El lado derecho de la igualdad está formado por tres términos.
 $N_t$ es el número actual de individuos.
 El producto $rN_t$ representa los nacimientos que tendremos en el mes.
-Rt son las capturas del mes.
+$R_t$ son las capturas del mes.
 
 Los nacimientos los obtenemos al multiplicar la tasa de crecimiento mensual ($r$) por el número actual de individuos ($N_t$).
 La tasa de crecimiento mensual la calculamos a partir de los datos de nuestros proyectos de erradicación.
