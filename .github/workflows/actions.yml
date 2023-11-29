@@ -12,6 +12,6 @@ jobs:
         [[ $( egrep "[^\.]$" _posts/2016-02-29-post-hoc.md | egrep -v "^-" | egrep -v ":$" | wc -l ) -le 4 ]]
     - name: Sentences are short
       run: |
-        IFS=$'\n' && for line in $(egrep "\.$" 2016-02-29-post-hoc.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] || exit 1 ; done
-        IFS=$'\n' && for line in $(egrep ":$" 2016-02-29-post-hoc.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] || exit 1 ; done
-        IFS=$'\n' && for line in $(egrep "^-" 2016-02-29-post-hoc.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] || exit 1 ; done
+        IFS=$'\n' && for line in $(egrep "\.$" _posts/2016-02-29-post-hoc.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] || exit 1 ; done
+        IFS=$'\n' && for line in $(egrep ":$" _posts/2016-02-29-post-hoc.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] || exit 1 ; done
+        IFS=$'\n' && for line in $(egrep "^-" _posts/2016-02-29-post-hoc.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] || exit 1 ; done
