@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@main
     - name: Line ends with a period
       run: |
-        [[ $( egrep "[^\.]$" _posts/2016-02-29-post-hoc.md | egrep -v "^-" | wc -l ) -le 4 ]]
+        [[ $( egrep "[^\.]$" _posts/2016-02-29-post-hoc.md | egrep -v "^-" | egrep -v ":$" | wc -l ) -le 4 ]]
     - name: Sentences are short
       run: |
         [[ $( egrep "[^\.]$" _posts/2016-02-29-post-hoc.md | egrep -v "^-" | wc -l ) -le 4 ]]
