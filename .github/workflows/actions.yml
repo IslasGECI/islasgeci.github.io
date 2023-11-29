@@ -1,0 +1,15 @@
+name: Check style
+on: push
+jobs:
+  check-style:
+    name: 
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@main
+    - name: Line ends with a period
+      run: |
+        [[ $( egrep "[^\.]$" _posts/2016-02-29-post-hoc.md | egrep -v "^-" | wc -l ) -le 4 ]]
+    - name: Sentences are short
+      run: |
+        [[ $( egrep "[^\.]$" _posts/2016-02-29-post-hoc.md | egrep -v "^-" | wc -l ) -le 4 ]]
