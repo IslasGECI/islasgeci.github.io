@@ -66,7 +66,7 @@ Una barrera para generar una respuesta es que los límites de control y las cart
 1. ¿Por qué se activaron las alertas?
     - Porque redujimos el tiempo de trabajo en las tarjetas del Kanban
 1. ¿Por qué redujimos el tiempo de trabajo en las tarjetas del Kanban?
-    - Porque empezamos a asignar un horario al trabajo administrativo, a los viernes creativos, experimentamos con microservicios y cambiamos el alojamiento del servidor de desarrollo a Azure.
+    - Porque asignamos un horario al trabajo administrativo, a los viernes creativos, experimentamos con microservicios y cambiamos el alojamiento del servidor de desarrollo a Azure.
 1. ¿Por qué estas razones contribuye a que haya aumentado la W?
     - Horario administrativo:
       - Los lunes y miércoles hay un equipo que trabaja en tarjetas del Kanban. Ahora estamos atendiendo trabajo administrativo y antes no.
