@@ -6,7 +6,8 @@ tags: equipo aprendizaje
 ---
 
 ## Resumen del incidente
-Al dibujar las cartas de control con datos de octubre del 2022 a diciembre del 2023, notamos que nuestro desempeño está fuera de control. Encontramos al menos una alerta en cada carta de control en el periodo de septiembre a diciembre del 2023.
+Al dibujar las cartas de control con datos de octubre del 2022 a diciembre del 2023, notamos que nuestro desempeño está fuera de control.
+Encontramos al menos una alerta en cada carta de control en el periodo de septiembre a diciembre del 2023.
 
 ## ¿Qué nos condujo al evento?
 - Dividimos el equipo para hacer trabajo administrativo durante la semana.
@@ -24,11 +25,17 @@ Al dibujar las cartas de control con datos de octubre del 2022 a diciembre del 2
 - Retraso en entregar reportes de curación de datos, lo cual disminuye su valor.
 
 ## Detección
-Teníamos agendada la evaluación del desempeño del equipo y decidimos hacer las cartas de control. Hicimos 4 cartas de control para que nos dieran información: el promedio de lambda, el promedio de W, el rango de la lambda y el rango de W.
-- En el promedio de W, la alerta ocurre el 13 de octubre. El criterio de la alerta fue 4 puntos por arriba de una sigma. El 7 de noviembre ocurre una alerta de 8 puntos por arriba del promedio.
-- En el rango de lambda la alerta ocurrió el 23 de octubre. El criterio de la alerta fue 4 puntos por arriba de una sigma.
-- En el rango de W, el 23 de octubre hay una alerta de 2 puntos por arriba de dos sigmas. El 7 de noviembre hay dos alertas de 8 puntos arriba del promedio y 4 puntos arriba de una sigma. 
-- En el promedio de lambda, tuvimos 8 puntos por debajo del promedio el 7 de noviembre de 2023.Hay dos alertas que siguen activas: el rango de W sigue por arriba del promedio y el promedio de lambda sigue por abajo del promedio.
+Teníamos agendada la evaluación del desempeño del equipo y decidimos hacer las cartas de control.
+Hicimos 4 cartas de control para que nos dieran información: el promedio de lambda, el promedio de W, el rango de la lambda y el rango de W.
+- En el promedio de W, la alerta ocurre el 13 de octubre.
+El criterio de la alerta fue 4 puntos por arriba de una sigma.
+El 7 de noviembre ocurre una alerta de 8 puntos por arriba del promedio.
+- En el rango de lambda la alerta ocurrió el 23 de octubre.
+El criterio de la alerta fue 4 puntos por arriba de una sigma.
+- En el rango de W, el 23 de octubre hay una alerta de 2 puntos por arriba de dos sigmas.
+El 7 de noviembre hay dos alertas de 8 puntos arriba del promedio y 4 puntos arriba de una sigma. 
+- En el promedio de lambda, tuvimos 8 puntos por debajo del promedio el 7 de noviembre de 2023.
+Hay dos alertas que siguen activas: el rango de W sigue por arriba del promedio y el promedio de lambda sigue por abajo del promedio.
 
 ## Respuesta
 La respuesta todavía no llega.
