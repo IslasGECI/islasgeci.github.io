@@ -95,7 +95,7 @@ Todavía no estamos en control y las causas que generaron las primeras alertas y
 
 ## Lecciones aprendidas y cosas ganadas
 - En las semanas que no tenemos tareas terminadas, definimos la W como 3 sigmas.
-Así evitamos al división por cero. 
+Así evitamos la división por cero.
 - Las Notas del Kanban nos sirven para detectar eventos atípicos y encontrar las causas.
 
 ## Acciones correctivas
