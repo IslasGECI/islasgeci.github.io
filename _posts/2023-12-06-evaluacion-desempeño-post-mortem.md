@@ -74,7 +74,8 @@ Una barrera para generar una respuesta es que los límites de control y las cart
     - Viernes creativo:
       - Los días viernes intentamos trabajar en cosas que no están en el Kanban, medio día menos.
     - Experimentos con microservicios:
-      - Durante tres semanas invertimos tiempo en implementar el microservicio que genera la gráfica de semáforo. En esas tres semanas solamente tuvimos una estrella en terminado, con cuatro tarjetas terminadas.
+      - Durante tres semanas invertimos tiempo en implementar el microservicio que genera la gráfica de semáforo.
+      En esas tres semanas solamente tuvimos una estrella en terminado, con cuatro tarjetas terminadas.
     - Cambiamos el servidor de desarrollo a Azure:
       - Al menos dos días de trabajo los invertimos en esto.
 1. ¿Por qué implementamos el horario administrativo, viernes creativo y el microservicio?
