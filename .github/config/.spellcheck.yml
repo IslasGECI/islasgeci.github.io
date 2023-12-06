@@ -10,6 +10,7 @@ matrix:
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
+  - pyspelling.filters.html:
       ignores:
       - code
       - pre
