@@ -13,6 +13,6 @@ jobs:
     - name: Sentences are short
       run: |
         cat _posts/2016*.md > _posts/all.md
-        IFS=$'\n' && for line in $(egrep "\.$" _posts/all.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
+        IFS=$'\n' && for line in $(egrep "\.$" _posts/all.md); do echo "$line" ; [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
         IFS=$'\n' && for line in $(egrep ":$" _posts/all.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
         IFS=$'\n' && for line in $(egrep "^-" _posts/all.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
