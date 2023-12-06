@@ -8,12 +8,12 @@ Azure
 Blameless
 Bob
 Bonferroni
+bootstrap
 bug
 checklist
 Comparison
 confiabilidad
 cormorant
-cycle
 DCCO
 dependency
 DigitalOcean
