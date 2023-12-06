@@ -55,29 +55,29 @@ Una barrera para generar una respuesta es que los límites de control y las cart
 
 ## Cinco "por qué"s
 1. ¿Por qué estamos fuera de control?
-  - Las cartas de control de los rangos y promedios de W y lambda, tienen al menos una alerta en el periodo de septiembre de 2023 al 4 de diciembre del 2023.
+    - Las cartas de control de los rangos y promedios de W y lambda, tienen al menos una alerta en el periodo de septiembre de 2023 al 4 de diciembre del 2023.
 1. ¿Por qué se activaron las alertas?
-  - Porque redujimos el tiempo de trabajo en las tarjetas del Kanban
+    - Porque redujimos el tiempo de trabajo en las tarjetas del Kanban
 1. ¿Por qué redujimos el tiempo de trabajo en las tarjetas del Kanban?
-  - Porque empezamos a asignar un horario al trabajo administrativo, a los viernes creativos, experimentamos con microservicios y cambiamos el alojamiento del servidor de desarrollo a Azure.
+    - Porque empezamos a asignar un horario al trabajo administrativo, a los viernes creativos, experimentamos con microservicios y cambiamos el alojamiento del servidor de desarrollo a Azure.
 1. ¿Por qué estas razones contribuye a que haya aumentado la W?
-  - Horario administrativo:
-    - Los lunes y miércoles hay un equipo que trabaja en tarjetas del Kanban. Ahora estamos atendiendo trabajo administrativo y antes no.
-    - En el Kanban ya no contamos el trabajo administrativo.
-  - Viernes creativo:
-    - Los días viernes intentamos trabajar en cosas que no están en el Kanban, medio día menos.
-  - Experimentos con microservicios:
-    - Durante tres semanas invertimos tiempo en implementar el microservicio que genera la gráfica de semáforo. En esas tres semanas solamente tuvimos una estrella en terminado, con cuatro tarjetas terminadas.
-  - Cambiamos el servidor de desarrollo a Azure:
-    - Al menos dos días de trabajo los invertimos en esto.
+    - Horario administrativo:
+      - Los lunes y miércoles hay un equipo que trabaja en tarjetas del Kanban. Ahora estamos atendiendo trabajo administrativo y antes no.
+      - En el Kanban ya no contamos el trabajo administrativo.
+    - Viernes creativo:
+      - Los días viernes intentamos trabajar en cosas que no están en el Kanban, medio día menos.
+    - Experimentos con microservicios:
+      - Durante tres semanas invertimos tiempo en implementar el microservicio que genera la gráfica de semáforo. En esas tres semanas solamente tuvimos una estrella en terminado, con cuatro tarjetas terminadas.
+    - Cambiamos el servidor de desarrollo a Azure:
+      - Al menos dos días de trabajo los invertimos en esto.
 1. ¿Por qué implementamos el horario administrativo, viernes creativo y el microservicio?
-  - Horario administrativo:
-      - Regreso a oficina
-      - Organizar los tiempos para trabajar en temas administrativos
-  - Viernes creativo:
-      - Apartar tiempo para investigar/experimentar con software y patrones de diseño que nos podrían ser de utilidad.
-  - Microservicio:
-      - Teníamos problemas de dependencias entre paquetes de Python de dos módulos. Usamos esta técnica para evitar problemas de compatibilidad en la imagen del repositorio clase 3.
+    - Horario administrativo:
+        - Regreso a oficina
+        - Organizar los tiempos para trabajar en temas administrativos
+    - Viernes creativo:
+        - Apartar tiempo para investigar/experimentar con software y patrones de diseño que nos podrían ser de utilidad.
+    - Microservicio:
+        - Teníamos problemas de dependencias entre paquetes de Python de dos módulos. Usamos esta técnica para evitar problemas de compatibilidad en la imagen del repositorio clase 3.
 
 ## Causa raíz
 Todavía no estamos en control y las causas que generaron las primeras alertas y siguen activas son: 
