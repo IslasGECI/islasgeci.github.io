@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Blameless Postmortem: Evaluación de desempeño."
+author: Memo, Nepo y Mario
+tags: equipo aprendizaje
+---
+
 ## Resumen del incidente
 Al dibujar las cartas de control con datos de octubre del 2022 a diciembre del 2023, nos dimos cuenta que nuestro desempeño está fuera de control. Encontramos al menos una alerta en cada carta de control en el periodo de septiembre a diciembre del 2023.
 
