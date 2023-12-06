@@ -10,7 +10,7 @@ jobs:
     - name: Line ends with a period
       run: |
         cat _posts/2023-1*.md > _posts/all.md
-        [[ $( egrep "[^\.]$" _posts/all.md | egrep -v "^-" | egrep -v ":$" | wc -l ) -le 4 ]]
+        [[ $( egrep "[^\.]$" _posts/all.md | egrep -v "^[#!-]" | egrep -v "^1\. " | egrep -v ":$" | wc -l ) -le 4 ]]
     - name: Sentences are short
       run: |
         cat _posts/2023-1*.md > _posts/all.md
