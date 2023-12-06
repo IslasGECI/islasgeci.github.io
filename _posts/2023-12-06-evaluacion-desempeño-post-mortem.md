@@ -62,7 +62,7 @@ Una barrera para generar una respuesta es que los límites de control y las cart
 
 ## Cinco "por qué"s
 1. ¿Por qué estamos fuera de control?
-    - Las cartas de control de los rangos y promedios de W y lambda, tienen al menos una alerta en el periodo de septiembre de 2023 al 4 de diciembre del 2023.
+    - Las cuatro cartas de control tienen al menos una alerta en el periodo de septiembre de 2023 al 4 de diciembre del 2023.
 1. ¿Por qué se activaron las alertas?
     - Porque redujimos el tiempo de trabajo en las tarjetas del Kanban
 1. ¿Por qué redujimos el tiempo de trabajo en las tarjetas del Kanban?
