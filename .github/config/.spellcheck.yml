@@ -8,12 +8,6 @@ matrix:
     wordlists:
     - .github/config/.wordlist.txt
     encoding: utf-8
-  pipeline:
-  - pyspelling.filters.markdown:
-  - pyspelling.filters.html:
-      ignores:
-      - code
-      - pre
   sources:
   - '_posts/2023*.md'
   default_encoding: utf-8
