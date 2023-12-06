@@ -80,7 +80,7 @@ Una barrera para generar una respuesta es que los límites de control y las cart
         - Teníamos problemas de dependencias entre paquetes de Python de dos módulos. Usamos esta técnica para evitar problemas de compatibilidad en la imagen del repositorio clase 3.
 
 ## Causa raíz
-Todavía no estamos en control y las causas que generaron las primeras alertas y siguen activas son: 
+Todavía no estamos en control y las causas que generaron las primeras alertas y siguen activas son:
 - Horario administrativo
 - Viernes creativo
 
