@@ -67,7 +67,7 @@ análisis exploratorio de datos. En resumen, en este análisis utilizamos númer
 para describir la información y sacar conclusiones sobre la muestra de datos.
 
 Esto también nos ayuda a saber qué tipos de análisis cuantitativos son viables para implementar en
-el siguiente paso, cuáles metodologías son viables para el conjuto de datos dada la incógnita que
+el siguiente paso, cuáles metodologías son viables para el conjunto de datos dada la incógnita que
 pretendemos resolver. Por ejemplo, no puedes usar métodos de _machine learning_ con pocos datos,
 simplemente no funcionaría.
 
@@ -89,7 +89,7 @@ Por ejemplo, digamos que queremos probar que la población de albatros de Laysan
 (IG) está en crecimiento. Para esto, hacemos monitoreos de conteo de nidos y así obtener una muestra
 de la población de albatros en IG anualmente. Como todos sabemos, por las características de esta
 colonia las muestras son altamente representativas de la población, los conteos son prácticamente
-exactos. Incluso si por algúna razón no contase algunos individuos el nivel de significancia
+exactos. Incluso si por alguna razón no contase algunos individuos el nivel de significancia
 sería muy alto. Sin embargo, esta misma muestra de datos, ¿es representativa para decir
 que la población de albatros de Laysan del mundo entero está en aumento?. Habiendo en IG solo cerca
 del 1% de la población mundial de albatros, no es posible obtener resultados significativos con la
@@ -104,7 +104,7 @@ resultados obtenidos del análisis cuantitativo. Con todas sus partes, un resume
 metodología, resultados y algunas conclusiones, apoyándonos de herramientas visuales como gráficas y
 tablas. Estos reportes siempre son revisados por pares.
 
-Para reproducir o generar un reporte, repetimos de manera automátizada cada uno de los análisis y
+Para reproducir o generar un reporte, repetimos de manera automatizada cada uno de los análisis y
 desplegamos los resultados en el archivo final de salida. Esto nos ayuda a que cuando haya
 actualización de datos, los resultados se incorporen al reporte de manera automatizada.
 
@@ -114,7 +114,7 @@ Todo este flujo de trabajo, lo hacemos de manera reproducible. En principio cual
 GECI solo necesita tener instaladas dos herramientas en su computadora, **git** y **docker**. Esto
 es muy útil, por ejemplo en estos días durante situación actual con la pandemia. Yo por ejemplo he
 estado trabajando en mi computadora personal. Y no tuve que copiar NADA de la computadora de oficina
-a la mia. Todo está en plataformas en línea (nube) y con instalar estas dos herramientas en mi
+a la mía. Todo está en plataformas en línea (nube) y con instalar estas dos herramientas en mi
 computadora, puedo reproducir todos los análisis que hemos hecho en el último año.
 
 El proceso de la automatización en la ciencia de datos es algo novedoso. No es posible automatizar
