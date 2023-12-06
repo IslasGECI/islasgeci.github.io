@@ -6,7 +6,7 @@ tags: equipo aprendizaje
 ---
 
 ## Resumen del incidente
-Al dibujar las cartas de control con datos de octubre del 2022 a diciembre del 2023, nos dimos cuenta que nuestro desempeño está fuera de control. Encontramos al menos una alerta en cada carta de control en el periodo de septiembre a diciembre del 2023.
+Al dibujar las cartas de control con datos de octubre del 2022 a diciembre del 2023, notamos que nuestro desempeño está fuera de control. Encontramos al menos una alerta en cada carta de control en el periodo de septiembre a diciembre del 2023.
 
 ## ¿Qué nos condujo al evento?
 - Dividimos el equipo para hacer trabajo administrativo durante la semana.
