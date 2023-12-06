@@ -43,7 +43,7 @@ Una barrera para generar una respuesta es que los límites de control y las cart
 ## Línea de tiempo
 - [01-09-203] Empieza el horario de trabajo administrativo en lunes y miércoles; viernes creativo.
 - [11-09-2023] Tomamos curso "Efficiently Testing ETL Pipelines: Enhancing data quality with PySpark and Python"
-- [18-09-2023] Regreso a oficinas.
+- [18-09-2023] Regreso a oficinas
 - [18-09-2023 al 29-09-2023] Experimentos con microservicios
 - [18-09-2023] NR trabajó en casa jueves y viernes para evitar contagios en oficina
 - [09-10-2023] Levantamos servidor en Azure y día económico Memo
