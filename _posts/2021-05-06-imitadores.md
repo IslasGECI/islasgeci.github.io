@@ -59,7 +59,7 @@ al implementar las clases cambiamos las interfaces la prueba no se enterará del
 tanto no fallará.
 
 ## Imitando objetos de clases particulares
-En esta sección mostramos dos ejemplos en donde los imitadores heredan la interface de alguna clase,
+En esta sección mostramos dos ejemplos en donde los imitadores heredan la interfaz de alguna clase,
 para atender así la sugerencia de Stargirl. Con esta modificación si la interfaz cambia la prueba
 nos recordará que debemos actualizarla. En el primer ejemplo generamos un imitador de la clase
 `Predictions_and_Parameters`. Lo que nos interesa probar el funcionamiento de `Plotter` por lo que

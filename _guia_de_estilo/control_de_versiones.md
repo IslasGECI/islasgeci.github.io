@@ -24,8 +24,8 @@ consignación útiles.
 
 Git es el único sistema de control de versiones que usamos. Usamos dos hospederos web de nuestros repositorios:
 
-- Bitbucket: para repos clase 3
-- GitHub: para repos clase 1
+- Bitbucket: para repositorios clase 3
+- GitHub: para repositorios clase 1
 
 ## GitFlow
 
