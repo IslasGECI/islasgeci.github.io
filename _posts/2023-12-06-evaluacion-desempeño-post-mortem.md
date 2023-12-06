@@ -33,7 +33,7 @@ El 7 de noviembre ocurre una alerta de 8 puntos por arriba del promedio.
 - En el rango de lambda la alerta ocurrió el 23 de octubre.
 El criterio de la alerta fue 4 puntos por arriba de una sigma.
 - En el rango de W, el 23 de octubre hay una alerta de 2 puntos por arriba de dos sigmas.
-El 7 de noviembre hay dos alertas de 8 puntos arriba del promedio y 4 puntos arriba de una sigma. 
+El 7 de noviembre hay dos alertas de 8 puntos arriba del promedio y 4 puntos arriba de una sigma.
 - En el promedio de lambda, tuvimos 8 puntos por debajo del promedio el 7 de noviembre de 2023.
 Hay dos alertas que siguen activas: el rango de W sigue por arriba del promedio y el promedio de lambda sigue por abajo del promedio.
 
@@ -48,7 +48,7 @@ Una barrera para generar una respuesta es que los límites de control y las cart
 - Podemos agregar al corte la revisión de las cartas de control.
 
 ## Línea de tiempo
-- [01-09-203] Empieza el horario de trabajo administrativo en lunes y miércoles; viernes creativo.
+- [01-09-203] Empieza el horario de trabajo administrativo en lunes y miércoles; viernes creativo
 - [11-09-2023] Tomamos curso "Efficiently Testing ETL Pipelines: Enhancing data quality with PySpark and Python"
 - [18-09-2023] Regreso a oficinas
 - [18-09-2023 al 29-09-2023] Experimentos con microservicios
