@@ -85,7 +85,8 @@ Una barrera para generar una respuesta es que los límites de control y las cart
     - Viernes creativo:
         - Apartar tiempo para investigar/experimentar con software y patrones de diseño que nos podrían ser de utilidad.
     - Microservicio:
-        - Teníamos problemas de dependencias entre paquetes de Python de dos módulos. Usamos esta técnica para evitar problemas de compatibilidad en la imagen del repositorio clase 3.
+        - Teníamos problemas de dependencias entre paquetes de Python de dos módulos.
+        Usamos esta técnica para evitar problemas de compatibilidad en la imagen del repositorio clase 3.
 
 ## Causa raíz
 Todavía no estamos en control y las causas que generaron las primeras alertas y siguen activas son:
@@ -93,7 +94,8 @@ Todavía no estamos en control y las causas que generaron las primeras alertas y
 - Viernes creativo
 
 ## Lecciones aprendidas y cosas ganadas
-- En las semanas que no tenemos tareas terminadas, definimos la W como 3 sigmas. Así evitamos al división por cero. 
+- En las semanas que no tenemos tareas terminadas, definimos la W como 3 sigmas.
+Así evitamos al división por cero. 
 - Las Notas del Kanban nos sirven para detectar eventos atípicos y encontrar las causas.
 
 ## Acciones correctivas
