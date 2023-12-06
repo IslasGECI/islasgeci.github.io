@@ -26,6 +26,8 @@ Kanban
 layout
 Laysan
 learning
+Looker
+Studio
 machine
 Maritza
 Measures
@@ -39,7 +41,7 @@ monitoreos
 morfometría
 Nepo
 NR
-pipeline
+pipelines
 provisionador
 Pairwise
 Postmortem
