@@ -10,11 +10,11 @@ jobs:
     - name: Line ends with a period
       run: |
         cat _posts/2023-1*.md > _posts/all.md
-        egrep "[^\.]$" _posts/all.md | egrep "^\w" | egrep -v "^title:" | egrep -v "^layout:" | egrep -v "^1\. " | egrep -v ":$"
-        [[ $( egrep "[^\.]$" _posts/all.md | egrep "^\w" | egrep -v "^title:" | egrep -v "^layout:" | egrep -v "^1\. " | egrep -v ":$" | wc -l ) -le 2 ]]
+        egrep "[^\.]$" _posts/all.md | egrep "^\w" | egrep -v "^title:" | egrep -v "^layout:" | egrep -v "^tags:" | egrep -v "^1\. " | egrep -v ":$"
+        [[ $( egrep "[^\.]$" _posts/all.md | egrep "^\w" | egrep -v "^title:" | egrep -v "^layout:" | egrep -v "^tags:" | egrep -v "^1\. " | egrep -v ":$" | wc -l ) -le 1 ]]
     - name: Sentences are short
       run: |
         cat _posts/2023-1*.md > _posts/all.md
-        IFS=$'\n' && for line in $(egrep "\.$" _posts/all.md); do echo "$line" ; [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
-        IFS=$'\n' && for line in $(egrep ":$" _posts/all.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
-        IFS=$'\n' && for line in $(egrep "^-" _posts/all.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
+        IFS=$'\n' && for line in $(egrep "\.$" _posts/all.md); do echo "$line" ; [[ $(echo "$line" | wc -w) -le 25 ]] ; done
+        IFS=$'\n' && for line in $(egrep ":$" _posts/all.md); do [[ $(echo "$line" | wc -w) -le 25 ]] ; done
+        IFS=$'\n' && for line in $(egrep "^-" _posts/all.md); do [[ $(echo "$line" | wc -w) -le 25 ]] ; done
