@@ -19,9 +19,9 @@ _Docker_ es una herramienta útil que controla las dependencias necesarias para 
 
 El control del ambiente conduce a la reproducibilidad a través de contenedores.
 
-## Unit testing
+## Pruebas unitarias
 
-En nuestra práctica dentro del equipo, utilizamos la técnica de _unit testing_ para asegurarnos de que cada componente individual de nuestro sistema funcione adecuadamente.
+En nuestra práctica dentro del equipo, utilizamos la técnica de pruebas unitarias para asegurarnos de que cada componente individual de nuestro sistema funcione adecuadamente.
 En lugar de probar todo el modelo completo, nos enfocamos en probar cada componente individual como la limpieza, transformación, selección de características y evaluación.
 Al probar cada componente por separado, podemos corregir errores específicos antes de afectar a todo el modelo en conjunto.
 El proceso consta de tres pasos:
@@ -30,12 +30,12 @@ La aplicación de esta técnica mejora la calidad y reproducibilidad de nuestros
 
 Además, teniendo la seguridad de que cada componente individual funcione adecuadamente, podemos identificar errores específicos y corregirlos antes de implementarlo en un entorno de producción.
 
-## Test Driven Development (TDD)
+## Desarrollo Guiado por Pruebas (TDD)
 
 Es una técnica de desarrollo de _software_ que se ha popularizado en los últimos años por su eficacia y cambio en la arquitectura que presenta.
 Se escriben las pruebas antes de escribir el código, asegurando que el análisis se ha diseñado para cumplir con los requisitos establecidos por el usuario.
 Hemos encontrado que esta técnica es efectiva en la prevención de errores y en la creación de análisis más robustos y mantenibles.
-_Ping-Pong Programming (PPP)_ es una variante del _TDD_  donde dos analistas trabajan en el mismo proyecto, alternándose para escribir pruebas y código.
+Programación Pimpón (PPP) es una variante del _TDD_  donde dos analistas trabajan en el mismo proyecto, alternándose para escribir pruebas y código.
 
 Esta técnica promueve la colaboración y comunicación constante entre los miembros del equipo, lo que puede llevar a un mejor diseño del análisis.
 Las pruebas verifican la calidad de los datos, la efectividad del modelo y la precisión en resultados, conduciendo a modelos más sólidos y confiables.
@@ -44,7 +44,7 @@ La colaboración entre los miembros del equipo en _PPP_ también ha promovido un
 La aplicación en conjunto de _TDD_ y _PPP_ en nuestro equipo ha llevado a una mayor calidad y mantenibilidad de nuestros análisis.
 Además, los miembros del equipo han mejorado su comunicación y colaboración gracias a estas técnicas.
 
-## Continuos delivery
+## Entrega Continua
 
 Hace referencia a una serie de prácticas utilizadas en el desarrollo de _software_ para asegurar que nuestros análisis sean entregados rápidamente y con alta calidad.
 Este enfoque implica la ejecución de una serie de prácticas que abarcan el desarrollo, entrega, retroalimentación y gestión de calidad de manera simultánea y constante.
@@ -64,11 +64,11 @@ La falta de reproducibilidad, la introducción de errores, la dificultad para co
 Sin embargo, hay que tener en cuenta que estas técnicas pueden requerir más tiempo y esfuerzo al principio del proceso de desarrollo.
 
 
-Para lograr la reproducibilidad, hemos establecido un flujo de trabajo que incluye la definición de un ambiente virtualizado con las dependencias necesarias para ejecutarlo.
+Para lograr la reproducibilidad, hemos establecido un flujo de trabajo que incluye la definición de un ambiente virtual con las dependencias necesarias para ejecutarlo.
 La implementación de resultados en un informe, la documentación detallada de los pasos y la separación clara entre código-datos mejoran el entendimiento del producto final.
-El uso de _unit testing_ y _test driving development_ nos ha permitido garantizar que nuestro código funcione correctamente y cumpla con los requisitos del equipo.
+El uso de pruebas unitarias y el TDD nos ha permitido garantizar que nuestro código funcione correctamente y cumpla con los requisitos del equipo.
 A través de la implementación de pruebas, podemos detectar errores de manera temprana y asegurarnos de que cualquier cambio no cause efectos secundarios no deseados.
 En cuanto a la colaboración, hemos adoptado la técnica de _PPP_, en la que dos desarrolladores trabajan juntos en el mismo proyecto.
 Lo anterior fomenta la comunicación constante entre el equipo y mejorando la comprensión del modelo.
 Estas técnicas nos conducen hacia un mejor entendimiento de nuestros datos.
-Indiscutiblemente, estos resultados sopesan las dificultades para implementar estás técnicas.
+Sin discusión, estos resultados sopesan las dificultades para implementar estás técnicas.

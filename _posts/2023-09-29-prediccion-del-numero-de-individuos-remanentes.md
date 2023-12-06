@@ -3,7 +3,7 @@ usemathjax: true
 layout: post
 title: "Predicción del número de individuos remanentes"
 author: Nepo
-tags: ecologia mate
+tags: eco mate
 ---
 
 
@@ -37,7 +37,7 @@ Ya no utilizamos los esfuerzos; solo utilizamos los datos de capturas.
 Entre marzo y agosto de 2023 retiramos 18 individuos de Isla Socorro.
 En ese mismo periodo nacieron 16 individuos.
 Pasamos de 40 individuos en marzo a 38 en agosto.
-Con el modelo explicado arriba predecimos que en los próximos 6 meses naceran 20 individuos.
+Con el modelo explicado arriba predecimos que en los próximos 6 meses nacerán 20 individuos.
 Los datos más recientes nos indican que retiraremos 7 individuos en el mismo periodo.
 Para marzo de 2024, tendremos 51 individuos remanentes.
 Lo anterior representa un incremento del 35%.

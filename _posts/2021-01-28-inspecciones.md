@@ -2,7 +2,7 @@
 layout: post
 title: Las inspecciones, una revisión por pares
 author: Nepo
-tags: programacion
+tags: progra
 ---
 
 ## ¿Qué es una inspección?
@@ -12,8 +12,7 @@ la menos formal es "Ad hoc Review" que consiste en pedirle ayuda a un colega con
 tienes. Los siguientes dos ejemplos son "_Peer Deskcheck_" y "_Pair Programing_", ambos los
 utilizamos en el trabajo diario del equipo de Ciencia de Datos. "_Peer Deskcheck_" es la manera
 estándar de definir las revisiones en nuestra columna de **Revisando**, una persona somete su
-trabajo para que otra revise que se cumplan todos los elementos de un _checklist_. Y "_Pair
-Programming_" es lo que hacemos en nuestros tomates. Los tres ejemplos más formales de revisión por
+trabajo para que otra revise que se cumplan todos los elementos de un _checklist_. Y programación en parejas es lo que hacemos en nuestros tomates. Los tres ejemplos más formales de revisión por
 pares son "Recorrido", "Revisión en equipo" e "Inspección". Para Karl, la revisión más formal es la
 inspección.
 

@@ -2,7 +2,7 @@
 layout: post
 title: TDD es opcional; mutation testing es obligatorio
 author: Nepo, Evaristo
-tags: programacion
+tags: progra
 ---
 
 En nuestro equipo, requerimos que el código sea resistente a mutaciones. La resistencia a mutaciones

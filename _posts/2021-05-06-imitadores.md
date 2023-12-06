@@ -2,7 +2,7 @@
 layout: post
 title: Imitadores y espías
 author: Nepo
-tags: programacion
+tags: progra
 ---
 
 En la presente nota mostraremos algunos ejemplos de los usos de la paquetería

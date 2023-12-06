@@ -3,7 +3,7 @@ usemathjax: true
 layout: post
 title: "Modelando el control de especies invasoras"
 author: Nepo
-tags: ecologia mate
+tags: eco mate
 ---
 
 En esta entrada mostramos el avance que tenemos en la Dirección de Ciencie de Datos para 
