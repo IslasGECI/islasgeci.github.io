@@ -11,7 +11,7 @@ Al dibujar las cartas de control con datos de octubre del 2022 a diciembre del 2
 ## ¿Qué nos condujo al evento?
 - La división del equipo durante la semana
 - Ahora intentamos que no entren tarjetas relacionadas con trabajo administrativo
-- Se nos acabaron los créditos de DigitalOcean y tuvimos que mudar el devserver.
+- Se nos acabaron los créditos de DigitalOcean y tuvimos que mudar el servidor de desarrollo.
 - Implementamos nuestra primera versión de un microservicio
 
 ## Falla
@@ -28,7 +28,7 @@ Teníamos agendada la evaluación del desempeño del equipo y decidimos hacer la
 - En el promedio de W, la alerta ocurre el 13 de octubre. El criterio de la alerta fue 4 puntos por arriba de una sigma. El 7 de noviembre ocurre una alerta de 8 puntos por arriba del promedio.
 - En el rango de lambda la alerta ocurrió el 23 de octubre. El criterio de la alerta fue 4 puntos por arriba de una sigma.
 - En el rango de W, el 23 de octubre hay una alerta de 2 puntos por arriba de dos sigmas. El 7 de noviembre hay dos alertas de 8 puntos arriba del promedio y 4 puntos arriba de una sigma. 
-- En el promedio de lambda, tuvimos 8 puntos por debajo del promedio el 7 de noviembre de 2023.Hay dos alertas que siguen activas: el rango de W sigue por arriba del promedio y el promedio de lamba sigue por abajo del promedio.
+- En el promedio de lambda, tuvimos 8 puntos por debajo del promedio el 7 de noviembre de 2023.Hay dos alertas que siguen activas: el rango de W sigue por arriba del promedio y el promedio de lambda sigue por abajo del promedio.
 
 ## Respuesta
 La respuesta todavía no llega.Una barrera para generar una respuesta es que los límites de control y las cartas de control las generamos manualmente.
@@ -38,9 +38,9 @@ La respuesta todavía no llega.Una barrera para generar una respuesta es que los
 ### ¿Cómo reducir el tiempo de recuperación?
 - Si las cartas las generamos automáticamente las podríamos revisar con la misma periodicidad con la que actualizamos los datos.- Podemos agregar al corte la revisión de las cartas de control.
 
-## Timeline
+## Línea de tiempo
 - [01-09-203] Empieza el horario de trabajo administrativo en lunes y miércoles; viernes creativo.
-- [11-09-2023] Tomamos curso "ETL data pipelines using pyspark"
+- [11-09-2023] Tomamos curso "ETL data pipelines using PySpark"
 - [18-09-2023] Regreso a oficinas.
 - [18-09-2023 al 29-09-2023] Experimentos con microservicios
 - [18-09-2023] NR trabajó en casa jueves y viernes para evitar contagios en oficina
@@ -62,7 +62,7 @@ Porque redujimos el tiempo de trabajo en las tarjetas del Kanban
 
 3. ¿Por qué redujimos el tiempo de trabajo en las tarjetas del Kanban?
 
-Porque empezamos a asignar un horario al trabajo administrativo, a los viernes creativos, experimentamos con microservicios y cambiamos el alojamiento del devserver a Azure.
+Porque empezamos a asignar un horario al trabajo administrativo, a los viernes creativos, experimentamos con microservicios y cambiamos el alojamiento del servidor de desarrollo a Azure.
 
 4. ¿Por qué estas razones contribuye a que haya aumentado la W?
   - Horario administrativo:
@@ -72,7 +72,7 @@ Porque empezamos a asignar un horario al trabajo administrativo, a los viernes c
     - Los días viernes intentamos trabajar en cosas que no están en el Kanban, medio día menos.
   - Experimentos con microservicios:
     - Durante tres semanas invertimos tiempo en implementar el microservicio que genera la gráfica de semáforo. En esas tres semanas solamente tuvimos una estrella en terminado, con cuatro tarjetas terminadas.
-  - Cambiamos devserver a Azure:
+  - Cambiamos el servidor de desarrollo a Azure:
     - Al menos dos días de trabajo los invertimos en esto.
 5. ¿Por qué implementamos el horario administrativo, viernes creativo y el microservicio?
   - Horario administrativo:
