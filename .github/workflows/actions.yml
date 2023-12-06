@@ -12,7 +12,7 @@ jobs:
         [[ $( egrep "[^\.]$" _posts/2016-02-29-post-hoc.md | egrep -v "^-" | egrep -v ":$" | wc -l ) -le 4 ]]
     - name: Sentences are short
       run: |
-        cat _posts/2016*.md > _posts/all.md
+        cat _posts/2023-1*.md > _posts/all.md
         IFS=$'\n' && for line in $(egrep "\.$" _posts/all.md); do echo "$line" ; [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
         IFS=$'\n' && for line in $(egrep ":$" _posts/all.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
         IFS=$'\n' && for line in $(egrep "^-" _posts/all.md); do [[ $(echo "$line" | wc -w) -lt 25 ]] ; done
