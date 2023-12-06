@@ -26,7 +26,7 @@ Encontramos al menos una alerta en cada carta de control en el periodo de septie
 
 ## Detección
 Teníamos agendada la evaluación del desempeño del equipo y decidimos hacer las cartas de control.
-Hicimos 4 cartas de control para que nos dieran información: el promedio de lambda, el promedio de W, el rango de la lambda y el rango de W.
+Hicimos 4 cartas de control: el promedio de lambda, el promedio de W, el rango de la lambda y el rango de W.
 - En el promedio de W, la alerta ocurre el 13 de octubre.
 El criterio de la alerta fue 4 puntos por arriba de una sigma.
 El 7 de noviembre ocurre una alerta de 8 puntos por arriba del promedio.
