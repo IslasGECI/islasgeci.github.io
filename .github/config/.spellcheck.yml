@@ -10,4 +10,5 @@ matrix:
     encoding: utf-8
   sources:
   - '_posts/2023*.md'
+  - '_posts/2022*.md'
   default_encoding: utf-8
