@@ -14,6 +14,7 @@ bootstrap
 bug
 checklist
 CI
+Code
 Comparison
 confiabilidad
 Continuous
@@ -21,6 +22,7 @@ cormorant
 DCCO
 Delivery
 dependency
+Development
 DigitalOcean
 Docker
 Driven
@@ -36,8 +38,9 @@ Fabila
 feral
 GECI
 git
-graficábamos
+Gomez
 graficado
+graficábamos
 Guadalupe
 gumu
 GUMU
@@ -52,6 +55,7 @@ Laysan
 learning
 Looker
 machine
+Makefile
 Maritza
 Measures
 Methods
@@ -83,6 +87,7 @@ PySpark
 Python
 quality
 rANOVA
+Remote
 remuestreada
 remuestreadas
 remuestreados
@@ -95,6 +100,7 @@ significancia
 Simon
 solution
 Studio
+subcomando
 tags
 TDD
 testing
@@ -105,6 +111,7 @@ true
 TukeyHSD
 usemathjax
 using
+VS
 with
 Xie
 Yuliana

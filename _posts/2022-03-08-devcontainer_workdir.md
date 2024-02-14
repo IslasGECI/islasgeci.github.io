@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Iniciando con VS Code y error en Devcontainer"
+title: "Configuración y solución de problemas al trabajar con VS Code y contenedores Docker"
 author: Francisco Alejandro Padilla Gomez
 tags: equipo
 ---
 
-Cuando configuramos VS Code para trabajar, necesitamos instalar una extencion previa. Instalaremos
+Cuando configuramos VS Code para trabajar, necesitamos instalar una extensión previa. Instalaremos
 _Remote Development_ `ms-vscode-remote.vscode-remote-extensionpack`. Esta extensión nos permite
 abrir cualquier repositorio dentro de un contenedor de Docker.
 
@@ -13,7 +13,7 @@ Después de que terminamos de instalar _Remote Development_, le damos clic en un
 encontrado en la parte inferior izquierda. Encontramos varías opciones, entonces seleccionamos `open
 container`.
 
-Al estar dentro del contenedor, entonces ya podremos realizar cambios, correr scripts, etc. Al
+Al estar dentro del contenedor, entonces ya podremos realizar cambios, correr archivos de código, etc. Al
 ejecutar recipes del Makefile pueden surgir errores al no tener bien definido el directorio de
 trabajo.
 
