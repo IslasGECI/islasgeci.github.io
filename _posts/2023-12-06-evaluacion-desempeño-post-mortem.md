@@ -8,12 +8,10 @@ tags: equipo aprendizaje
 ## Resumen del incidente
 Al dibujar las cartas de control con datos de mayo del 2022 a marzo del 2024, notamos que nuestro desempeño está fuera de control.
 
-Este evento fuera de control comenzó el día 13 de octubre de 2023 y termina el 01 de marzo de 2024.
-La duración fue de 140 días, el tiempo medio de recuperación es 70 días. Hubo alertas en todas las cartas, estuvimos por debajo del promedio.
-(por qué?)
-- Cambios en la especificación de tareas
-- 
-
+Este evento fuera de control fue el sexto desde mayo del 2022, la frecuencia de eventos en este periodo es de 3.4 eventos por año.
+El último evento comenzó el día 13 de octubre de 2023 y termina el 01 de marzo de 2024.
+La duración fue de 140 días, el tiempo medio de recuperación es 70 días.
+Hubo alertas en todas las cartas, estuvimos por debajo del promedio.
 
 ## ¿Qué nos condujo al evento?
 - Dividimos el equipo para hacer trabajo administrativo durante la semana.
@@ -42,6 +40,7 @@ Hicimos 4 cartas de control: el promedio de lambda, el promedio de W, el rango d
 - Pusimos atención en la longitud de las tareas.
 - Planeamos las tareas que deben salir en la semana con base en las cartas de control.
 
+### Dificultades para responder
 Hubo una barrera o retraso para regresar a control en este tiempo.
 Desde diciembre sabemos que estamos fuera de control y tardamos 10 semanas en recuperar el control.
 Cuando creamos las cartas de control ya llevábamos dos meses fuera de control.
