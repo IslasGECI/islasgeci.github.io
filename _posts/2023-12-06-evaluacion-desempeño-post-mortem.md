@@ -91,6 +91,7 @@ Una vez que teníamos el número necesario, revisamos cuáles eran las tareas m�
     Teníamos problemas de dependencias entre paquetes de Python de dos módulos.
     Usamos esta técnica para evitar problemas de compatibilidad en la imagen del repositorio clase 3.
     - Migramos a Azure porque se nos terminó la donación de DigitalOcean.
+
 ## Causa raíz
 - De las tres razones que encontramos en la sección anterior, al menos dos son cosas puntuales.
   Si fueran la causa raíz nos hubieramos recuperado más rápido.
