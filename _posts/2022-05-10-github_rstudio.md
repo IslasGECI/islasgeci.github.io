@@ -53,7 +53,7 @@ interesa es el apartado de **Access**, específicamente en **SSH and GPG Keys**.
 
 <img width="800" alt="004" src="https://user-images.githubusercontent.com/87685163/172239163-fc6009b0-98da-4411-a6f7-d3be07bc3081.png">
 
-Damos click en la opción de **New SSH Key**.
+Damos clic en la opción de **New SSH Key**.
 
 <img width="800" alt="005" src="https://user-images.githubusercontent.com/87685163/172239680-4bf91339-f8b7-4fde-aef8-c3abf40193dd.png">
 
@@ -67,7 +67,7 @@ A continuación, buscaremos el repositorio que vamos a clonar.
 
 <img width="800" alt="002" src="https://user-images.githubusercontent.com/87685163/172240353-eb3604cd-3db7-4068-8353-9b5072f77da3.png">
 
-Daremos click en la opción **Code** que se marca en verde, y después elegimos la 
+Daremos clic en la opción **Code** que se marca en verde, y después elegimos la 
 opción **SSH** y copiamos la dirección con el botón que se encuentra a lado.
 
 <img width="800" alt="010" src="https://user-images.githubusercontent.com/87685163/172240971-afc6d749-f818-4fc6-992f-0aeea0604b4e.png">
@@ -82,7 +82,7 @@ la opción **Version Control**  e inmediatamente **Git**.
 
 Pegamos la dirección que habíamos copiado de GitHub. Después de pegar la dirección, el nombre y 
 la carpeta de origen se asignan por default, podemos cambiar esto si lo preferimos. 
-Finalmente, daremos click en **Create Project**.
+Finalmente, daremos clic en **Create Project**.
 
 <img width="800" alt="012" src="https://user-images.githubusercontent.com/87685163/172243046-2cc8a26d-cfb4-4d98-84f0-cb9d127b3201.png">
 
@@ -99,7 +99,7 @@ cambiamos al directorio donde están los archivos del repositorio y diferentes b
 En el panel de cambios notaremos que hay tres archivos con un signo de interrogación. 
 Esto significa que estos archivos no tienen ningún seguimiento dentro de nuestro repositorio y
 tendrán que ser agregados. Para esto, hay que agregar los archivos seleccionando las casillas. 
-Esto hará que las casillas cambien a una A, lo que inidcan que los archivos están siendo agregados. 
+Esto hará que las casillas cambien a una A, lo que indica que los archivos están siendo agregados. 
 El **_mensaje de consignación_** deberá tener un **_título_** y una **_descripción_**. 
 El titulo será escrito de forma **_imperativa_**, comenzando con un **_verbo_**, y en **_inglés_**, 
 mientras que la descripción explicará el **_porqué se realizaron esos cambios_**. 
@@ -120,7 +120,7 @@ significa que nuestro repositorio tiene cambios que aún no los tiene el reposit
  Entonces, el último paso es empujar los cambios con el botón **Push** que se encuentra en la parte superior derecha. 
  <img width="800" alt="Captura de Pantalla 2022-07-27 a la(s) 14 24 49" src="https://user-images.githubusercontent.com/87685163/181358933-46c79815-5c65-4b43-8b49-b09e5e4fbefd.png">
  
-### Resúmen y comparación entre RStudio y la terminal
+### Resumen y comparación entre RStudio y la terminal
 
 <table>
   <tr>
