@@ -11,10 +11,9 @@ matrix:
   pipeline:
   - pyspelling.filters.markdown:
       markdown_extensions:
-      - pymdownx.superfences
-      ignores:
-      - code
-      - pre
+      - pymdownx.superfences:
+        - code
+        - pre
   sources:
   - '_posts/2023-*.md'
   - '_posts/2022-*.md'
