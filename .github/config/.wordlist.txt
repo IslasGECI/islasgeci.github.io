@@ -1,5 +1,7 @@
+Access
 agendada
 Ale
+alt
 and
 anillamiento
 ANOVA
@@ -15,14 +17,17 @@ bug
 checklist
 CI
 Code
+commit
 Comparison
 confiabilidad
 Continuous
 cormorant
+create
 DCCO
 Delivery
 dependency
 Development
+DevOps
 DigitalOcean
 Docker
 Driven
@@ -38,7 +43,9 @@ Fabila
 feral
 GECI
 git
+GitHub
 Gomez
+GPG
 graficado
 graficábamos
 Guadalupe
@@ -53,6 +60,7 @@ Kanban
 layout
 Laysan
 learning
+Lizeth
 Looker
 machine
 Makefile
@@ -87,6 +95,7 @@ PySpark
 Python
 quality
 rANOVA
+refactorización
 Remote
 remuestreada
 remuestreadas
@@ -96,9 +105,11 @@ remuestreo
 Repeated
 reportables
 rN
+RStudio
 significancia
 Simon
 solution
+SSH
 Studio
 subcomando
 tags
