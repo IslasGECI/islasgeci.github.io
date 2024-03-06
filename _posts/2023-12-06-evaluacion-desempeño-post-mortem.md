@@ -94,7 +94,7 @@ Una vez que teníamos el número necesario, revisamos cuáles eran las tareas m�
 
 ## Causa raíz
 - De las tres razones que encontramos en la sección anterior, al menos dos son cosas puntuales.
-  Si fueran la causa raíz nos hubieramos recuperado más rápido.
+  Si fueran la causa raíz nos hubiéramos recuperado más rápido.
 - El cambio en la definición de las tarjetas del Kanban es un comportamiento que se mantuvo hasta de manera regular.
 
 ## Lecciones aprendidas y cosas ganadas

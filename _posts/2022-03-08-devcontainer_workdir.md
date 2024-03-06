@@ -13,9 +13,8 @@ Después de que terminamos de instalar _Remote Development_, le damos clic en un
 encontrado en la parte inferior izquierda. Encontramos varías opciones, entonces seleccionamos `open
 container`.
 
-Al estar dentro del contenedor, entonces ya podremos realizar cambios, correr archivos de código, etc. Al
-ejecutar recipes del Makefile pueden surgir errores al no tener bien definido el directorio de
-trabajo.
+Al estar dentro del contenedor, entonces ya podremos realizar cambios, correr archivos de código, etc.
+Al ejecutar recetas del Makefile pueden surgir errores al no tener bien definido el directorio de trabajo.
 
 Cuando tengamos errores donde tenemos `[Makefile:45: data/processed/logistic_model_table.csv] Error
 1` es probable que nuestra carpeta de trabajo y nuestra carpeta local no estén vinculadas. Para
