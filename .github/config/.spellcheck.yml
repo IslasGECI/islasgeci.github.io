@@ -12,6 +12,7 @@ matrix:
   - pyspelling.filters.markdown:
       markdown_extensions:
       - pymdownx.superfences:
+        ignores:
         - code
         - pre
   sources:
