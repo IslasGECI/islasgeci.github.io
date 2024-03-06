@@ -12,6 +12,9 @@ matrix:
   - pyspelling.filters.markdown:
       markdown_extensions:
       - pymdownx.superfences
+      ignores:
+      - code
+      - pre
   sources:
   - '_posts/2023-*.md'
   - '_posts/2022-*.md'
