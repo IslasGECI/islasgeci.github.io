@@ -44,7 +44,7 @@ Las pruebas realizadas para las funciones resultantes de la refactorización se 
 Comenzamos entendiendo los procesos llevados acabo en la función "grande" para posteriormente, separar dichos procesos en funciones diferentes. 
 La refactorización comenzó con las funciones `fit_null_model()` `fit_complete_model()`  y `fit_stepwise`.
 Las funciones `fit_null_model()` `fit_complete_model()` no tuvieron problemas.
-La función `fit_stepwise()` tuvo un problema causado por _lazy evaulation_.
+La función `fit_stepwise()` tuvo un problema causado por _lazy evaluation_.
 La función `fit_stepwise()` usaba como argumentos de entrada modelos. 
 Los modelos fueron realizados por las funciones `fit_null_model()` y `fit_complete_model()`. 
 La solución obtenida fue poner las funciones anteriores dentro de `fit_stepwise()`.
