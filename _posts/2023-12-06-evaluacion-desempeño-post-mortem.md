@@ -74,9 +74,8 @@ Una vez que teníamos el número necesario, revisamos cuáles eran las tareas m�
 1. ¿Por qué se activaron las alertas?
     - Porque comenzamos a tener un número menor de tarjetas terminadas.
 1. ¿Por qué disminuyó el número de tarjetas terminadas?
-1. ¿Por qué estas razones contribuye a que haya aumentado la $\lambda$?
     - En el Kanban ya no contamos el trabajo en el mantenimiento de nuestras herramientas ni del trabajo administrativo.
-    - La proporción de tareas clase 1 en este equipo es 17\% en el "equipo anterior" teníamos 25\%. Las tareas clase 3 de los últimos dos años es 31\% antes teníamos 13\%. Sospechamos que estamos incluyendo trabajo clase 1 en las tarjetas clase 3.
+    - La proporción de tareas clase 1 en este equipo es 17% en el "equipo anterior" teníamos 25%. Las tareas clase 3 de los últimos dos años es 31% antes teníamos 13%. Sospechamos que estamos incluyendo trabajo clase 1 en las tarjetas clase 3.
     - En las 4 semanas previas a la primera alerta:
         - Experimentamos con microservicios. 
         Durante tres semanas invertimos tiempo en implementar el microservicio que genera la gráfica de semáforo.
@@ -93,16 +92,16 @@ Una vez que teníamos el número necesario, revisamos cuáles eran las tareas m�
     - Migramos a Azure porque se nos terminó la donación de DigitalOcean.
 
 ## Causa raíz
-- De las tres razones que encontramos en la sección anterior, al menos dos son cosas puntuales.
+- De las tres razones que encontramos en la sección anterior, al menos dos son cosas puntuales (experimento con microservicios y migración a Azure).
   Si fueran la causa raíz nos hubiéramos recuperado más rápido.
-- El cambio en la definición de las tarjetas del Kanban es un comportamiento que se mantuvo hasta de manera regular.
+- El cambio en la definición de las tarjetas del Kanban es un comportamiento que se mantuvo de manera regular.
 
 ## Lecciones aprendidas y cosas ganadas
-- En las semanas que no tenemos tareas terminadas, definimos la W como 3 sigmas.
+- En las semanas que no tenemos tareas terminadas, definimos la **W** como 3 sigmas.
 Así evitamos la división por cero.
 - Las Notas del Kanban nos sirven para detectar eventos atípicos y encontrar las causas.
 - Aun no queda claro cuáles tarjetas administrativas deben entrar al Kanban.
-- Es más difícil encontrar una causa asignable
+- Es más difícil encontrar una causa asignable si no monitoreamos constantemente las cartas de control.
 - ¿Cómo afecto no haber tenido inspector de reproducibilidad?
 
 ## Acciones correctivas
