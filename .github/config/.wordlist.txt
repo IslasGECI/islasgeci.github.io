@@ -16,7 +16,6 @@ Bonferroni
 bootstrap
 bug
 cat
-Cat
 checklist
 CI
 Code
@@ -55,7 +54,6 @@ graficábamos
 graficado
 Guadalupe
 gumu
-GUMU
 hoc
 Holm
 IG
@@ -63,7 +61,6 @@ in
 inferencial
 Kanban
 key
-Key
 keygen
 Keys
 layout
