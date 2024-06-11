@@ -17,15 +17,15 @@ Al asegurarno que todas las variables biológicas pasaran por todos los pasos no
 ## Falla
 El orden que seguimos para calcular si las variables climáticas explican o no las diferencias de las variables biológicas entre temporadas es:
 
-1. Ajustar un modelo sin tomar en cuenta las variables climáticas. 
+1. Ajustar un modelo sin tomar en cuenta las variables climáticas.
 1. Revisamos si hay diferencias significativas entre temporadas para cada variable biológica.
-1. Para las variables biológicas en las que encontramos alguna diferencia significativa, ajustamos algunos modelos que sí incluyan el clima. 
-1. Comparamos los AIC de cada modelo y decidimos cual es el mejor. 
+1. Para las variables biológicas en las que encontramos alguna diferencia significativa, ajustamos algunos modelos que sí incluyan el clima.
+1. Comparamos los AIC de cada modelo y decidimos cual es el mejor.
 
 En el caso del pico de la masa, nos saltábamos el segundo paso.
 Con el éxito de vuelo ocrría que no usábamos `jinja_render` para escribir su sección.
 Esta sección estaba escrita a mono en el reporte.
-Parecía que nos faltó actualizar esa sección. 
+Parecía que nos faltó actualizar esa sección.
 
 ## Impacto
 - Yuliana presentó los resultados incorrectos en un congreso (IAPC7).
@@ -40,15 +40,15 @@ Parecía que nos faltó actualizar esa sección.
 ![Imagen Checker](/assets/images/respuesta_incidente_glmm.png)
 
 En la figura de arriba vemos a la función `write_results()` (línea 46).
-Esa es la que usamos para escribir la sección 8.1 del reporte. 
-En la sección 8.1 presentamos las diferencias entre temporadas de las variables biológicas. 
-En la línea 48 de la figura de arriba, vemos la función `CheckerDifferences()`. 
+Esa es la que usamos para escribir la sección 8.1 del reporte.
+En la sección 8.1 presentamos las diferencias entre temporadas de las variables biológicas.
+En la línea 48 de la figura de arriba, vemos la función `CheckerDifferences()`.
 Esta función nos asegura que no está vacía la variable que nos indica si hay o no diferencias.
 
 El reporte ahora ya no se puede escribir si la variable está vacía.
-Cada vez que le pasemos los datos a la función `write_results()` revisaremos que las variables sean las correctas. 
-Con esto nos aseguramos que los archivos con los que escribimos las secciones del reporte ya pasaron por todo el flujo de trabajo. 
-Si no fuera así, en lugar del reporte se generaría un error. 
+Cada vez que le pasemos los datos a la función `write_results()` revisaremos que las variables sean las correctas.
+Con esto nos aseguramos que los archivos con los que escribimos las secciones del reporte ya pasaron por todo el flujo de trabajo.
+Si no fuera así, en lugar del reporte se generaría un error.
 Eso lo notaríamos porque el canal de integración continua estaría en rojo. A esta práctica le llamamos entrega continua.
 
 ## Recuperación
@@ -72,7 +72,7 @@ Porque no pasaba por el script que discernia si hay diferencias o no.
 1. ¿Por qué no pasaba por el script que determinaba si había o no diferencias?
 El reporte esperaba un ingrediente, pero ese ingrediente tenía que pasar por un flujo que no era obligatorio.
 1. ¿Por qué ese flujo no era obligatorio?
-La reescritura de este JSON complicaba saber en qué etapa del flujo estaba. 
+La reescritura de este JSON complicaba saber en qué etapa del flujo estaba.
 Como desde el inicio ya estaba generado el JSON la dependencia ya estaba cumplida.
 Nadie generaba un error.
 1. ¿Por qué era complicado saber en qué etapa del flujo estaba el JSON?
