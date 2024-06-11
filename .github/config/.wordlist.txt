@@ -85,6 +85,7 @@ morfometría
 mortem
 name
 Nepo
+new
 NR
 ONE
 Pairwise
@@ -99,6 +100,7 @@ Postmortem
 PPP
 progra
 Programming
+project
 provisionador
 pull
 push
@@ -117,6 +119,7 @@ Repeated
 reportables
 rN
 RStudio
+settings
 significancia
 Simon
 solution
@@ -133,6 +136,7 @@ true
 TukeyHSD
 usemathjax
 using
+version
 VS
 with
 Xie

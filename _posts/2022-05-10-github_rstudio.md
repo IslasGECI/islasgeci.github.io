@@ -7,19 +7,16 @@ tags: equipo
 
 ## Git en RStudio 📸 🗃️
 ### Introducción
-Git es un sistema de control de versiones. Git realiza seguimiento de los cambios de código y 
-comparte esos cambios con otros, ya que nos permite fusionar estos cambios. Existen diferentes 
-formas de usar Git: desde la línea de comandos, utilizando RStudio o una app independiente 
-(GitKraken), etc. Para esta primera etapa nos centraremos en el uso de Git en RStudio. 
+Git es un sistema de control de versiones.
+Git realiza seguimiento de los cambios de código y comparte esos cambios con otros, ya que nos permite fusionar estos cambios.
+Existen diferentes formas de usar Git: desde la línea de comandos, utilizando RStudio o una aplicación independiente (GitKraken), etc.
+Para esta primera etapa nos centraremos en el uso de Git en RStudio.
 
-RStudio es un entorno de desarrollo integrado para el lenguaje de programación de R, 
-dedicado a la computación estadística y gráficos. RStudio incluye una consola, herramientas para 
-el trazado, depuración y gestión del espacio de trabajo, la terminal, y la herramienta para trabajar 
-con Git. 
+RStudio es un entorno de desarrollo integrado para el lenguaje de programación de R, dedicado a la computación estadística y gráficos. RStudio incluye una consola, herramientas para el trazado, depuración y gestión del espacio de trabajo, la terminal, y la herramienta para trabajar con Git.
 
 ### Objetivo
 
-- **_Aprender a usar Git en RStudio._** 
+- **_Aprender a usar Git en RStudio._**
 
 ### Configurar la autenticación con una clave SSH
 Antes de comenzar a trabajar en RStudio debemos configurar la autenticación con la clave SSH.
@@ -48,8 +45,7 @@ A continuación nos dirigiremos a nuestro GitHub. Una vez ahí, buscaremos **Set
 
 <img width="800" alt="003" src="https://user-images.githubusercontent.com/87685163/172238565-2af9e5d1-3079-41e5-88c5-822dc3dbeb1b.png">
 
-En **Settings** encontraremos múltiples opciones para configurar, lo que a nosotros nos 
-interesa es el apartado de **Access**, específicamente en **SSH and GPG Keys**.
+En **Settings** encontraremos múltiples opciones para configurar, lo que a nosotros nos interesa es el apartado de **Access**, específicamente en **SSH and GPG Keys**.
 
 <img width="800" alt="004" src="https://user-images.githubusercontent.com/87685163/172239163-fc6009b0-98da-4411-a6f7-d3be07bc3081.png">
 
@@ -57,13 +53,12 @@ Damos clic en la opción de **New SSH Key**.
 
 <img width="800" alt="005" src="https://user-images.githubusercontent.com/87685163/172239680-4bf91339-f8b7-4fde-aef8-c3abf40193dd.png">
 
-Agregamos un título, pegamos la llave que hemos copiado de la 
-terminal y finalmente la agregamos. 
+Agregamos un título, pegamos la llave que hemos copiado de la terminal y finalmente la agregamos.
 
 <img width="800" alt="008" src="https://user-images.githubusercontent.com/87685163/172239912-7d689b4b-a433-4762-84dc-db94ecee5bac.png">
 
 ### Clonar nuestro repositorio en RStudio
-A continuación, buscaremos el repositorio que vamos a clonar. 
+A continuación, buscaremos el repositorio que vamos a clonar.
 
 <img width="800" alt="002" src="https://user-images.githubusercontent.com/87685163/172240353-eb3604cd-3db7-4068-8353-9b5072f77da3.png">
 
@@ -72,16 +67,15 @@ opción **SSH** y copiamos la dirección con el botón que se encuentra a lado.
 
 <img width="800" alt="010" src="https://user-images.githubusercontent.com/87685163/172240971-afc6d749-f818-4fc6-992f-0aeea0604b4e.png">
 
-En seguida, abriremos la aplicación de **RStudio**. En el apartado **File** 
-elegiremos la opción **New Project**. Se desplegará una ventana como la siguiente y seleccionamos 
-la opción **Version Control**  e inmediatamente **Git**.
+En seguida, abriremos la aplicación de **RStudio**. En el apartado **File** elegiremos la opción **New Project**.
+Se desplegará una ventana como la siguiente y seleccionamos la opción **Version Control** e inmediatamente **Git**.
 
 <img width="800" alt="015" src="https://user-images.githubusercontent.com/87685163/172242418-fc0bcbd9-34b8-4d96-9982-21b74686d0e2.png">
 
 <img width="800" alt="014" src="https://user-images.githubusercontent.com/87685163/172242028-e02a6b78-1288-4105-8217-9ccb295f4e2f.png">
 
-Pegamos la dirección que habíamos copiado de GitHub. Después de pegar la dirección, el nombre y 
-la carpeta de origen se asignan por default, podemos cambiar esto si lo preferimos. 
+Pegamos la dirección que habíamos copiado de GitHub.
+Después de pegar la dirección, el nombre y la carpeta de origen se asignan por default, podemos cambiar esto si lo preferimos.
 Finalmente, daremos clic en **Create Project**.
 
 <img width="800" alt="012" src="https://user-images.githubusercontent.com/87685163/172243046-2cc8a26d-cfb4-4d98-84f0-cb9d127b3201.png">
