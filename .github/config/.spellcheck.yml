@@ -11,5 +11,6 @@ matrix:
   sources:
   - '_posts/2024-*.md'
   - '_posts/2023-*.md'
-  - '_posts/2022-*.md'
+  - '_ports/2022-*.md'
+  - '_ports/2021-*.md'
   default_encoding: utf-8
