@@ -27,7 +27,7 @@ en la imagen. En la imagen podemos notar que la terminal no despliega ninguna li
 
 Después, vamos a crear nuestra llave ejecutando el siguiente comando `ssh-keygen`. En seguida, 
 se indica la carpeta en donde se almacenará la llave y nos pedirá una contraseña; si lo prefieres
-puedes omitir la contraseña con la tecla `enter`.
+puedes omitir la contraseña con la tecla `Entrar`.
 
 <img style="text-align: center;" width="800" alt="007" src="https://user-images.githubusercontent.com/87685163/172236182-aae9ba04-341d-46a0-86ca-0ec1df896030.png">
 
@@ -75,7 +75,7 @@ Se desplegará una ventana como la siguiente y seleccionamos la opción **Versio
 <img width="800" alt="014" src="https://user-images.githubusercontent.com/87685163/172242028-e02a6b78-1288-4105-8217-9ccb295f4e2f.png">
 
 Pegamos la dirección que habíamos copiado de GitHub.
-Después de pegar la dirección, el nombre y la carpeta de origen se asignan por default, podemos cambiar esto si lo preferimos.
+Después de pegar la dirección, el nombre y la carpeta de origen se asignan por defecto, podemos cambiar esto si lo preferimos.
 Finalmente, daremos clic en **Create Project**.
 
 <img width="800" alt="012" src="https://user-images.githubusercontent.com/87685163/172243046-2cc8a26d-cfb4-4d98-84f0-cb9d127b3201.png">
