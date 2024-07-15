@@ -23,7 +23,7 @@ Queremos saber si las variables climáticas explican las diferencias de las vari
 1. Ajustar un modelo sin tomar en cuenta las variables climáticas.
 1. Revisamos si hay diferencias significativas entre temporadas para cada variable biológica.
 1. Para las variables biológicas en las que encontramos alguna diferencia significativa, ajustamos algunos modelos que sí incluyan el clima.
-1. Comparamos los AIC de cada modelo y decidimos cual es el mejor.
+1. Comparamos cada modelo usando el _Akaike Information Criterion_ y decidimos cual es el mejor.
 
 En el caso del **pico de la masa**, nos saltábamos el segundo paso.
 
@@ -41,7 +41,7 @@ Nos faltó actualizar esa sección con su versión automática.
 
 ## Respuesta
 
-![Imagen Checker](/assets/images/respuesta_incidente_glmm.png)
+![Imagen respuesta](/assets/images/respuesta_incidente_glmm.png)
 
 En la figura de arriba vemos a la función `write_results()` (línea 46).
 Esa es la que usamos para escribir la sección 8.1 del reporte.
@@ -61,16 +61,16 @@ Eso lo notaríamos porque el [canal de integración continua](https://bitbucket.
 
 ## Línea de tiempo
 
-- [2024-05-08](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/a69028d55c6eae3b19c2e3c85985bf5a47ccd9ba) Retomamos la tarea de glmm. Al hacer un cambio en el tex se volvían a calcular todos los resultados.
+- [2024-05-08](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/a69028d55c6eae3b19c2e3c85985bf5a47ccd9ba) Retomamos esta tarea. Al hacer un cambio en el tex se volvían a calcular todos los resultados.
 - [2024-05-23](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/ce3e5da7f52fd632f49c86e8cc490ea176260b89) Trabajamos en arreglar las dependencias de los `*.json` en el Makefile `🔨⚡ fix report ingredients`.
-- [2024-05-28](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/5523fd1a7a846c93fdd03ef03e47398ff5fee657) Automatizamos la escritura de todas las secciones. Le escribimos a YB informándole que "Existen diferencias entre temporadas para el pico de la masa".
-- [2024-05-29](https://mail.google.com/mail/u/0/#search/from%3A(braulio.rojas%40islas.org.mx)+to%3A(yuliana.bedolla%40islas.org.mx)+subject%3A(Diferencias+en+variables+biol%C3%B3gicas+y+de+alimentaci%C3%B3n+para+petrel+negro+en+Isla+San+Be)) Tuvimos la reunión con YB. Nos preguntó a qué se debía este nuevo resultado.
-- [2024-05-29](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/ea86ef107f16ba6cbcb22bccb5fb3fb04e834562). Implementamos un check para que no vuelva a suceder este error.
+- [2024-05-28](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/5523fd1a7a846c93fdd03ef03e47398ff5fee657) Automatizamos la escritura de todas las secciones. Le escribimos a Yuliana Bedolla informándole que "Existen diferencias entre temporadas para el pico de la masa".
+- [2024-05-29](https://mail.google.com/mail/u/0/#search/from%3A(braulio.rojas%40islas.org.mx)+to%3A(yuliana.bedolla%40islas.org.mx)+subject%3A(Diferencias+en+variables+biol%C3%B3gicas+y+de+alimentaci%C3%B3n+para+petrel+negro+en+Isla+San+Be)) Tuvimos la reunión con Yuliana Bedolla. Nos preguntó a qué se debía este nuevo resultado.
+- [2024-05-29](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/ea86ef107f16ba6cbcb22bccb5fb3fb04e834562). Implementamos una revisión para que no vuelva a suceder este error.
 
 ## Cinco "¿por qué?"
 1. ¿Por qué antes del reporte del 28 de mayo no hay diferencias en el **pico de la masa**?
     - Porque la sección de las diferencias entre temporadas del **pico de la masa** no se genera correctamente.
-1. ¿Por qué no se generaba correctamente la subsección del **pico de la masa**?
+1. ¿Por qué no se generaba correctamente la sección del **pico de la masa**?
     - Porque le pasábamos un JSON incompleto.
     No tenía información si había o no diferencias entre temporadas.
 1. ¿Por qué el JSON estaba incompleto?
@@ -85,7 +85,7 @@ Eso lo notaríamos porque el [canal de integración continua](https://bitbucket.
     - Porque había muchos pasos intermedios para generar la sección de resultados con información del JSON.
     El JSON se llamaba igual en todos los pasos intermedios.
 
-## Causa raiz
+## Causa raíz
 - No manejamos bien las dependencias en los objetivos del `Makefile`.
 - Es mala práctica reescribir los archivos, en este caso los JSON.
 
