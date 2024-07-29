@@ -26,6 +26,7 @@ Comparison
 confiabilidad
 Continuous
 cormorant
+CPUE
 create
 criterion
 DCCO
@@ -38,10 +39,12 @@ Docker
 Driven
 effects
 Efficiently
+Effort
 Emily
 encapsulación
 Enhancing
 enlistamos
+Eradication
 ETL
 evaluation
 Evaristo
@@ -64,6 +67,7 @@ IG
 in
 inferencial
 information
+Island
 json
 Kanban
 key
@@ -94,6 +98,8 @@ Nepo
 new
 NR
 null
+of
+on
 ONE
 Pairwise
 petrel
@@ -133,6 +139,7 @@ solution
 SSH
 Studio
 subcomando
+summary
 tags
 TDD
 testing

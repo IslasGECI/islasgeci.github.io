@@ -5,17 +5,17 @@ author: Memo, Nepo y Mario
 tags: equipo aprendizaje
 ---
 
-¿Cuál es la explicación detrás de que en el periodo dic 2023 a junio 2024 estamos en la fase roja de la gráfica?
+¿Cuál es la explicación detrás de que en el periodo diciembre 2023 a junio 2024 estamos en la fase roja de la gráfica?
 
 ![probabilidad de progreso](/assets/images/probabilidad_progreso.png)
 
-Lo que nos dice la gráfica probabilidad de progreso es que en el periodo dic 2023 a junio 2024 el reclutamiento nos está ganando.
+Lo que nos dice la gráfica probabilidad de progreso es que en el periodo diciembre 2023 a junio 2024 el reclutamiento nos está ganando.
 Si las capturas que obtenemos son las mismas pero lo logramos con poco esfuerzo, los datos nos dicen que hay más gatos.
 Si hacemos la misma cantidad de esfuerzo, pero las capturas son menores, los datos nos dicen que el número de gatos es menor.
 
 La gráfica de la probabilidad de progreso la obtenemos de ajustar una línea recta a 6 puntos consecutivos de la figura 3 del reporte "Effort and capture summary of Feral Cat Eradication Project on Socorro Island".
 
-En la imagen de abajo podemos ver que en las fechas de septiembre del 2022 a marzo de 2023 (línea 1) tenemos un periodo en el que el CPUE, por mes, aumentó.
+En la imagen de abajo podemos ver que en las fechas de septiembre del 2022 a marzo de 2023 (línea 1) tenemos un periodo en el que las Capturas Por Unidad de Esfuerzo (CPUE) aumentó.
 En este caso podemos ajustar una línea con pendiente positiva.
 La pendiente positiva nos indica que el reclutamiento le está ganando a las capturas.
 Por otro lado, en el periodo de febrero del 2023 a julio de 2023 (línea 2) el CPUE por mes disminuyó.
