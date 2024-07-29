@@ -18,11 +18,10 @@ La gráfica de la probabilidad de progreso la obtenemos de ajustar una línea re
 En la imagen de abajo podemos ver que en las fechas de septiembre del 2022 a marzo de 2023 (línea 1) tenemos un periodo en el que las Capturas Por Unidad de Esfuerzo (CPUE) aumentó.
 En este caso podemos ajustar una línea con pendiente positiva.
 La pendiente positiva nos indica que el reclutamiento le está ganando a las capturas.
-Por otro lado, en el periodo de febrero del 2023 a julio de 2023 (línea 2) el CPUE por mes disminuyó.
 
 ![probabilidad de progreso](/assets/images/cpue_ejemplo.png)
 
-
+Por otro lado, en el periodo de febrero del 2023 a julio de 2023 (línea 2) el CPUE por mes disminuyó.
 La pendiente de la recta en estos meses es negativa.
 Esto nos indica que las capturas son mayores que el reclutamiento.
 En el periodo de diciembre de 2023 a junio de 2024 (línea 3) tenemos un período en el que el reclutamiento es mayor que las capturas.
