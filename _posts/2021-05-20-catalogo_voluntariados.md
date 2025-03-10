@@ -57,3 +57,12 @@ Durante mi estancia, tuve el privilegio de apoyar en el proyecto
 [Numerical Estimation of Rodenticide Density] (https://github.com/IslasGECI/nerd).
 Fue un reto apasionante que me permitió aplicar mis habilidades 
 y conocimientos en un contexto real.
+
+## Maximiliano Vaca Montejano
+
+Me llamo Maximiliano y soy estudiante de Física.
+Estos últimos dos semestres colaboré con el equipo de Ciencia de Datos en GECI por medio de un proyecto de vinculación.
+Principalmente trabajamos en el modelo de Dimorfismo en Albatros de Laysan.
+Este voluntariado me permitió poner en practica una amplia variedad de herramientas estadísticas y computationales al servicio de la conservación de especies.
+Todo esto mediante guías de estilo, integración continua, programación en parejas y TDD.
+Los estándares bien definidos facilitan el trabajo en equipo y aseguran la reproducibilidad, mantenibilidad y escalabilidad de nuestro trabajo.
