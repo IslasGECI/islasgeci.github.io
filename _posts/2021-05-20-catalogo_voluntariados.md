@@ -67,4 +67,4 @@ Principalmente trabajamos en el modelo de [Dimorfismo en Albatros de Laysan](htt
 Con ayuda de la [API del Zenodo](https://github.com/IslasGECI/zenodo_api) construimos un canal de integración continua que actualiza los parámetros del modelo cuando tenemos nuevos datos morfométricos disponibles.
 Este voluntariado me permitió poner en practica una amplia variedad de herramientas estadísticas y computacionales al servicio de la conservación de especies.
 Todo esto mediante la implementacion de guías de estilo, integración continua, programación en parejas y TDD.
-Los estándares bien definidos nos facilitaron lacolaboración en equipo y aseguraron la reproducibilidad, mantenibilidad y escalabilidad de nuestro trabajo.
+Los estándares bien definidos nos facilitaron la colaboración en equipo y aseguraron la reproducibilidad, mantenibilidad y escalabilidad de nuestro trabajo.
