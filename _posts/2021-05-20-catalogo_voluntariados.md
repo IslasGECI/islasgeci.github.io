@@ -54,7 +54,7 @@ Ser parte del equipo de Ciencia de Datos fue una experiencia enriquecedora.
 Aquí, tuve la oportunidad de adentrarme en metodologías propias del campo de las ciencias
 computacionales y aprender sobre las buenas prácticas en el análisis de datos.
 Durante mi estancia, tuve el privilegio de apoyar en el proyecto 
-[Numerical Estimation of Rodenticide Density] (https://github.com/IslasGECI/nerd).
+[Numerical Estimation of Rodenticide Density](https://github.com/IslasGECI/nerd).
 Fue un reto apasionante que me permitió aplicar mis habilidades 
 y conocimientos en un contexto real.
 
