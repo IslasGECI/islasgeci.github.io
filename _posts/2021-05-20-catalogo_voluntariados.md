@@ -59,10 +59,12 @@ Fue un reto apasionante que me permitió aplicar mis habilidades
 y conocimientos en un contexto real.
 
 ## Maximiliano Vaca Montejano
+![Maximiliano Vaca](https://s.gravatar.com/avatar/2707496f9926449d9d84a2a68af18b198a46446d2625c4d2711a6014907b809d?s=150)
 
-Me llamo Maximiliano y soy estudiante de Física.
-Estos últimos dos semestres colaboré con el equipo de Ciencia de Datos en GECI por medio de un proyecto de vinculación.
-Principalmente trabajamos en el modelo de Dimorfismo en Albatros de Laysan.
-Este voluntariado me permitió poner en practica una amplia variedad de herramientas estadísticas y computationales al servicio de la conservación de especies.
-Todo esto mediante guías de estilo, integración continua, programación en parejas y TDD.
-Los estándares bien definidos facilitan el trabajo en equipo y aseguran la reproducibilidad, mantenibilidad y escalabilidad de nuestro trabajo.
+Hola, me llamo Maximiliano y soy estudiante de Física.
+Mis últimos dos semestres (2024-2 y 2025-1) colaboré con el equipo de Ciencia de Datos en GECI por medio de un proyecto de vinculación.
+Principalmente trabajamos en el modelo de [Dimorfismo en Albatros de Laysan](https://github.com/IslasGECI/dimorfismo_py).
+Con ayuda de la [API del Zenodo](https://github.com/IslasGECI/zenodo_api) construimos un canal de integración continua que actualiza los parámetros del modelo cuando tenemos nuevos datos morfométricos disponibles.
+Este voluntariado me permitió poner en practica una amplia variedad de herramientas estadísticas y computacionales al servicio de la conservación de especies.
+Todo esto mediante la implementacion de guías de estilo, integración continua, programación en parejas y TDD.
+Los estándares bien definidos nos facilitaron lacolaboración en equipo y aseguraron la reproducibilidad, mantenibilidad y escalabilidad de nuestro trabajo.
