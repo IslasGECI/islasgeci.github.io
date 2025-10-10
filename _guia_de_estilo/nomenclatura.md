@@ -8,6 +8,7 @@ description: Cómo nombramos las cosas
 ## General
 
 - Los nombres son en inglés
+- Los nombres son descriptivos y sin abreviaturas (ver excepciones abajo).
 
 ## Archivos de datos
 
@@ -91,7 +92,6 @@ entiende que el adjetivo se refiere al repositorio.
 
 ## Variables
 
-- Deben ser nombres descriptivos y sin abreviaturas (ver excepciones abajo).
 - Si la variable representa el número total de elementos de un conjunto usamos el prefijo `n`.
   Ejemplos: `n_files`, `n_dogs`
 - Si la variable se usa para iterar usamos el prefijo `i`. Ejemplo: `for i_dog = 1:n_dogs, ... ,
