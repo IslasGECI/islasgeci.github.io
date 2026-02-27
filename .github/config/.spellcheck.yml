@@ -1,5 +1,20 @@
 matrix:
-- name: Markdown
+- name: Spellcheck English
+  aspell:
+    lang: en
+    ignore-case: true
+    mode: markdown
+  dictionary:
+    wordlists:
+    - .github/config/.wordlist.txt
+    encoding: utf-8
+  sources:
+  - '_posts/2024-*.md'
+  - '_posts/2023-*.md'
+  - '_ports/2022-*.md'
+  - '_ports/2021-*.md'
+  default_encoding: utf-8
+- name: Spellcheck Spanish
   aspell:
     lang: es
     ignore-case: true
