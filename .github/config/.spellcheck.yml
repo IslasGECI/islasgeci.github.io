@@ -1,16 +1,5 @@
 matrix:
-- name: Spellcheck English
-  aspell:
-    lang: en
-    ignore-case: true
-    mode: markdown
-  dictionary:
-    wordlists:
-    - .github/config/.wordlist.txt
-    encoding: utf-8
-  sources:
-  - '_posts/202*.md'
-- name: Spellcheck Spanish
+- name: Markdown
   aspell:
     lang: es
     ignore-case: true

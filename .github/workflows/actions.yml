@@ -37,4 +37,4 @@ jobs:
       name: Spellcheck
       with:
         config_path: .github/config/.spellcheck.yml
-        task_name: Spellcheck Spanish
+        task_name: Markdown
