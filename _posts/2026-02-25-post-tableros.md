@@ -19,6 +19,8 @@ Los tableros ofrecen diversos estilos y formatos.
 Cada visualización incluye opciones específicas de configuración.
 Estas características otorgan un control detallado sobre los datos.
 Grafana simplifica la obtención de información clave optimizando el rendimiento del análisis.
+![Grafana dashboard](/assets/images/grafana_dashboard.png)
+
 
 ## Metabase
 Metabase proporciona un sistema de código abierto.
@@ -32,6 +34,7 @@ El usuario elige el formato de presentación visual.
 La aplicación genera el panel automáticamente.
 Metabase elimina la barrera del lenguaje SQL.
 Esta ventaja facilita el acceso a personas inexpertas.
+![Metabase dashboard](/assets/images/Metabase_dashboard.png)
 
 ## Redash
 Redash ofrece un sistema de código abierto.
@@ -40,5 +43,6 @@ El programa incluye un potente lenguaje de consultas resolviendo múltiples situ
 El sistema conecta diversas fuentes de datos. Esta integración genera múltiples visualizaciones configurables.
 Redash protege el intercambio de información.
 Un solo clic comparte el tablero con el equipo.
+![Redash dashboard](/assets/images/redash_dashboard.png)
 
 
