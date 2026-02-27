@@ -9,11 +9,7 @@ matrix:
     - .github/config/.wordlist.txt
     encoding: utf-8
   sources:
-  - '_posts/2024-*.md'
-  - '_posts/2023-*.md'
-  - '_ports/2022-*.md'
-  - '_ports/2021-*.md'
-  default_encoding: utf-8
+  - '_posts/202*.md'
 - name: Spellcheck Spanish
   aspell:
     lang: es
@@ -24,8 +20,6 @@ matrix:
     - .github/config/.wordlist.txt
     encoding: utf-8
   sources:
-  - '_posts/2024-*.md'
-  - '_posts/2023-*.md'
-  - '_ports/2022-*.md'
-  - '_ports/2021-*.md'
-  default_encoding: utf-8
+  - '_posts/202*.md'
+
+default_encoding: utf-8
