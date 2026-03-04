@@ -43,7 +43,7 @@ docker ps --all --quiet #solo muestra las ID.
 ```
 Ahora, para borrar todos los contenedores, utilizaremos la siguiente función con el comando anterior como argumento.
 ```shell
-docker rm $(docker ps --all --quiet) #borra todo
+docker rm $(docker ps --all --quiet) #borra todo.
 ```
 El subcomando `docker rm` remueve los contenedores.
 Ya habiendo realizado esto, podemos volver a abrir el contenedor en VS Code y estará resuelto el problema: nuestro directorio de trabajo será `/workdir/`.
