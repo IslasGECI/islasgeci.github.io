@@ -32,8 +32,11 @@ Hubo alertas en todas las cartas, estuvimos por debajo del promedio.
 Teníamos agendada la evaluación del desempeño del equipo y decidimos hacer las cartas de control.
 Hicimos 4 cartas de control: el promedio de lambda, el promedio de W, el rango de la lambda y el rango de W.
 - En el **promedio de lambda**, tuvimos **8 puntos por debajo del promedio** el 30 de octubre de 2023.
-- En el **promedio de W**, la alerta comienza el 13 de octubre y termina el 01 de marzo de 2023. El criterio de la alerta fue de **1 punto por arriba de tres sigmas**. Hay una **segunda alerta** el 2 de febrero de 2024 con **8 puntos por debajo del promedio**.
-- En el **rango de lambda** la alerta ocurrió el 22 de diciembre de 2023. El criterio de la alerta fue **8 puntos por debajo del promedio**.
+- En el **promedio de W**, la alerta comienza el 13 de octubre y termina el 01 de marzo de 2023.
+El criterio de la alerta fue de **1 punto por arriba de tres sigmas**.
+Hay una **segunda alerta** el 2 de febrero de 2024 con **8 puntos por debajo del promedio**.
+- En el **rango de lambda** la alerta ocurrió el 22 de diciembre de 2023.
+El criterio de la alerta fue **8 puntos por debajo del promedio**.
 - En el **rango de W**, el 9 de febrero de 2024 hay una alerta de **8 puntos por debajo del promedio**.
 
 ## Respuesta
@@ -75,9 +78,11 @@ Una vez que teníamos el número necesario, revisamos cuáles eran las tareas m�
     - Porque comenzamos a tener un número menor de tarjetas terminadas.
 1. ¿Por qué disminuyó el número de tarjetas terminadas?
     - En el Kanban ya no contamos el trabajo en el mantenimiento de nuestras herramientas ni del trabajo administrativo.
-    - La proporción de tareas clase 1 en este equipo es 17% en el "equipo anterior" teníamos 25%. Las tareas clase 3 de los últimos dos años es 31% antes teníamos 13%. Sospechamos que estamos incluyendo trabajo clase 1 en las tarjetas clase 3.
+    - La proporción de tareas clase 1 en este equipo es 17% en el "equipo anterior" teníamos 25%.
+    Las tareas clase 3 de los últimos dos años es 31% antes teníamos 13%.
+    Sospechamos que estamos incluyendo trabajo clase 1 en las tarjetas clase 3.
     - En las 4 semanas previas a la primera alerta:
-        - Experimentamos con microservicios. 
+        - Experimentamos con microservicios.
         Durante tres semanas invertimos tiempo en implementar el microservicio que genera la gráfica de semáforo.
         En esas tres semanas solamente tuvimos una estrella en terminado, con cuatro tarjetas terminadas.
         - Cambiamos el servidor de desarrollo y el provisionador a Azure.

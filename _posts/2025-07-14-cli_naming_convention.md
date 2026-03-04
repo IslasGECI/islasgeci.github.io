@@ -5,7 +5,8 @@ author: Evaristo
 tags: progra
 ---
 
-This document defines the naming convention for the ecological data analysis CLI developed by the GECI Data Science team. Use this convention to ensure consistency, predictability, and clarity across all CLI commands.
+This document defines the naming convention for the ecological data analysis CLI developed by the GECI Data Science team.
+Use this convention to ensure consistency, predictability, and clarity across all CLI commands.
 
 ---
 
@@ -17,7 +18,8 @@ Follow this naming pattern for all command names:
 <verb>_<method|modifier*>_<variable|object>_<taxon?>_<region?>_<season?>_<format?>
 ```
 
-* Components in angle brackets `<>` are positional. Maintain this order consistently.
+* Components in angle brackets `<>` are positional.
+Maintain this order consistently.
 * Components with an asterisk `*` are optional and may be embedded in the command name.
 * Components with a question mark `?` are optional and must be passed as CLI arguments rather than embedded.
 * Use underscores to separate components.
@@ -58,7 +60,8 @@ Use only these verbs unless a new, general-purpose action is required.
 
 ## 3. Method or Modifier (Optional Second Component)
 
-Include a method or modifier **only** if it adds meaningful distinction or disambiguates the command. Use lowercase with underscores to combine multiple words.
+Include a method or modifier **only** if it adds meaningful distinction or disambiguates the command.
+Use lowercase with underscores to combine multiple words.
 
 ### Examples
 
