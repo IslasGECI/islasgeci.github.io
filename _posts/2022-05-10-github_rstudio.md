@@ -38,7 +38,7 @@ Al finalizar, se mostrará lo siguiente.
 
 Ahora vamos a acceder a nuestra llave para copiarla y asociarla a GitHub.
 Ejecutaremos el siguiente comando `cat ~/.ssh/id_rsa.pub`.
-Copiamos desde **'ssh...** hasta la terminación **.local'**
+Copiamos desde **'ssh...** hasta la terminación **.local'**.
 
 <img width="800" alt="011" src="https://user-images.githubusercontent.com/87685163/172238142-22c0d7d0-27cc-4815-a5d7-e46afd325169.png">
 
@@ -64,8 +64,7 @@ A continuación, buscaremos el repositorio que vamos a clonar.
 
 <img width="800" alt="002" src="https://user-images.githubusercontent.com/87685163/172240353-eb3604cd-3db7-4068-8353-9b5072f77da3.png">
 
-Daremos clic en la opción **Code** que se marca en verde, y después elegimos la 
-opción **SSH** y copiamos la dirección con el botón que se encuentra a lado.
+Daremos clic en la opción **Code** que se marca en verde, y después elegimos la opción **SSH** y copiamos la dirección con el botón que se encuentra a lado.
 
 <img width="800" alt="010" src="https://user-images.githubusercontent.com/87685163/172240971-afc6d749-f818-4fc6-992f-0aeea0604b4e.png">
 
@@ -83,10 +82,8 @@ Finalmente, daremos clic en **Create Project**.
 
 <img width="800" alt="012" src="https://user-images.githubusercontent.com/87685163/172243046-2cc8a26d-cfb4-4d98-84f0-cb9d127b3201.png">
 
-Ahora podemos ver el nombre del proyecto en la esquina superior derecha, señal de que el proyecto 
-está configurado y listo para trabajar con el repositorio.
-También, podemos notar que automáticamente cambiamos al directorio donde están los archivos del repositorio y diferentes botones nos permiten hacer 
-**Pull**, **Push**, y **Commit**.
+Ahora podemos ver el nombre del proyecto en la esquina superior derecha, señal de que el proyecto está configurado y listo para trabajar con el repositorio.
+También, podemos notar que automáticamente cambiamos al directorio donde están los archivos del repositorio y diferentes botones nos permiten hacer **Pull**, **Push**, y **Commit**.
 
 <img width="800" alt="019" src="https://user-images.githubusercontent.com/87685163/172243832-0228c9c8-cda6-44f2-b780-27d5ce413152.png">
 
