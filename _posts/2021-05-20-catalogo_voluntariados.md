@@ -51,8 +51,7 @@ Los resultados del proyecto se encuentran en el [repositorio de Dimorfismo](http
 
 Mi nombre es Martha Paola Jiménez Martínez y soy estudiante de la Licenciatura en Matemáticas
 Aplicadas.
-Colaboré con el equipo de Ciencias de Datos en GECI, mediante un proyecto de vinculación
-por parte de la UABC.
+Colaboré con el equipo de Ciencias de Datos en GECI, mediante un proyecto de vinculación por parte de la UABC.
 El nombre del proyecto es: “Análisis estadístico de la población de cormorán en las islas del Pacífico”.
 Durante mi voluntariado desarrollé mis habilidades en temas selectos de estadística y análisis de datos.
 
