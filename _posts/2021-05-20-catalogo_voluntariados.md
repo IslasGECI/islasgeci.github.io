@@ -32,9 +32,9 @@ Fue un reto apasionante que me permitió aplicar mis habilidades y conocimientos
 ## Lizeth Margarita Reyes García
 ![Lizeth Reyes](https://s.gravatar.com/avatar/19bb6b6f2b6483346a4e0c1a1110b68b?s=150)
 
-Mi nombre es Lizeth Margarita Reyes García y soy pasante de Ingeniería de Recursos Naturales 
-Renovables por la Universidad Autónoma Chapingo.
-Colaboré con el equipo de Ciencias de Datos en GECI, en la curación de las bases de datos del proyecto de restauración de Isla Guadalupe.
+Mi nombre es Lizeth Margarita Reyes García y soy pasante de Ingeniería de Recursos Naturales Renovables por la Universidad Autónoma Chapingo.
+Colaboré con el equipo de Ciencias de Datos en GECI, en la curación de las bases de datos
+del proyecto de restauración de Isla Guadalupe.
 Durante el proyecto puse en práctica mis conocimientos de Git y uso de Docker.
 
 ## Francisco Alejandro Padilla Gomez
