@@ -24,7 +24,7 @@ Los estándares bien definidos nos facilitaron la colaboración en equipo y aseg
 Durante tal travesía académica me especialicé en el mundo de las neurociencias y el análisis de bio-señales.
 Dar un salto hacia la formación complementaria fue fundamental para enriquecer mi perspectiva y habilidades en el ámbito multidisciplinario.
 Ser parte del equipo de Ciencia de Datos fue una experiencia enriquecedora.
-Aquí, tuve la oportunidad de adentrarme en metodologías propias del campo de las ciencias computacionales y aprender sobre las buenas prácticas en el análisis de datos. 
+Aquí, tuve la oportunidad de adentrarme en metodologías propias del campo de las ciencias computacionales y aprender sobre las buenas prácticas en el análisis de datos.
 Durante mi estancia, tuve el privilegio de apoyar en el proyecto [Numerical Estimation of Rodenticide Density](https://github.com/IslasGECI/nerd).
 Fue un reto apasionante que me permitió aplicar mis habilidades y conocimientos en un contexto real.
 
@@ -35,7 +35,7 @@ Fue un reto apasionante que me permitió aplicar mis habilidades y conocimientos
 Mi nombre es Lizeth Margarita Reyes García y soy pasante de Ingeniería de Recursos Naturales 
 Renovables por la Universidad Autónoma Chapingo.
 Colaboré con el equipo de Ciencias de Datos en GECI, en la curación de las bases de datos del proyecto de restauración de Isla Guadalupe.
-Durante el proyecto puse en práctica mis conocimientos de Git y uso de Docker. 
+Durante el proyecto puse en práctica mis conocimientos de Git y uso de Docker.
 
 ## Francisco Alejandro Padilla Gomez
 ![Imagen Alejandro](https://s.gravatar.com/avatar/4bac14a92ea7d870a9c568879448444d?s=150)
@@ -49,8 +49,7 @@ Los resultados del proyecto se encuentran en el [repositorio de Dimorfismo](http
 ## Martha Paola Jiménez Martínez
 ![Imagen Martha](https://www.gravatar.com/avatar/c1c4f3ec6f19a0ee62ba529f5daaade0?s=150)
 
-Mi nombre es Martha Paola Jiménez Martínez y soy estudiante de la Licenciatura en Matemáticas
-Aplicadas.
+Mi nombre es Martha Paola Jiménez Martínez y soy estudiante de la Licenciatura en Matemáticas Aplicadas.
 Colaboré con el equipo de Ciencias de Datos en GECI, mediante un proyecto de vinculación por parte de la UABC.
 El nombre del proyecto es: “Análisis estadístico de la población de cormorán en las islas del Pacífico”.
 Durante mi voluntariado desarrollé mis habilidades en temas selectos de estadística y análisis de datos.

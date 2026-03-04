@@ -5,7 +5,7 @@ author: Memo, Nepo y Mario
 tags: equipo aprendizaje
 ---
 ## Descripción del problema
-- El `Makefile` del repo `lambdas_aves_marinas` tenía un objetivo que se modificaba a sí mismo. Esto hace que el objetivo siempre se tenga que generar aunque los ingredientes no se modificaron. 
+- El `Makefile` del repositorio `lambdas_aves_marinas` tenía un objetivo que se modificaba a sí mismo. Esto hace que el objetivo siempre se tenga que generar aunque los ingredientes no se modificaron. 
 
 - Con esto identificamos otros problemas derivados del uso incorrecto del `Makefile` y que podríamos cambiar para mejorar su uso.
 
@@ -18,7 +18,7 @@ tags: equipo aprendizaje
 
 ## Propuestas de solución
 - Colocar un ingrediente por línea. Esto ayuda a la legibilidad para los humanos.
-- Los _scripts_ que generemos tienen que tener una sola salida. Los futuros _scripts_ tienen que seguir esta idea y separar los que identifiquemos que tengan dos salidas.
+- Los archivos de código que generemos tienen que tener una sola salida. Los futuros archivos de código tienen que seguir esta idea y separar los que identifiquemos que tengan dos salidas.
 - Sobre las abreviaturas, decidimos dejar algunas por convención `$<` y `$@` siempre  y cuando sea una receta corta con un solo ingrediente y objetivo. Evitamos el uso del resto de las abreviaturas.
 - Si la variable representa un solo archivo, usamos el nombre del archivo y no la variable. 
 - Usamos variables solo cuando representan a más de un archivo.
@@ -37,7 +37,7 @@ Abajo podemos ver algunos ejemplo de nuestros intentos.
 
 ## `maya_k9`
 ### Ventajas
-- Construímos solo lo que necesita la receta.
+- Construimos solo lo que necesita la receta.
 
 ### Desventajas:
 - Cada prueba corre todo el reporte. Consume mucho tiempo y recursos para reportes grandes (por ejemplo: lambdas_aves_marinas)
