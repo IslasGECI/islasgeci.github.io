@@ -33,16 +33,14 @@ Fue un reto apasionante que me permitió aplicar mis habilidades y conocimientos
 ![Lizeth Reyes](https://s.gravatar.com/avatar/19bb6b6f2b6483346a4e0c1a1110b68b?s=150)
 
 Mi nombre es Lizeth Margarita Reyes García y soy pasante de Ingeniería de Recursos Naturales Renovables por la Universidad Autónoma Chapingo.
-Colaboré con el equipo de Ciencias de Datos en GECI, en la curación de las bases de datos
-del proyecto de restauración de Isla Guadalupe.
+Colaboré con el equipo de Ciencias de Datos de GECI en la curación de las bases de datos del proyecto de restauración de Isla Guadalupe.
 Durante el proyecto puse en práctica mis conocimientos de Git y uso de Docker.
 
 ## Francisco Alejandro Padilla Gomez
 ![Imagen Alejandro](https://s.gravatar.com/avatar/4bac14a92ea7d870a9c568879448444d?s=150)
 
 Mi nombre es Francisco Alejandro Padilla Gomez y soy estudiante de la Licenciatura en Matemáticas Aplicadas.
-Colaboré con el equipo de Ciencias de Datos en GECI, donde por parte de la UABC realicé
-un proyecto de vinculación.
+Colaboré con el equipo de Ciencias de Datos de GECI donde por parte de la UABC realicé un proyecto de vinculación.
 Durante el proyecto no solo puse en práctica mis conocimientos de estadística, sino que igualmente, aprendí sobre muchas herramientas computacionales.
 Los resultados del proyecto se encuentran en el [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
 
