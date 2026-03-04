@@ -26,7 +26,7 @@ La dependencia no obedece las metodologías planteadas por el grupo.
 La primera tarea que realizamos fue la eliminar dicha dependencia en las pruebas.
 
 <!-- Desarrollo del problema -->
-El primer archivo analizado fue `/tests/testthat/tests_01_create_parameter_logistic_model_LAAL.R`.
+El primer archivo analizado fue `/tests/testthat tests_01_create_parameter_logistic_model_LAAL.R`.
 El archivo contiene la instrucción:
 ```R
 source("src/01_create_parameter_logistic_model_LAAL.R")

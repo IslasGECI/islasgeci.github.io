@@ -98,8 +98,7 @@ Esto significa que estos archivos no tienen ningún seguimiento dentro de nuestr
 Para esto, hay que agregar los archivos seleccionando las casillas.
 Esto hará que las casillas cambien a una A, lo que indica que los archivos están siendo agregados.
 El **_mensaje de consignación_** deberá tener un **_título_** y una **_descripción_**.
-El titulo será escrito de forma **_imperativa_**, comenzando con un **_verbo_**, y en **_inglés_**, 
-mientras que la descripción explicará el **_porqué se realizaron esos cambios_**.
+El titulo será escrito de forma **_imperativa_**, comenzando con un **_verbo_**, y en **_inglés_**, mientras que la descripción explicará el **_porqué se realizaron esos cambios_**.
 
 <img width="800" alt="Captura de Pantalla 2022-05-05 a la(s) 2 30 35" src="https://user-images.githubusercontent.com/87685163/166879559-12f26800-0fb0-4cf1-a89e-80ed09104b49.png">
 
