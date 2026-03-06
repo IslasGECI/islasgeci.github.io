@@ -8,7 +8,10 @@ tags: visualizacion
 Los tableros de visualización resumen la información clave de un proyecto.
 Múltiples plataformas permiten crear estos recursos.
 Grafana, Metabase y Redash dominan el mercado actual.
-Este artículo compara estas tres herramientas.
+En este articulo compararemos estas tres opciones considerando:
+- Código abierto
+- Se pueda alimentar el tablero por medio de una API (Data Resources)
+- Sea una GUI delgada
 
 ## Grafana
 Grafana facilita la creación de tableros de visualización.
@@ -40,9 +43,18 @@ Esta ventaja facilita el acceso a personas inexpertas.
 Redash ofrece un sistema de código abierto.
 Esta herramienta asiste a los desarrolladores.
 El programa incluye un potente lenguaje de consultas resolviendo múltiples situaciones analíticas.
-El sistema conecta diversas fuentes de datos. Esta integración genera múltiples visualizaciones configurables.
+El sistema conecta diversas fuentes de datos.
+Esta integración genera múltiples visualizaciones configurables.
 Redash protege el intercambio de información.
 Un solo clic comparte el tablero con el equipo.
 ![Redash dashboard](/assets/images/redash_dashboard.png)
+
+## Comparativa
+
+| Tablero | Alimentación mediante API | Paradigma | Capacidad de transformar datos | Facilidad para lanzar |
+| :---: | :---: | :---: | :---: | :---: |
+| Grafana | [✅](https://grafana.com/blog/grafana-json-api-how-to-import-third-party-data-sources-in-grafana-cloud/) A través de terceros | Tableros de observabilidad | ⚠️ Limitada (Via SQL y funciones nativas) | ✅ Muy fácil (un comando Docker) |
+| Metabase | ❌ No de forma nativa | Analíticas de auto-servicio | ✅ Buena (Vía SQL/Python) | ⭐ Máxima (un archivo JAR o Docker) |
+| Redash | [✅](https://redash.io/help/data-sources/querying/json-api/) | Herramientas analíticas de SQL | ⭐ Muy limitada (Vía SQL) | ⚠️ Compleja (requiere múltiples servicios y dependencias) |
 
 
