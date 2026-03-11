@@ -28,7 +28,7 @@ En la imagen podemos notar que la terminal no despliega ninguna lista de llaves 
 <img style="text-align: center;" width="800" alt="001" src="https://user-images.githubusercontent.com/87685163/171294259-9afe7bbd-227e-4531-b98e-871f9aaa7c24.png">
 
 Después, vamos a crear nuestra llave ejecutando el siguiente comando `ssh-keygen`.
-En seguida, se indica la carpeta en donde se almacenará la llave y nos pedirá una contraseña; si lo prefieres puedes omitir la contraseña con la tecla `Entrar`.
+En seguida, se indica la carpeta donde se almacenará la llave y nos pedirá una contraseña; se puede omitir la contraseña usando la tecla `Entrar`.
 
 <img style="text-align: center;" width="800" alt="007" src="https://user-images.githubusercontent.com/87685163/172236182-aae9ba04-341d-46a0-86ca-0ec1df896030.png">
 
