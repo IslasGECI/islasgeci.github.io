@@ -27,7 +27,7 @@ Maintain this order consistently.
 ### Example
 
 ```bash
-write_mean_mass --input-path data/mass.csv --output-path out/mean_mass.json --taxon LAAL --region san_benedicto --season 2020 --format json
+write_mean_mass --input-path data/mass.csv --output-path out/mean_mass.json --taxon LAAL --region san_benedicto --season 2020 --format json # Genera el archivo.
 ```
 
 ---
