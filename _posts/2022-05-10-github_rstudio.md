@@ -64,7 +64,8 @@ A continuación, buscaremos el repositorio que vamos a clonar.
 
 <img width="800" alt="002" src="https://user-images.githubusercontent.com/87685163/172240353-eb3604cd-3db7-4068-8353-9b5072f77da3.png">
 
-Daremos clic en la opción **Code** que se marca en verde, y después elegimos la opción **SSH** y copiamos la dirección con el botón que se encuentra a lado.
+Daremos clic en la opción **Code** que se marca en verde.
+Después elegimos la opción **SSH** y copiamos la dirección con el botón que se encuentra a lado.
 
 <img width="800" alt="010" src="https://user-images.githubusercontent.com/87685163/172240971-afc6d749-f818-4fc6-992f-0aeea0604b4e.png">
 
