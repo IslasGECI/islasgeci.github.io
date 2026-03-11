@@ -106,7 +106,8 @@ Notaremos que al agregar una línea de código se marca en color verde, en cambi
 
 <img width="800" alt="Captura de Pantalla 2022-05-05 a la(s) 2 34 17" src="https://user-images.githubusercontent.com/87685163/166880363-cd7db233-b204-4405-b21c-600fa7d972f8.png">
  
-Haremos nuestra primera consignación y **RStudio** nos dará un aviso de lo que esta pasando.El mensaje significa que nuestro repositorio tiene cambios que aún no los tiene el repositorio remoto.
+Haremos nuestra primera consignación y **RStudio** nos dará un aviso de lo que esta pasando.
+El mensaje significa que nuestro repositorio tiene cambios que aún no los tiene el repositorio remoto.
 Entonces, el último paso es empujar los cambios con el botón **Push** que se encuentra en la parte superior derecha.
  <img width="800" alt="Captura de Pantalla 2022-07-27 a la(s) 14 24 49" src="https://user-images.githubusercontent.com/87685163/181358933-46c79815-5c65-4b43-8b49-b09e5e4fbefd.png">
  
