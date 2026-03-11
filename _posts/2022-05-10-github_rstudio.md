@@ -83,7 +83,8 @@ Finalmente, daremos clic en **Create Project**.
 
 <img width="800" alt="012" src="https://user-images.githubusercontent.com/87685163/172243046-2cc8a26d-cfb4-4d98-84f0-cb9d127b3201.png">
 
-Ahora podemos ver el nombre del proyecto en la esquina superior derecha, señal de que el proyecto está configurado y listo para trabajar con el repositorio.
+Ahora podemos ver el nombre del proyecto en la esquina superior derecha.
+Esto es señal de que el proyecto está configurado y listo para trabajar con el repositorio.
 También, podemos notar que automáticamente cambiamos al directorio donde están los archivos del repositorio y diferentes botones nos permiten hacer **Pull**, **Push**, y **Commit**.
 
 <img width="800" alt="019" src="https://user-images.githubusercontent.com/87685163/172243832-0228c9c8-cda6-44f2-b780-27d5ce413152.png">
