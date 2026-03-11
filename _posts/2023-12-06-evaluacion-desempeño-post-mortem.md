@@ -64,12 +64,12 @@ Una vez que teníamos el número necesario, revisamos cuáles eran las tareas m�
 - Podemos agregar al corte la revisión de las cartas de control.
 
 ## Línea de tiempo
-- [18-09-2023] Regreso a oficinas
-- [18-09-2023 al 29-09-2023] Experimentos con microservicios
-- [18-09-2023] NR trabajó en casa jueves y viernes para evitar contagios en oficina
-- [09-10-2023] Levantamos servidor en Azure y día económico Memo
-- [23-10-2023] Levantamos el provisionador en Azure
-- [17-11-2023] Reunión con Ale Fabila y taller Looker Studio
+- [18-09-2023] Regreso a oficinas.
+- [18-09-2023 al 29-09-2023] Experimentos con microservicios.
+- [18-09-2023] NR trabajó en casa jueves y viernes para evitar contagios en oficina.
+- [09-10-2023] Levantamos servidor en Azure y día económico Memo.
+- [23-10-2023] Levantamos el provisionador en Azure.
+- [17-11-2023] Reunión con Ale Fabila y taller Looker Studio.
 
 ## Cinco "por qué"s
 1. ¿Por qué estamos fuera de control?
