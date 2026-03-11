@@ -1,5 +1,5 @@
 ---
-usemathjax: true
+usemathjax: true #Importar libreria que nos permite utilizar latex
 layout: post
 title: "Predicción del número de individuos remanentes"
 author: Nepo

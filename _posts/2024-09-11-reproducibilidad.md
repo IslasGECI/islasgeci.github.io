@@ -14,8 +14,8 @@ Es un proceso continuo que requiere un esfuerzo constante y la adaptación de he
 
 A continuación, presentamos cinco de nuestras referencias favoritas sobre la reproducibilidad en la ciencia:
 
-- [Pasos iniciales hacia una investigación reproducible](https://kbroman.org/steps2rr/)
-- [Diez reglas simples para escribir archivos Docker para ciencia de datos reproducible](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008316)
-- [Guía para principiantes sobre cómo realizar investigaciones reproducibles](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/bes2.1801)
-- [Creación de canales analíticos reproducibles con R](https://raps-with-r.dev/)
-- [No sólo para programadores: cómo GitHub puede acelerar la investigación colaborativa y reproducible en ecología y evolución](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14108)
+- [Pasos iniciales hacia una investigación reproducible](https://kbroman.org/steps2rr/).
+- [Diez reglas simples para escribir archivos Docker para ciencia de datos reproducible](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008316).
+- [Guía para principiantes sobre cómo realizar investigaciones reproducibles](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/bes2.1801).
+- [Creación de canales analíticos reproducibles con R](https://raps-with-r.dev/).
+- [No sólo para programadores: cómo GitHub puede acelerar la investigación colaborativa y reproducible en ecología y evolución](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14108).
