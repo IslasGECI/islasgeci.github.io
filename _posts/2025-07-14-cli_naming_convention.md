@@ -99,9 +99,10 @@ Use standardized variable names to ensure semantic consistency across commands.
 | `time`                    | Time of observation                     |
 | `utm_zone`                | UTM projection zone                     |
 
-This list is an incomplete (and possibly outdated) subset of standard names. Refer to the current list at:
+This list is an incomplete (and possibly outdated) subset of standard names.
+Refer to the current list at:
 
-- [Nombre estándar](https://islas.dev/protocolo_basico/standard_name.html)
+- [Nombre estándar](https://islas.dev/protocolo_basico/standard_name.html).
 
 ---
 
@@ -149,10 +150,10 @@ This structure supports modularity and improves discoverability.
 
 ## 8. Guidelines for Adding New Commands
 
-1. **Start with a standard verb.**
-2. **Add a method or modifier only when it improves clarity or resolves ambiguity.**
-3. **Use a documented, standard variable.**
-4. **Pass `taxon`, `region`, `season`, and `format` as CLI arguments.**
-5. **Avoid unnecessary duplication or verbosity.**
-6. **Ensure the command name communicates the main action and data scope.**
-7. **Test the command for consistency with naming and execution patterns.**
+1. **Start with a standard verb.**.
+2. **Add a method or modifier only when it improves clarity or resolves ambiguity.**.
+3. **Use a documented, standard variable.**.
+4. **Pass `taxon`, `region`, `season`, and `format` as CLI arguments.**.
+5. **Avoid unnecessary duplication or verbosity.**.
+6. **Ensure the command name communicates the main action and data scope.**.
+7. **Test the command for consistency with naming and execution patterns.**.
