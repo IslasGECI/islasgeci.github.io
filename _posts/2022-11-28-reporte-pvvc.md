@@ -29,7 +29,7 @@ La primera tarea que realizamos fue la eliminar dicha dependencia en las pruebas
 El primer archivo analizado fue `/tests/testthat tests_01_create_parameter_logistic_model_LAAL.R`.
 El archivo contiene la instrucción:
 ```R
-source("src/01_create_parameter_logistic_model_LAAL.R")
+source("src/01_create_parameter_logistic_model_LAAL.R") # fuente.
 ```
 la cual crea la dependencia con la carpeta `src/`.
 Revisamos el archivo encontrando que era de una longitud mayor a la esperada.
@@ -38,9 +38,7 @@ Debido a la longitud de la función, se agregó como objetivo su refactorizació
 Debido a la refactorización, fue necesario crear nuevas pruebas para las funciones hechas.
 
 <!-- Pruebas -->
-Las pruebas realizadas para las funciones resultantes de la refactorización se localizan en el archivo.
-`/tests/testthat/tests_regretion_to_data_frame_coefficients_function.R` y las funciones en el archivo.
-`/R/regretion_to_data_frame_coefficients_function.R`.
+Las pruebas realizadas para las funciones resultantes de la refactorización se localizan en el archivo `/tests/testthat/tests_regretion_to_data_frame_coefficients_function.R` y las funciones en el archivo `/R/regretion_to_data_frame_coefficients_function.R`.
 Comenzamos entendiendo los procesos llevados acabo en la función "grande" para posteriormente, separar dichos procesos en funciones diferentes.
 La refactorización comenzó con las funciones `fit_null_model()` `fit_complete_model()` y `fit_stepwise`.
 Las funciones `fit_null_model()` `fit_complete_model()` no tuvieron problemas.
@@ -62,8 +60,8 @@ Esto nos dio una oportunidad de crear nuevas pruebas y asegurar el código de cu
 <!-- Conclusión -->
 Después del cambio de nombres comenzó la refactorización completa de la función `get_best_json_for_logistic_model()`.
 En su gran mayoría fueron instrucciones sencillas las cuales fueron separables.
-El eje se centró en ¿Cómo hago la mejor prueba?
-De esta pregunta anterior se derivaron ¿Qué hace la función? ¿Qué se espera que devuelva? ¿Usa variables que utilizamos mas adelante?.
+El eje se centró en ¿Cómo hago la mejor prueba?.
+De esta pregunta anterior se derivaron ¿Qué hace la función?, ¿Qué se espera que devuelva?, ¿Usa variables que utilizamos mas adelante?.
 El trabajo realizado durante mi periodo en GECI fue muy interesante y me integré a una nueva cultura.
 DevOps es una cultura interesante, la implementación de esta en equipos diferentes será diferente.
 Sin duda, nuestro equipo tuvo una gran guía en la adaptación cultural y en la práctica creando pruebas.
