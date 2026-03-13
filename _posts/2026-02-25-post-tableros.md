@@ -44,8 +44,8 @@ Es ideal para equipos experimentados que buscan flexibilidad en las fuentes de d
 
 | Tablero | Alimentación mediante API | Paradigma | Capacidad de transformar datos | Facilidad para lanzar |
 | :---: | :---: | :---: | :---: | :---: |
-| Grafana | [✅](https://grafana.com/blog/grafana-json-api-how-to-import-third-party-data-sources-in-grafana-cloud/) A través de terceros | Tableros de observabilidad | ⚠️ Limitada (Vía SQL y funciones nativas) | ✅ Muy fácil (un comando Docker) |
-| Metabase | ❌ No de forma nativa | Analíticas de auto-servicio | ✅ Buena (Vía SQL/Python) | ⭐ Máxima (un archivo JAR o Docker) |
+| Grafana | [✅](https://grafana.com/blog/grafana-json-api-how-to-import-third-party-data-sources-in-grafana-cloud/) Por terceros | Tableros de observabilidad | ⚠️ Limitada (Vía SQL/funciones nativas) | ✅ Muy fácil (un comando Docker) |
+| Metabase | ❌ No de forma nativa | Analíticas de auto-servicio | ✅ Buena (Vía SQL/Python) | ⭐ Máxima (un archivo JAR/Docker) |
 | Redash | [✅](https://redash.io/help/data-sources/querying/json-api/) | Herramientas analíticas de SQL | ⭐ Muy limitada (Vía SQL) | ⚠️ Compleja (requiere múltiples servicios y dependencias) |
 
 ## Conclusión
