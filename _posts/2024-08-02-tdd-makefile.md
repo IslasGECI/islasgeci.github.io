@@ -57,6 +57,6 @@ Consume mucho tiempo y recursos para reportes grandes (por ejemplo: lambdas_aves
 - Implementar TDD al Makefile para seguir explorando ventajas y desventajas.
 
 ## Referencias
-- [`vocalizacion-pardela`](https://bitbucket.org/IslasGECI/vocalizacion-pardela/).
-- [`maya_k9`](https://bitbucket.org/IslasGECI/maya_k9).
-- [Blameless Postmortem: Incidente con el pico de la masa](https://islas.dev/2024/06/11/glmm-peak-mass-incident).
+- [`vocalizacion-pardela`](https://bitbucket.org/IslasGECI/vocalizacion-pardela/)
+- [`maya_k9`](https://bitbucket.org/IslasGECI/maya_k9)
+- [Blameless Postmortem: Incidente con el pico de la masa](https://islas.dev/2024/06/11/glmm-peak-mass-incident)

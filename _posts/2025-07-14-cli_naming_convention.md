@@ -96,7 +96,7 @@ Use standardized variable names to ensure semantic consistency across commands.
 This list is an incomplete (and possibly outdated) subset of standard names.
 Refer to the current list at:
 
-- [Nombre estándar](https://islas.dev/protocolo_basico/standard_name.html).
+- [Nombre estándar](https://islas.dev/protocolo_basico/standard_name.html)
 
 ---
 
