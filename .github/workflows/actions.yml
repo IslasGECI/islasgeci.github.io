@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@main
     - name: Line ends with a period
       run: |
-        for file in _posts/2026-*.md
+        for file in _posts/202?-*.md
         do
             echo ''
             echo $file
@@ -21,7 +21,7 @@ jobs:
         done
     - name: Sentences are short
       run: |
-        cat _posts/2026-*.md > _posts/all.md
+        cat _posts/2022-*.md _posts/2023-*.md _posts/2026-*.md > _posts/all.md
         IFS=$'\n' && for line in $(egrep "\.$" _posts/all.md);   do echo "$line" ; [[ $(echo "$line" | wc -w) -le 25 ]] ; done
         IFS=$'\n' && for line in $(egrep "^\W" _posts/all.md);   do echo "$line" ; [[ $(echo "$line" | wc -w) -le 25 ]] ; done
         IFS=$'\n' && for line in $(egrep ":$" _posts/all.md);    do echo "$line" ; [[ $(echo "$line" | wc -w) -le 25 ]] ; done
