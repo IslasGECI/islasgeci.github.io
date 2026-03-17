@@ -93,6 +93,7 @@ Kanban
 key
 keygen
 Keys
+LaTeX
 layout
 Laysan
 lazy

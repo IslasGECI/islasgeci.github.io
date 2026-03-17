@@ -5,7 +5,7 @@ author: Memo, Nepo y Mario
 tags: equipo aprendizaje
 ---
 
-¿Cuál es la explicación detrás de que en el periodo diciembre 2023 a junio 2024 estamos en la fase roja de la gráfica?
+¿Cuál es la explicación detrás de que en el periodo diciembre 2023 a junio 2024 estamos en la fase roja de la gráfica?.
 
 ![probabilidad de progreso](/assets/images/probabilidad_progreso.png)
 
@@ -26,7 +26,9 @@ La pendiente de la recta en estos meses es negativa.
 Esto nos indica que las capturas son mayores que el reclutamiento.
 En el periodo de diciembre de 2023 a junio de 2024 (línea 3) tenemos un período en el que el reclutamiento es mayor que las capturas.
 
-Como ven en la figura de arriba, los últimos tres meses (de abril a junio) la tendencia va bajando.  La tendencia de abril a junio nos indica que seguiremos obteniendo capturas pero que nos costarán más trabajo. Si seguimos con [la tendencia de esfuerzos y capturas](https://lookerstudio.google.com/u/0/reporting/f81fd41f-0ce2-48a6-9e02-5772352e1fdc/page/9kjiD?s=mMHGvZPfeq0) de los últimos tres meses del año, vamos a llegar a una probabilidad de progreso en verde aunque sigamos teniendo capturas.
+Como ven en la figura de arriba, los últimos tres meses (de abril a junio) la tendencia va bajando.
+La tendencia de abril a junio nos indica que seguiremos obteniendo capturas pero que nos costarán más trabajo.
+Si seguimos con [la tendencia de esfuerzos y capturas](https://lookerstudio.google.com/u/0/reporting/f81fd41f-0ce2-48a6-9e02-5772352e1fdc/page/9kjiD?s=mMHGvZPfeq0) de los últimos tres meses del año, vamos a llegar a una probabilidad de progreso en verde aunque sigamos teniendo capturas.
 
 En la tabla de esfuerzo y capturas del tablero vemos que este año hemos tenido muchas capturas en las zonas 60, 50 y 40 con menos noches-trampa.
-Por ejemplo: en la zona 20 tuvimos 9 capturas con 38,813 noches-trampa y en la zona 60 tenemos las mismas 9 capturas con 7,415 noches-trampa. 
+Por ejemplo: en la zona 20 tuvimos 9 capturas con 38,813 noches-trampa y en la zona 60 tenemos las mismas 9 capturas con 7,415 noches-trampa.

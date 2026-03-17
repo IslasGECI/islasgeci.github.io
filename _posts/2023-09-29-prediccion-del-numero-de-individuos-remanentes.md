@@ -1,5 +1,5 @@
 ---
-usemathjax: true
+usemathjax: true #Importar librería que nos permite utilizar LaTeX.
 layout: post
 title: "Predicción del número de individuos remanentes"
 author: Nepo
@@ -18,7 +18,7 @@ De julio de 2023 en adelante son las predicciones a partir de las capturas de lo
 ![erradicación de gato feral en isla socorro](/assets/images/erradicacion-gato-feral-isla-socorro.png)
 
 Abajo describimos el modelo que utilizamos para hacer las predicciones.
-\[ N_{t+1} = N_t + rN_t  - R_t \]
+\[ N_{t+1} = N_t + rN_t - R_t \]
 El número de individuos está en el lado izquierdo del igual.
 El lado derecho de la igualdad está formado por tres términos.
 $N_t$ es el número actual de individuos.

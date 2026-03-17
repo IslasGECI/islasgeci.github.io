@@ -19,7 +19,8 @@ Al asegurarnos que todas las variables biológicas pasaran el flujo completo not
 
 ## Falla
 
-Queremos saber si las variables climáticas explican las diferencias de las variables biológicas entre temporadas. Para esto seguimos los siguientes pasos:
+Queremos saber si las variables climáticas explican las diferencias de las variables biológicas entre temporadas.
+Para esto seguimos los siguientes pasos:
 1. Ajustar un modelo sin tomar en cuenta las variables climáticas.
 1. Revisamos si hay diferencias significativas entre temporadas para cada variable biológica.
 1. Para las variables biológicas en las que encontramos alguna diferencia significativa, ajustamos algunos modelos que sí incluyan el clima.
@@ -33,7 +34,8 @@ Nos faltó actualizar esa sección con su versión automática.
 
 ## Impacto
 - Yuliana presentó los resultados incorrectos en un congreso (IAPC7).
-- Era lento modificar el texto del reporte. Al hacer un cambio en el tex se volvían a hacer todos los resultados.
+- Era lento modificar el texto del reporte.
+Al hacer un cambio en el tex se volvían a hacer todos los resultados.
 
 ## Detección
 - Después de automatizar las secciones apareció en el reporte que el **pico de la masa** sí tenía diferencias.
@@ -61,11 +63,14 @@ Eso lo notaríamos porque el [canal de integración continua](https://bitbucket.
 
 ## Línea de tiempo
 
-- [2024-05-08](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/a69028d55c6eae3b19c2e3c85985bf5a47ccd9ba) Retomamos esta tarea. Al hacer un cambio en el tex se volvían a calcular todos los resultados.
+- [2024-05-08](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/a69028d55c6eae3b19c2e3c85985bf5a47ccd9ba) Retomamos esta tarea.
+Al hacer un cambio en el tex se volvían a calcular todos los resultados.
 - [2024-05-23](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/ce3e5da7f52fd632f49c86e8cc490ea176260b89) Trabajamos en arreglar las dependencias de los `*.json` en el Makefile `🔨⚡ fix report ingredients`.
-- [2024-05-28](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/5523fd1a7a846c93fdd03ef03e47398ff5fee657) Automatizamos la escritura de todas las secciones. Le escribimos a Yuliana Bedolla informándole que "Existen diferencias entre temporadas para el pico de la masa".
-- [2024-05-29](https://mail.google.com/mail/u/0/#search/from%3A(braulio.rojas%40islas.org.mx)+to%3A(yuliana.bedolla%40islas.org.mx)+subject%3A(Diferencias+en+variables+biol%C3%B3gicas+y+de+alimentaci%C3%B3n+para+petrel+negro+en+Isla+San+Be)) Tuvimos la reunión con Yuliana Bedolla. Nos preguntó a qué se debía este nuevo resultado.
-- [2024-05-29](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/ea86ef107f16ba6cbcb22bccb5fb3fb04e834562). Implementamos una revisión para que no vuelva a suceder este error.
+- [2024-05-28](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/5523fd1a7a846c93fdd03ef03e47398ff5fee657) Automatizamos la escritura de todas las secciones.Le escribimos a Yuliana Bedolla informándole que "Existen diferencias entre temporadas para el pico de la masa".
+- [2024-05-29](https://mail.google.com/mail/u/0/#search/from%3A(braulio.rojas%40islas.org.mx)+to%3A(yuliana.bedolla%40islas.org.mx)+subject%3A(Diferencias+en+variables+biol%C3%B3gicas+y+de+alimentaci%C3%B3n+para+petrel+negro+en+Isla+San+Be)) Tuvimos la reunión con Yuliana Bedolla.
+Nos preguntó a qué se debía este nuevo resultado.
+- [2024-05-29](https://bitbucket.org/IslasGECI/glmm_petrel_san_benito/commits/ea86ef107f16ba6cbcb22bccb5fb3fb04e834562).
+Implementamos una revisión para que no vuelva a suceder este error.
 
 ## Cinco "¿por qué?"
 1. ¿Por qué antes del reporte del 28 de mayo no hay diferencias en el **pico de la masa**?
@@ -78,9 +83,10 @@ Eso lo notaríamos porque el [canal de integración continua](https://bitbucket.
 1. ¿Por qué no pasaba por el archivo de código que determinaba si había o no diferencias?
     - El reporte esperaba un ingrediente, pero ese ingrediente tenía que pasar por un flujo que no era obligatorio.
 1. ¿Por qué ese flujo no era obligatorio?
-    - La reescritura de este JSON complicaba saber en qué etapa del flujo estaba. 
-    Como desde el inicio ya estaba generado el JSON la dependencia ya estaba cumplida. 
-    Nadie aseguraba que se cumplía el flujo. Nadie aseguraba que el JSON tenía el valor correcto en la variable.
+    - La reescritura de este JSON complicaba saber en qué etapa del flujo estaba.
+    Como desde el inicio ya estaba generado el JSON la dependencia ya estaba cumplida.
+    Nadie aseguraba que se cumplía el flujo.
+    Nadie aseguraba que el JSON tenía el valor correcto en la variable.
 1. ¿Por qué era complicado saber en qué etapa del flujo estaba el JSON?
     - Porque había muchos pasos intermedios para generar la sección de resultados con información del JSON.
     El JSON se llamaba igual en todos los pasos intermedios.
