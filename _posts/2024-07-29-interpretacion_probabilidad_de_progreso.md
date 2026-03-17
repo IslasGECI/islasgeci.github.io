@@ -5,7 +5,7 @@ author: Memo, Nepo y Mario
 tags: equipo aprendizaje
 ---
 
-¿Cuál es la explicación detrás de que en el periodo diciembre 2023 a junio 2024 estamos en la fase roja de la gráfica?
+¿Cuál es la explicación detrás de que en el periodo diciembre 2023 a junio 2024 estamos en la fase roja de la gráfica?.
 
 ![probabilidad de progreso](/assets/images/probabilidad_progreso.png)
 

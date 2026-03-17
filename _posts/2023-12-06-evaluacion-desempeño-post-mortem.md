@@ -73,11 +73,12 @@ Una vez que teníamos el número necesario, revisamos cuáles eran las tareas m�
 
 ## Cinco "por qué"s
 1. ¿Por qué estamos fuera de control?
-    - Las cuatro cartas de control tienen al menos una alerta en el periodo del 13 de octubre de 2023 al 01 de marzo del 2024.
+    - Las cuatro cartas de control tienen al menos una alerta.
+    Esto en el periodo del 13 de octubre de 2023 al 01 de marzo del 2024.
 1. ¿Por qué se activaron las alertas?
     - Porque comenzamos a tener un número menor de tarjetas terminadas.
 1. ¿Por qué disminuyó el número de tarjetas terminadas?
-    - En el Kanban ya no contamos el trabajo en el mantenimiento de nuestras herramientas ni del trabajo administrativo.
+    - En el Kanban ya no contamos el trabajo del mantenimiento de nuestras herramientas ni del administrativo.
     - La proporción de tareas clase 1 en este equipo es 17% en el "equipo anterior" teníamos 25%.
     Las tareas clase 3 de los últimos dos años es 31% antes teníamos 13%.
     Sospechamos que estamos incluyendo trabajo clase 1 en las tarjetas clase 3.
@@ -87,8 +88,8 @@ Una vez que teníamos el número necesario, revisamos cuáles eran las tareas m�
         En esas tres semanas solamente tuvimos una estrella en terminado, con cuatro tarjetas terminadas.
         - Cambiamos el servidor de desarrollo y el provisionador a Azure.
         Al menos tres días de trabajo los invertimos en la migración a Azure.
-1. ¿Por qué quitamos el trabajo administrativo del Kanban, experimentamos con microservicios, nos cambiamos a Azure?
-    - Decidimos que el tablero se reflejara el trabajo relacionado a una isla y especie en particular.
+1. ¿Por qué quitamos el trabajo administrativo del Kanban, experimentamos con microservicios y cambiamos a Azure?
+    - Decidimos que el tablero solo refleje el trabajo de una isla y especie particular.
     Aprovechamos que tenemos que ir a oficina para realizar el trabajo administrativo.
     Aun no queda claro cuáles tarjetas administrativas deben entrar al Kanban.
     - Experimentamos con microservicios porque:
