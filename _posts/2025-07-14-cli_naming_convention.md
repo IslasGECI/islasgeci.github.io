@@ -5,7 +5,8 @@ author: Evaristo
 tags: progra
 ---
 
-This document defines the naming convention for the ecological data analysis CLI developed by the GECI Data Science team. Use this convention to ensure consistency, predictability, and clarity across all CLI commands.
+This document defines the naming convention for the ecological data analysis CLI developed by the GECI Data Science team.
+Use this convention to ensure consistency, predictability, and clarity across all CLI commands.
 
 ---
 
@@ -17,7 +18,8 @@ Follow this naming pattern for all command names:
 <verb>_<method|modifier*>_<variable|object>_<taxon?>_<region?>_<season?>_<format?>
 ```
 
-* Components in angle brackets `<>` are positional. Maintain this order consistently.
+* Components in angle brackets `<>` are positional.
+Maintain this order consistently.
 * Components with an asterisk `*` are optional and may be embedded in the command name.
 * Components with a question mark `?` are optional and must be passed as CLI arguments rather than embedded.
 * Use underscores to separate components.
@@ -25,13 +27,7 @@ Follow this naming pattern for all command names:
 ### Example
 
 ```bash
-write_mean_mass \
-    --input-path data/mass.csv \
-    --output-path out/mean_mass.json \
-    --taxon LAAL \
-    --region san_benedicto \
-    --season 2020 \
-    --format json
+write_mean_mass --input-path data/mass.csv --output-path out/mean_mass.json --taxon LAAL --region san_benedicto --season 2020 --format json # Genera el archivo.
 ```
 
 ---
@@ -58,7 +54,8 @@ Use only these verbs unless a new, general-purpose action is required.
 
 ## 3. Method or Modifier (Optional Second Component)
 
-Include a method or modifier **only** if it adds meaningful distinction or disambiguates the command. Use lowercase with underscores to combine multiple words.
+Include a method or modifier **only** if it adds meaningful distinction or disambiguates the command.
+Use lowercase with underscores to combine multiple words.
 
 ### Examples
 
@@ -96,7 +93,8 @@ Use standardized variable names to ensure semantic consistency across commands.
 | `time`                    | Time of observation                     |
 | `utm_zone`                | UTM projection zone                     |
 
-This list is an incomplete (and possibly outdated) subset of standard names. Refer to the current list at:
+This list is an incomplete (and possibly outdated) subset of standard names.
+Refer to the current list at:
 
 - [Nombre estándar](https://islas.dev/protocolo_basico/standard_name.html)
 
@@ -146,10 +144,10 @@ This structure supports modularity and improves discoverability.
 
 ## 8. Guidelines for Adding New Commands
 
-1. **Start with a standard verb.**
-2. **Add a method or modifier only when it improves clarity or resolves ambiguity.**
-3. **Use a documented, standard variable.**
-4. **Pass `taxon`, `region`, `season`, and `format` as CLI arguments.**
-5. **Avoid unnecessary duplication or verbosity.**
-6. **Ensure the command name communicates the main action and data scope.**
-7. **Test the command for consistency with naming and execution patterns.**
+1. **Start with a standard verb**.
+2. **Add a method or modifier only when it improves clarity or resolves ambiguity.**.
+3. **Use a documented, standard variable.**.
+4. **Pass `taxon`, `region`, `season`, and `format` as CLI arguments.**.
+5. **Avoid unnecessary duplication or verbosity.**.
+6. **Ensure the command name communicates the main action and data scope.**.
+7. **Test the command for consistency with naming and execution patterns.**.
