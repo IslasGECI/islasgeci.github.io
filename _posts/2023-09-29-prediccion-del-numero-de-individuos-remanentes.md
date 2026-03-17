@@ -1,5 +1,5 @@
 ---
-usemathjax: true #Importar libreria que nos permite utilizar LaTex.
+usemathjax: true #Importar librería que nos permite utilizar LaTeX.
 layout: post
 title: "Predicción del número de individuos remanentes"
 author: Nepo

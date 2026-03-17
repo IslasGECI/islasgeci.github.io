@@ -74,12 +74,12 @@ Kanban
 key
 keygen
 Keys
-LaTex
+LaTeX
 layout
 Laysan
 lazy
 learning
-libreria
+librería
 Lizeth
 Looker
 machine
