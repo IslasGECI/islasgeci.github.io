@@ -144,7 +144,7 @@ This structure supports modularity and improves discoverability.
 
 ## 8. Guidelines for Adding New Commands
 
-1. **Start with a standard verb.**.
+1. **Start with a standard verb**.
 2. **Add a method or modifier only when it improves clarity or resolves ambiguity.**.
 3. **Use a documented, standard variable.**.
 4. **Pass `taxon`, `region`, `season`, and `format` as CLI arguments.**.
