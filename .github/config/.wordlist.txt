@@ -46,7 +46,6 @@ Development
 DevOps
 DigitalOcean
 Docker
-Dockerfiles
 Driven
 ecology
 effects
@@ -154,7 +153,6 @@ remuestreados
 remuestrear
 remuestreo
 Repeated
-repo
 reportables
 research
 Research
@@ -183,7 +181,6 @@ toward
 trenecito
 true
 TukeyHSD
-usabilidad
 usemathjax
 using
 version

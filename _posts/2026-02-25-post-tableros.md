@@ -25,7 +25,7 @@ Grafana permite la obtención de información clave, análisis y visualización 
 
 ## Metabase
 Metabase proporciona un sistema de código abierto, la cual asiste a usuarios sin conocimientos técnicos.
-Metabase ofrece una usabilidad inmediata para la configuración rápida de paneles de control.
+Metabase esta listo para usarse con una configuración rápida de paneles de control.
 El usuario simplemente selecciona los datos, indica la base de datos y elige el formato; la aplicación genera el panel automáticamente.
 Metabase elimina la barrera del lenguaje SQL.
 Es ideal para equipos que buscan obtener información de manera rápida, sin una curva de aprendizaje pronunciada.
