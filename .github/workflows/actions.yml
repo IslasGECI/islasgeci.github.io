@@ -21,7 +21,7 @@ jobs:
         done
     - name: Sentences are short
       run: |
-        cat _posts/2022-*.md _posts/2023-*.md > _posts/all.md
+        cat _posts/2022-*.md _posts/2023-*.md _posts/2026-*.md > _posts/all.md
         IFS=$'\n' && for line in $(egrep "\.$" _posts/all.md);   do echo "$line" ; [[ $(echo "$line" | wc -w) -le 25 ]] ; done
         IFS=$'\n' && for line in $(egrep "^\W" _posts/all.md);   do echo "$line" ; [[ $(echo "$line" | wc -w) -le 25 ]] ; done
         IFS=$'\n' && for line in $(egrep ":$" _posts/all.md);    do echo "$line" ; [[ $(echo "$line" | wc -w) -le 25 ]] ; done
@@ -31,7 +31,6 @@ jobs:
     name: Spellcheck
     runs-on: ubuntu-latest
     steps:
-    # The checkout step
     - uses: actions/checkout@v3
     - uses: rojopolis/spellcheck-github-actions@master
       name: Spellcheck
