@@ -24,7 +24,7 @@ El nombre de un programa que genera resultados debe coincidir con el nombre de l
 `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas
 omisiones para evitar redundancias). Por ejemplo, el programa que genera los resultados definidos
 por la variable `png_density_maps_albatross_guadalupe` se debe llamar
-`plot_density_maps_albatross_guadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque
+`render_density_maps_albatross_guadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque
 el mismo programa también genera los resultados en formato `SHP` definidos por la variable
 `shp_density_maps_albatross_guadalupe`.
 
@@ -61,8 +61,8 @@ el mismo programa también genera los resultados en formato `SHP` definidos por 
 
 **Formatos interoperables**
 
-- `import_*()`: Lee datos desde disco a memoria en formatos interoperables (por ejemplo `.csv`, `.gpkg`).
-  Ejemplo: `import_area()`
+- `import_*()`: Lee datos desde disco a memoria en formatos interoperables (por ejemplo `.csv`, `.gpkg`). Podemos usar el formato como sufijo.
+  Ejemplo: `import_area_from_gpkg()`
 - `export_*()`: Escribe datos desde memoria a disco en formatos interoperables. Podemos usar el formato como sufijo.
   Ejemplo: `export_area_to_gpkg()`
 
