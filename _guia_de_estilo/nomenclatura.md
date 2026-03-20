@@ -30,14 +30,50 @@ el mismo programa también genera los resultados en formato `SHP` definidos por 
 
 ## Funciones y métodos
 
-- El nombre debe estar compuesto por un verbo seguido de un objeto. Ejemplos: `process_data()`,
-  `pet_dog()`. Si la función realiza tantas tareas que no sabes cual verbo escoger entonces tu
-  función es incorrecta; cada función debe realizar una única acción y la debe hacer bien.
-- Si la función cambia el formato del argumento de entrada, usamos la notación `input2output`.
-  Ejemplos: `jpg2bmp()`, `txt2pdf()`, `lbs2kg()`
-- En algunos casos es aceptable nombrar a una función con un sustantivo que describe una operación,
-  por ejemplo: `mean()`, `square()`
+### Memoria (sin efectos secundarios)
+
+- El nombre debe estar compuesto por un verbo seguido de un objeto.
+  Ejemplos: `process_data()`, `pet_dog()`.
+- Cada función debe realizar una única acción.
+  Si tu función realiza tantas tareas que no sabes cual verbo escoger entonces tu función es incorrecta.
+  Las funciones `create_*()` y `render_*()` son excepciones controladas a la regla de que cada función debe realizar una única acción.
+  Ver explicación en subsección [Escritura de resultados](#escritura-de-resultados-de-memoria-a-disco).
+- `compute_*()`: Realiza cálculos en memoria y devuelve un resultado sin escribir a disco.
+  Ejemplo: `compute_area()`
+- El prefijo `get_` solo debe usarse cuando exista la función complementaria `set_`.
+  En otros casos, usar `compute_`.
+- En algunos casos es aceptable nombrar a una función con un sustantivo que describe una operación, por ejemplo: `mean()`, `square()`
+- `plot_*()`: Genera una visualización en memoria (no escribe archivos).
+  Ejemplo: `plot_area()`
+- Si la función cambia el formato del argumento de entrada en memoria, usamos la notación `input2output`.
+  Ejemplos: `csv2df()`, `lbs2kg()`.
 - Si la función devuelve valores lógicos, usamos el prefijo `is`. Ejemplo: `is_dog()`
+- Las funciones `compute_*()` y `plot_*()` no deben tener efectos secundarios, es decir, no deben escribir a disco.
+
+### Disco (persistencia)
+
+**Formatos internos (nativos del lenguaje)**
+
+- `read_*()`: Lee datos desde disco a memoria (formato interno, por ejemplo `.rds`).
+  Ejemplo: `read_area()`
+- `write_*()`: Escribe datos desde memoria a disco (formato interno).
+  Ejemplo: `write_area()`
+
+**Formatos interoperables**
+
+- `import_*()`: Lee datos desde disco a memoria en formatos interoperables (por ejemplo `.csv`, `.gpkg`).
+  Ejemplo: `import_area()`
+- `export_*()`: Escribe datos desde memoria a disco en formatos interoperables. Podemos usar el formato como sufijo.
+  Ejemplo: `export_area_to_gpkg()`
+
+### Escritura de resultados (de memoria a disco)
+
+Estas funciones son pasos completos del canal de integración o de _Make_.
+
+- `create_*()`: Realiza cómputo en memoria (`compute_*`) y escribe el resultado en disco (`write_*` o `export_*`).
+  Ejemplo: `create_area()`
+- `render_*()`: Genera una visualización (`plot_*`) y la escribe en disco (usualmente como imagen, por ejemplo `.png` o `.svg`).
+  Ejemplo: `render_area()`
 
 ## Pruebas
 
