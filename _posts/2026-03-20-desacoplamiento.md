@@ -12,7 +12,7 @@ Seguimos un flujo de trabajo que consta de los siguientes pasos:
 1. Cálculo de resultados en memoria.
 1. Escritura de resultados en disco.
 1. Lectura de resultados desde disco.
-1. Generación de visualizaciónes.
+1. Generación de visualizaciones.
 1. Escritura de gráficas en disco.
 
 Así, definimos dos fases independientes: (1–3) cálculo del resultado y (4–6) visualización del resultado, en lugar de acoplar ambas etapas en un solo paso.

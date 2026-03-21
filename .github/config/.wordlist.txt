@@ -67,11 +67,14 @@ GECI
 git
 GitHub
 GitKraken
+gnuplot
 Gomez
 GPG
 Grafana
-graficábamos
 graficado
+graficamos
+graficar
+graficábamos
 Guadalupe
 Guide
 gumu
@@ -100,6 +103,7 @@ learning
 Lizeth
 Looker
 machine
+Make
 Makefile
 Maritza
 Measures
@@ -144,6 +148,7 @@ PySpark
 Python
 quality
 rANOVA
+recalcularlos
 Redash
 refactorización
 Remote
