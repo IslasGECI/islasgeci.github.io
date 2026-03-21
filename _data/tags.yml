@@ -3,14 +3,14 @@
 - name: Automatización y Reproducibilidad
   id: dataops
 - name: Curación de Datos
-  id: curacion
+  id: curación
 - name: Ecología y conservación
-  id: ecologia
+  id: ecología
 - name: Equipo de Ciencia de Datos
   id: equipo
 - name: Estadística y Matemáticas
-  id: matematicas
+  id: matámaticas
 - name: Programación
-  id: programacion
+  id: programación
 - name: Visualización de datos
-  id: visualizacion
+  id: visualización
