@@ -2,7 +2,7 @@
 layout: post
 title: Las inspecciones, una revisión por pares
 author: Nepo
-tags: programacion
+tags: programación
 ---
 
 ## ¿Qué es una inspección?

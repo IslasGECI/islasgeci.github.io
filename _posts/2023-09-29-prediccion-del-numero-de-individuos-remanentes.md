@@ -3,7 +3,7 @@ usemathjax: true #Importar librería que nos permite utilizar LaTeX.
 layout: post
 title: "Predicción del número de individuos remanentes"
 author: Nepo
-tags: ecologia matematicas
+tags: ecología matemáticas
 ---
 
 

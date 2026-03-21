@@ -2,7 +2,7 @@
 layout: post
 title: "Refactorización del código de predicción de sexo de albatros de Laysan en Isla Guadalupe"
 author: Francisco Alejandro Padilla Gomez
-tags: programacion
+tags: programación
 ---
 
 <!-- Introducción -->

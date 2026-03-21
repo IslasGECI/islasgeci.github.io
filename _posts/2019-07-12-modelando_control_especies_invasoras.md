@@ -3,7 +3,7 @@ usemathjax: true
 layout: post
 title: "Modelando el control de especies invasoras"
 author: Nepo
-tags: ecologia matematicas
+tags: ecología matemáticas
 ---
 
 En esta entrada mostramos el avance que tenemos en la Dirección de Ciencia de Datos para estimar el tamaño de un población a la que intentamos controlar.

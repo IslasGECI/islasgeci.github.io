@@ -2,7 +2,7 @@
 layout: post
 title: Control estadístico de procesos
 author: Evaristo, Nepo
-tags: matematicas
+tags: matemáticas
 ---
 
 # 👩🏿‍🏫 Qué es el control estadístico de procesos

@@ -2,7 +2,7 @@
 layout: post
 title: "Comparación entre distintos tableros de visualización"
 author: David Rodríguez
-tags: visualizacion
+tags: visualización
 ---
 
 En este artículo compararemos tecnologías para generar un tablero de visualización de datos.

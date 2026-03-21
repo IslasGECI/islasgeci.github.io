@@ -2,7 +2,7 @@
 layout: post
 title: "Análisis Exploratorio de Datos"
 author: Evaristo
-tags: curacion matematicas
+tags: curación matemáticas
 ---
 
 En nuestro equipo, el Análisis Exploratorio de Datos (AED) incluye tres elementos:

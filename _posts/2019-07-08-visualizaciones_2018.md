@@ -2,7 +2,7 @@
 layout: post
 title: "Las (alrededor de) cinco visualizaciones que más me gustaron en el 2018"
 author: Nepo
-tags: visualizacion
+tags: visualización
 ---
 
 A continuación presento una lista de 6 direcciones de internet con las visualizaciones que más me 
