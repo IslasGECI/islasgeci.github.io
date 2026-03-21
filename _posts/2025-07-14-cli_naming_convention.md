@@ -2,7 +2,7 @@
 layout: post
 title: Command-Line Interface (CLI) Naming Convention
 author: Evaristo
-tags: progra
+tags: programacion
 ---
 
 This document defines the naming convention for the ecological data analysis CLI developed by the GECI Data Science team.

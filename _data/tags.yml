@@ -4,13 +4,13 @@
   id: dataops
 - name: Curación de Datos
   id: curacion
-- name: Ecología
-  id: eco
+- name: Ecología y conservación
+  id: ecologia
 - name: Equipo de Ciencia de Datos
   id: equipo
 - name: Estadística y Matemáticas
-  id: mate
+  id: matematicas
 - name: Programación
-  id: progra
+  id: programacion
 - name: Visualización de datos
   id: visualizacion

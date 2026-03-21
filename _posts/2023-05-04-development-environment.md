@@ -2,7 +2,7 @@
 layout: post
 title: "Entorno de desarrollo remoto: Configuración común para tmux"
 author: Mario y Evaristo
-tags: progra
+tags: programacion
 ---
 
 Con la finalidad de mejorar la experiencia del equipo durante el desarrollo remoto, creamos una configuración común para tmux.
