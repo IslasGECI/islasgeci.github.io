@@ -71,9 +71,9 @@ el mismo programa también genera los resultados en formato `SHP` definidos por 
 Estas funciones son pasos completos del canal de integración o de _Make_.
 
 - `create_*()`: Realiza cómputo en memoria (`compute_*`) y escribe el resultado en disco (`write_*` o `export_*`).
-  Ejemplo: `create_area()`
-- `render_*()`: Genera una visualización (`plot_*`) y la escribe en disco (usualmente como imagen, por ejemplo `.png` o `.svg`).
-  Ejemplo: `render_area()`
+  Ejemplo: `create_area()`.
+- `render_*()`: Lee desde disco un resultado previamente generado (por ejemplo, mediante `create_*`), produce una visualización (`plot_*`) y escribe la gráfica en disco (usualmente como imagen, por ejemplo `.png` o `.svg`).
+  Ejemplo: render_area().
 
 ## Pruebas
 
