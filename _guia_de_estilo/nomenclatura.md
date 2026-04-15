@@ -84,6 +84,12 @@ reglas:
 - El nombre empieza con el prefijo `test_`, por ejemplo, `test_plot_island`
 - Puede incluir únicamente números y letras (excepto eñe y vocales con acento)
 
+## Paquetes R
+
+- Todo en minúsculas
+- Sin guiones bajos, puntos ni CamelCase
+- Ejemplos: `seabirdtracking`, `cameradata`, `maritimeinformatics`
+
 ## Makefile
 
 ### Variables dentro del Makefile
