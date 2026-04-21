@@ -6,10 +6,11 @@ tags: aprendizaje
 ---
 
 La siguiente lista de referencias constituye el canon de las buenas prácticas del equipo de Ciencia
-de Datos. Consideramos estas referencias un complemento de nuestro [manual de
+de Datos.
+Consideramos estas referencias un complemento de nuestro [manual de
 procedimientos](https://github.com/IslasGECI/manual) y [guía de
-estilo](https://islas.dev/guia_de_estilo/). Te recomendamos que las leas al inicio de tu jornada de
-trabajo para acompañar tu primer café.
+estilo](https://islas.dev/guia_de_estilo/).
+Te recomendamos que las leas al inicio de tu jornada de trabajo para acompañar tu primer café.
 
 1. [Clean Code](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/)
 1. [Clean Craftsmanship](https://learning.oreilly.com/library/view/clean-craftsmanship-disciplines/9780136915805/)

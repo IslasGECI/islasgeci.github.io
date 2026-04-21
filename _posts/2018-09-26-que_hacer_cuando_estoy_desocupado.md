@@ -14,8 +14,10 @@ activa en lugar de empezar una tarea nueva.
    parejas](https://en.wikipedia.org/wiki/Pair_programming)
 
 Si ninguna de las opciones anteriores es viable, entonces toma una tarea que se encuentre en la
-columna _Inactivo_ (o _Pendiente_) y pásala a la columna _Activo_. Debemos elegir la tarea que se
-encuentre más a la derecha. Si el límite del WIP te impide pasar una tarea a la columna _Activo_,
+columna _Inactivo_ (o _Pendiente_) y pásala a la columna _Activo_.
+Debemos elegir la tarea que se
+encuentre más a la derecha.
+Si el límite del WIP te impide pasar una tarea a la columna _Activo_,
 entonces:
 
 1. Trabaja en algún [_issue_ pendiente](https://github.com/IslasGECI/pendientes/issues)

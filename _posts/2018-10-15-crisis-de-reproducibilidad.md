@@ -5,13 +5,21 @@ author: Evaristo
 tags: dataops
 ---
 
-Ya le dimos una vuelta a la tuerca. Ahora estamos haciendo nuestros pininos en visualizaciones web e interfaces de línea de comandos (CLI). Incluso ya hemos dado nuestros primeros pasos en programación orientada a objetos y arquitectura de software. Eventualmente empezaremos a implementar bases de datos relacionales y a desarrollar aplicaciones móviles. No me sorprendería que algún día avancemos el tema de aprendizaje automatizado mediante el _common task framework_. Pero hay que avanzar cuidando la retaguardia.
+Ya le dimos una vuelta a la tuerca.
+Ahora estamos haciendo nuestros pininos en visualizaciones web e interfaces de línea de comandos (CLI).Incluso ya hemos dado nuestros primeros pasos en programación orientada a objetos y arquitectura de software.
+Eventualmente empezaremos a implementar bases de datos relacionales y a desarrollar aplicaciones móviles.
+No me sorprendería que algún día avancemos el tema de aprendizaje automatizado mediante el _common task framework_.
+Pero hay que avanzar cuidando la retaguardia.
 
-Reproducibilidad solía ser nuestro único principio; es el principio original. El resto de nuestros principios (puntualidad, transparencia, trabajo colaborativo y estandarización) se identificaron después, cuando ya teníamos la reproducibilidad bajo control.
+Reproducibilidad solía ser nuestro único principio; es el principio original.
+El resto de nuestros principios (puntualidad, transparencia, trabajo colaborativo y estandarización) se identificaron después, cuando ya teníamos la reproducibilidad bajo control.
 
-Actualmente, nos encontramos inmersos en una crisis de reproducibilidad. Me resulta difícil realizar las revisiones post-entrega ya que no puedo reproducir los resultados que debo revisar. Supongo que debería revisar el producto entregado descargándolo desde el Trello, pero me rehúso.
+Actualmente, nos encontramos inmersos en una crisis de reproducibilidad.
+Me resulta difícil realizar las revisiones post-entrega ya que no puedo reproducir los resultados que debo revisar.
+Supongo que debería revisar el producto entregado descargándolo desde el Trello, pero me rehúso.
 
-Nuestro "tablero de aeropuerto" solía ser el instrumento que nos permitía a verificar la reproducibilidad de nuestros productos. Cuando dejamos de usar nuestro administrador de tareas _ad hoc_ y empezamos a usar el pizarrón kanban en su lugar, abandonamos el tablero de aeropuerto que se encontraba integrado en el mismo sistema.
+Nuestro "tablero de aeropuerto" solía ser el instrumento que nos permitía a verificar la reproducibilidad de nuestros productos.
+Al migrar del administrador ad hoc al tablero Kanban, dejamos de utilizar el panel estilo aeropuerto que mostraba el flujo de tareas en tiempo real.
 
 Es momento de que retomemos nuestra iniciativa de lograr una [integración continua](https://en.wikipedia.org/wiki/Continuous_integration) de nuestros productos. Me gustaría usar algún servicio de integración continua como [Travis CI](https://travis-ci.org/), [CircleCI](https://circleci.com/) o [cualquier otro](https://code-maze.com/top-8-continuous-integration-tools/); pero tal vez algunas de nuestras dependencias (e.g. MATLAB) nos obliguen a redescubrir el hilo negro. :facepalm:
 
