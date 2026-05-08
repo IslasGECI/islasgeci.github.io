@@ -1,3 +1,10 @@
+---
+layout: page
+title: Style Guide
+tagline: Guía de estilo
+description: Style guide for Grupo de Ecología y Conservación de Islas
+---
+
 # Style Guide for Grupo de Ecología y Conservación de Islas
 
 ## Commit Messages
