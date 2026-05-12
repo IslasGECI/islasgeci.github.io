@@ -1,10 +1,20 @@
 ---
 layout: post
 title: Catálogo de voluntariados
-author: Andrea Sánchez, Martha Jiménez, Alejandro Padilla, Lizeth Reyes & Simon Duarte
+author: Andrea Sánchez, Martha Jiménez, Alejandro Padilla, Lizeth Reyes, Simon Duarte, Maximiliano Vaca & David
 tags: equipo
 ---
 
+## David Francisco Rodriguez Ochoa
+![David Rodriguez](https://s.gravatar.com/avatar/f16e4bfff63317d73eb059f53f6014e066dfebd8164e1e991b0d9b68fdf27380?s=150)
+
+Hola, mi nombre es David y soy estudiante de la carrera de Física en la Universidad Autónoma de Baja California.
+En mi último semestre colaboré con el equipo de Ciencia de Datos en Geci como parte de un proyecto de vinculación.
+Como parte del análisis de variables climatológicas de las estaciones de Isla Guadalupe se trabajó en la integración de una nueva función en R.
+Esta nueva función permite para una fecha dada definir su estación y su tipo de fase [ENSO](https://github.com/IslasGECI/enso).
+Esta función facilitará la toma de decisiones frente a distintas fases y estaciones del año.
+Este voluntariado me permitió adquirir nuevas habilidades computacionales que fueron de gran ayuda para mi formación academica.
+Sin duda fue un gran reto pero dado que en GECI se tienen prácticas y protocolos bien definidos esto me permitió un facil aprendizaje.
 
 ## Maximiliano Vaca Montejano
 ![Maximiliano Vaca](https://s.gravatar.com/avatar/2707496f9926449d9d84a2a68af18b198a46446d2625c4d2711a6014907b809d?s=150)
