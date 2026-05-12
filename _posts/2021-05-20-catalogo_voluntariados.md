@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Catálogo de voluntariados
-author: Andrea Sánchez, Martha Jiménez, Alejandro Padilla, Lizeth Reyes, Simon Duarte, Maximiliano Vaca & David
+author: Andrea Sánchez, Martha Jiménez, Alejandro Padilla, Lizeth Reyes, Simon Duarte, Maximiliano Vaca & David Rodriguez
 tags: equipo
 ---
 
@@ -9,10 +9,13 @@ tags: equipo
 ![David Rodriguez](https://s.gravatar.com/avatar/f16e4bfff63317d73eb059f53f6014e066dfebd8164e1e991b0d9b68fdf27380?s=150)
 
 Hola, mi nombre es David y soy estudiante de la carrera de Física en la Universidad Autónoma de Baja California.
-En mi último semestre colaboré con el equipo de Ciencia de Datos en Geci como parte de un proyecto de vinculación.
-Como parte del análisis de variables climatológicas de las estaciones de Isla Guadalupe se trabajó en la integración de una nueva función en R.
-Esta nueva función permite para una fecha dada definir su estación y su tipo de fase [ENSO](https://github.com/IslasGECI/enso).
-Esta función facilitará la toma de decisiones frente a distintas fases y estaciones del año.
+En mi último semestre colaboré con el equipo de Ciencia de Datos en GECI por medio de un proyecto de vinculación.
+Como parte del análisis de variables climatológicas de las estaciones de Isla Guadalupe trabajamos en la implementación de una nueva función en R.
+Este es el repositorio en el que trabajamos, [Respositorio ENSO](https://github.com/IslasGECI/enso).
+Para una fecha dada, esta nueva función determina su estación del año y su tipo de fase ENSO.
+Esta función brinda nuevas herramientas en el análisis de la climatología de la temeratura y precipitación en Isla Guadalupe.
+Dada una predicción de la próxima fase, podemos determinar los promedios historicos de cualquier variable de interés.
+Esto sutenta la toma de decisiones para la conservación de Isla Guadalupe.
 Este voluntariado me permitió adquirir nuevas habilidades computacionales que fueron de gran ayuda para mi formación academica.
 Sin duda fue un gran reto pero dado que en GECI se tienen prácticas y protocolos bien definidos esto me permitió un facil aprendizaje.
 
