@@ -36,6 +36,7 @@ Construímos
 Continuous
 cormorant
 CPUE
+CSV
 create
 criterion
 dataops
@@ -130,6 +131,7 @@ ONE
 Pairwise
 petrel
 phonies
+pickle
 pimpón
 pipelines
 playbook
@@ -147,6 +149,7 @@ push
 PySpark
 Python
 quality
+RDS
 rANOVA
 recalcularlos
 Redash
@@ -195,3 +198,4 @@ writing
 Xie
 Yuliana
 Yutzil
+XLSX
