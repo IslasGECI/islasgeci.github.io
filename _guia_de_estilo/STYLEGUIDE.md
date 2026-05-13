@@ -155,6 +155,8 @@ The `Makefile` must contain three sections:
 #### 1. Header Section (Comment Block)
 Use EXACTLY this structure with the opening and closing separators. Always include ALL sections (even if minimal) and never change section order:
 
+```r
+
 # ==========================================
 # Título: (1 línea)
 # 
@@ -238,10 +240,8 @@ Variable names that define sets of files consist of five elements: **format**, *
 - `sst`: Sea Surface Temperature
 - `eez`: Exclusive Economic Zone
 - `x` / `y`: UTM zonal/meridional coordinate vector
-- `x_axis` / `y_axis`: UTM coordinate axis
 - `X` / `Y`: UTM coordinate grid
 - `lon` / `lat`: Geographic zonal/meridional coordinate vector
-- `lon_axis` / `lat_axis`: Geographic coordinate axis
 - `LON` / `LAT`: Geographic coordinate grid
 
 ---
@@ -250,3 +250,5 @@ Variable names that define sets of files consist of five elements: **format**, *
 - Ensure absolute consistency between code, documentation, and outputs.
 - Proactively remove dead code, unused scripts, and obsolete configurations.
 - Keep terminology uniform across the entire project.
+
+```
