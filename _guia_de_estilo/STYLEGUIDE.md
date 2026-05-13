@@ -150,7 +150,7 @@ The `Makefile` must contain three sections:
 
 ### Source Code Structure (`src/`)
 - All scripts must reside in `src/`.
-- Structure scripts into five specific sections: Header, Configuration, Inputs, Process/Analysis, and Output.
+- Structure scripts into five specific sections: Header (comment block), Configuration, Inputs, Process/Analysis, and Output. The five code sections below each correspond to an `# ==== NOMBRE ====` marker in Spanish.
 
 #### 1. Header Section (Comment Block)
 Use EXACTLY this structure with the opening and closing separators. Always include ALL sections (even if minimal) and never change section order:
@@ -175,21 +175,39 @@ Use EXACTLY this structure with the opening and closing separators. Always inclu
 # 
 # Notas: (Opcional, máximo 4 bullets. Use bullet points ONLY in this section)
 # ==========================================
+```
 
 **Consistency Rules for Header:**
 - Use ONLY Spanish (keep technical function names in English, e.g., `st_bbox()`, `ggplot2`).
 - Never mix English and Spanish section names.
-- Always write in third person ("El script carga...", "El script calcula...").
+- Always write in imperative form ("Carga...", "Calcula...").
 - Do NOT use infinitive form (avoid: "Cargar").
 - Keep sentences short and precise; avoid narrative or storytelling.
 
-#### 2. Configuration Section
-- Populate by extracting all "magic numbers", strings, options, and filenames into constants.
+#### 2. Configuration
+- Marker: `# ==== CONFIGURACIÓN ====`
+- Place all `library()` calls here with a Spanish comment explaining each package.
+- Extract all "magic numbers", strings, options, and filenames into named constants.
 
-#### 3. Process/Analysis Logic
+#### 3. Inputs
+- Marker: `# ==== ENTRADAS ====`
+- Import each input file using the appropriate read function (e.g., `read_csv()`, `st_read()`).
+- Use the path variables defined in the Configuration section.
+- Suppress verbose output with options like `quiet = TRUE` or `show_col_types = FALSE`.
+- Add a Spanish comment before each import explaining the data being loaded.
+
+#### 4. Process/Analysis
+- Marker: `# ==== PROCESAMIENTO / ANÁLISIS ====`
 - **Linear Code Rule**: Write strictly linear code using Tidyverse style; do not use functions, loops (for, while), or control structures (if, else).
 - **File-based Modularity**: The script reads input files and writes exactly one output file (CSV, JSON, or GPKG).
 - **Comment every single line of code in Spanish**.
+
+#### 5. Output
+- Marker: `# ==== SALIDA ====`
+- Write the single output file using the appropriate write function (e.g., `write_csv()`, `st_write()`, `ggsave()`).
+- Use the output path variable defined in the Configuration section.
+- Add a Spanish comment before the write explaining what is being written.
+
 
 ### Naming Conventions
 
@@ -250,5 +268,3 @@ Variable names that define sets of files consist of five elements: **format**, *
 - Ensure absolute consistency between code, documentation, and outputs.
 - Proactively remove dead code, unused scripts, and obsolete configurations.
 - Keep terminology uniform across the entire project.
-
-```
