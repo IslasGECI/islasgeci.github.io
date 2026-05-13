@@ -28,6 +28,7 @@ Post filenames: `YYYY-MM-DD-slug.md` in `_posts/`. Tags are space-separated ids 
 - `make start` — build + serve. Visit http://localhost:4000.
 - `make down` — stop the dev server.
 - **Quirk**: `make serve` has a missing space in the volume mount (`jekyll\` -> `jekyll\ `). Run `make build` first if `make serve` fails.
+- **No `make check` target exists.** CI checks run only on GitHub Actions push.
 
 ## CI
 
@@ -41,6 +42,13 @@ Post filenames: `YYYY-MM-DD-slug.md` in `_posts/`. Tags are space-separated ids 
 - Posts and docs: Spanish. Code and filenames: English (snake_case).
 - Prefer Python and R. Do not reference MATLAB.
 - Allowed abbreviations: `sst`, `eez`, `lon`, `lat`, `x`, `y`, `X`, `Y`.
+
+## Reference scripts
+
+- `../bycatch_thesis/src/*.R` is the reference codebase for scripts conforming to
+  the conventions in STYLEGUIDE.md. When creating new R scripts, consult these
+  files for real-world examples of Spanish section markers, imperative comments,
+  and Tidyverse style.
 
 ## Repo rules
 

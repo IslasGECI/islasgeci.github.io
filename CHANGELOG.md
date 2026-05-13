@@ -10,7 +10,14 @@ version is incremented for every release.
 
 ### Added
 
-- (no changes yet)
+- Complete section structure in STYLEGUIDE.md with Spanish markers
+  (`CONFIGURACIÓN`, `ENTRADAS`, `PROCESAMIENTO / ANÁLISIS`, `SALIDA`) and
+  imperative-form consistency rules for script headers
+
+### Fixed
+
+- Line-ending compliance in `_posts/2026-05-13-texto-simple.md` to pass CI
+- Spellcheck wordlist expanded with `CSV`, `RDS`, `XLSX`, `pickle`
 
 ## [v0.1.0] - 2026-05-13
 
