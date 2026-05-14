@@ -18,4 +18,10 @@ serve:
 		jekyll serve
 down:
 	docker stop islasgeci.github.io
+
+.PHONY: check
+
+check:
+	src/check_style.sh
+	src/check_spelling.sh
 	
