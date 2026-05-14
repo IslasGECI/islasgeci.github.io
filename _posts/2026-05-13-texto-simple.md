@@ -1,26 +1,20 @@
 ---
 layout: post
 title: "Por qué preferimos el texto simple"
-author: Equipo de Ciencia de Datos
+author: Evaristo
 tags: dataops programación
 ---
 
-Preferimos los datos en texto simple (CSV, JSON, etc.) sobre archivos binarios (XLSX, pickle, RDS, etc.) por las siguientes razones:
+Los datos se prefieren en texto simple (csv, json, etc.) sobre los archivos binarios (xls, mat, etc.) porque:
 
-1. **Control de versiones**: los archivos de texto simple se agregan a Git; los
-   binarios no se diferencian bien entre versiones.
-2. **Portabilidad entre lenguajes**:
-   exportar e importar un JSON de Python a R (o viceversa) es trivial. Un
-   archivo `.rds` en Python o un `.pkl` en R no lo es.
-3. **Acceso universal**:
-   un archivo de texto se abre en cualquier máquina sin instalar nada adicional.
-   Un binario requiere un programa específico.
-4. **Licencias**:
-   los formatos binarios suelen ser propietarios y pueden implicar costos económicos.
-5. **Estabilidad**:
-   los formatos de texto simple son estables y cuentan con herramientas gratuitas
-   duraderas. Los binarios quedan obsoletos con frecuencia.
-6. **Consultas**:
-   las consultas que filtran datos sin modificar la estructura de la tabla son
-   aceptables dentro del programa; aquellas que agrupan o transforman no lo
-   son.
+1. Pueden agregarse los archivos de texto simple en el sistema de control de versiones (Git).
+1. Es más fácil transferir archivos de texto simple entre distintos lenguajes de programación.
+   Por ejemplo es más fácil exportar e importar un JSON desde MATLAB a R y viceversa que importar un `.mat` a R o un `.RData` a MATLAB
+1. Puede abrirse un archivo de texto simple en cualquier máquina sin instalar nada (ya tiene Notepad).
+   Es universalmente accesible.
+   Para abrir un archivo binario tienes que instalar algún programa que no viene incluido en el sistema operativo.
+1. Los archivos binarios comúnmente son formatos propietarios que acarrean problemas con las licencias que, a su vez, podrían traducirse en costos económicos.
+1. Los formatos de texto simple son más estables y puedes confiar en que en el futuro seguirán existiendo herramientas gratuitas para trabajar con ellos.
+   Los formatos binarios se convierten en obsoletos pronto porque las fuerzas del mercado obligan a los usuarios de software propietario a comprar las versiones más nuevas.
+1. Los _queries_ que filtran datos sin modificar podrán ser una petición aceptable dentro del cuerpo del programa, es decir, subconjuntos de datos.
+   Aquellos _queries_ que modifiquen la estructura de la tabla, que usan agrupaciones u operaciones, no serán permitidos.
