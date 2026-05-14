@@ -34,6 +34,17 @@ Post filenames: `YYYY-MM-DD-slug.md` in `_posts/`. Tags are space-separated ids 
 - `src/check_spelling.sh` — runs `aspell` (lang `es`) against `_posts/*.md` using `.github/config/.wordlist.txt`.
 - `Dockerfile` — minimal Ubuntu image with `aspell` and `make`.
 
+## Style fixes
+
+When fixing legacy posts that exceed the 25-word line limit:
+
+- **One sentence per line**. No hard-wrapping mid-sentence.
+- **≤30 words**: try shortening first (trim filler words, redundant phrases).
+- **31+ words**: split at a conjunction or natural clause boundary.
+- **Both split parts must be complete sentences**. Prepositional phrases alone ("Para los nombres...") are not sentences.
+- **Do not split paired structures**: `no sólo...sino también`, `tan...como`. Shorten instead.
+- **Pre-push hook** rejects pushes with violations. Use `git push --no-verify` for legacy content that is being fixed incrementally.
+
 ## Setup
 
 - `.pipelines/init.sh` — configures `core.hooksPath .githooks` to activate the pre-push hook.

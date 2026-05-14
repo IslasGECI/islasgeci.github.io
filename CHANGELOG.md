@@ -8,6 +8,12 @@ version is incremented for every release.
 
 ## [Unreleased]
 
+### Fixed
+
+- Style violations (sentences exceeding 25 words) in 8 legacy blog posts
+  covering DataOps, SPC, LaTeX, bird codes, Vim/tmux/QMK, and Data Science
+  team history
+
 ## [v0.2.0] - 2026-05-14
 
 ### Added
