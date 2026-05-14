@@ -37,7 +37,7 @@ Los estándares bien definidos nos facilitaron la colaboración en equipo y aseg
 Durante tal travesía académica me especialicé en el mundo de las neurociencias y el análisis de bio-señales.
 Dar un salto hacia la formación complementaria fue fundamental para enriquecer mi perspectiva y habilidades en el ámbito multidisciplinario.
 Ser parte del equipo de Ciencia de Datos fue una experiencia enriquecedora.
-Aquí, tuve la oportunidad de adentrarme en metodologías propias del campo de las ciencias computacionales y aprender sobre las buenas prácticas en el análisis de datos.
+Aquí, tuve la oportunidad de adentrarme en metodologías propias de las ciencias computacionales y aprender sobre las buenas prácticas en el análisis de datos.
 Durante mi estancia, tuve el privilegio de apoyar en el proyecto [Numerical Estimation of Rodenticide Density](https://github.com/IslasGECI/nerd).
 Fue un reto apasionante que me permitió aplicar mis habilidades y conocimientos en un contexto real.
 
@@ -71,5 +71,5 @@ Durante mi voluntariado desarrollé mis habilidades en temas selectos de estadí
 Me llamo Andrea Sánchez y soy egresada de la Licenciatura en Matemáticas Aplicadas.
 Por medio de la UABC realicé dos proyectos de vinculación con el equipo de Ciencia de Datos de GECI.
 El nombre de la investigación que desarrollé es: “Análisis estadístico para la conservación y protección de Albatros de Laysan en Isla Guadalupe”.
-Durante el proyecto no sólo enriquecí mis conocimientos en bio-estadística, sino también, estudié y puse en práctica herramientas y técnicas computacionales avanzadas utilizadas dentro del equipo.
+Durante el proyecto no sólo enriquecí mis conocimientos en bio-estadística, sino también, estudié y puse en práctica herramientas y técnicas computacionales avanzadas.
 Los resultados de este proyecto se encuentran en el [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
