@@ -8,6 +8,8 @@ version is incremented for every release.
 
 ## [Unreleased]
 
+## [v0.2.0] - 2026-05-14
+
 ### Added
 
 - Complete section structure in STYLEGUIDE.md with Spanish markers
@@ -65,5 +67,6 @@ version is incremented for every release.
 - Redundant style guide pages for version control, directory structure,
   nomenclature, and plain-text rules
 
-[Unreleased]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.2.0...HEAD
+[v0.2.0]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.1.0...v0.2.0
 [v0.1.0]: https://github.com/IslasGECI/islasgeci.github.io/releases/tag/v0.1.0
