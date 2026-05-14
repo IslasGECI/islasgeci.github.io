@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# pre-push hook to run checks before pushing
+
+echo "=========================================="
+echo "🚀 Running pre-push checks in Docker..."
+echo "=========================================="
+
+# Run checks inside a disposable container
+docker run --rm --volume $PWD:/workdir islasgeci/islasgeci.github.io make check
+
+# Capture the exit status
+RESULT=$?
+
+if [ $RESULT -ne 0 ]; then
+    echo ""
+    echo "❌ Pre-push checks failed. Push aborted."
+    echo "Review the errors above and fix them before pushing."
+    echo "=========================================="
+    exit 1
+fi
+
+echo ""
+echo "✅ All checks passed. Proceeding with push..."
+echo "=========================================="
+exit 0

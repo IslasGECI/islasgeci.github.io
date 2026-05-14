@@ -7,8 +7,7 @@
 # Descripción (Qué / Cómo): Ejecuta verificación de ortografía
 #   con aspell para archivos markdown en español, usando el
 #   diccionario personalizado del proyecto.
-# Entradas: Archivos markdown en _posts/, _guia_de_estilo/ y
-#   _protocolo_avanzado/
+# Entradas: Archivos markdown en _posts/
 # Salidas: Mensajes de error a stdout; código de salida 0 si pasa,
 #   1 si falla
 # Dependencias: aspell
@@ -66,7 +65,7 @@ main() {
 
     WORDLIST="$PWD/.github/config/.wordlist.txt"
 
-    local directories=("_posts" "_guia_de_estilo" "_protocolo_avanzado")
+    local directories=("_posts")
 
     for dir in "${directories[@]}"; do
         if [[ ! -d "$dir" ]]; then

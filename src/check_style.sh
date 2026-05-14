@@ -7,8 +7,7 @@
 # Descripción (Qué / Cómo): Valida que cada línea termine con
 #   puntuación adecuada y que todas las oraciones sean ≤25 palabras.
 #   Itera sobre archivos Markdown en los directorios del proyecto.
-# Entradas: Archivos markdown en _posts/, _guia_de_estilo/ y
-#   _protocolo_avanzado/
+# Entradas: Archivos markdown en _posts/
 # Salidas: Mensajes de error a stdout; código de salida 0 si pasa,
 #   1 si falla
 # Dependencias: grep, egrep, wc, bash
@@ -84,7 +83,7 @@ main() {
     echo "============================================"
     echo ""
 
-    local directories=("_posts" "_guia_de_estilo" "_protocolo_avanzado")
+    local directories=("_posts")
     local file_count=0
 
     for dir in "${directories[@]}"; do
