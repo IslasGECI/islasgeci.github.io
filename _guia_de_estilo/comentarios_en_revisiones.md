@@ -123,6 +123,28 @@ posible que aquí **usemos** la primera persona del plural sin cambiar el signif
 Los emojis y GIF nos ayudan a complementar las ideas, emociones o sentimientos que queremos expresar
 en un comentario.
 
+---
+
+## Checklist for _Pull Request_
+
+- [ ] **Small**: The pull request has fewer than 100 lines.
+- [ ] **Passing**: The CI pipeline is passing.
+- [ ] **Technical debt reduction**: Did we reduce any form of technical debt? Are we confident that this change did not introduce or increase technical debt?
+- [ ] **Complexity**: Could the code be made simpler? Would another developer be able to easily understand and use this code when they come across it in the future? Is this code adding functionality that isn't presently needed?
+- [ ] **Design**: Is the code well-designed and appropriate for your system?
+- [ ] **Tests**: Does the code have correct and well-designed automated tests? Does the code behave as the author likely intended? 
+- [ ] **Interface**: Any interface changes are sensible and look good. Is the way the code behaves good for its users?
+- [ ] **CHANGELOG.md**: Are the changes recorded in this file following [this](https://keepachangelog.com/) standard? 
+- [ ] **Versioning**: Are version numbers updated according to [semantic versioning](https://semver.org/) guidelines (e.g., MAJOR.MINOR.PATCH)? 
+- [ ] **Documentation**: Did the developer also update relevant documentation? Does the exposed functions have docstrigns? **No tenemos pero nos vamos a pasar de líneas.**
+- [ ] **CITATION.cff**: Is the citation files included and updated following the [this](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) standard? _[Aquí](https://github.com/IslasGECI/seabird_tracking/blob/develop/CITATION.cff) y [aquí](https://github.com/IslasGECI/nerd/blob/develop/CITATION.cff) hay ejemplos._
+- [ ] **Naming**: Did the developer choose clear names for variables, classes, methods, etc.?  Did we replace unnecessary comments with clear variable names, well-named functions, and small cohesive blocks?
+- [ ] **Style**: Does the code follow our [style guides](https://islas.dev/guia_de_estilo/lista_de_guias)?
+- [ ] **YAGNI**: The developer is not implementing things they might need in the future but don’t know they need now.
+- [ ] **Good Things**: If you see something nice in the pull request, tell the developer, especially when they addressed one of your comments in a great way. 
+
+---
+
 ## Referencias
 
 - [How to write code review
