@@ -13,11 +13,31 @@ version is incremented for every release.
 - Complete section structure in STYLEGUIDE.md with Spanish markers
   (`CONFIGURACIÓN`, `ENTRADAS`, `PROCESAMIENTO / ANÁLISIS`, `SALIDA`) and
   imperative-form consistency rules for script headers
+- Pull Request review checklist to style guide
+- Dockerfile with `aspell` and `make` for isolated CI validation
+- Style check script (`src/check_style.sh`) validating line endings and
+  sentence length
+- Spellcheck script (`src/check_spelling.sh`) using aspell with Spanish
+  dictionary
+- `make check` target to run both validation scripts
+- Pre-push hook that rejects pushes on failed checks
+- `.pipelines/init.sh` for local Git hooks configuration
+
+### Changed
+
+- CI workflow now builds a Docker image and runs `make check` instead of
+  inline shell checks
+- Style and spellcheck scripts scoped to `_posts/` only
+
+### Removed
+
+- `.github/config/.spellcheck.yml` (replaced by direct aspell integration)
 
 ### Fixed
 
 - Line-ending compliance in `_posts/2026-05-13-texto-simple.md` to pass CI
 - Spellcheck wordlist expanded with `CSV`, `RDS`, `XLSX`, `pickle`
+- Missing `WORKDIR` in Dockerfile caused `make check` to fail in CI
 
 ## [v0.1.0] - 2026-05-13
 

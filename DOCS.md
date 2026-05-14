@@ -32,6 +32,39 @@ Stop the running Jekyll development server.
 - Returns: stops and removes container `islasgeci.github.io`
 - Errors: no-op if no container is running
 
+## make check
+
+Run style and spellcheck validation inside a Docker container.
+
+- Parameters: none
+- Returns: exit code 0 if all checks pass, 1 otherwise
+- Notes: Builds or uses the `islasgeci/islasgeci.github.io` image. Requires Docker. Equivalent to running `src/check_style.sh` followed by `src/check_spelling.sh`.
+
+## src/check_style.sh
+
+Validate that every Markdown file in `_posts/` ends each line with `.`, `:`, or `?` and that no line exceeds 25 words.
+
+- Parameters: none
+- Returns: exit code 0 if all checks pass, 1 otherwise
+- Errors: non-zero exit when a line lacks proper punctuation or exceeds 25 words
+
+## src/check_spelling.sh
+
+Run aspell spellcheck in Spanish against every Markdown file in `_posts/` using the project wordlist.
+
+- Parameters: none
+- Returns: exit code 0 if no spelling errors found, 1 otherwise
+- Errors: non-zero exit when aspell detects unrecognised words
+- Notes: Uses `.github/config/.wordlist.txt` as the personal dictionary. Add new technical terms to that file.
+
+## .pipelines/init.sh
+
+Configure the local Git repository to use the project pre-push hook.
+
+- Parameters: none
+- Returns: sets `core.hooksPath` to `.githooks`
+- Notes: Run once per clone. The pre-push hook calls `make check` and rejects the push if checks fail.
+
 ## Collections
 
 ### `_guia_de_estilo`

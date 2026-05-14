@@ -9,6 +9,6 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@main
     - name: Build Docker image
-      run: docker build --tag islasgeci.github.io .
+      run: docker build --tag islasgeci/islasgeci.github.io .
     - name: Run checks
-      run: docker run --volume $PWD:/workdir islasgeci.github.io make check
+      run: docker run --volume $PWD:/workdir islasgeci/islasgeci.github.io make check

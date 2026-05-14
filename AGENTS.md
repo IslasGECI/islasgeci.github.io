@@ -20,7 +20,6 @@ Post filenames: `YYYY-MM-DD-slug.md` in `_posts/`. Tags are space-separated ids 
 - `_data/tags.yml` — tag taxonomy. New tags must be added here before use.
 - `_config.yml` — Jekyll config. Collections enabled: `guia_de_estilo`, `protocolo_avanzado`.
 - `.github/config/.wordlist.txt` — aspell custom dictionary. Add new technical terms here.
-- `.github/config/.spellcheck.yml` — only targets `_posts/2022-*.md` through `_posts/2026-*.md`.
 
 ## Development
 
@@ -28,14 +27,21 @@ Post filenames: `YYYY-MM-DD-slug.md` in `_posts/`. Tags are space-separated ids 
 - `make start` — build + serve. Visit http://localhost:4000.
 - `make down` — stop the dev server.
 - **Quirk**: `make serve` has a missing space in the volume mount (`jekyll\` -> `jekyll\ `). Run `make build` first if `make serve` fails.
-- **No `make check` target exists.** CI checks run only on GitHub Actions push.
+## Checks
+
+- `make check` runs style and spellcheck via Docker. Requires Docker.
+- `src/check_style.sh` — validates line endings (`.`, `:`, `?`) and ≤25 words per line in `_posts/*.md`.
+- `src/check_spelling.sh` — runs `aspell` (lang `es`) against `_posts/*.md` using `.github/config/.wordlist.txt`.
+- `Dockerfile` — minimal Ubuntu image with `aspell` and `make`.
+
+## Setup
+
+- `.pipelines/init.sh` — configures `core.hooksPath .githooks` to activate the pre-push hook.
+- `.githooks/pre-push` — runs `make check` before every push; rejects if checks fail. Activate with `bash .pipelines/init.sh`.
 
 ## CI
 
-`.github/workflows/actions.yml` runs two checks on push:
-1. **End-of-line check**: every non-front-matter line in `_posts/20??-*.md` must end with `.`, `:`, or `?`.
-2. **Sentence length**: no line in recent posts (2022–2026) may exceed 25 words.
-3. **Spellcheck**: aspell (lang `es`) against the wordlist.
+`.github/workflows/actions.yml` builds the Docker image and runs `make check` on every push.
 
 ## Language
 

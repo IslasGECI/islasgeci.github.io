@@ -2,5 +2,4 @@
 
 ## The Gold
 
-- [ ] Extract the GitHub Actions checks into a Makefile target named `check`
-- [ ] Add a Git pre-push hook that calls `make check`
+- [ ] Fix style violations in legacy posts to pass pre-push hook
