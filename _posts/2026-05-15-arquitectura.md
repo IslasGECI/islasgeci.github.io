@@ -47,15 +47,16 @@ Solo las funciones del nivel 2 pueden llamar a funciones del nivel 1.
 
 ## Nivel 2: Producción de artefactos
 
-La capa de materialización no contiene lógica computacional propia.
-Delega todo el análisis a las funciones del nivel 1.
+El nivel 2 contiene a la capa de materialización.
+Esta capa es responsable de la creación de artefactos persistentes.
+Las funciones de esta capa delegan todo el análisis a las funciones del nivel 1 y no contienen lógica computacional propia.
 
-- **Capa de materialización:** responsable de la creación de artefactos persistentes.
-  - Las funciones `create_*` siguen el patrón:
+- **Capa de materialización:**
+  - Las funciones `create_*` (nivel 2) siguen el patrón:
     1. `read/import`: nivel 1, capa I/O.
     1. `compute_*`: nivel 1, capa pura.
     1. `write/export`: nivel 1, capa I/O.
-  - Las funciones `render_*` siguen el patrón:
+  - Las funciones `render_*` (nivel 2) siguen el patrón:
     1. `read/import`: nivel 1, capa I/O.
     1. `plot_*`: nivel 1, capa pura.
     1. `write/export`: nivel 1, capa I/O.
