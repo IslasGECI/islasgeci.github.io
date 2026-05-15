@@ -15,19 +15,20 @@ Use this convention to ensure consistency, predictability, and clarity across al
 Follow this naming pattern for all command names:
 
 ```
-<verb>_<method|modifier*>_<variable|object>_<taxon?>_<region?>_<season?>_<format?>
+create[_<method>]_<variable> [--taxon <TAXON>] [--region <REGION>] [--season <SEASON>] [--format <FORMAT>]
+
+render[_<method>]_<variable> [--taxon <TAXON>] [--region <REGION>] [--season <SEASON>] [--format <FORMAT>]
 ```
 
-* Components in angle brackets `<>` are positional.
-Maintain this order consistently.
-* Components with an asterisk `*` are optional and may be embedded in the command name.
-* Components with a question mark `?` are optional and must be passed as CLI arguments rather than embedded.
-* Use underscores to separate components.
+* `<>` denotes required components.
+* `[]` denotes optional components.
+* Underscores separate segments within the command name.
 
 ### Example
 
 ```bash
-write_mean_mass --input-path data/mass.csv --output-path out/mean_mass.json --taxon LAAL --region san_benedicto --season 2020 --format json # Genera el archivo.
+geci create bootstrap_progress_probability --taxon LAAL ...
+geci render cpue_vs_cumulative_captures --region clarion ...
 ```
 
 ---
@@ -38,15 +39,8 @@ Use one of the following **standard verbs** as the first component of the comman
 
 | Verb        | Description                     |
 | ----------- | ------------------------------- |
-| `write`     | Output data to files            |
-| `plot`      | Create visualizations           |
-| `filter`    | Subset or filter data           |
-| `export`    | Convert and output data         |
-| `import`    | Load data from external sources |
-| `validate`  | Check data integrity            |
-| `calculate` | Perform computations            |
-| `merge`     | Combine datasets                |
-| `transform` | Modify data structure           |
+| `create`    | Create data artifacts           |
+| `render`    | Render visualizations           |
 
 Use only these verbs unless a new, general-purpose action is required.
 
@@ -59,14 +53,12 @@ Use lowercase with underscores to combine multiple words.
 
 ### Examples
 
-* `aerial`
 * `bootstrap`
-* `by_flight`
-* `by_method`
-* `comparative`
-* `custom`
+* `filtered`
 * `mean`
-* `mixed_methods`
+* `merged`
+* `transformed`
+* `valid`
 
 Avoid encoding values that are better expressed as arguments (e.g., `taxon`, `region`, or `format`).
 
@@ -116,35 +108,21 @@ Do **not** embed `taxon`, `region`, `season`, or `format` in the command name. I
 ## 6. Naming Examples
 
 | ❌ Bad Name                                   | ✅ Good Name                                     | Notes                                                                            |
-| -------------------------------------------- | ----------------------------------------------- | -------------------------------------------------------------------------------- |
-| `write_bootstrap_progress_intervals`         | `write_bootstrap_interval_progress_probability` | Verb (write), method (bootstrap\_interval), and variable (progress\_probability) |
-| `filter_by_method`                           | `filter_by_method_data`                         | Verb (filter), modifier (by\_method), and object (data)                          |
-| `write_monitoring_aerial`                    | `write_aerial_monitoring`                       | Verb (write), method (aerial), and object (monitoring)                           |
-| `write_population_status_from_mixed_methods` | `write_mixed_methods_population_status`         | Verb (write), method (mixed\_methods), and variable (population\_status)         |
-| `write_csv_probability`                      | `write_progress_probability --format csv`       | Verb (write), variable (progress\_probability); format passed as argument        |
-| `write_progress_probability_figure`          | `plot_progress_probability`                     | Verb (plot), variable (progress\_probability)                                    |
-| `plot_comparative_catch_curves`              | `plot_comparative_catch`                        | Verb (plot), method (comparative), variable (catch); "curves" is redundant       |
-| `plot_custom_cpue_vs_cum_captures`           | `plot_custom_cpue_vs_cumulative_captures`       | Verb (plot), method (custom), variable (cpue\_vs\_cumulative\_captures)          |
-| `plot_cpue_vs_cum_captures`                  | `plot_cpue_vs_cumulative_captures`              | Verb (plot), variable (cpue\_vs\_cumulative\_captures)                           |
+| --------------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------- |
+| `create_bootstrap_progress_intervals`         | `create_bootstrap_interval_progress_probability` | Verb (create), method (bootstrap\_interval), and variable (progress\_probability) |
+| `create_monitoring_aerial`                    | `create_aerial_monitoring`                       | Verb (create), method (aerial), and object (monitoring)                           |
+| `create_population_status_from_mixed_methods` | `create_mixed_methods_population_status`         | Verb (create), method (mixed\_methods), and variable (population\_status)         |
+| `create_csv_probability`                      | `create_progress_probability --format csv`       | Verb (create), variable (progress\_probability); format passed as argument        |
+| `create_progress_probability_figure`          | `render_progress_probability`                    | Verb (render), variable (progress\_probability)                                    |
+| `render_comparative_catch_curves`             | `render_comparative_catch`                       | Verb (render), method (comparative), variable (catch); "curves" is redundant       |
+| `render_custom_cpue_vs_cum_captures`          | `render_custom_cpue_vs_cumulative_captures`      | Verb (render), method (custom), variable (cpue\_vs\_cumulative\_captures)          |
+| `render_cpue_vs_cum_captures`                 | `render_cpue_vs_cumulative_captures`             | Verb (render), variable (cpue\_vs\_cumulative\_captures)                           |
 
 ---
 
-## 7. CLI Subcommand Structure
+## 7. Guidelines for Adding New Commands
 
-Organize commands logically using a CLI framework like Typer:
-
-```bash
-geci write bootstrap_progress_probability --taxon LAAL ...
-geci plot cpue_vs_cumulative_captures --region clarion ...
-```
-
-This structure supports modularity and improves discoverability.
-
----
-
-## 8. Guidelines for Adding New Commands
-
-1. **Start with a standard verb**.
+1. **Start with a standard verb**: `create` for data artifacts, `render` for visualizations.
 2. **Add a method or modifier only when it improves clarity or resolves ambiguity.**.
 3. **Use a documented, standard variable.**.
 4. **Pass `taxon`, `region`, `season`, and `format` as CLI arguments.**.
