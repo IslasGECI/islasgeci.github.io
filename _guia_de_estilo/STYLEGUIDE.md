@@ -150,13 +150,14 @@ The `Makefile` must contain three sections:
 
 ### Source Code Structure (`src/`)
 - All scripts must reside in `src/`.
-- Structure scripts into five specific sections: Header (comment block), Configuration, Inputs, Process/Analysis, and Output. The five code sections below each correspond to an `# ==== NOMBRE ====` marker in Spanish.
+- Structure scripts into five specific sections: Header (comment block), Configuration, Inputs, Process/Analysis, and Output.
+- The last four code sections below correspond to a `# ==== [SECTION] ====` marker in Spanish.
 
 #### 1. Header Section (Comment Block)
-Use EXACTLY this structure with the opening and closing separators. Always include ALL sections (even if minimal) and never change section order:
+Use EXACTLY this structure with the opening and closing separators.
+Always include ALL sections (even if minimal) and never change section order:
 
 ```r
-
 # ==========================================
 # Título: (1 línea)
 # 
@@ -165,19 +166,19 @@ Use EXACTLY this structure with the opening and closing separators. Always inclu
 # Descripción (Qué / Cómo): (3–6 líneas)
 # 
 # Entradas: (Sin bullets, uno por línea, incluir capa si aplica: `(capa: "nombre")`)
-#   *Example*: data/processed/file.gpkg (capa: "layer_name")
+#   *Ejemplo*: data/processed/file.gpkg (capa: "layer_name")
 # 
 # Salidas: (Sin bullets, uno por línea)
 # 
 # Dependencias: (Un paquete por línea, sin comas)
-#   *Example*: sf
+#   *Ejemplo*: sf
 #             tidyverse
 # 
-# Notas: (Opcional, máximo 4 bullets. Use bullet points ONLY in this section)
+# Notas: (Opcional, máximo 4 bullets. Usar bullets SOLO en esta sección)
 # ==========================================
 ```
 
-**Consistency Rules for Header:**
+**Consistency Rules for Header Section (Comment Block):**
 - Use ONLY Spanish (keep technical function names in English, e.g., `st_bbox()`, `ggplot2`).
 - Never mix English and Spanish section names.
 - Always write in imperative form ("Carga...", "Calcula...").
@@ -215,28 +216,45 @@ Use EXACTLY this structure with the opening and closing separators. Always inclu
 - All lowercase, no underscores, dots, or CamelCase (e.g., `seabirdtracking`, `cameradata`, `maritimeinformatics`).
 
 #### Code Files (Scripts)
+
 - The name must start with a verb.
 - Only letters and numbers allowed (no ñ or accented vowels).
-- The name must match the variable in the `Makefile` that defines the result set.
-    - *Example*: A program generating results defined by `png_density_maps_albatross_guadalupe` should be named `render_density_maps_albatross_guadalupe`. The format (PNG) is omitted if the same script generates multiple formats (e.g., SHP).
+- The script name must match the `Makefile` target defining the set of produced artifacts.
+- Examples: `render_density_maps_albatross_guadalupe`, `create_temperature_field`.
 
-#### Functions and Methods
-- **In-Memory (No Side Effects)**:
+#### Commands, Functions and Methods
+
+**Level 1:**
+
+- **In-Memory layer.** No side effects:
     - `compute_*()`: Calculations in memory, returns result.
     - `plot_*()`: Generates visualization in memory.
     - `get_`: Use only if a complementary `set_` exists; otherwise, use `compute_`.
     - `input2output`: Format change (e.g., `csv2df`, `lbs2kg`).
     - `is_`: Returns logical values (e.g., `is_dog()`).
     - Each function must perform a single action. `create_*()` and `render_*()` are controlled exceptions to this rule.
-- **Disk (Persistence)**:
+
+- **Disk I/O layer.** Persistence of preprocessed data and intermediate results:
     - `read_*()` / `write_*()`: Native formats (e.g., `.rds`).
     - `import_*()` / `export_*()`: Interoperable formats (e.g., `.csv`, `.gpkg`).
-- **Writing Results**:
-    - `create_*()`: Computes (`compute_*`) and writes to disk (`write_*` or `export_*`).
-    - `render_*()`: Reads from disk, produces plot (`plot_*`), and writes to image.
+    - `get_`: Use only if a complementary `set_` exists; otherwise, use `read_` or `import_`.
+
+**Level 2:**
+
+- **Artifact layer.** Creation and rendering of persistent artifacts:
+    - `create_*()`: Reads from disk (`read_*` or `import_*`), generates result (`compute_*`), and writes to disk (`write_*` or `export_*`).
+    - `render_*()`: Reads from disk (`read_*` or `import_*`), generates visualization (`plot_*`), and writes to disk (`write_*` or `export_*`).
+
+Only Level 2 functions (`create_*()` and `render_*()`) can call Level 1 functions.
+Level 1 functions must not call each other; they should be independent and reusable.
 
 #### Variables in the Makefile
-Variable names that define sets of files consist of five elements: **format**, **variable(s)**, **monitoring type** (or result type), **species** (or group), and **geographic region**.
+Variable names that define sets of files consist of five elements:
+
+```
+format + variable/result + monitoring/result type + species/group + region
+```
+
 - Examples: `xlsx_nests_census_albatross_guadalupe`, `png_density_maps_albatross_guadalupe`.
 - Redundant words already present in the repository name may be omitted.
 
@@ -247,14 +265,28 @@ Variable names that define sets of files consist of five elements: **format**, *
 ### Other Files and Directories
 - Prefer [_snake_case_](https://en.wikipedia.org/wiki/Snake_case).
 - Only letters and numbers are allowed (no ñ or accented vowels).
-- If a filename includes a date, use `YYYY-MM-DD` or `YYYYMMDD`. Prefer placing the date at the beginning.
+- Date formats. If a filename includes a date:
+    - For internal use, use `YYYY-MM-DD` (e.g., `2026-01-15`). Place the date at the beginning of the filename.
+    - For external use, in Spanish, use `DD-mmm-YYYY` (e.g., `15-ene-2026`). Place the date at the end of the filename.
+    - For external use, in English, use `Mmm-DD-YYYY` (e.g., `Jan-15-2026`). Place the date at the end of the filename.
 
 #### Variables
-- Use English, descriptive, and fully spelled out (no abbreviations unless allowed).
-- **Prefixes**: `n_` (counts), `i_` (iteration), `is_` (boolean), `ind_` (index).
-- **Suffixes**: Indicate units separated by underscore (e.g., `distance_m`, `weight_kg`, `time_s`).
+
+- Use English
+- Use descriptive names
+- Avoid abbreviations unless explicitly allowed
+- **Prefixes**
+    - `i_` (iteration)
+    - `ind_` (index)
+    - `is_` (boolean)
+    - `n_` (counts)
+- **Suffixes**. Indicate units separated by underscore:
+    - `distance_m`
+    - `time_s`
+    - `weight_kg`
 
 ### Allowed Abbreviations
+
 - `sst`: Sea Surface Temperature
 - `eez`: Exclusive Economic Zone
 - `x` / `y`: UTM zonal/meridional coordinate vector
@@ -265,6 +297,7 @@ Variable names that define sets of files consist of five elements: **format**, *
 ---
 
 ## Consistency & Maintenance
-- Ensure absolute consistency between code, documentation, and outputs.
+
+- Ensure consistency between code, documentation, and outputs.
 - Proactively remove dead code, unused scripts, and obsolete configurations.
 - Keep terminology uniform across the entire project.
