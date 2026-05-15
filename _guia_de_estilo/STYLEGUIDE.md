@@ -232,7 +232,6 @@ Always include ALL sections (even if minimal) and never change section order:
     - `get_`: Use only if a complementary `set_` exists; otherwise, use `compute_`.
     - `input2output`: Format change (e.g., `csv2df`, `lbs2kg`).
     - `is_`: Returns logical values (e.g., `is_dog()`).
-    - Each function must perform a single action. `create_*()` and `render_*()` are controlled exceptions to this rule.
 
 - **Disk I/O layer.** Persistence of preprocessed data and intermediate results:
     - `read_*()` / `write_*()`: Native formats (e.g., `.rds`).
