@@ -50,13 +50,13 @@ Delega todo el análisis a las funciones del nivel 1.
 
 - **Capa de materialización:** responsable de la creación de artefactos persistentes.
   - Las funciones `create_*` siguen el patrón:
-       1.`read/import`
-       1. `compute_*`
-       1. `write/export`
+    1. `read/import`
+    1. `compute_*`
+    1. `write/export`
   - Las funciones `render_*` siguen el patrón:
-       1. `read/import`
-       1. `plot_*`
-       1. `write/export`
+    1. `read/import`
+    1. `plot_*`
+    1. `write/export`
 
 Las funciones `create_*` y `render_*` no se llaman entre sí; únicamente Make puede invocarlas.
 
