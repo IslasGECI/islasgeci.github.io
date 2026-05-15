@@ -5,9 +5,9 @@ author: Evaristo
 tags: programación
 ---
 
-La arquitectura se organiza en niveles de abstracción y capas funcionales:
+En GECI, organizamos la arquitectura de nuestros proyectos en niveles de abstracción y capas funcionales:
 
-![Arquitectura en niveles y capas](assets/images/architecture.png)
+![Arquitectura en niveles y capas](/assets/images/architecture.png)
 
 ## Niveles de abstracción
 
