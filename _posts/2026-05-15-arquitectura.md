@@ -19,7 +19,9 @@ En GECI, organizamos la arquitectura de nuestros proyectos en niveles de abstrac
 - Nivel 5: Canal de integración
 
 Por lo general, las funciones de un nivel solo pueden llamar a funciones de niveles inferiores.
-Por ejemplo, las funciones del nivel 2 pueden llamar a funciones del nivel 1, pero no pueden llamar a funciones del nivel 2 o nivel 3.
+Por ejemplo, las funciones del nivel 2 pueden llamar a funciones del nivel 1, pero no pueden llamar a funciones del nivel 2 o 3.
+Excepcionalmente, las funciones de un nivel pueden llamar a funciones de apoyo (_helper functions_ o producto de la refactorización) del mismo nivel.
+Sin embargo, estas llamadas se permiten solo cuando las funciones sean privadas y pertenezcan a la misma capa funcional.
 
 ## Nivel 1: Funciones primitivas
 
@@ -50,13 +52,13 @@ Delega todo el análisis a las funciones del nivel 1.
 
 - **Capa de materialización:** responsable de la creación de artefactos persistentes.
   - Las funciones `create_*` siguen el patrón:
-    1. `read/import`
-    1. `compute_*`
-    1. `write/export`
+    1. `read/import`: nivel 1, capa I/O.
+    1. `compute_*`: nivel 1, capa pura.
+    1. `write/export`: nivel 1, capa I/O.
   - Las funciones `render_*` siguen el patrón:
-    1. `read/import`
-    1. `plot_*`
-    1. `write/export`
+    1. `read/import`: nivel 1, capa I/O.
+    1. `plot_*`: nivel 1, capa pura.
+    1. `write/export`: nivel 1, capa I/O.
 
 Las funciones `create_*` y `render_*` no se llaman entre sí; únicamente Make puede invocarlas.
 
