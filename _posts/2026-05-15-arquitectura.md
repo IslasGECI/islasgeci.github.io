@@ -11,12 +11,12 @@ En GECI, organizamos la arquitectura de nuestros proyectos en niveles de abstrac
 
 ## Niveles de abstracción
 
-    - Nivel 0: Datos
-    - Nivel 1: Funciones primitivas
-    - Nivel 2: Producción de artefactos
-    - Nivel 3: Orquestación
-    - Nivel 4: Composición de servicios
-    - Nivel 5: Canal de integración
+- Nivel 0: Datos
+- Nivel 1: Funciones primitivas
+- Nivel 2: Producción de artefactos
+- Nivel 3: Orquestación
+- Nivel 4: Composición de servicios
+- Nivel 5: Canal de integración
 
 ## Nivel 1: Funciones primitivas
 
