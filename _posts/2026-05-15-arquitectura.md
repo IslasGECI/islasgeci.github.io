@@ -18,13 +18,16 @@ En GECI, organizamos la arquitectura de nuestros proyectos en niveles de abstrac
 - Nivel 4: Composición de servicios
 - Nivel 5: Canal de integración
 
+Por lo general, las funciones de un nivel solo pueden llamar a funciones de niveles inferiores.
+Por ejemplo, las funciones del nivel 2 pueden llamar a funciones del nivel 1, pero no pueden llamar a funciones del nivel 2 o nivel 3.
+
 ## Nivel 1: Funciones primitivas
 
 El nivel 1 se compone de dos capas funcionales:
 
 - **Capa pura:** operaciones en memoria sin efectos secundarios.
-   - `compute_*`
-   - `plot_*`
+   - `compute_*`: cálculos en memoria.
+   - `plot_*`: visualizaciones en memoria.
 - **Capa I/O:** operaciones de lectura y escritura en disco.
    - `import_*`: lectura de datos interoperables en formato agnóstico del lenguaje.
    - `export_*`: escritura de datos interoperables en formato agnóstico del lenguaje.
@@ -42,12 +45,18 @@ Solo las funciones del nivel 2 pueden llamar a funciones del nivel 1.
 
 ## Nivel 2: Producción de artefactos
 
-- **Capa de materialización:** responsable de la creación de artefactos persistentes.
-   - `create_*`: sigue el patrón `read/import -> compute_* -> write/export`
-   - `render_*`: sigue el patrón `read/import -> plot_* -> write/export`
-
 La capa de materialización no contiene lógica computacional propia.
-Delega todo el análisis a las funciones puras correspondientes.
+Delega todo el análisis a las funciones del nivel 1.
+
+- **Capa de materialización:** responsable de la creación de artefactos persistentes.
+  - Las funciones `create_*` siguen el patrón:
+       1.`read/import`
+       1. `compute_*`
+       1. `write/export`
+  - Las funciones `render_*` siguen el patrón:
+       1. `read/import`
+       1. `plot_*`
+       1. `write/export`
 
 Las funciones `create_*` y `render_*` no se llaman entre sí; únicamente Make puede invocarlas.
 
