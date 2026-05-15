@@ -50,7 +50,7 @@ Validate that every Markdown file in `_posts/` ends each line with `.`, `:`, or 
 
 ## src/check_spelling.sh
 
-Run aspell spellcheck in Spanish against every Markdown file in `_posts/` using the project wordlist.
+Run aspell spellcheck against every Markdown file in `_posts/`, routing `*_en.md` to English and all other files to Spanish.
 
 - Parameters: none
 - Returns: exit code 0 if no spelling errors found, 1 otherwise

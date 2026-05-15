@@ -20,7 +20,10 @@ Post filenames: `YYYY-MM-DD-slug.md` in `_posts/`. Tags are space-separated ids 
 - `_data/tags.yml` — tag taxonomy. New tags must be added here before use.
 - `_config.yml` — Jekyll config. Collections enabled: `guia_de_estilo`, `protocolo_avanzado`.
 - `.config/wordlist-es.txt` — Spanish aspell custom dictionary. Add new technical terms here.
+  **Encoding**: The first line must contain `utf-8` (`personal_ws-1.1 es N utf-8`).
+  `aspell-es` defaults to `iso8859-1`; the suffix overrides it.
 - `.config/wordlist-en.txt` — English aspell custom dictionary. Add new English terms here.
+  **Format**: First line: `personal_ws-1.1 en N utf-8` where `N` is the word count.
 
 ## Development
 
@@ -32,8 +35,9 @@ Post filenames: `YYYY-MM-DD-slug.md` in `_posts/`. Tags are space-separated ids 
 
 - `make check` runs style and spellcheck via Docker. Requires Docker.
 - `src/check_style.sh` — validates line endings (`.`, `:`, `?`) and ≤25 words per line in `_posts/*.md`.
+  **Quirk**: does not skip fenced code blocks — lines inside ``` blocks are also checked.
 - `src/check_spelling.sh` — runs `aspell` against `_posts/*.md` using `.config/wordlist-es.txt` (Spanish) or `.config/wordlist-en.txt` (English, for `*_en.md` posts).
-- `Dockerfile` — minimal Ubuntu image with `aspell` and `make`.
+- `Dockerfile` — minimal Ubuntu image with `aspell`, `aspell-en`, `aspell-es`, and `make`.
 
 ## Style fixes
 

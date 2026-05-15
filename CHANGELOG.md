@@ -8,6 +8,22 @@ version is incremented for every release.
 
 ## [Unreleased]
 
+### Added
+
+- Bilingual spellcheck: `*_en.md` posts are validated with `aspell-en` and
+  a dedicated English wordlist; all other posts use `aspell-es`
+- `.config/wordlist-en.txt` for English technical terms
+
+### Changed
+
+- Wordlist files relocated from `.github/config/` to `.config/` with
+  per-language naming (`wordlist-es.txt`, `wordlist-en.txt`)
+- Spanish wordlist header updated to `utf-8` encoding suffix (required by
+  `aspell-es` which defaults to `iso8859-1`)
+- CLI naming convention post aligned with materialization-layer architecture:
+  verbs narrowed to `create`/`render`, standard CLI notation for the pattern,
+  `filtered`/`merged`/`transformed`/`valid` as modifiers
+
 ### Fixed
 
 - Style violations (sentences exceeding 25 words) in 8 legacy blog posts
