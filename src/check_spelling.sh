@@ -21,28 +21,28 @@ HAS_ERRORS=0
 # ==========================================
 check_spelling() {
     local lang="$1"
-    local directory="$2"
-    local wordlist="$3"
-    local lang_name="$4"
+    local wordlist="$2"
+    local lang_name="$3"
+    shift 3
+    local -a files=("$@")
 
-    echo "Checking spelling in $lang_name ($directory/*.md)..."
+    echo "Checking spelling in $lang_name..."
 
-    # aspell-es uses ISO-8859-1 charset internally,
-    # so convert the UTF-8 wordlist on the fly
-    local temp_wordlist
-    temp_wordlist=$(mktemp)
-    iconv -f UTF-8 -t ISO-8859-1 "$wordlist" > "$temp_wordlist" 2>/dev/null || cp "$wordlist" "$temp_wordlist"
+    if [[ ${#files[@]} -eq 0 ]]; then
+        echo "⚠️  No files to check"
+        return 0
+    fi
 
     local error_count=0
 
-    for file in "$directory"/*.md; do
+    for file in "${files[@]}"; do
         if [[ -f "$file" ]]; then
             local misspellings
             misspellings=$(aspell --lang="$lang" \
                                   --ignore-case \
                                   --mode=markdown \
                                   --encoding=utf-8 \
-                                  --personal="$temp_wordlist" \
+                                  --personal="$wordlist" \
                                   list < "$file" | sort -u)
 
             if [[ -n "$misspellings" ]]; then
@@ -55,8 +55,6 @@ check_spelling() {
             fi
         fi
     done
-
-    rm -f "$temp_wordlist"
 
     if [[ $error_count -eq 0 ]]; then
         echo "✅ No spelling errors found in $lang_name files"
@@ -74,21 +72,35 @@ main() {
 
     export LANG=C.UTF-8
 
-    WORDLIST="$PWD/.github/config/.wordlist.txt"
+    local dir="$PWD/_posts"
 
-    local directories=("_posts")
+    if [[ ! -d "$dir" ]]; then
+        echo "⚠️  Directory not found: $dir"
+        return 1
+    fi
 
-    for dir in "${directories[@]}"; do
-        if [[ ! -d "$dir" ]]; then
-            echo "⚠️  Directory not found: $dir"
-            continue
+    # Collect Spanish and English files separately
+    local spanish_files=()
+    local english_files=()
+    for f in "$dir"/*.md; do
+        if [[ -f "$f" ]]; then
+            if [[ "$f" == *_en.md ]]; then
+                english_files+=("$f")
+            else
+                spanish_files+=("$f")
+            fi
         fi
-
-        echo "─────────────────────────────────────────"
-        check_spelling "es" "$dir" "$WORDLIST" "$dir"
-        echo "─────────────────────────────────────────"
-        echo ""
     done
+
+    echo "─────────────────────────────────────────"
+    check_spelling "es" "$PWD/.config/wordlist-es.txt" "Spanish posts" "${spanish_files[@]}"
+    echo "─────────────────────────────────────────"
+    echo ""
+
+    echo "─────────────────────────────────────────"
+    check_spelling "en" "$PWD/.config/wordlist-en.txt" "English posts" "${english_files[@]}"
+    echo "─────────────────────────────────────────"
+    echo ""
 
     if [[ $HAS_ERRORS -eq 0 ]]; then
         echo "✅ All spelling checks passed!"

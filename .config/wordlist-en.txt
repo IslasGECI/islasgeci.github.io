@@ -1,0 +1,19 @@
+personal_ws-1.1 en 18 utf-8
+CLI
+Easting
+Evaristo
+GECI
+Nombre
+Northing
+Subcommand
+Typer
+UTM
+cpue
+disambiguates
+discoverability
+estándar
+geoid
+modularity
+programación
+easting
+northing

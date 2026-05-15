@@ -55,7 +55,7 @@ Run aspell spellcheck in Spanish against every Markdown file in `_posts/` using 
 - Parameters: none
 - Returns: exit code 0 if no spelling errors found, 1 otherwise
 - Errors: non-zero exit when aspell detects unrecognised words
-- Notes: Uses `.github/config/.wordlist.txt` as the personal dictionary. Add new technical terms to that file.
+- Notes: Uses `.config/wordlist-es.txt` for Spanish posts and `.config/wordlist-en.txt` for English (`*_en.md`) posts. Add new technical terms to the appropriate file.
 
 ## .pipelines/init.sh
 
