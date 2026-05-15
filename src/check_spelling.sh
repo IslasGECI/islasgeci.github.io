@@ -27,6 +27,12 @@ check_spelling() {
 
     echo "Checking spelling in $lang_name ($directory/*.md)..."
 
+    # aspell-es uses ISO-8859-1 charset internally,
+    # so convert the UTF-8 wordlist on the fly
+    local temp_wordlist
+    temp_wordlist=$(mktemp)
+    iconv -f UTF-8 -t ISO-8859-1 "$wordlist" > "$temp_wordlist" 2>/dev/null || cp "$wordlist" "$temp_wordlist"
+
     local error_count=0
 
     for file in "$directory"/*.md; do
@@ -35,7 +41,8 @@ check_spelling() {
             misspellings=$(aspell --lang="$lang" \
                                   --ignore-case \
                                   --mode=markdown \
-                                  --personal="$wordlist" \
+                                  --encoding=utf-8 \
+                                  --personal="$temp_wordlist" \
                                   list < "$file" | sort -u)
 
             if [[ -n "$misspellings" ]]; then
@@ -48,6 +55,8 @@ check_spelling() {
             fi
         fi
     done
+
+    rm -f "$temp_wordlist"
 
     if [[ $error_count -eq 0 ]]; then
         echo "✅ No spelling errors found in $lang_name files"
@@ -62,6 +71,8 @@ main() {
     echo "Blog Spellcheck"
     echo "============================================"
     echo ""
+
+    export LANG=C.UTF-8
 
     WORDLIST="$PWD/.github/config/.wordlist.txt"
 
