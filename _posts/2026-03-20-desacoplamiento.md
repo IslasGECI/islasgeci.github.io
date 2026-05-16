@@ -8,12 +8,12 @@ tags: programación visualización
 En nuestro canal de integración, separamos explícitamente el cálculo de resultados del graficado.
 Seguimos un flujo de trabajo que consta de los siguientes pasos:
 
-1. Lectura y procesamiento de datos. (`read_*`, `import_*`)
-1. Cálculo de resultados en memoria. (`compute_*`)
-1. Escritura de resultados en disco. (`write_*`, `export_*`)
-1. Lectura de resultados desde disco. (`read_*`)
-1. Generación de visualizaciones. (`plot_*`)
-1. Escritura de gráficas en disco. (`read_*`, `import_*`)
+1. Lectura y procesamiento de datos. (`read_*`, `import_*`).
+1. Cálculo de resultados en memoria. (`compute_*`).
+1. Escritura de resultados en disco. (`write_*`, `export_*`).
+1. Lectura de resultados desde disco. (`read_*`, `import_*`).
+1. Generación de visualizaciones. (`plot_*`).
+1. Escritura de gráficas en disco. (`write_*`, `export_*`).
 
 Así, definimos dos fases independientes.
 En la primera fase calculamos el resultado (pasos 1-3; `create_*`).

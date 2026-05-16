@@ -122,10 +122,10 @@ Do **not** embed `taxon`, `region`, `season`, or `format` in the command name. I
 
 ## 7. Guidelines for Adding New Commands
 
-1. **Start with a standard verb**: `create` for data artifacts, `render` for visualizations.
-2. **Add a method or modifier only when it improves clarity or resolves ambiguity.**.
-3. **Use a documented, standard variable.**.
-4. **Pass `taxon`, `region`, `season`, and `format` as CLI arguments.**.
-5. **Avoid unnecessary duplication or verbosity.**.
-6. **Ensure the command name communicates the main action and data scope.**.
-7. **Test the command for consistency with naming and execution patterns.**.
+1. Start with a standard verb: `create` for data artifacts, `render` for visualizations.
+2. Add a method or modifier only when it improves clarity or resolves ambiguity.
+3. Use a documented, standard variable.
+4. Pass `taxon`, `region`, `season`, and `format` as CLI arguments.
+5. Avoid unnecessary duplication or verbosity.
+6. Ensure the command name communicates the main action and data scope.
+7. Test the command for consistency with naming and execution patterns.

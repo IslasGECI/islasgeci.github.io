@@ -144,7 +144,7 @@ The `Makefile` must contain three sections:
 ## Coding Standards
 
 ### Language Requirements
-- **Code Language**: R (Tidyverse style).
+- **Style Guide per Language**: For each language, use the corresponding style guide according to this [list](/lista_de_guias).
 - **Commentary Language**: Spanish (Focus on **why** - logic/reasoning - rather than what).
 - **Variable/Function Names**: English.
 
@@ -168,7 +168,7 @@ Always include ALL sections (even if minimal) and never change section order:
 # Entradas: (Sin bullets, uno por línea, incluir capa si aplica: `(capa: "nombre")`)
 #   *Ejemplo*: data/processed/file.gpkg (capa: "layer_name")
 # 
-# Salidas: (Sin bullets, uno por línea)
+# Salida: (Sin bullets)
 # 
 # Dependencias: (Un paquete por línea, sin comas)
 #   *Ejemplo*: sf
@@ -247,6 +247,8 @@ Always include ALL sections (even if minimal) and never change section order:
 Only Level 2 functions (`create_*()` and `render_*()`) can call Level 1 functions.
 Level 1 functions must not call each other; they should be independent and reusable.
 
+As an exception, Level 1 functions may call private helper functions — created through refactoring — within the same functional layer and only if they remain private.
+
 #### Variables in the Makefile
 Variable names that define sets of files consist of five elements:
 
@@ -286,8 +288,10 @@ format + variable/result + monitoring/result type + species/group + region
 
 ### Allowed Abbreviations
 
-- `sst`: Sea Surface Temperature
+- `cpue`: Catch Per Unit Effort
 - `eez`: Exclusive Economic Zone
+- `sst`: Sea Surface Temperature
+- `utm`: Universal Transverse Mercator
 - `x` / `y`: UTM zonal/meridional coordinate vector
 - `X` / `Y`: UTM coordinate grid
 - `lon` / `lat`: Geographic zonal/meridional coordinate vector
