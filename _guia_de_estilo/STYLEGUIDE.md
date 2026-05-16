@@ -144,7 +144,7 @@ The `Makefile` must contain three sections:
 ## Coding Standards
 
 ### Language Requirements
-- **Style Guide per Language**: For each language, use the corresponding style guide according to this [list](/lista_de_guias).
+- **Style Guide per Language**: For each language, use the corresponding style guide according to this [list](/guia_de_estilo/lista_de_guias).
 - **Commentary Language**: Spanish (Focus on **why** - logic/reasoning - rather than what).
 - **Variable/Function Names**: English.
 
@@ -304,3 +304,11 @@ format + variable/result + monitoring/result type + species/group + region
 - Ensure consistency between code, documentation, and outputs.
 - Proactively remove dead code, unused scripts, and obsolete configurations.
 - Keep terminology uniform across the entire project.
+
+---
+
+## Related Posts
+
+- [Arquitectura en niveles y capas]({% post_url 2026-05-15-arquitectura %})
+- [Desacoplamiento de análisis y visualización]({% post_url 2026-03-20-desacoplamiento %})
+- [CLI Naming Convention]({% post_url 2025-07-14-cli_naming_convention_en %})
