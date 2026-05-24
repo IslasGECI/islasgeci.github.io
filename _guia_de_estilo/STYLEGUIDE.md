@@ -311,4 +311,4 @@ format + variable/result + monitoring/result type + species/group + region
 
 - [Arquitectura en niveles y capas]({% post_url 2026-05-15-arquitectura %})
 - [Desacoplamiento de análisis y visualización]({% post_url 2026-03-20-desacoplamiento %})
-- [CLI Naming Convention]({% post_url 2025-07-14-cli_naming_convention_en %})
+- [CLI Naming Convention]({% post_url 2025-07-14-cli-naming-convention_en %})
