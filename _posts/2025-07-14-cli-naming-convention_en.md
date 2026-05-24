@@ -15,9 +15,9 @@ Use this convention to ensure consistency, predictability, and clarity across al
 Follow this naming pattern for all command names:
 
 ```
-create[_<method>]_<variable> [--taxon <TAXON>] [--region <REGION>] [--season <SEASON>] [--format <FORMAT>]
+ create[_<method>]_<variable> [--taxon <TAXON>] [--region <REGION>] [--season <SEASON>] [--format <FORMAT>]
 
-render[_<method>]_<variable> [--taxon <TAXON>] [--region <REGION>] [--season <SEASON>] [--format <FORMAT>]
+ render[_<method>]_<variable> [--taxon <TAXON>] [--region <REGION>] [--season <SEASON>] [--format <FORMAT>]
 ```
 
 * `<>` denotes required components.
@@ -27,8 +27,8 @@ render[_<method>]_<variable> [--taxon <TAXON>] [--region <REGION>] [--season <SE
 ### Example
 
 ```bash
-geci create bootstrap_progress_probability --taxon LAAL ...
-geci render cpue_vs_cumulative_captures --region clarion ...
+ geci create bootstrap_progress_probability --taxon LAAL ...
+ geci render cpue_vs_cumulative_captures --region clarion ...
 ```
 
 ---
