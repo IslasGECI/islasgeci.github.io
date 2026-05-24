@@ -1,2 +1,4 @@
+.gitignore
+.aider.*
 _site
 Gemfile.lock
