@@ -1,4 +1,4 @@
-personal_ws-1.1 es 183 utf-8
+personal_ws-1.1 es 204 utf-8
 Access
 add
 agendada
@@ -182,3 +182,24 @@ Notepad
 mat
 queries
 xls
+ambientalistas
+Actions
+Bitbucket
+by
+Compose
+functions
+group
+helper
+insumos
+interoperables
+Jenkins
+NaN
+None
+joins
+missing
+quantile
+renderizarla
+reordenamiento
+sd
+sum
+summarize
