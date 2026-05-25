@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Colaboración mediante infraestructura analítica compartida para la conservación"
+title: "Colaboración mediante una infraestructura analítica compartida para la conservación"
 author: Evaristo
 tags: dataops ecología equipo
 ---
@@ -10,6 +10,10 @@ En los últimos años, hemos colaborado con organizaciones ambientalistas que re
 Estas organizaciones se benefician del uso de flujos de trabajo para el análisis ya existentes en lugar de desarrollar nuevos sistemas analíticos para cada proyecto.
 Este enfoque permite que los proyectos nuevos comiencen con capacidades ya probadas en contextos reales de conservación.
 Las organizaciones que comparten necesidades analíticas similares pueden compartir una infraestructura analítica sin la necesidad de contar con sus propios equipos técnicos.
+
+_CI/CD Conservation Analytics_ es un [conjunto de recursos digitales](https://en.wikipedia.org/wiki/Digital_commons) desarrollados para la gestión de proyectos de conservación basada en análisis cuatitativos.
+Este conjunto es [abierto](https://en.wikipedia.org/wiki/Open-source_software), [gratuito](https://en.wikipedia.org/wiki/Gratis_versus_libre), [libre](https://en.wikipedia.org/wiki/Free_software) y [púbilco](https://es.wikipedia.org/wiki/GNU_Affero_General_Public_License).
+Incluye API, canales de integración, conocimiento, código, datos, flujos de trabajo y servicios en la nube.
 
 La colaboración permite a las organizaciones centrarse en la implementación de la conservación mientras comparten capacidades analíticas ya existentes.
 Nuestros socios se centran en la conservación en sus propias regiones, al igual que GECI se centra en las islas de México.
