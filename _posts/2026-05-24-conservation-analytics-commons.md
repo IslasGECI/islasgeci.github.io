@@ -11,7 +11,7 @@ Así, los nuevos proyectos de conservación comienzan con recursos analíticos y
 Para que la colaboración funcione eficazmente, los recursos compartidos deben ser accesibles y comprensibles.
 
 _Conservation Analytics Commons_ es un conjunto de [bienes comunes digitales](https://en.wikipedia.org/wiki/Digital_commons) desarrollados para tomar decisiones en conservación basadas en análisis cuantitativos.
-Este conjunto es [abierto](https://en.wikipedia.org/wiki/Open-source_software), [gratuito](https://en.wikipedia.org/wiki/Gratis_versus_libre), [libre](https://en.wikipedia.org/wiki/Free_software) y [púbilco](https://es.wikipedia.org/wiki/GNU_Affero_General_Public_License).
+Este conjunto es [abierto](https://en.wikipedia.org/wiki/Open-source_software), [gratuito](https://en.wikipedia.org/wiki/Gratis_versus_libre), [libre](https://en.wikipedia.org/wiki/Free_software) y [público](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
 Incluye API, canales de integración, conocimiento, código, datos, flujos de trabajo y servicios en la nube.
 
 Un proyecto de conservación exitoso requiere años de experiencia ecológica y operativa acumulada en contextos específicos.

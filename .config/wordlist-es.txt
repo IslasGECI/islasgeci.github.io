@@ -1,4 +1,4 @@
-personal_ws-1.1 es 204 utf-8
+personal_ws-1.1 es 207 utf-8
 Access
 add
 agendada
@@ -9,6 +9,7 @@ and
 anillamiento
 ANOVA
 ANOVAs
+Analytics
 antipatrón
 API
 APIs
@@ -25,7 +26,9 @@ checklist
 CI
 Code
 commit
+Commons
 Comparison
+Conservation
 confiabilidad
 Continuous
 cormorant
