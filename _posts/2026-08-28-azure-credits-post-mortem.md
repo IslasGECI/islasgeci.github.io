@@ -89,7 +89,11 @@ Si podemos hacernos cargo de esta responsabilidad, tal vez la detección y la re
   - Esta tarea no entraba en el criterio de tarea relacionada con una especie o isla; por lo tanto no llegaba al Kanban.
   - Este criterio no se ha actualizado después del cambio de estructura del equipo de CD.
 5. ¿Por qué no hemos reaccionado al cambio de estructura del equipo?
-  - 
+  - Nada nos había obligado a hacer el cambio de estructura hasta este incidente.
+  - La responsabilidad de darle el seguimiento a esta tarea quedó en manos de una sola persona con muchas responsabilidades.
+  - Las responsabilidades del coordinador recayeron todas en el director del equipo; nadie pensó en distribuirlas de manera sostenible de acuerdo a la carga de trabajo de todos los miembros del equipo.
+  - No era evidente la importancia de esta tarea.
+  - Hemos atendido tareas que son más "urgentes".
 
 ## Causa raíz
 
