@@ -136,7 +136,7 @@ en un comentario.
 - [ ] **Interface**: Any interface changes are sensible and look good. Is the way the code behaves good for its users?
 - [ ] **CHANGELOG.md**: Are the changes recorded in this file following [this](https://keepachangelog.com/) standard? 
 - [ ] **Versioning**: Are version numbers updated according to [semantic versioning](https://semver.org/) guidelines (e.g., MAJOR.MINOR.PATCH)? 
-- [ ] **Documentation**: Did the developer also update relevant documentation? Does the exposed functions have docstrigns? **No tenemos pero nos vamos a pasar de líneas.**
+- [ ] **Documentation**: Did the developer also update relevant documentation? Does the exposed functions have docstrigns?
 - [ ] **CITATION.cff**: Is the citation files included and updated following the [this](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) standard? _[Aquí](https://github.com/IslasGECI/seabird_tracking/blob/develop/CITATION.cff) y [aquí](https://github.com/IslasGECI/nerd/blob/develop/CITATION.cff) hay ejemplos._
 - [ ] **Naming**: Did the developer choose clear names for variables, classes, methods, etc.?  Did we replace unnecessary comments with clear variable names, well-named functions, and small cohesive blocks?
 - [ ] **Style**: Does the code follow our [style guides](https://islas.dev/guia_de_estilo/lista_de_guias)?
