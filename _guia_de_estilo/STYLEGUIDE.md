@@ -333,7 +333,7 @@ format + variable/result + monitoring/result type + species/group + region
 
 ## Related Posts
 
-- [Arquitectura en niveles y capas]({% post_url 2026-05-15-arquitectura %})
+- [Arquitectura en niveles y capas]({% link _guia_de_estilo/arquitectura.md %})
 - [Desacoplamiento de análisis y visualización]({% post_url 2026-03-20-desacoplamiento %})
 - [CLI Naming Convention]({% post_url 2025-07-14-cli-naming-convention_en %})
 

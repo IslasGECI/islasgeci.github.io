@@ -1,8 +1,8 @@
 ---
-layout: post
-title: "Arquitectura en niveles y capas"
-author: Evaristo
-tags: programación
+layout: page
+title: Arquitectura en niveles y capas
+tagline: Guía de estilo
+description: Organización de la arquitectura en niveles de abstracción y capas funcionales
 ---
 
 En GECI, organizamos la arquitectura de nuestros proyectos en niveles de abstracción y capas funcionales:
