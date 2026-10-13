@@ -52,6 +52,7 @@ Changes must be validated against that reference to avoid contradictions.
 ├── Makefile           <- Instructions to create reports or results using Make
 ├── README.md          <- Contains an ordered list of the expected project outputs
 │                         and is the only source that defines the required work
+├── AGENTS.md          <- Guide for data analysts working in this repository
 ├── analyses.json      <- Describes the relationships between files (data, reports,
 │                         results, scripts, etc.) of each analysis
 ├── bitbucket-pipelines.yml  <- Bitbucket Pipeline configuration file
@@ -75,8 +76,8 @@ Changes must be validated against that reference to avoid contradictions.
 ├── renv.lock          <- Record of installed R packages and their versions. This
 │                         file is generated with the `renv` package and is equivalent
 │                         to the `requirements.txt` file generated with `pip freeze`
-├── reports/           <- Reports and presentations intended for the corresponding
-│   │                     project director. Preferred source formats for reports are
+├── reports/           <- Reports and presentations intended for biologists.
+│   │                     Preferred source formats for reports are
 │   │                     LaTeX and Markdown. Plain text formats are preferred to
 │   │                     enable version control. Reports are delivered in PDF format
 │   │                     or, if required by the Director, Pandoc is used to convert
@@ -123,7 +124,7 @@ The `Makefile` must contain three sections:
 - Data acquisition procedures must be documented.
 
 ### Reports
-- Target audience: project director.
+- Target audience: biologists.
 - Source formats: LaTeX or Markdown (Plain text preferred for version control).
 - Output format: PDF (Word only if explicitly required).
 
@@ -141,12 +142,33 @@ The `Makefile` must contain three sections:
 
 ---
 
+## Documentation and Metadata
+
+### CHANGELOG.md
+- Record user-facing changes in `CHANGELOG.md`.
+- Follow the [Keep a Changelog](https://keepachangelog.com/) standard.
+
+### Versioning
+- Follow [Semantic Versioning](https://semver.org/) (e.g., `MAJOR.MINOR.PATCH`).
+- Update version numbers when the change warrants it.
+
+### CITATION.cff
+- Include and update `CITATION.cff` following [GitHub's citation file guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
+
+### Docstrings
+- Document every exposed function with a docstring.
+
+---
+
 ## Coding Standards
 
 ### Language Requirements
 - **Style Guide per Language**: For each language, use the corresponding style guide according to this [list](/guia_de_estilo/lista_de_guias).
 - **Commentary Language**: Spanish (Focus on **why** - logic/reasoning - rather than what).
 - **Variable/Function Names**: English.
+
+### Design Principles
+- Apply YAGNI (You Aren't Gonna Need It): do not implement functionality that is not needed yet.
 
 ### Source Code Structure (`src/`)
 - All scripts must reside in `src/`.
@@ -244,10 +266,12 @@ Always include ALL sections (even if minimal) and never change section order:
     - `create_*()`: Reads from disk (`read_*` or `import_*`), generates result (`compute_*`), and writes to disk (`write_*` or `export_*`).
     - `render_*()`: Reads from disk (`read_*` or `import_*`), generates visualization (`plot_*`), and writes to disk (`write_*` or `export_*`).
 
+`create_*()` and `render_*()` do not call each other; only Make can invoke them.
+
 Only Level 2 functions (`create_*()` and `render_*()`) can call Level 1 functions.
 Level 1 functions must not call each other; they should be independent and reusable.
 
-As an exception, Level 1 functions may call private helper functions — created through refactoring — within the same functional layer and only if they remain private.
+As an exception, functions within a level may call private helper functions — created through refactoring — within the same functional layer and only if they remain private.
 
 #### Variables in the Makefile
 Variable names that define sets of files consist of five elements:
@@ -312,3 +336,10 @@ format + variable/result + monitoring/result type + species/group + region
 - [Arquitectura en niveles y capas]({% post_url 2026-05-15-arquitectura %})
 - [Desacoplamiento de análisis y visualización]({% post_url 2026-03-20-desacoplamiento %})
 - [CLI Naming Convention]({% post_url 2025-07-14-cli-naming-convention_en %})
+
+---
+
+## Related Guides
+
+- [Cómo escribir comentarios en una revisión](/guia_de_estilo/comentarios_en_revisiones)
+- [Review Checklists](/guia_de_estilo/review_checklists)

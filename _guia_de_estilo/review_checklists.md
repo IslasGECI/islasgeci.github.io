@@ -10,6 +10,8 @@ Two repository classes each have their own review checklist:
 - **Class 1 repositories** contain general-purpose tools whose end users are analysts, such as packages, CLIs, and APIs. They do not produce concrete results and are usually hosted on GitHub.
 - **Class 3 repositories** depend on Class 1 repositories and produce concrete results about the islands and their species for biologists. They are usually hosted on Bitbucket.
 
+The conventions these checklists reference are defined in the [Style Guide](/guia_de_estilo/STYLEGUIDE).
+
 ## Checklist for a Class 1 Pull Request on GitHub
 
 - [ ] **Small**: Does the pull request have fewer than 100 lines?
@@ -24,7 +26,7 @@ Two repository classes each have their own review checklist:
 - [ ] **Documentation**: Did the developer also update relevant documentation? Does the exposed functions have docstrings?
 - [ ] **CITATION.cff**: Is the citation file included and updated following [GitHub's citation file guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)? _See examples in [seabird_tracking](https://github.com/IslasGECI/seabird_tracking/blob/develop/CITATION.cff) and [nerd](https://github.com/IslasGECI/nerd/blob/develop/CITATION.cff)._
 - [ ] **Naming**: Did the developer choose clear names for variables, classes, methods, etc.? Did we replace unnecessary comments with clear variable names, well-named functions, and small cohesive blocks?
-- [ ] **Style**: Does the code follow our [style guides](https://islas.dev/guia_de_estilo/lista_de_guias)?
+- [ ] **Style**: Does the code follow our [Style Guide](/guia_de_estilo/STYLEGUIDE)?
 - [ ] **YAGNI**: Is the developer avoiding implementing things they might need in the future but don't know they need now?
 - [ ] **Good Things**: If you see something nice in the pull request, tell the developer, especially when they addressed one of your comments in a great way.
 
@@ -36,3 +38,4 @@ Two repository classes each have their own review checklist:
 - [ ] **Configuration**: Is configuration centralized rather than duplicated or fragmented across scripts?
 - [ ] **README.md**: Is it accurate and clear for academic users?
 - [ ] **AGENTS.md**: Is it accurate and clear for data analysts?
+- [ ] **Style**: Does the code follow the [Style Guide](/guia_de_estilo/STYLEGUIDE)?

@@ -27,17 +27,19 @@ Sin embargo, estas llamadas se permiten solo cuando las funciones sean privadas 
 
 El nivel 1 se compone de dos capas funcionales:
 
-- **Capa pura:** operaciones en memoria sin efectos secundarios.
+- **Capa pura (In-Memory layer):** operaciones en memoria sin efectos secundarios.
    - `compute_*`: cálculos en memoria.
    - `plot_*`: visualizaciones en memoria.
-- **Capa I/O:** operaciones de lectura y escritura en disco.
+- **Capa I/O (Disk I/O layer):** operaciones de lectura y escritura en disco.
    - `import_*`: lectura de datos interoperables en formato agnóstico del lenguaje.
    - `export_*`: escritura de datos interoperables en formato agnóstico del lenguaje.
    - `read_*`: lectura de datos en formato propio del lenguaje.
    - `write_*`: escritura de datos en formato propio del lenguaje.
 
+Las listas de arriba son un resumen; la lista canónica de prefijos está en la [Guía de estilo](/guia_de_estilo/STYLEGUIDE).
+
 Las funciones de la _capa pura_ (`compute_*` y `plot_*`) operan exclusivamente en memoria y no tocan el disco.
-Las funciones de la _capa I/O_ (`import_*`, `export_*`, `read_*` y `write_*`) realizan entrada/salida y adaptación de formato, pero no derivan valores nuevos.
+Las funciones de la _capa I/O_ (`import_*`, `export_*`, `read_*` y `write_*`) realizan entrada/salida y conversión a tipos nativos, pero no derivan valores nuevos.
 
 **Operaciones permitidas en la capa I/O**:
 todo valor en el resultado debe corresponder directamente a un valor que ya existía en la fuente.
@@ -68,7 +70,7 @@ El nivel 2 contiene a la capa de materialización.
 Esta capa es responsable de la creación de artefactos persistentes.
 Las funciones de esta capa delegan todo el análisis a las funciones del nivel 1 y no contienen lógica computacional propia.
 
-- **Capa de materialización:**
+- **Capa de materialización (Artifact layer):**
   - Las funciones `create_*` (nivel 2) siguen el patrón:
     1. `read/import`: nivel 1, capa I/O.
     1. `compute_*`: nivel 1, capa pura.

@@ -11,6 +11,8 @@ Una revisión es una comunicación entre pares enfocada en mejorar un producto d
 comunicación es un hilo de comentarios. Escribir un buen comentario es difícil. Esta guía ofrece
 algunas sugerencias para escribir comentarios efectivos en una revisión.
 
+Las convenciones del código que revisamos están en la [Guía de estilo](/guia_de_estilo/STYLEGUIDE).
+
 ### Resumen
 
 - Seamos amables
