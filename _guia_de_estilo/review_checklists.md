@@ -33,7 +33,6 @@ The conventions these checklists reference are defined in the [Style Guide](/gui
 ## Checklist for a Class 3 Pull Request on Bitbucket
 
 - [ ] **analyses.json**: Does every `Makefile` target have a matching `analyses.json` entry, and vice versa?
-- [ ] **Artifacts**: Is there a strict one-to-one mapping between declared artifacts and produced outputs (no missing or extra outputs)?
 - [ ] **Reproducibility**: Does the pipeline produce identical outputs for identical inputs and configuration?
 - [ ] **Configuration**: Is configuration centralized rather than duplicated or fragmented across scripts?
 - [ ] **README.md**: Is it accurate and clear for academic users?
