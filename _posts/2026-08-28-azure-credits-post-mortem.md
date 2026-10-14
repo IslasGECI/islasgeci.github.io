@@ -8,41 +8,45 @@ tags: equipo aprendizaje
 ## Resumen del incidente
 A partir del viernes 14 hasta el jueves 20 de agosto nos quedamos sin servidores de trabajo.
 Esto sucedió una semana antes de que se acabara el patrocinio porque nos quedamos sin créditos antes.
-Durante este tiempo no pudimos atender tareas de clase 2 o mayores.
-Estuvimos sin servicios durante 5 días; 3 días sin servidor de desarrollo.
-Nos tomó tres días de trabajo migrarnos a AWS.
+Durante este tiempo no pudimos atender tareas de clase 1 o mayores.
+Durante 5 días estuvieron desactivados los servicios para verificar los datos de trampeo.
+Durante 3 días no tuvimos servidor de desarrollo.
+Nos tomó 3 días de trabajo migrarnos a AWS.
 
 ## ¿Qué nos condujo al evento?
 En octubre de 2023 Digital Ocean nos retiró el patrocinio y Azure nos redujo los créditos de $3,500 a $2,000.
-Es decir, nos quedamos sin diversidad de servicios.
-Hicimos un cálculo para saber hasta cuándo nos iban a alcanzar la donación. Nos sobraba para cubrir todo el año.
-En algún momento comenzamos a usar servicios y aumentamos la capacidad (el costo) del webserver y ya no calculamos el nuevo coste.
-Nos quedamos sin créditos antes de que se terminara el tiempo de la renovación, ~15 días.
+Es decir, nos quedamos sin diversidad de proveedores de infraestructura como servicio (IaaS).
+Modificamos el consumo de servicios proporcionados por Azure; activamos una computadora en las oficinas para sustituir las funcionalidades que habíamos perdido.
+Calculamos que con los créditos disponibles nos sobraba para cubrir el año.
+En algún momento comenzamos a proveer herramientas para uso de CD y tramperos.
+Con este cambio, aumentamos la capacidad (el costo) del webserver y ya no calculamos el nuevo coste.
+Esto provocó que nos quedaramos sin créditos antes de que se terminara el tiempo de la renovación, ~15 días.
 
 ## Falla
-Nos quedamos sin tres de las 5 máquinas que usamos en el equipo de CD:
-- Nos quedamos sin servidor de desarrollo; herramienta principal de trabajo.
-- Nos quedamos sin servicios; esto afectó los pipelines de bitbucket que usaban los servicios y la herramienta de verificación de datos para los tramperos.
-- Nos quedamos sin tablero de reproducibilidad.
+No teníamos créditos en Azure y, por lo tanto, no contábamos con infraestructura como servicio.
 
 ## Impacto
-Nos quedamos sin servidores de trabajo del 11 al 19 de agosto.
-El impacto lo pudo sentir directamente los tramperos al revisar sus datos y el equipo de CD que no tenían las herramientas diarias para trabajar.
-Este fallo nos afectó 6 días.
-Durante este tiempo no pudimos atender tareas de clase 2 o mayores.
-El director tuvo que atender este asunto durante sus vacaciones.
+Del 14 al 19 de agosto nos quedamos sin 3 de las 5 máquinas que usamos en el equipo de CD:
+- Nos quedamos sin servidor de desarrollo; herramienta principal de trabajo.
+- No pudimos proveer las herramientas de CD y tramperos; esto afectó los pipelines de bitbucket que usaban los servicios y la herramienta de verificación de datos para los tramperos.
+- Nos quedamos sin tablero de reproducibilidad.
+Esto implicó que durante este tiempo no pudimos atender tareas de clase 1 o mayores.
+Además el director de CD tuvo que atender este asunto durante sus vacaciones.
 
 ## Detección
-La primer alerta llegó cuando nos llega una factura el domingo 9 de agosto con saldo en rojo.
-Evaristo reenvío la factura al equipo y comenzó a gestionar la renovación de la donación de Azure.
+La primer alerta llegó cuando recibimos una factura el domingo 9 de agosto con saldo en rojo.
+El director de CD reenvío la factura al equipo y comenzó a gestionar la renovación de la donación de Azure.
 El 11 de agosto el equipo de CD solicitamos las credenciales de AWS para gestionar la migración de los servidores.
-Para mejorar el tiempo de detección podríamos tener una alerta automática, como en AWS, que nos avise que ya se están acabando los créditos.
+Para mejorar el tiempo de detección podríamos revisar de alguna manera periodicamente el saldo de nuestros IaaS.
+En AWS es posible agregar una alerta automática que nos avise que ya se están acabando los créditos.
 
 ## Respuesta
-Evaristo contactó al soporte de Azure para pedir la renovación del patrocinio. El 11 de agosto ya lo habían aprobado.
-La donación de Azure no se activó inmediatamente debido al saldo vencido.
-El equipo de CD creo cuentas en AWS Console para poder utilizar los créditos del patrocinio.
-El 17 de agosto comenzamos la migración de los servidores a AWS. Terminamos con la migración del webserver y el devserver el 19 de agosto.
+El director de CD contactó al soporte de Azure para pedir la renovación del patrocinio.
+El 11 de agosto aprobaron la renovación del patrocinio.
+El 14 de agosto nos dimos cuenta que la donación de Azure no se activó inmediatamente debido al saldo vencido, fue necesario hacer una solicitud explícita para usar los créditos para pagar el saldo vencido.
+Hasta el 14 de agosto el equipo de CD contó con las credenciales en AWS Console para poder utilizar los créditos del patrocinio.
+El 17 de agosto comenzamos la migración de los servidores a AWS.
+Terminamos con la migración del webserver y el devserver el 19 de agosto.
 
 ## Recuperación
 
