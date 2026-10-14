@@ -60,8 +60,8 @@ Esto nos dio una oportunidad de crear nuevas pruebas y asegurar el código de cu
 <!-- Conclusión -->
 Después del cambio de nombres comenzó la refactorización completa de la función `get_best_json_for_logistic_model()`.
 En su gran mayoría fueron instrucciones sencillas las cuales fueron separables.
-El eje se centró en ¿Cómo hago la mejor prueba?.
-De esta pregunta anterior se derivaron ¿Qué hace la función?, ¿Qué se espera que devuelva?, ¿Usa variables que utilizamos mas adelante?.
+El eje se centró en ¿Cómo hago la mejor prueba?
+De esta pregunta anterior se derivaron ¿Qué hace la función?, ¿Qué se espera que devuelva?, ¿Usa variables que utilizamos mas adelante?
 El trabajo realizado durante mi periodo en GECI fue muy interesante y me integré a una nueva cultura.
 DevOps es una cultura interesante, la implementación de esta en equipos diferentes será diferente.
 Sin duda, nuestro equipo tuvo una gran guía en la adaptación cultural y en la práctica creando pruebas.

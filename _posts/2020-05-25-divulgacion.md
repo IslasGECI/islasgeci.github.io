@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Ciencia de Datos para la Conservación de la Biodiversidad: El caso de las Islas de México"
 author: Evaristo, Nepo, Maritza, David, Efren y Fernando
@@ -8,7 +8,7 @@ tags: equipo
 ## Introducción
 
 La Ciencia de Datos es un campo académico interdisciplinario, basado en evidencias, que tiene como objeto de estudio las diferentes técnicas de análisis de datos [^1].
-En años recientes, la popularidad de este campo ha aumentado gracias a las empresas privadas que pretenden maximizar sus ganancias agregando valor al gran volumen de datos  que generamos mediante las tecnologías de la información.
+En años recientes, la popularidad de este campo ha aumentado gracias a las empresas privadas que pretenden maximizar sus ganancias agregando valor al gran volumen de datos que generamos mediante las tecnologías de la información.
 Sin embargo, hasta ahora las organizaciones que se dedican a la conservación de la biodiversidad y al desarrollo sustentable habían obtenido poco beneficio del desarrollo de la Ciencia de Datos.
 
 El Grupo de Ecología y Conservación de Islas, A.C., (GECI), es una asociación civil sin fines de lucro que tiene como misión la protección de los ecosistemas insulares mexicanos y la restauración de su biodiversidad.
@@ -151,7 +151,7 @@ La automatización es evidencia de reproducibilidad.
 Si un resultado puede ser producido de forma automática sin la intervención de un humano entonces ese resultado es reproducible, lo que facilita la revisión por pares y la colaboración.
 
 Desde que el equipo de Ciencia de Datos se formó en GECI, hemos generado una gran cantidad de paquetes de uso interno para facilitar el trabajo que realizamos.
-Algunos de estos paquetes nos ayudan a manejar datos geográficos, como puntos georeferenciados, trayectorias y polígonos.
+Algunos de estos paquetes nos ayudan a manejar datos geográficos, como puntos georreferenciados, trayectorias y polígonos.
 También nos permiten personalizar gráficas, mapas y realizar análisis estadísticos, entre muchas otras cosas.
 Gracias a esto, cada vez podemos generar una mayor cantidad de resultados en menor tiempo.
 Para generar dichos paquetes, actualmente usamos una metodología llamada _DataOps_.
@@ -248,7 +248,7 @@ En el equipo esperamos que nuestros esfuerzos por desarrollar aplicaciones sirva
 
 La metodología que seguimos en el equipo de Ciencia de Datos de GECI se llama _DataOps_.
 Christopher Berg y Gil Benghiat fundadores de _DataKitchen_ consideran que para “cocinar” una gráfica necesitas los ingredientes y las recetas correctas.
-Ellos  descubrieron que el tiempo y la calidad en el ciclo del procesamiento de datos puede ser optimizado con una combinación de herramientas y metodologías que ellos llamaron _DataOps_.
+Ellos descubrieron que el tiempo y la calidad en el ciclo del procesamiento de datos puede ser optimizado con una combinación de herramientas y metodologías que ellos llamaron _DataOps_.
 _DataOps_ está inspirada en la ingeniería de software y enfatiza la automatización de procesos [^11].
 La automatización de procesos nos permite implementar algoritmos de aprendizaje automatizado con gran rapidez.
 Es gracias a la automatización que, los resultados producidos mediante _DataOps_ siempre son reproducibles.

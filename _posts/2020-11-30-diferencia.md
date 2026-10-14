@@ -19,7 +19,7 @@ Aquí describo cuatro diferencias entre la Ciencia de Datos que practicamos actu
 Seguimos utilizando la estadística descriptiva en el análisis exploratorio de datos para determinar las propiedades y así elegir la técnica de análisis más apropiada.
 La estadística descriptiva es suficiente para sugerir hipótesis sobre las causas de los fenómenos observados y evaluar las suposiciones de la inferencia estadística.
 También apoya la selección de herramientas y técnicas estadísticas adecuadas.
-Sin embargo, al hacer predicciones o simular los efectos de nuestras acciones, utilizamos técnicas con mayor costo computacional, como aprendizaje automatizado, estadística bayesiana y bootstraping.
+Sin embargo, al hacer predicciones o simular los efectos de nuestras acciones, utilizamos técnicas con mayor costo computacional, como aprendizaje automatizado, estadística bayesiana y bootstrapping.
 
 2\. La Ciencia de Datos es una actividad interdisciplinaria que realizamos en equipo, mientras que el Análisis de Datos podía ser una actividad individual.
 Antes, todas las y los integrantes del equipo éramos generalistas.

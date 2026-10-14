@@ -11,7 +11,7 @@ Para este ejemplo, utilizamos una metodología que nos ayudará a evaluar la pro
 Los valores de los parámetros del modelo los obtuvimos de referencias bibliográficas.
 Otros valores los calculamos a partir de datos de GECI.
 
-El modelo del cremiento exponencial de una población considera que los recursos de la población son ilimitados.
+El modelo del crecimiento exponencial de una población considera que los recursos de la población son ilimitados.
 Otra simplificación es que la población es cerrada, es decir, no hay inmigración o emigración.
 Como resultado, las tasas de nacimiento y de muerte de una población son constantes.
 Aunque ninguna población puede crecer sin límites por siempre, todas las poblaciones tienen el potencial de incrementar exponencialmente.
@@ -35,7 +35,7 @@ Leo _et al._ (2018) caracterizaron la población de gato feral en Isla Rota usan
 \[ N_{t+1} = N_t + rN_t \left(1 - \frac{N_t}{K} \right) - R_t \]
 
 Esta ecuación es una forma discreta del modelo de Schaefer donde $N_t$ es la población estimada en el tiempo $t$, $r$ es la tasa de crecimiento poblacional (mensual), $K$ es la capacidad de carga de la isla y $R_t$ es la cantidad de gatos removidos en el intento $t$.
-Ellos encontraron adecuado considerar la capacidad de carga de la isla cercana al tamaño inicial de población (antes de la erradación).
+Ellos encontraron adecuado considerar la capacidad de carga de la isla cercana al tamaño inicial de población (antes de la erradicación).
 Otro resultados de su trabajo es el intervalo para la tasa de crecimiento poblacional de $0.032 \leq r \leq 0.126.$
 
 Nuestros resultados muestran que solo el $32\%$ de las ocasiones lograremos terminar con la erradicación.

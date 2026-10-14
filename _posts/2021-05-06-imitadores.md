@@ -73,7 +73,7 @@ def test_Plotter(mocker):
 
 En las líneas subrayadas definimos un imitador que tiene la misma interfaz que la clase `Predictions_and_Parameters`.
 La clase `Predictions_and_Parameters` tiene un método llamado `data_for_plot`.
-El imitador no tiene ninguna de las funcionalidades que tendría un objeto de la clase `Predictions_and_Parameters`, pero tiene misma interfaz, es decir puedemos hacer un llamado al método `data_for_plot`.
+El imitador no tiene ninguna de las funcionalidades que tendría un objeto de la clase `Predictions_and_Parameters`, pero tiene misma interfaz, es decir podemos hacer un llamado al método `data_for_plot`.
 A continuación solo presentamos las lineas en las que definimos `Parameters` y le asignamos el valor que regresará el método `data_for_plot`:
 
 ```python
@@ -138,13 +138,13 @@ def test_Plotter_(mocker):
 El método `savefig` es de la clase `Plotter`.
 Y lo que nos interesa preguntarle al espía `makedirs` es si fue llamado con el argumento `"reports/figures"`.
 El espía tiene su método para probar esa información.
-Si no es llamado (solo una vez) o si es llamdo con otro valor de entrada la prueba fallará.
+Si no es llamado (solo una vez) o si es llamado con otro valor de entrada la prueba fallará.
 
 ## Conclusión
 
 Vimos cuatro ejemplos de usos de la paquetería `pytest-mock`: tres ejemplos de imitadores y uno de espías.
 Los ejemplos son de cómo los usamos imitadores en la Dirección de Ciencia de Datos de GECI.
-Tratamos de seguir las recomendaciones de Stargirl en la manera de nombrarlon, pero presentamos un ejemplo en donde no agregar una interfaz no era _tan_ mala idea.
+Tratamos de seguir las recomendaciones de Stargirl en la manera de nombrarlos, pero presentamos un ejemplo en donde no agregar una interfaz no era _tan_ mala idea.
 Parchamos el comportamiento de una clase y finalmente utilizamos espías para asegurarnos de que llamábamos a una función desarrollada por terceros de la manera esperada.
 
 ## Referencias

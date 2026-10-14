@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algunos ejemplos de TDD para desarrollar las recetas del Makefile 
+title: Algunos ejemplos de TDD para desarrollar las recetas del Makefile
 author: Memo, Nepo y Mario
 tags: equipo aprendizaje
 ---
@@ -13,8 +13,8 @@ Esto hace que el objetivo siempre se tenga que generar aunque los ingredientes n
 ## Otros síntomas de uso incorrecto que detectamos
 -`Makefile` muy largos vs cortos.
 ¿Cómo podemos hacer el `Makefile` más cortos?
-- Definiciones de variables en el `Makefile` ¿Cuáles son sus ventajas y desventajas?.
-- ¿Qué ventajas y desventajas nos da el uso de abreviaturas como `@`, `<`, `word`, `@F`, `@D`?.
+- Definiciones de variables en el `Makefile` ¿Cuáles son sus ventajas y desventajas?
+- ¿Qué ventajas y desventajas nos da el uso de abreviaturas como `@`, `<`, `word`, `@F`, `@D`?
 - Dos archivos de salida (objetivos) por una receta.
 Por ejemplo: `reports/figures/mean_lambdas_per_taxon.png reports/tables/mean_lambdas_per_taxon_interval.csv:`.
 - Reescritura de archivos, un ejemplo lo podemos ver en la nota [Blameless Postmortem: Incidente con el pico de la masa](https://islas.dev/2024/06/11/glmm-peak-mass-incident).
@@ -39,7 +39,7 @@ Abajo podemos ver algunos ejemplo de nuestros intentos.
 ## `vocalizacion-pardela`
 ### Ventajas
 - Desarrollamos las funciones "enlatadas" sin necesidad de correr todo el reporte.
--  [Aquí](https://bitbucket.org/IslasGECI/vocalizacion-pardela/commits/aa68bf297e024ec4701c723aa60e03441faad714) podremos encontrar un ejemplo del desarrollo de las funciones con TDD.
+- [Aquí](https://bitbucket.org/IslasGECI/vocalizacion-pardela/commits/aa68bf297e024ec4701c723aa60e03441faad714) podremos encontrar un ejemplo del desarrollo de las funciones con TDD.
 
 ### Desventajas:
 - Tuvimos que agregar un nuevo archivo: [`Makefile.test`](https://bitbucket.org/IslasGECI/vocalizacion-pardela/src/84b2475a07f6b172553cfccf36cf03b289b7f58d/spec/filter_by_island_spec.sh#lines-9)

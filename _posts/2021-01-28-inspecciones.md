@@ -55,7 +55,7 @@ A continuación hablaremos brevemente de esta revisión por pares.
   El tiempo estimado de la reunión de inspección es de una hora por cada 200 líneas de código, el mismo de la preparación.
 
 - **El seguimiento**: Al terminar la reunión de inspección determinaremos si necesitaremos hacer más trabajo.
-  Si eso es requerido asiganremos a alguien para que haga la verificación de que acompletamos dicho trabajo.
+  Si eso es requerido asignaremos a alguien para que haga la verificación de que completamos dicho trabajo.
   El tiempo que nos tomó atender las correcciones nos dará información para hacer estimaciones del tiempo que toma nuestro flujo de trabajo.
   En esta parte el o la moderadora u otra persona asignada se reúne con el o la autora para verificar que ya resolvimos todos los problemas.
 

@@ -1,19 +1,13 @@
-personal_ws-1.1 en 18 utf-8
+personal_ws-1.1 en 12 utf-8
 CLI
 cpue
 disambiguates
-discoverability
 Easting
-easting
 estándar
 Evaristo
 GECI
 geoid
-modularity
 Nombre
 Northing
-northing
 programación
-Subcommand
-Typer
 UTM

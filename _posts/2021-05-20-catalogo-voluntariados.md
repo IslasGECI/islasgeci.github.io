@@ -11,13 +11,13 @@ tags: equipo
 Hola, mi nombre es David y soy estudiante de la carrera de Física en la Universidad Autónoma de Baja California.
 En mi último semestre colaboré con el equipo de Ciencia de Datos en GECI por medio de un proyecto de vinculación.
 Como parte del análisis de variables climatológicas de las estaciones de Isla Guadalupe trabajamos en la implementación de una nueva función en R.
-Este es el repositorio en el que trabajamos, [Respositorio ENSO](https://github.com/IslasGECI/enso).
+Este es el repositorio en el que trabajamos, [Repositorio ENSO](https://github.com/IslasGECI/enso).
 Para una fecha dada, esta nueva función determina su estación del año y su tipo de fase ENSO.
-Esta función brinda nuevas herramientas en el análisis de la climatología de la temeratura y precipitación en Isla Guadalupe.
-Dada una predicción de la próxima fase, podemos determinar los promedios historicos de cualquier variable de interés.
-Esto sutenta la toma de decisiones para la conservación de Isla Guadalupe.
-Este voluntariado me permitió adquirir nuevas habilidades computacionales que fueron de gran ayuda para mi formación academica.
-Sin duda fue un gran reto pero dado que en GECI se tienen prácticas y protocolos bien definidos esto me permitió un facil aprendizaje.
+Esta función brinda nuevas herramientas en el análisis de la climatología de la temperatura y precipitación en Isla Guadalupe.
+Dada una predicción de la próxima fase, podemos determinar los promedios históricos de cualquier variable de interés.
+Esto sustenta la toma de decisiones para la conservación de Isla Guadalupe.
+Este voluntariado me permitió adquirir nuevas habilidades computacionales que fueron de gran ayuda para mi formación académica.
+Sin duda fue un gran reto pero dado que en GECI se tienen prácticas y protocolos bien definidos esto me permitió un fácil aprendizaje.
 
 ## Maximiliano Vaca Montejano
 ![Maximiliano Vaca](https://s.gravatar.com/avatar/2707496f9926449d9d84a2a68af18b198a46446d2625c4d2711a6014907b809d?s=150)
@@ -27,7 +27,7 @@ Mis últimos dos semestres (2024-2 y 2025-1) colaboré con el equipo de Ciencia 
 Principalmente trabajamos en el modelo de [Dimorfismo en Albatros de Laysan](https://github.com/IslasGECI/dimorfismo_py).
 Con ayuda de la [API del Zenodo](https://github.com/IslasGECI/zenodo_api) construimos un canal de integración continua que actualiza los parámetros del modelo cuando tenemos nuevos datos morfométricos disponibles.
 Este voluntariado me permitió poner en practica una amplia variedad de herramientas estadísticas y computacionales al servicio de la conservación de especies.
-Todo esto mediante la implementacion de guías de estilo, integración continua, programación en parejas y TDD.
+Todo esto mediante la implementación de guías de estilo, integración continua, programación en parejas y TDD.
 Los estándares bien definidos nos facilitaron la colaboración en equipo y aseguraron la reproducibilidad, mantenibilidad y escalabilidad de nuestro trabajo.
 
 ## Simon Leopoldo Duarte Patiño
