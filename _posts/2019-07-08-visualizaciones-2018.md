@@ -5,8 +5,7 @@ author: Nepo
 tags: visualización
 ---
 
-A continuación presento una lista de 6 direcciones de internet con las visualizaciones que más me
-llamaron la atención en el 2018:
+A continuación presento una lista de 6 direcciones de internet con las visualizaciones que más me llamaron la atención en el 2018:
 
 - [The Department of the Interior: Water supply](https://www.doi.gov/water/owdi.cr.drought/en/index.html)
 - [information is beautiful](https://informationisbeautiful.net/)
