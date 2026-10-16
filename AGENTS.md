@@ -31,13 +31,23 @@ Post filenames: `YYYY-MM-DD-slug.md` in `_posts/`. Tags are space-separated ids 
 - `make start` — build + serve. Visit http://localhost:4000.
 - `make down` — stop the dev server.
 - **Quirk**: `make serve` has a missing space in the volume mount (`jekyll\` -> `jekyll\ `). Run `make build` first if `make serve` fails.
+
 ## Checks
 
 - `make check` runs style and spellcheck via Docker. Requires Docker.
+  The host has `aspell` but not the Spanish dictionary, so run checks through Docker, not local `aspell`.
+- `make check` stops at the first failing script; run `src/check_spelling.sh` alone once style is red.
 - `src/check_style.sh` — validates line endings (`.`, `:`, `?`) and ≤25 words per line in `_posts/*.md`.
   **Quirk**: does not skip fenced code blocks — lines inside ``` blocks are also checked.
 - `src/check_spelling.sh` — runs `aspell` against `_posts/*.md` using `.config/wordlist-es.txt` (Spanish) or `.config/wordlist-en.txt` (English, for `*_en.md` posts).
 - `Dockerfile` — minimal Ubuntu image with `aspell`, `aspell-en`, `aspell-es`, and `make`.
+
+## Wordlists
+
+- Every entry in `.config/wordlist-*.txt` must be a term aspell still flags; delete dead entries.
+- Rebuild by listing the flags with an empty personal dictionary, then diffing the result against the wordlist.
+- Compare sorted word lists with `LC_ALL=C sort -u`; plain `sort` order is locale-dependent.
+- The integer in the header counts entries, excluding the header line.
 
 ## Style fixes
 
@@ -48,6 +58,7 @@ When fixing legacy posts that exceed the 25-word line limit:
 - **31+ words**: split at a conjunction or natural clause boundary.
 - **Both split parts must be complete sentences**. Prepositional phrases alone ("Para los nombres...") are not sentences.
 - **Do not split paired structures**: `no sólo...sino también`, `tan...como`. Shorten instead.
+- The punctuation rule ignores lines that start with a non-word character (headings, list markers, indented code) and post front-matter keys; the ≤25-word rule still counts those lines.
 - **Pre-push hook** rejects pushes with violations. Use `git push --no-verify` for legacy content that is being fixed incrementally.
 
 ## Setup
@@ -75,6 +86,7 @@ When fixing legacy posts that exceed the 25-word line limit:
 ## Repo rules
 
 - Only plain text committed (CSV, JSON, SVG, TEX, TXT). No binary files >256 px.
+- Text files use LF endings; `.gitattributes` enforces this (`* text=auto eol=lf`).
 - No tests directory — this is a Jekyll site, not a library.
 - No GitFlow.
 - STYLEGUIDE.md at `_guia_de_estilo/STYLEGUIDE.md` is the single source of truth for conventions. When it subsumes other pages, preserve unique content as blog posts, delete redundants, remove cross-references.

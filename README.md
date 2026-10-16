@@ -4,15 +4,17 @@
 
 Ciencia de Datos para la conservación de islas.
 
-## How it works
+## What it does
 
 This site shares how the Data Science team at GECI works, thinks, and learns.
 You will find articles on our workflows, coding standards, statistical methods, and lessons learned from real conservation projects.
 
-- Read blog posts on data science and conservation
-- Browse our style guide and protocols
-- Learn about our automation and reproducibility practices
-- Join our open source community
+## How to use it
+
+- Read blog posts on data science and conservation.
+- Browse our style guide and protocols.
+- Learn about our automation and reproducibility practices.
+- Join our open source community.
 
 ## Before you start
 
@@ -26,9 +28,3 @@ All content is public and free.
 **If you browse the style guide**, you will find standards we follow for writing code, naming files, and structuring repositories.
 
 **If you explore a protocol**, you will see step-by-step how we handle data collection, formatting, and quality control.
-
-## Coming soon
-
-- More posts on species distribution modeling
-- Updated guides for Python-based analysis pipelines
-- Templates for reproducible conservation reports
