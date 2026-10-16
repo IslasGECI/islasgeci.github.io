@@ -67,7 +67,7 @@ When fixing legacy posts that exceed the 25-word line limit:
 
 ## Reference scripts
 
-- `../bycatch_thesis/src/*.R` is the reference codebase for scripts conforming to
+- `../albatross-bycatch-mexico/src/*.R` is the reference codebase for scripts conforming to
   the conventions in STYLEGUIDE.md. When creating new R scripts, consult these
   files for real-world examples of Spanish section markers, imperative comments,
   and Tidyverse style.
