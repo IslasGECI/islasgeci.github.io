@@ -1,94 +1,116 @@
 # Changelog
 
-All notable changes to this project are documented here.
+All notable changes to the public interface are documented here.
 
-The format follows [Keep a Changelog](https://keepachangelog.com/) and
-[Semantic Versioning](https://semver.org/). For `0.y.z` releases, the MINOR
-version is incremented for every release.
+The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
+[Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+The public interface is defined in `AGENTS.md` and listed in `DOCS.md`; this file
+is its history. A release is cut when a top-level page is added or removed.
+While the major version is zero, anything may change, and the minor version is
+incremented for each release.
 
 ## [Unreleased]
 
 ### Added
 
-- Bilingual spellcheck: `*_en.md` posts are validated with `aspell-en` and
-  a dedicated English wordlist; all other posts use `aspell-es`
-- `.config/wordlist-en.txt` for English technical terms
+- Style guide page `/guia_de_estilo/STYLEGUIDE`.
+- Style guide page `/guia_de_estilo/arquitectura`.
+- Style guide page `/guia_de_estilo/lenguaje_inclusivo`.
+- Style guide page `/guia_de_estilo/review_checklists`.
+- Seventeen posts, from the Laysan albatross sex prediction refactor to the
+  Azure credits postmortem and the digital commons essay.
 
-### Changed
-
-- Wordlist files relocated from `.github/config/` to `.config/` with
-  per-language naming (`wordlist-es.txt`, `wordlist-en.txt`)
-- Spanish wordlist header updated to `utf-8` encoding suffix (required by
-  `aspell-es` which defaults to `iso8859-1`)
-- CLI naming convention post aligned with materialization-layer architecture:
-  verbs narrowed to `create`/`render`, standard CLI notation for the pattern,
-  `filtered`/`merged`/`transformed`/`valid` as modifiers
-
-### Fixed
-
-- Style violations (sentences exceeding 25 words) in 8 legacy blog posts
-  covering DataOps, SPC, LaTeX, bird codes, Vim/tmux/QMK, and Data Science
-  team history
-
-## [v0.2.0] - 2026-05-14
+## [v0.8.0] - 2022-07-08
 
 ### Added
 
-- Complete section structure in STYLEGUIDE.md with Spanish markers
-  (`CONFIGURACIÓN`, `ENTRADAS`, `PROCESAMIENTO / ANÁLISIS`, `SALIDA`) and
-  imperative-form consistency rules for script headers
-- Pull Request review checklist to style guide
-- Dockerfile with `aspell` and `make` for isolated CI validation
-- Style check script (`src/check_style.sh`) validating line endings and
-  sentence length
-- Spellcheck script (`src/check_spelling.sh`) using aspell with Spanish
-  dictionary
-- `make check` target to run both validation scripts
-- Pre-push hook that rejects pushes on failed checks
-- `.pipelines/init.sh` for local Git hooks configuration
-
-### Changed
-
-- CI workflow now builds a Docker image and runs `make check` instead of
-  inline shell checks
-- Style and spellcheck scripts scoped to `_posts/` only
+- Eight posts, including LaTeX with GitHub, the volunteer catalog, SPC with
+  Kanban, mutation testing, the bug test, the Vim/tmux/QMK trifecta, remote
+  development environments, and Git from RStudio.
 
 ### Removed
 
-- `.github/config/.spellcheck.yml` (replaced by direct aspell integration)
+- `/manual_curacion/`.
 
-### Fixed
-
-- Line-ending compliance in `_posts/2026-05-13-texto-simple.md` to pass CI
-- Spellcheck wordlist expanded with `CSV`, `RDS`, `XLSX`, `pickle`
-- Missing `WORKDIR` in Dockerfile caused `make check` to fail in CI
-
-## [v0.1.0] - 2026-05-13
+## [v0.7.0] - 2021-05-12
 
 ### Added
 
-- Comprehensive STYLEGUIDE.md covering commit messages, repository structure,
-  coding standards, and naming conventions
-- Blog post on decoupling analysis from visualization
-- Blog post on why the team prefers plain text over binary files
-- GitHub Actions workflow for automated spell-checking
-- Volunteer catalog entries for new team members
-- Docker-based Makefile for local development
+- `/manual_curacion/`.
+- Six posts, including the public dissemination article, the Data Science
+  versus data analysis difference, the task flow diagram, peer inspections,
+  the Data Science oath, and test doubles.
 
-### Changed
+## [v0.6.0] - 2020-08-09
 
-- Consolidated five redundant style guide pages into STYLEGUIDE.md
-- Updated tag taxonomy (fixed spelling, added new tags)
-- Modernized navigation structure
-- Replaced MATLAB references with Python and R
+### Added
+
+- `/blog/temas/`.
+- Three posts on the team workflow, bird four-letter codes, and electronic
+  communication.
+
+## [v0.5.0] - 2020-05-29
+
+### Added
+
+- The blog back catalogue of eighteen posts dated 2016 to 2020.
 
 ### Removed
 
-- Outdated GitFlow documentation (workflow no longer used)
-- Obsolete Roxygen documentation guide (superseded by STYLEGUIDE.md)
-- Redundant style guide pages for version control, directory structure,
-  nomenclature, and plain-text rules
+- `/equipo/`.
 
-[Unreleased]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.2.0...HEAD
+## [v0.4.0] - 2020-05-28
+
+### Added
+
+- `/blog/`.
+- `/equipo/`.
+- Style guide page `/guia_de_estilo/prosa`.
+- Style guide page `/guia_de_estilo/comentarios_en_revisiones`.
+
+## [v0.3.0] - 2020-04-24
+
+### Added
+
+- Homepage `/`, restored after the root redirect.
+- `/guia_de_estilo/`.
+- `/protocolo_basico/` and its pages: resumen, datos, consistencia,
+  nomenclatura, celdas_vacias, fusionar_celdas, sin_calculos, sin_colores,
+  metadatos, standard_name, units, axis, coordenadas, geograficas, utm, tiempo,
+  and referencias.
+- `/protocolo_avanzado/` and its pages: resumen, metadatos, validacion, and
+  referencias.
+
+### Removed
+
+- `/ciencia_de_datos/`.
+
+## [v0.2.0] - 2018-07-03
+
+### Added
+
+- The style guide at `/ciencia_de_datos/guia_de_estilo/`.
+- Style guide page `/ciencia_de_datos/guia_de_estilo/lista_de_guias/`.
+
+### Removed
+
+- `/`, redirected to the official GECI page.
+
+## [v0.1.0] - 2018-06-21
+
+### Added
+
+- Homepage `/`.
+- `/ciencia_de_datos/`.
+- Site chrome: the navbar and footer shown on every page.
+
+[Unreleased]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.8.0...HEAD
+[v0.8.0]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.7.0...v0.8.0
+[v0.7.0]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.6.0...v0.7.0
+[v0.6.0]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.5.0...v0.6.0
+[v0.5.0]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.4.0...v0.5.0
+[v0.4.0]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.3.0...v0.4.0
+[v0.3.0]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.2.0...v0.3.0
 [v0.2.0]: https://github.com/IslasGECI/islasgeci.github.io/compare/v0.1.0...v0.2.0
-[v0.1.0]: https://github.com/IslasGECI/islasgeci.github.io/releases/tag/v0.1.0
+[v0.1.0]: https://github.com/IslasGECI/islasgeci.github.io/commit/fc76b65

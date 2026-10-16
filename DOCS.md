@@ -1,116 +1,159 @@
-# DOCS — Technical Reference
+# DOCS — Public Interface
 
-## make start
+Interface reference for islas.dev. The public interface is defined in AGENTS.md; this file lists its current elements.
 
-Build and serve the Jekyll site in one step.
+## Site-wide
 
-- Parameters: none
-- Returns: site available at http://localhost:4000
-- Notes: Equivalent to running `make build` then `make serve`
+### Todas las páginas
 
-## make build
+CI/CD: Conservación de Islas / Ciencia de Datos — barra superior con el título del sitio y pie de página con el logotipo de GECI.
 
-Build the static site without starting the development server.
+## Home
 
-- Parameters: none
-- Returns: compiled site in `_site/`
-- Notes: Uses `jekyll/builder` Docker image
+### /
 
-## make serve
+Ciencia de Datos — Página del equipo de Ciencia de Datos de GECI.
 
-Start the Jekyll development server.
+## Blog
 
-- Parameters: none
-- Returns: running container `islasgeci.github.io` on port 4000
-- Notes: Container runs detached. Use `make down` to stop.
+### /blog/
 
-## make down
+Blog — listado de todas las entradas, de la más reciente a la más antigua.
 
-Stop the running Jekyll development server.
+### /blog/temas/
 
-- Parameters: none
-- Returns: stops and removes container `islasgeci.github.io`
-- Errors: no-op if no container is running
+Blog » Orden temático — las entradas agrupadas por tema.
 
-## make check
+### /<año>/<mes>/<día>/<slug>/
 
-Run style and spellcheck validation inside a Docker container.
+Entrada del blog — título, fecha, autoría, cuerpo y enlaces a la entrada anterior y a la siguiente.
 
-- Parameters: none
-- Returns: exit code 0 if all checks pass, 1 otherwise
-- Notes: Builds or uses the `islasgeci/islasgeci.github.io` image. Requires Docker. Equivalent to running `src/check_style.sh` followed by `src/check_spelling.sh`.
+## Style guide
 
-## src/check_style.sh
+### /guia_de_estilo/
 
-Validate that every Markdown file in `_posts/` ends each line with `.`, `:`, or `?` and that no line exceeds 25 words.
+Guía de Estilo — Esta sección extiende las guías de estilo adoptadas por el equipo de Ciencia de Datos de GECI.
 
-- Parameters: none
-- Returns: exit code 0 if all checks pass, 1 otherwise
-- Errors: non-zero exit when a line lacks proper punctuation or exceeds 25 words
+### /guia_de_estilo/STYLEGUIDE
 
-## src/check_spelling.sh
+Style Guide — Style guide for Grupo de Ecología y Conservación de Islas.
 
-Run aspell spellcheck against every Markdown file in `_posts/`, routing `*_en.md` to English and all other files to Spanish.
+### /guia_de_estilo/arquitectura
 
-- Parameters: none
-- Returns: exit code 0 if no spelling errors found, 1 otherwise
-- Errors: non-zero exit when aspell detects unrecognised words
-- Notes: Uses `.config/wordlist-es.txt` for Spanish posts and `.config/wordlist-en.txt` for English (`*_en.md`) posts. Add new technical terms to the appropriate file.
+Arquitectura en niveles y capas — Organización de la arquitectura en niveles de abstracción y capas funcionales.
 
-## .pipelines/init.sh
+### /guia_de_estilo/comentarios_en_revisiones
 
-Configure the local Git repository to use the project pre-push hook.
+Cómo escribir comentarios en una revisión — Cómo logramos revisiones amables y efectivas.
 
-- Parameters: none
-- Returns: sets `core.hooksPath` to `.githooks`
-- Notes: Run once per clone. The pre-push hook calls `make check` and rejects the push if checks fail.
+### /guia_de_estilo/lenguaje_inclusivo
 
-## Collections
+Lenguaje inclusivo — Cómo escribimos con lenguaje inclusivo.
 
-### `_guia_de_estilo`
+### /guia_de_estilo/lista_de_guias
 
-Registered Jekyll collection (see `_config.yml`). Each file in this directory
-renders as a page at `/guia_de_estilo/<slug>/`.
+Lista de guías de estilo — Cuáles guías de estilo adoptamos de otros equipos.
 
-### `_protocolo_avanzado`
+### /guia_de_estilo/prosa
 
-Registered Jekyll collection (see `_config.yml`). Each file in this directory
-renders as a page at `/protocolo_avanzado/<slug>/`.
+Estilo en la prosa — Cómo escribimos el texto que no es código.
 
-## Data Files
+### /guia_de_estilo/review_checklists
 
-### `_data/navigation.yml`
+Review Checklists — Checklists for reviewing Class 1 and Class 3 pull requests.
 
-Defines the top-level navigation links rendered on the homepage.
+## Basic protocol
 
-- Format: list of `{name, link}` objects
-- `name`: display text (Spanish)
-- `link`: relative path or absolute URL
+### /protocolo_basico/
 
-### `_data/tags.yml`
+Datos en Excel — Protocolo para guardar datos en Excel para ser procesados por el equipo de Ciencia de Datos de GECI.
 
-Defines the tag taxonomy for blog posts.
+### /protocolo_basico/resumen.html
 
-- Format: list of `{name, id}` objects
-- `name`: display text (Spanish)
-- `id`: tag identifier used in post front matter
+Resumen — datos en excel.
 
-## Front Matter
+### /protocolo_basico/datos.html
 
-### Page layout (`layout: page`)
+Datos — Cómo guardar los datos en un archivo en Excel.
 
-| Field         | Required | Description                       |
-|---------------|----------|-----------------------------------|
-| `layout`      | yes      | Must be `page`                    |
-| `title`       | yes      | Page title                        |
-| `tagline`     | yes      | Short subtitle                    |
-| `description` | yes      | SEO description                   |
+### /protocolo_basico/consistencia.html
 
-### Post layout (`layout: post`)
+Se consistente — La regla más importante de la organización de datos es ser consistente.
 
-| Field    | Required | Description                                       |
-|----------|----------|---------------------------------------------------|
-| `layout` | yes      | Must be `post`                                    |
-| `title`  | yes      | Post title                                        |
-| `author` | yes      | Author name                                       |
-| `tags`   | yes      | Space-separated tag ids from `_data/tags.yml`     |
+### /protocolo_basico/nomenclatura.html
+
+Nombres de archivos y columnas — Reglas de nomenclatura.
+
+### /protocolo_basico/celdas_vacias.html
+
+No dejes celdas vacías — ninguna celda vacía.
+
+### /protocolo_basico/fusionar_celdas.html
+
+No fusiones celdas — Combinar celdas es equivalente a dejar celdas vacías.
+
+### /protocolo_basico/sin_calculos.html
+
+No hagas cálculos en el archivo de datos — Los archivos de datos crudos no pueden contener cálculos ni gráficas.
+
+### /protocolo_basico/sin_colores.html
+
+No uses colores en lugar de datos — Reglas de nomenclatura.
+
+### /protocolo_basico/metadatos.html
+
+Metadatos — Cómo agregar metadatos a un archivo de datos en Excel.
+
+### /protocolo_basico/standard_name.html
+
+Nombre estándar — Metadato `standard_name`.
+
+### /protocolo_basico/units.html
+
+Unidades — Metadato `units`.
+
+### /protocolo_basico/axis.html
+
+Variables independientes — Metadato `axis`.
+
+### /protocolo_basico/coordenadas.html
+
+Sistemas de Coordenadas — Protocolo para guardar registros georeferenciados en Excel.
+
+### /protocolo_basico/geograficas.html
+
+Coordenadas Geográficas — Para coordenadas geográficas debes incluir dos columnas: latitud y longitud.
+
+### /protocolo_basico/utm.html
+
+Coordenadas UTM — Para coordenadas UTM debes incluir tres columnas: coordenada Este, coordenada Norte y zona UTM.
+
+### /protocolo_basico/tiempo.html
+
+Fecha y hora — Formato para guardar fechas y horas.
+
+### /protocolo_basico/referencias.html
+
+Referencias — Lista de referencias en las que se inspiró este protocolo.
+
+## Advanced protocol
+
+### /protocolo_avanzado/
+
+Protocolo avanzado para guardar datos en Excel — En esta sección se encuentra información adicional para los analistas del equipo de Ciencia de Datos en GECI.
+
+### /protocolo_avanzado/resumen
+
+Resumen — Síntesis del flujo de trabajo.
+
+### /protocolo_avanzado/metadatos
+
+Metadatos — Cómo agregar metadatos a un archivo de datos en Excel.
+
+### /protocolo_avanzado/validacion
+
+Validar un archivo de Excel — Cómo verificar si un archivo de Excel cumple con este protocolo.
+
+### /protocolo_avanzado/referencias
+
+Referencias — Lista de referencias en las que se inspiró este protocolo.

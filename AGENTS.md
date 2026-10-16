@@ -1,5 +1,10 @@
 # AGENTS — repo conventions
 
+## Public interface
+
+- The public interface is what can be seen published from islas.dev.
+- If it cannot be seen from islas.dev, it is not part of the public interface.
+
 ## Commits
 
 - gitmoji + imperative verb, ≤72 chars first line. Why-over-what in body.
