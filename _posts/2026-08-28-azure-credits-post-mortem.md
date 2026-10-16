@@ -29,7 +29,7 @@ No teníamos créditos en Azure y, por lo tanto, no contábamos con infraestruct
 ## Impacto
 Del 14 al 19 de agosto nos quedamos sin 3 de las 5 máquinas que usamos en el equipo de CD:
 - Nos quedamos sin servidor de desarrollo; herramienta principal de trabajo.
-- No pudimos proveer las herramientas de CD y tramperos; esto afectó los pipelines de bitbucket que usaban los servicios y la herramienta de verificación de datos para los tramperos.
+- No pudimos proveer las herramientas de CD y tramperos; esto afectó los servicios internos y la verificación de datos de trampeo.
 - Nos quedamos sin tablero de reproducibilidad.
 Esto implicó que durante este tiempo no pudimos atender tareas de clase 1 o mayores.
 Además el director de CD tuvo que atender este asunto durante sus vacaciones.
@@ -44,7 +44,8 @@ En AWS es posible agregar una alerta automática que nos avise que ya se están 
 ## Respuesta
 El director de CD contactó al soporte de Azure para pedir la renovación del patrocinio.
 El 11 de agosto aprobaron la renovación del patrocinio.
-El 14 de agosto nos dimos cuenta que la donación de Azure no se activó inmediatamente debido al saldo vencido, fue necesario hacer una solicitud explícita para usar los créditos para pagar el saldo vencido.
+El 14 de agosto nos dimos cuenta que la donación de Azure no se activó inmediatamente debido al saldo vencido.
+Fue necesario hacer una solicitud explícita para usar los créditos para pagar el saldo vencido.
 Hasta el 14 de agosto el equipo de CD contó con las credenciales en AWS Console para poder utilizar los créditos del patrocinio.
 El 17 de agosto comenzamos la migración de los servidores a AWS.
 Terminamos con la migración del webserver y el devserver el 19 de agosto.
@@ -94,11 +95,13 @@ Si podemos hacernos cargo de esta responsabilidad, tal vez la detección y la re
   - Este criterio no se ha actualizado después del cambio de estructura del equipo de CD donde no hay coordinador.
 5. ¿Por qué no hemos reaccionado al cambio de estructura del equipo de CD sin coordinador?
   - Nada nos había obligado a hacer el cambio de estructura hasta este incidente.
-  - Las responsabilidades del coordinador recayeron todas en el director del equipo; nadie pensó en distribuirlas de manera sostenible de acuerdo a la carga de trabajo de todos los miembros del equipo.
+  - Las responsabilidades del coordinador recayeron todas en el director del equipo.
+  - Nadie pensó en distribuir las responsabilidades de manera sostenible de acuerdo a la carga de trabajo de todos los miembros del equipo.
   - No era evidente la importancia de esta tarea. Hemos atendido tareas que son más "urgentes".
 
 ## Causa raíz
-Después del cambio de estructura del equipo de CD sin coordinador, no distribuimos las tareas de este rol en todos los miembros del equipo. Hasta este incidente, no era evidente la importancia de redistribuir las tareas del coordinador.
+Después del cambio de estructura del equipo de CD sin coordinador, no distribuimos las tareas de este rol en todos los miembros del equipo.
+Hasta este incidente, no era evidente la importancia de redistribuir las tareas del coordinador.
 
 ## Lecciones aprendidas y cosas ganadas
 - Sabemos que hay tareas que atendía el coordinador que no estamos atendiendo.
