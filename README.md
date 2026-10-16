@@ -2,7 +2,7 @@
 
 # Grupo de Ecología y Conservación de Islas, A.C.
 
-Ciencia de Datos para la conservación de islas.
+Data Science for the conservation of the Mexican islands.
 
 ## What it does
 
