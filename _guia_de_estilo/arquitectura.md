@@ -18,7 +18,7 @@ En GECI, organizamos la arquitectura de nuestros proyectos en niveles de abstrac
 - Nivel 4: Composición de servicios
 - Nivel 5: Canal de integración
 
-Por lo general, las funciones de un nivel solo pueden llamar a funciones de niveles inferiores.
+Por lo general, los elementos de un nivel solo pueden llamar a elementos de niveles inferiores.
 Por ejemplo, las funciones del nivel 2 pueden llamar a funciones del nivel 1, pero no pueden llamar a funciones del nivel 2 o 3.
 Excepcionalmente, las funciones de un nivel pueden llamar a funciones de apoyo (_helper functions_) del mismo nivel.
 Sin embargo, estas llamadas se permiten solo cuando las funciones sean privadas y pertenezcan a la misma capa funcional.
@@ -88,10 +88,24 @@ El nivel 3 es la capa en la que Make orquesta la producción de resultados.
 Make resuelve las dependencias entre los artefactos.
 Por ejemplo, llamará a `create_*` antes que a `render_*` para garantizar que los insumos para la visualización estén disponibles antes de intentar renderizarla.
 
+Make corre dentro del contenedor que define este repositorio.
+Docker Compose inicia ese contenedor, pero Make no sabe que existe.
+Por eso el Makefile no invoca a `docker`, `docker compose` ni `docker exec`.
+
 ## Nivel 4: Composición de servicios
 
 El nivel 4 es la capa en la que Docker Compose gestiona las imágenes y contenedores.
 
+Docker Compose inicia el contenedor donde corre Make y coloca datos en el árbol de trabajo.
+Por ejemplo, copia `data/processed/` y `data/external/` antes de que Make los use.
+Make declara esos archivos como dependencias, pero no puede producirlos.
+Los datos bajan de Docker Compose a Make, nunca al revés.
+
 ## Nivel 5: Canal de integración
 
 El nivel 5 es la capa en la que Bitbucket Pipelines, GitHub Actions o Jenkins integran los reportes.
+
+Cada herramienta define el nombre y la ubicación de su configuración: `bitbucket-pipelines.yml`, `.github/workflows/` y `Jenkinsfile`.
+Los scripts que el equipo escribe para esas herramientas viven en `.pipelines/`.
+Un script pertenece a `.pipelines/` si corre fuera del contenedor.
+Por ejemplo, un script en `.pipelines/` podría ejecutar `docker compose run --rm <servicio> make <objetivo>`.

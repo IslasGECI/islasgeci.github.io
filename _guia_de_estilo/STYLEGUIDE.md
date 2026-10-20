@@ -56,6 +56,9 @@ Changes must be validated against that reference to avoid contradictions.
 ├── analyses.json      <- Describes the relationships between files (data, reports,
 │                         results, scripts, etc.) of each analysis
 ├── bitbucket-pipelines.yml  <- Bitbucket Pipeline configuration file
+├── .pipelines/        <- CI scripts maintained by GECI that run outside the
+│                         container
+│
 ├── data/
 │   ├── external/      <- Third-party data
 │   ├── processed/     <- Processed data shaped to meet the requirements of
