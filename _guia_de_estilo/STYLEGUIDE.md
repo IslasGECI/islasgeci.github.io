@@ -26,13 +26,10 @@ The following guidelines define how to write effective commit messages.
 
 ## Repository Content Rules
 
-- Only plain text files may be committed (`csv`, `json`, `svg`, `tex`, `txt`, etc.).
-- Binary files are not allowed, except under strict conditions (see below).
+- Commit text formats by default (`csv`, `json`, `svg`, `tex`, `txt`, etc.).
+- PNG screenshots are allowed; no other binary formats.
 - Files must not exceed 1 MB or ~10,000 lines of code.
-- Prefer `svg` over any binary image format.
-- Binary images are allowed only if:
-  - They are required for application functionality, and
-  - Their largest dimension is ≤ 256 pixels.
+- Prefer `svg` over any raster image format.
 - Any exception must be explicitly agreed upon.
 
 ---

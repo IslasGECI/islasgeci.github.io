@@ -92,8 +92,6 @@ When fixing legacy posts that exceed the 25-word line limit:
 
 ## Repo rules
 
-- Commit text formats by default (CSV, JSON, SVG, TEX, TXT) and prefer SVG over raster images.
-- PNG screenshots are allowed; no other binary formats.
 - Text files use LF endings; `.gitattributes` enforces this (`* text=auto eol=lf`).
 - No tests directory — this is a Jekyll site, not a library.
 - No GitFlow.
