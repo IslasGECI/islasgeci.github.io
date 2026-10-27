@@ -12,10 +12,10 @@
 
 ## Jekyll front matter
 
-| Layout | Required |
-|--------|----------|
-| `page` | `layout`, `title`, `tagline`, `description` |
-| `post` | `layout`, `title`, `author`, `tags` |
+| Layout | Required | Optional |
+|--------|----------|----------|
+| `page` | `layout`, `title` | `tagline`, `description` |
+| `post` | `layout`, `title`, `author`, `tags` | |
 
 Post filenames: `YYYY-MM-DD-slug.md` in `_posts/`. Tags are space-separated ids from `_data/tags.yml`.
 
@@ -64,7 +64,7 @@ When fixing legacy posts that exceed the 25-word line limit:
 - **Both split parts must be complete sentences**. Prepositional phrases alone ("Para los nombres...") are not sentences.
 - **Do not split paired structures**: `no sólo...sino también`, `tan...como`. Shorten instead.
 - The punctuation rule ignores lines that start with a non-word character (headings, list markers, indented code) and post front-matter keys; the ≤25-word rule still counts those lines.
-- **Pre-push hook** rejects pushes with violations. Use `git push --no-verify` for legacy content that is being fixed incrementally.
+- **Pre-push hook** rejects pushes with violations, including tag-only pushes. Use `git push --no-verify` for legacy content that is being fixed incrementally.
 
 ## Setup
 
@@ -77,7 +77,9 @@ When fixing legacy posts that exceed the 25-word line limit:
 
 ## Language
 
-- Posts and docs: Spanish. Code and filenames: English (snake_case).
+- Site pages and posts: Spanish. Repository documents: English.
+- Keep published page titles verbatim in DOCS.md; translate only the prose around them.
+- Code and filenames: English (snake_case).
 - Prefer Python and R. Do not reference MATLAB.
 - Allowed abbreviations: `sst`, `eez`, `lon`, `lat`, `x`, `y`, `X`, `Y`.
 
@@ -90,7 +92,8 @@ When fixing legacy posts that exceed the 25-word line limit:
 
 ## Repo rules
 
-- Only plain text committed (CSV, JSON, SVG, TEX, TXT). No binary files >256 px.
+- Commit text formats by default (CSV, JSON, SVG, TEX, TXT) and prefer SVG over raster images.
+- PNG screenshots are allowed; no other binary formats.
 - Text files use LF endings; `.gitattributes` enforces this (`* text=auto eol=lf`).
 - No tests directory — this is a Jekyll site, not a library.
 - No GitFlow.

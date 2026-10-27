@@ -24,7 +24,7 @@ Blog — List of all posts, newest first.
 
 Blog » Orden temático — Posts grouped by topic.
 
-### /<año>/<mes>/<día>/<slug>/
+### /<year>/<month>/<day>/<slug>/
 
 Blog post — Title, date, author, body, and links to the previous and next posts.
 

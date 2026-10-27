@@ -21,6 +21,10 @@ incremented for each release.
 - Seventeen posts, from the Laysan albatross sex prediction refactor to the
   Azure credits postmortem and the digital commons essay.
 
+### Changed
+
+- Post `/2023/12/06/evaluacion-desempeño-post-mortem/` moved to `/2023/12/06/evaluacion-desempeno-post-mortem/`.
+
 ## [v0.8.0] - 2022-07-08
 
 ### Added
