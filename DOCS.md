@@ -70,7 +70,7 @@ Datos en Excel — Protocol for saving data in Excel to be processed by the GECI
 
 ### /protocolo_basico/resumen.html
 
-Resumen — Data in Excel.
+Resumen — One table per file, with a data sheet and a metadata sheet.
 
 ### /protocolo_basico/datos.html
 
@@ -98,7 +98,7 @@ No hagas cálculos en el archivo de datos — Raw data files cannot contain calc
 
 ### /protocolo_basico/sin_colores.html
 
-No uses colores en lugar de datos — Naming rules.
+No uses colores en lugar de datos — Add a column instead of colouring cells.
 
 ### /protocolo_basico/metadatos.html
 

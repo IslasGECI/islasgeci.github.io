@@ -17,7 +17,7 @@ Nota que este protocolo está pensado para procesar tus datos mediante algún le
     - [No dejes celdas vacías](celdas_vacias.html)
     - [No fusiones celdas](fusionar_celdas.html)
     - [No hagas cálculos en el archivo de datos](sin_calculos.html)
-    - [No uses colores en lugar de datos](sin_colores.md)
+    - [No uses colores en lugar de datos](sin_colores.html)
 - [Metadatos](metadatos.html)
     - [Nombre estándar](standard_name.html)
     - [Unidades](units.html)

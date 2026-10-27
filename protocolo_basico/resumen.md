@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resumen
-description: datos en excel
+description: Una tabla por archivo, con una hoja de datos y una de metadatos
 ---
 
 - Los datos de una actividad de monitoreo se guardan en una o varias tablas de datos.
