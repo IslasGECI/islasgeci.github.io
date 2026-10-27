@@ -2,13 +2,15 @@
 layout: page
 title: Review Checklists
 tagline: Guía de estilo
-description: Checklists for reviewing Class 1 and Class 3 pull requests
+description: Checklists for reviewing Class 1 and Class 3 pull requests, and for publishing reports in Zenodo
 ---
 
 Two repository classes each have their own review checklist:
 
 - **Class 1 repositories** contain general-purpose tools whose end users are analysts, such as packages, CLIs, and APIs. They do not produce concrete results and are usually hosted on GitHub.
 - **Class 3 repositories** depend on Class 1 repositories and produce concrete results about the islands and their species for biologists. They are usually hosted on Bitbucket.
+
+A report published to Zenodo follows a third checklist.
 
 The conventions these checklists reference are defined in the [Style Guide](/guia_de_estilo/STYLEGUIDE).
 
@@ -38,3 +40,27 @@ The conventions these checklists reference are defined in the [Style Guide](/gui
 - [ ] **README.md**: Is it accurate and clear for academic users?
 - [ ] **AGENTS.md**: Is it accurate and clear for data analysts?
 - [ ] **Style**: Does the code follow the [Style Guide](/guia_de_estilo/STYLEGUIDE)?
+
+## Checklist for a Report on Zenodo
+
+- [ ] **Community**: Add the community "Grupo de Ecología y Conservación de Islas".
+- [ ] **Access**: Set restricted access, not public.
+- [ ] **Duplicates**: Verify that there are no duplicate records in Zenodo.
+- [ ] **Preview**: Add the most important file to the preview.
+- [ ] **Resource type**: `Publication>Report`.
+- [ ] **Delivery date**: `{YYYY-MM-DD}`.
+- [ ] **Creator**: Grupo de Ecología y Conservación de Islas, `05w2bye72`.
+- [ ] **Title**: Species, island, season, and measure.
+- [ ] **Concise title**: Remove superfluous words from the title.
+- [ ] **Abstract**: Write the abstract with the results.
+- [ ] **Notes**: Write the description of changes in the notes.
+- [ ] **Delivery email**: Link the delivery email.
+- [ ] **Versioning reason**: Verify that the versioning reason is included.
+- [ ] **Version**: `{X.Y.Z}`.
+- [ ] **Repository**: Link the repository.
+
+### Report versioning
+
+- `X` — We retract something, remove something, or change the meaning.
+- `Y` — We add a section or a result without modifying what came before.
+- `Z` — We update the data, or fix the wording without changing the meaning.

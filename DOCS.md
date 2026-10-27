@@ -60,7 +60,7 @@ Estilo en la prosa — How we write text that is not code.
 
 ### /guia_de_estilo/review_checklists
 
-Review Checklists — Checklists for reviewing Class 1 and Class 3 pull requests.
+Review Checklists — Checklists for reviewing Class 1 and Class 3 pull requests, and for publishing reports in Zenodo.
 
 ## Basic protocol
 

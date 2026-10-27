@@ -24,6 +24,7 @@ incremented for each release.
 ### Changed
 
 - Post `/2023/12/06/evaluacion-desempeño-post-mortem/` moved to `/2023/12/06/evaluacion-desempeno-post-mortem/`.
+- `/guia_de_estilo/review_checklists` now includes the checklist for publishing a report in Zenodo.
 
 ## [v0.8.0] - 2022-07-08
 
