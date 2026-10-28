@@ -5,12 +5,12 @@ tagline: Guía de estilo
 description: Checklists for reviewing Class 1 and Class 3 pull requests, and for publishing reports and software releases in Zenodo
 ---
 
-Two repository classes each have their own review checklist:
+Four kinds of work each have their own review checklist:
 
 - **Class 1 repositories** contain general-purpose tools whose end users are analysts, such as packages, CLIs, and APIs. They do not produce concrete results and are usually hosted on GitHub.
 - **Class 3 repositories** depend on Class 1 repositories and produce concrete results about the islands and their species for biologists. They are usually hosted on Bitbucket.
-
-A report published to Zenodo and a software release archived on Zenodo each follow their own checklist.
+- **Reports** are published directly in Zenodo.
+- **Software releases** are archived on Zenodo by the GitHub integration.
 
 The conventions these checklists reference are defined in the [Style Guide](/guia_de_estilo/STYLEGUIDE).
 
