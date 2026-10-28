@@ -1,5 +1,12 @@
-Ahora tenemos registros de Software en Zenodo, además de los registros de Reportes y Datos.
-Los registros de Software siguen un flujo de trabajo distinto al de los otros.
+---
+layout: post
+title: "Tipos de registros en Zenodo"
+author: Evaristo
+tags: dataops equipo programación
+---
+
+Ahora tenemos registros de software en Zenodo, además de los registros de reportes y datos.
+Los registros de software siguen un flujo de trabajo distinto al de los otros.
 Cada tipo de registro cuenta con su propio checklist.
 
 ## Reportes
@@ -8,12 +15,13 @@ Nuestros registros de reportes en Zenodo incluyen solo los artefactos PDF y PNG 
 Para crear un nuevo registro de un reporte o publicar una nueva versión, realizamos el proceso en Zenodo.
 Esto lo hacemos manualmente siguiendo el [checklist para reportes](https://islas.dev/guia_de_estilo/review_checklists#checklist-for-a-report-on-zenodo).
 
-> NOTA: En el futuro me gustaría que esto lo hiciéramos de manera automática mediante nuestro canal de integración (Bitbucket Pipelines, GitHub Actions, Jenkins, etc.) usando la API de Zenodo.
+> NOTA: Me gustaría que esto fuera automático mediante nuestro canal de integración (Bitbucket Pipelines, GitHub Actions, Jenkins, etc.) usando la API de Zenodo.
 
 ## Datos
 
 Nuestros registros de datos en Zenodo incluyen solo datos, nunca los archivos consignados ni los artefactos generados.
-Para crear un nuevo registro de datos o publicar una nueva versión, realizamos el proceso en Zenodo. Esto lo hacemos manualmente siguiendo el [checklist para datos](https://islas.dev/guia_de_estilo/review_checklists#checklist-for-a-dataset-on-zenodo).
+Para crear un nuevo registro de datos o publicar una nueva versión, realizamos el proceso en Zenodo.
+Esto lo hacemos manualmente siguiendo el [checklist para datos](https://islas.dev/guia_de_estilo/review_checklists#checklist-for-a-dataset-on-zenodo).
 
 ## Software
 
@@ -22,11 +30,13 @@ Para crear un nuevo registro de software o publicar una nueva versión, realizam
 Esto lo hacemos siguiendo el [checklist para software](https://islas.dev/guia_de_estilo/review_checklists#checklist-for-a-software-release-on-github).
 
 La integración consta de tres etapas.
-Primero, vinculamos nuestra cuenta de GitHub en la [configuración de GitHub en Zenodo](https://zenodo.org/account/settings/github/) y activamos el repositorio mediante el switch correspondiente.
+Primero, vinculamos nuestra cuenta de GitHub en la [configuración de GitHub en Zenodo](https://zenodo.org/account/settings/github/) y activamos el repositorio mediante el botón correspondiente.
 Esta configuración necesitamos hacerla solo una vez por repositorio.
 
-Luego, hacemos un lanzamiento (*release*) en GitHub.
+Luego, hacemos un lanzamiento en GitHub.
 Zenodo archivará automáticamente dicho lanzamiento y le asignará un DOI.
-Las actualizaciones de nuestros registros de software en Zenodo siguen este flujo de trabajo en GitHub, y no el flujo de trabajo manual que usamos para los datos.
+Las actualizaciones de registros de software en Zenodo son un lanzamiento en GitHub, y no una actualización manual como la que hacemos para los datos.
 
-Por último, copiamos el badge del DOI desde Zenodo y lo incluimos en el README del repositorio y la URL del DOI en la descripción del repo en GitHub. Este último paso también necesitamos hacerlo solo una vez por repositorio.
+Por último, copiamos el distintivo del DOI desde Zenodo y lo incluimos en el README del repositorio.
+También incluimos la URL del DOI en la descripción del repositorio en GitHub.
+Este último paso también necesitamos hacerlo solo una vez por repositorio.
