@@ -2,14 +2,15 @@
 layout: page
 title: Review Checklists
 tagline: Guía de estilo
-description: Checklists for reviewing Class 1 and Class 3 pull requests, and for publishing reports and software releases in Zenodo
+description: Checklists for reviewing Class 1 and Class 3 pull requests, and for publishing reports, datasets, and software releases in Zenodo
 ---
 
-Four kinds of work each have their own review checklist:
+Five kinds of work each have their own review checklist:
 
 - **Class 1 repositories** contain general-purpose tools whose end users are analysts, such as packages, CLIs, and APIs. They do not produce concrete results and are usually hosted on GitHub.
 - **Class 3 repositories** depend on Class 1 repositories and produce concrete results about the islands and their species for biologists. They are usually hosted on Bitbucket.
 - **Reports** are published directly in Zenodo.
+- **Datasets** are curated before publication and then published directly in Zenodo.
 - **Software releases** are archived on Zenodo by the GitHub integration.
 
 The conventions these checklists reference are defined in the [Style Guide](/guia_de_estilo/STYLEGUIDE).
@@ -64,6 +65,51 @@ The conventions these checklists reference are defined in the [Style Guide](/gui
 - `X` — We retract something, remove something, or change the meaning.
 - `Y` — We add a section or a result without modifying what came before.
 - `Z` — We update the data, or fix the wording without changing the meaning.
+
+## Checklist for a Dataset on Zenodo
+
+- [ ] **Community**: Add the community "Grupo de Ecología y Conservación de Islas".
+  Test: The record lists that community under Communities.
+- [ ] **Access**: Set restricted access, not public.
+  Test: The record grants access on request and lists no public file.
+- [ ] **Duplicates**: Verify that there are no duplicate records in Zenodo.
+  Test: A Zenodo search for the dataset title and island returns no other record.
+- [ ] **Resource type**: `Dataset`.
+  Test: The resource type field reads `Dataset`.
+- [ ] **Delivery date**: `{YYYY-MM-DD}`.
+  Test: The delivery date is in ISO format and matches the delivery.
+- [ ] **Creator**: Grupo de Ecología y Conservación de Islas, `05w2bye72`.
+  Test: The creator names the organization and its id, not a person.
+- [ ] **Title**: Species, island, season, and measure.
+  Test: The title names a species, an island, a season, and a measure.
+- [ ] **Concise title**: Remove superfluous words from the title, such as datos or base de datos.
+  Test: Every word of the title carries one of the four parts.
+- [ ] **Description**: Write the description with the relevant field comments.
+  Test: The description explains how we collected the data and repeats the field comments.
+- [ ] **Notes**: Write the description of changes in the notes.
+  Test: The notes say what changed since the previous version.
+- [ ] **Version**: `{X.Y.Z}`.
+  Test: The version matches the datapackage and follows Dataset versioning below.
+    - [ ] **Versioning reason**: Verify that the versioning reason is included.
+      Test: The reason names the schema or data change that produced the new version.
+- [ ] **Repository**: Link the repository.
+  Test: The related identifier field links the repository URL.
+- [ ] **Keywords and subjects**: `Raw`, `Curated`, `Reconstructed`, or `Processed`.
+  Test: The keywords carry one of those four words.
+- [ ] **Delivery message**: Add a note linking the email or Slack message where we received the original raw data.
+  Test: The note opens that message, and the message carries no data as an attachment.
+    - [ ] **Slack payload**: Delete the data from Slack but keep the message.
+      Test: The message is still in Slack and its files are gone.
+- [ ] **Publish**: Approve and publish the record in Zenodo.
+  Test: The record shows a published version with a DOI.
+- [ ] **DOI**: Share the DOI with everyone who shared the original raw data, covering all versions.
+  Test: Each sender received the concept DOI, which resolves to the newest version.
+
+### Dataset versioning
+
+- `X` — We remove a column, change a data type, or rename a column.
+- `Y` — We add a column or a table without changing what came before.
+- `Z` — We add rows, fix an error in the data, or improve it without changing the structure.
 
 ## Checklist for a Software Release on GitHub
 
