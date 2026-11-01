@@ -11,29 +11,31 @@ Aquí explicamos la práctica que estamos adoptando y cómo la implementamos con
 
 ## De TDD a ATDD
 
-Con TDD escribimos una prueba unitaria (que falla) desde la perspectiva del programador; luego escribimos el código que la hace pasar.
-Con ATDD escribimos primero una prueba de aceptación desde la perspectiva de quien usa el sistema.
-El criterio y su prueba de aceptación definen qué significa terminar.
+Con TDD escribimos una prueba unitaria (que truena) desde la perspectiva del programador; luego escribimos el código que la hace pasar.
+Con ATDD escribimos primero una prueba de aceptación, que observa el sistema por su interfaz pública desde la perspectiva de quien lo usa.
 
 El ciclo tiene dos bucles.
-El bucle externo es la prueba de aceptación, que falla mientras la funcionalidad no existe.
+El bucle externo es la prueba de aceptación, que truena mientras la funcionalidad no existe.
 El bucle interno es TDD, que construye las piezas internas con pruebas unitarias.
 La prueba de aceptación pasa cuando el comportamiento completo existe.
 
-Un criterio de aceptación es una entrada de la especificación: describe un escenario y declara el comando que verifica el escenario descrito.
-Elegimos ejemplos concretos que cualquiera del equipo puede reconocer.
-Convertimos cada escenario en una prueba de aceptación y en una entrada de la especificación.
+Una especificación es un conjunto de criterios, escrito en un archivo TOML.
+Un criterio de aceptación es un elemento de la especificación.
+Un escenario es la descripción de un criterio en lenguaje natural (prosa).
+Cada criterio apunta a una prueba de aceptación, que es el mismo escenario escrito como código.
+Escribimos cada escenario como parte de un criterio y después como prueba.
+El criterio y su prueba definen qué significa terminar.
 
 ## La arquitectura de la verificación
 
 La arquitectura de nuestros proyectos separa niveles.
-Make corre dentro del contenedor y no sabe que Docker existe. Nunca invocamos Docker dentro del Makefile.
-Docker Compose inicia el contenedor y monta el árbol de trabajo.
+Make corre dentro del contenedor y no sabe que Docker existe.
+Nunca invocamos Docker dentro del Makefile.
 Los guiones que corren fuera del contenedor viven en `.pipelines/`.
 La explicación completa está en la [guía de arquitectura](https://islas.dev/guia_de_estilo/arquitectura).
 
-qed verifica criterios escritos en TOML.
-Cada criterio declara un comando y, si el comando falla, qed marca el criterio como fallido.
+qed verifica especificaciones escritas en TOML.
+Una sola prueba de aceptación que truene hace que qed rechace la especificación.
 
 ## El flujo de trabajo
 
@@ -114,7 +116,7 @@ Elegimos la siguiente funcionalidad, no una que ya funciona.
 
 ### 1. Escribir la especificación
 
-Aquí hay un ejemplo de criterio de aceptación en `specs/<funcionalidad>.spec.toml` para Python con `pytest`.
+Aquí hay una plantilla para un criterio en `specs/<funcionalidad>.spec.toml` para Python con `pytest`.
 
 ```toml
  #:schema https://raw.githubusercontent.com/tskovlund/qed/main/docs/spec.schema.json
@@ -128,10 +130,10 @@ Aquí hay un ejemplo de criterio de aceptación en `specs/<funcionalidad>.spec.t
  skip = "Not implemented"
  [criteria.verify]
  type = "command"
- run = "pytest tests/test_acceptance_<funcionalidad>.py::test_four_tasks"
+ run = "pytest tests/test_acceptance_<funcionalidad>.py::test_<nombre del criterio>"
 ```
 
-La verificación del criterio en R usa `testthat`.
+La prueba en R usa `testthat`.
 
 ```toml
  [criteria.verify]
@@ -139,9 +141,9 @@ La verificación del criterio en R usa `testthat`.
  run = "Rscript --expr \"testthat::test_file('tests/testthat/test-acceptance-<funcionalidad>.R')\""
 ```
 
-### 2. Escribir la prueba que falla
+### 2. Escribir la prueba que truena
 
-Usamos un archivo por funcionalidad y un caso por escenario en Python.
+En Python, usamos un archivo por funcionalidad y un caso por criterio.
 Si la interfaz es una API de FastAPI, usamos `TestClient`.
 
 ```python
@@ -151,8 +153,9 @@ Si la interfaz es una API de FastAPI, usamos `TestClient`.
  client = TestClient(app)
 
 
- def test_four_tasks():
-     response = client.post("/task/1/done")
+ def test_<criterio>():
+     response = client.post("/<endpoint>")
+     # <Traducimos el escenario en aserciones sobre el resultado observable.>
      assert response.status_code == 200
 ```
 
@@ -173,7 +176,7 @@ Si la interfaz es una CLI de Typer, usamos `CliRunner`.
 
 Los criterios de Python apuntan al nodo exacto de la prueba.
 
-En R, usamos un archivo por funcionalidad en `tests/testthat/test-acceptance-<funcionalidad>.R`; el comando del criterio ejecuta el archivo completo.
+La prueba en R es un archivo por funcionalidad en `tests/testthat/test-acceptance-<funcionalidad>.R`; el criterio apunta al archivo completo.
 
 ```r
  describe("Múltiplos de tres y cinco", {
@@ -197,20 +200,21 @@ En R, usamos un archivo por funcionalidad en `tests/testthat/test-acceptance-<fu
  })
 ```
 
-Quitamos el `skip` de `specs/<funcionalidad>.spec.toml` cuando la prueba de aceptación existe y falla por la razón correcta.
+Quitamos el `skip` de `specs/<funcionalidad>.spec.toml` cuando la prueba existe y truena por la razón correcta.
 
 ### 3. Rojo
 
 Ejecutamos `make verify` dentro de la imagen de desarrollo.
-La prueba falla porque el comportamiento todavía no existe.
+La prueba truena porque el comportamiento todavía no existe.
 
 ### 4. Implementar hasta el verde
 
 Implementamos con TDD las piezas internas.
-La prueba de aceptación pasa cuando el escenario completo funciona.
+Cada iteración del bucle interno de TDD nos acerca un poco más a pasar la prueba de aceptación del bucle externo de ATDD.
+Para pasar de rojo a verde en una iteración de ATDD, nos tomará muchas iteraciones de TDD.
 
 ## Conclusión
 
-La especificación queda en el repositorio y el canal verifica los criterios en cada push.
-El siguiente proyecto empieza con un escenario, su prueba de aceptación y su criterio en la especificación.
+La especificación queda en el repositorio y el canal la verifica en cada push.
+El siguiente proyecto empieza con un criterio: escribimos su escenario y su prueba.
 Los detalles de qed están en su [documentación](https://github.com/tskovlund/qed).
