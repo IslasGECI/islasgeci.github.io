@@ -1,7 +1,7 @@
 ---
 layout: page
 title: No uses colores en lugar de datos
-description: Reglas de nomenclatura
+description: Agrega una columna en lugar de colorear celdas
 ---
 
 En lugar de colorear celdas para señalar alguna característica de los datos coloreados, agrega una columna para dicha característica.

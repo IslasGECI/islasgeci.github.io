@@ -74,7 +74,7 @@ Por ejemplo, digamos que queremos probar que la población de albatros de Laysan
 Para esto, hacemos monitoreos de conteo de nidos y así obtener una muestra de la población de albatros en IG anualmente.
 Como todos sabemos, por las características de esta colonia las muestras son altamente representativas de la población, los conteos son prácticamente exactos.
 Incluso si por alguna razón no contase algunos individuos el nivel de significancia sería muy alto.
-Sin embargo, esta misma muestra de datos, ¿es representativa para decir que la población de albatros de Laysan del mundo entero está en aumento?.
+Sin embargo, esta misma muestra de datos, ¿es representativa para decir que la población de albatros de Laysan del mundo entero está en aumento?
 Habiendo en IG solo cerca del 1% de la población mundial de albatros, no es posible obtener resultados significativos con la muestra nidos de albatros en IG.
 
 ## Entrega

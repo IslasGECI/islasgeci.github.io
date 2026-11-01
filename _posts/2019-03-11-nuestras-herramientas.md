@@ -10,8 +10,8 @@ Ciencia de Datos son programas de computadora y lenguajes de programación que n
 análisis cuantitativos de forma colaborativa y reproducible.
 
 En GECI, toda acción de conservación implica la colecta de datos mediante actividades de monitoreo
-diseñadas para evaluar cuentitativamente los beneficios de nuestra intervención en la biodiversidad
-de la isla que restauraramos.
+diseñadas para evaluar cuantitativamente los beneficios de nuestra intervención en la biodiversidad
+de la isla que restauráramos.
 
 Antes de analizar un conjunto de datos, la curadora de datos verifica que los datos recibidos sean
 adecuados. Típicamente recibimos los datos en un archivo de Excel con miles de registros. Dado que
@@ -67,7 +67,7 @@ código Markdown y genera la versión en la que el lector puede ver el texto con
 
 Al concluir un análisis terminamos con varios guiones de comandos para producir los resultados y los
 reportes técnicos. Debemos ejecutar estos guiones en un orden particular cuando queremos producir
-los resultados nuevamente. El orden en el que ejecutamos los los guiones lo describimos en un
+los resultados nuevamente. El orden en el que ejecutamos los guiones lo describimos en un
 archivo llamado `Makefile`. En el `Makefile` también describimos las relaciones entre los datos,
 guiones y reportes, además de las dependencias que el análisis tiene en los módulos de los lenguajes
 de programación y en los paquetes del sistema operativo. El `Makefile` puede ser usado como guía por

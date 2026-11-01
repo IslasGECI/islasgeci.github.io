@@ -28,7 +28,7 @@ En las siguientes secciones se describen de cada uno de los tipos de análisis q
 ## Climatología de variables ambientales
 
 Estudiamos el clima de las islas para entender la dinámica de estos ecosistemas y poder hacer proyecciones hacia el futuro. Los análisis incluyen estudio y descripción de series de tiempo de variables oceanográficas: concentración de clorofila, temperatura superficial del mar, índices de surgencias; y series de tiempo de variables atmosféricas: temperatura ambiental, precipitación y humedad.
-Contamos con instrumentación propia incluyendo 11 estaciones meteorológica y 4 sensores de temperatura sub-superficiales. Estos intrumentos nos proveen de información in situ con alta resolución temporal.
+Contamos con instrumentación propia incluyendo 11 estaciones meteorológica y 4 sensores de temperatura sub-superficiales. Estos instrumentos nos proveen de información in situ con alta resolución temporal.
 
 Además de usar información meteorológica y oceanográfica medida in situ, incorporamos en nuestros análisis información disponible obtenida mediante sensores remotos y reanálisis con una cobertura global y alta resolución espacial.
 Usamos esta información, no solo por la resolución espacial, sino también por la disponibilidad de datos históricos. Algunas de estas bases de datos ofrecen información de hace varias décadas.
@@ -66,6 +66,6 @@ Asimismo, llevamos a cabo estimaciones de densidades kernel de trayectorias de a
 
 ## Simulación computacional
 
-La simulación computacional completa la cuadratura de nuestros métodos. Monitoreos en el campo, análisis de laboratorio, modelación matemática y, por úiltimo, la simulación computacional son las cuatro grandes herramientas que usamos en el análisis científico.
+La simulación computacional completa la cuadratura de nuestros métodos. Monitoreos en el campo, análisis de laboratorio, modelación matemática y, por último, la simulación computacional son las cuatro grandes herramientas que usamos en el análisis científico.
 Así aprovechamos el poder de cómputo disponible para resolver, mediante diversos métodos numéricos, problemas ecológicos complejos representados por ecuaciones matemáticas que no tienen solución analítica.
 Aquí les presento una animación de los resultados de nuestra modelación de impactos en las islas por escenarios de incremento del nivel del mar asociados a cambio climático. Usamos la relación especies-área para evaluar el impacto sobre especies en las islas de México como consecuencia del cambio climático.

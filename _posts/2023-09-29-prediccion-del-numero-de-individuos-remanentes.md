@@ -11,7 +11,7 @@ tags: ecología matemáticas
 La figura de abajo muestra la predicción del número de individuos remanentes en Isla Socorro.
 El eje del tiempo va desde julio de 2022 hasta diciembre de 2025.
 El eje vertical va de 0 a 100 individuos remanentes.
-Podemos observar que el mínimo del número de individuos de toda la serie de tiempo está en en julio de 2023.
+Podemos observar que el mínimo del número de individuos de toda la serie de tiempo está en julio de 2023.
 Hasta julio de 2023 tenemos las estimaciones históricas.
 De julio de 2023 en adelante son las predicciones a partir de las capturas de los último meses.
 

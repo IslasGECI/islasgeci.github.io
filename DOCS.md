@@ -1,116 +1,159 @@
-# DOCS — Technical Reference
+# DOCS — Public Interface
 
-## make start
+Interface reference for islas.dev. The public interface is defined in AGENTS.md; this file lists its current elements.
 
-Build and serve the Jekyll site in one step.
+## Site-wide
 
-- Parameters: none
-- Returns: site available at http://localhost:4000
-- Notes: Equivalent to running `make build` then `make serve`
+### All pages
 
-## make build
+CI/CD: Conservación de Islas / Ciencia de Datos — Top bar with the site title and a footer with the GECI logo.
 
-Build the static site without starting the development server.
+## Home
 
-- Parameters: none
-- Returns: compiled site in `_site/`
-- Notes: Uses `jekyll/builder` Docker image
+### /
 
-## make serve
+Ciencia de Datos — Page of the GECI Data Science team.
 
-Start the Jekyll development server.
+## Blog
 
-- Parameters: none
-- Returns: running container `islasgeci.github.io` on port 4000
-- Notes: Container runs detached. Use `make down` to stop.
+### /blog/
 
-## make down
+Blog — List of all posts, newest first.
 
-Stop the running Jekyll development server.
+### /blog/temas/
 
-- Parameters: none
-- Returns: stops and removes container `islasgeci.github.io`
-- Errors: no-op if no container is running
+Blog » Orden temático — Posts grouped by topic.
 
-## make check
+### /<year>/<month>/<day>/<slug>/
 
-Run style and spellcheck validation inside a Docker container.
+Blog post — Title, date, author, body, and links to the previous and next posts.
 
-- Parameters: none
-- Returns: exit code 0 if all checks pass, 1 otherwise
-- Notes: Builds or uses the `islasgeci/islasgeci.github.io` image. Requires Docker. Equivalent to running `src/check_style.sh` followed by `src/check_spelling.sh`.
+## Style guide
 
-## src/check_style.sh
+### /guia_de_estilo/
 
-Validate that every Markdown file in `_posts/` ends each line with `.`, `:`, or `?` and that no line exceeds 25 words.
+Guía de Estilo — This section extends the style guides adopted by the GECI Data Science team.
 
-- Parameters: none
-- Returns: exit code 0 if all checks pass, 1 otherwise
-- Errors: non-zero exit when a line lacks proper punctuation or exceeds 25 words
+### /guia_de_estilo/STYLEGUIDE
 
-## src/check_spelling.sh
+Style Guide — Style guide for Grupo de Ecología y Conservación de Islas.
 
-Run aspell spellcheck against every Markdown file in `_posts/`, routing `*_en.md` to English and all other files to Spanish.
+### /guia_de_estilo/arquitectura
 
-- Parameters: none
-- Returns: exit code 0 if no spelling errors found, 1 otherwise
-- Errors: non-zero exit when aspell detects unrecognised words
-- Notes: Uses `.config/wordlist-es.txt` for Spanish posts and `.config/wordlist-en.txt` for English (`*_en.md`) posts. Add new technical terms to the appropriate file.
+Arquitectura en niveles y capas — How the architecture is organized into levels of abstraction and functional layers.
 
-## .pipelines/init.sh
+### /guia_de_estilo/comentarios_en_revisiones
 
-Configure the local Git repository to use the project pre-push hook.
+Cómo escribir comentarios en una revisión — How we achieve kind and effective reviews.
 
-- Parameters: none
-- Returns: sets `core.hooksPath` to `.githooks`
-- Notes: Run once per clone. The pre-push hook calls `make check` and rejects the push if checks fail.
+### /guia_de_estilo/lenguaje_inclusivo
 
-## Collections
+Lenguaje inclusivo — How we write with inclusive language.
 
-### `_guia_de_estilo`
+### /guia_de_estilo/lista_de_guias
 
-Registered Jekyll collection (see `_config.yml`). Each file in this directory
-renders as a page at `/guia_de_estilo/<slug>/`.
+Lista de guías de estilo — Which style guides we adopt from other teams.
 
-### `_protocolo_avanzado`
+### /guia_de_estilo/prosa
 
-Registered Jekyll collection (see `_config.yml`). Each file in this directory
-renders as a page at `/protocolo_avanzado/<slug>/`.
+Estilo en la prosa — How we write text that is not code.
 
-## Data Files
+### /guia_de_estilo/review_checklists
 
-### `_data/navigation.yml`
+Review Checklists — Checklists for reviewing Class 1 and Class 3 pull requests, and for publishing reports, datasets, and software releases in Zenodo.
 
-Defines the top-level navigation links rendered on the homepage.
+## Basic protocol
 
-- Format: list of `{name, link}` objects
-- `name`: display text (Spanish)
-- `link`: relative path or absolute URL
+### /protocolo_basico/
 
-### `_data/tags.yml`
+Datos en Excel — Protocol for saving data in Excel to be processed by the GECI Data Science team.
 
-Defines the tag taxonomy for blog posts.
+### /protocolo_basico/resumen.html
 
-- Format: list of `{name, id}` objects
-- `name`: display text (Spanish)
-- `id`: tag identifier used in post front matter
+Resumen — One table per file, with a data sheet and a metadata sheet.
 
-## Front Matter
+### /protocolo_basico/datos.html
 
-### Page layout (`layout: page`)
+Datos — How to save data in an Excel file.
 
-| Field         | Required | Description                       |
-|---------------|----------|-----------------------------------|
-| `layout`      | yes      | Must be `page`                    |
-| `title`       | yes      | Page title                        |
-| `tagline`     | yes      | Short subtitle                    |
-| `description` | yes      | SEO description                   |
+### /protocolo_basico/consistencia.html
 
-### Post layout (`layout: post`)
+Se consistente — The most important rule of data organization is to be consistent.
 
-| Field    | Required | Description                                       |
-|----------|----------|---------------------------------------------------|
-| `layout` | yes      | Must be `post`                                    |
-| `title`  | yes      | Post title                                        |
-| `author` | yes      | Author name                                       |
-| `tags`   | yes      | Space-separated tag ids from `_data/tags.yml`     |
+### /protocolo_basico/nomenclatura.html
+
+Nombres de archivos y columnas — Naming rules.
+
+### /protocolo_basico/celdas_vacias.html
+
+No dejes celdas vacías — No empty cells.
+
+### /protocolo_basico/fusionar_celdas.html
+
+No fusiones celdas — Merging cells is equivalent to leaving empty cells.
+
+### /protocolo_basico/sin_calculos.html
+
+No hagas cálculos en el archivo de datos — Raw data files cannot contain calculations or charts.
+
+### /protocolo_basico/sin_colores.html
+
+No uses colores en lugar de datos — Add a column instead of colouring cells.
+
+### /protocolo_basico/metadatos.html
+
+Metadatos — How to add metadata to an Excel data file.
+
+### /protocolo_basico/standard_name.html
+
+Nombre estándar — The `standard_name` metadata.
+
+### /protocolo_basico/units.html
+
+Unidades — The `units` metadata.
+
+### /protocolo_basico/axis.html
+
+Variables independientes — The `axis` metadata.
+
+### /protocolo_basico/coordenadas.html
+
+Sistemas de Coordenadas — Protocol for saving georeferenced records in Excel.
+
+### /protocolo_basico/geograficas.html
+
+Coordenadas Geográficas — For geographic coordinates you must include two columns: latitude and longitude.
+
+### /protocolo_basico/utm.html
+
+Coordenadas UTM — For UTM coordinates you must include three columns: easting, northing, and UTM zone.
+
+### /protocolo_basico/tiempo.html
+
+Fecha y hora — Format for saving dates and times.
+
+### /protocolo_basico/referencias.html
+
+Referencias — List of references that inspired this protocol.
+
+## Advanced protocol
+
+### /protocolo_avanzado/
+
+Protocolo avanzado para guardar datos en Excel — Additional information for analysts on the GECI Data Science team.
+
+### /protocolo_avanzado/resumen
+
+Resumen — Summary of the workflow.
+
+### /protocolo_avanzado/metadatos
+
+Metadatos — How to add metadata to an Excel data file.
+
+### /protocolo_avanzado/validacion
+
+Validar un archivo de Excel — How to check whether an Excel file follows this protocol.
+
+### /protocolo_avanzado/referencias
+
+Referencias — List of references that inspired this protocol.

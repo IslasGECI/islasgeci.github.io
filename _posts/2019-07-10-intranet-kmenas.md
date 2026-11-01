@@ -13,7 +13,7 @@ Para ilustrar el funcionamiento del algoritmo utilizaremos los datos de las posi
 
 ![Datos crudos](http://intranet.islas.org.mx/img/noticias/kmeans_raw_data.png)
 
-El algoritmo inicia poniendo _k_ cantidad de puntos en el espacio con una posición aleatoria, a estos les llamare,os puntos de referencia. Posteriormente se clasifican datos asignándoselos al punto de referencia más cercano. Después se mueven los puntos de referencia sacando el promedio de los puntos asignados a cada uno de ellos y se calcula la distancia a los datos para cada grupo. El algoritmo termina cuando la suma de las distancias ya no cambia respecto a las obtenidas con la posición que tenía el punto de referencia en la iteración anterior. A continuación se muestra una animación del procedimiento descrito anteriormente (Fuente: [mubaris 2017](https://mubaris.com/posts/kmeans-clustering/)).
+El algoritmo inicia poniendo _k_ cantidad de puntos en el espacio con una posición aleatoria, a estos les llamaremos puntos de referencia. Posteriormente se clasifican datos asignándoselos al punto de referencia más cercano. Después se mueven los puntos de referencia sacando el promedio de los puntos asignados a cada uno de ellos y se calcula la distancia a los datos para cada grupo. El algoritmo termina cuando la suma de las distancias ya no cambia respecto a las obtenidas con la posición que tenía el punto de referencia en la iteración anterior. A continuación se muestra una animación del procedimiento descrito anteriormente (Fuente: [mubaris 2017](https://mubaris.com/posts/kmeans-clustering/)).
 
 ![Animación K means](https://i.imgur.com/k4XcapI.gif)
 
@@ -54,7 +54,7 @@ plt.show()
 
 Podemos descargar un archivo con los datos de prueba y el código [aquí](http://intranet.islas.org.mx/data/noticias/ejemplo_kmeans.zip). Más abajo mostramos la imagen resultante.
 
-![Ejemplo grafica python](http://intranet.islas.org.mx/img/noticias/k_example_clasification.png)
+![Ejemplo gráfica python](http://intranet.islas.org.mx/img/noticias/k_example_clasification.png)
 
 ## Conclusión
 
