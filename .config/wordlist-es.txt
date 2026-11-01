@@ -1,4 +1,4 @@
-personal_ws-1.1 es 208 utf-8
+personal_ws-1.1 es 217 utf-8
 Access
 Actions
 add
@@ -207,3 +207,12 @@ xls
 XLSX
 Yuliana
 Yutzil
+ATDD
+BDD
+CLI
+guión
+guiones
+qed
+TOML
+Typer
+FastAPI
