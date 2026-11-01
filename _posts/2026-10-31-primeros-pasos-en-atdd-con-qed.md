@@ -138,8 +138,11 @@ La prueba en R usa `testthat`.
 ```toml
  [criteria.verify]
  type = "command"
- run = "Rscript --expr \"testthat::test_file('tests/testthat/test-acceptance-<funcionalidad>.R')\""
+ run = "Rscript --expr \"testthat::test_file('tests/testthat/test_acceptance_<funcionalidad>.R', stop_on_failure = TRUE)\""
 ```
+
+Sin `stop_on_failure = TRUE`, `testthat::test_file()` termina con código 0 aunque truene la prueba, y qed marca el criterio como aprobado.
+Lo verificamos con testthat 3.1.5.
 
 ### 2. Escribir la prueba que truena
 
@@ -176,9 +179,13 @@ Si la interfaz es una CLI de Typer, usamos `CliRunner`.
 
 Los criterios de Python apuntan al nodo exacto de la prueba.
 
-La prueba en R es un archivo por funcionalidad en `tests/testthat/test-acceptance-<funcionalidad>.R`; el criterio apunta al archivo completo.
+La prueba en R es un archivo por funcionalidad en `tests/testthat/test_acceptance_<funcionalidad>.R`; el criterio apunta al archivo completo.
+El criterio corre el archivo en una sesión nueva, sin el paquete adjunto.
+Por eso el archivo empieza con `library(<paquete>)`: así solo alcanza la interfaz pública y no los ayudantes internos.
 
 ```r
+ library(<paquete>)
+
  describe("Múltiplos de tres y cinco", {
    it("dice Fizz para múltiplos de tres", {
      expect_equal(fizzbuzz(3), "Fizz")
