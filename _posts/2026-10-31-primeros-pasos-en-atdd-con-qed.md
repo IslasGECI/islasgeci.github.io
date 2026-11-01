@@ -138,11 +138,12 @@ La prueba en R usa `testthat`.
 ```toml
  [criteria.verify]
  type = "command"
- run = "Rscript --expr \"testthat::test_file('tests/testthat/test_acceptance_<funcionalidad>.R', stop_on_failure = TRUE)\""
+ run = "Rscript -e \"testthat::test_file('tests/testthat/test_acceptance_<funcionalidad>.R', stop_on_failure = TRUE)\""
 ```
 
 Sin `stop_on_failure = TRUE`, `testthat::test_file()` termina con código 0 aunque truene la prueba, y qed marca el criterio como aprobado.
 Lo verificamos con testthat 3.1.5.
+La expresión va con `-e`: `Rscript` no tiene la opción `--expr`.
 
 ### 2. Escribir la prueba que truena
 
