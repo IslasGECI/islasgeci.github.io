@@ -26,14 +26,6 @@ Cada criterio apunta a una prueba de aceptación, que es el mismo escenario escr
 Escribimos cada escenario como parte de un criterio y después como prueba.
 El criterio y su prueba definen qué significa terminar.
 
-## La arquitectura de la verificación
-
-La arquitectura de nuestros proyectos separa niveles.
-Make corre dentro del contenedor y no sabe que Docker existe.
-Nunca invocamos Docker dentro del Makefile.
-Los guiones que corren fuera del contenedor viven en `.pipelines/`.
-La explicación completa está en la [guía de arquitectura](https://islas.dev/guia_de_estilo/arquitectura).
-
 qed verifica especificaciones escritas en TOML.
 Una sola prueba de aceptación que truene hace que qed rechace la especificación.
 
@@ -79,42 +71,35 @@ En `docker-compose.yml` agregamos un servicio con el perfil `develop`.
 
 El perfil mantiene la imagen de desarrollo fuera de la construcción normal.
 
-### 4. Agregar el objetivo `verify`
+### 4. Agregar el objetivo `verify` a `Makefile`
 
-El objetivo `verify` solo llama a qed.
+En `Makefile`, el objetivo `verify` solo llama a qed.
 
 ```make
  verify:
  	qed verify specs
 ```
 
-### 5. Agregar el guión del canal
-
-Creamos `.pipelines/verify.sh`:
-
-```bash
- #!/usr/bin/env bash
- set -o errexit -o nounset -o pipefail
-
- docker compose --profile develop run --rm develop make verify
-```
-
 El guión supone que la imagen de producción ya existe; constrúyela con `docker compose build` antes de ejecutarlo.
 
-### 6. Integrar el canal
+### 5. Integrar el canal
 
 ```yaml
      - name: Verify acceptance criteria
-       run: bash .pipelines/verify.sh
+       run: docker compose --profile develop run --rm develop make verify
 ```
-
-Cualquier canal sirve; el guión es la parte portátil.
 
 ## El primer ciclo
 
 Elegimos la siguiente funcionalidad, no una que ya funciona.
 
 ### 1. Escribir la especificación
+
+Escribimos el escenario (la prosa) antes antes de escribir el código correspondiente de la pruba de aceptación.
+Esta es una práctica nueva, porque, hasta ahora, escribíamos las pruebas sin escribir el escenario al que corresponden.
+
+Cada funcionalidad puede tener múltiples criterios de aceptación.
+Podemos escribir los escenarios de todos los criterios antes de escribir la primera prueba de aceptación.
 
 Aquí hay una plantilla para un criterio en `specs/<funcionalidad>.spec.toml` para Python con `pytest`.
 
@@ -208,7 +193,7 @@ Por eso el archivo empieza con `library(<paquete>)`: así solo alcanza la interf
  })
 ```
 
-Quitamos el `skip` de `specs/<funcionalidad>.spec.toml` cuando la prueba existe y truena por la razón correcta.
+Cuando la prueba existe y truena por la razón correcta, quitamos el `skip` de `specs/<funcionalidad>.spec.toml` para que qed rechaze la especificación y `make verify` truene.
 
 ### 3. Rojo
 
