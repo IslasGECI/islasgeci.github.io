@@ -80,7 +80,7 @@ En `Makefile`, el objetivo `verify` solo llama a qed.
  	qed verify specs
 ```
 
-El guión supone que la imagen de producción ya existe; constrúyela con `docker compose build` antes de ejecutarlo.
+El objetivo supone que la imagen de producción ya existe; constrúyela con `docker compose build` antes de ejecutarlo.
 
 ### 5. Integrar el canal
 
@@ -95,7 +95,7 @@ Elegimos la siguiente funcionalidad, no una que ya funciona.
 
 ### 1. Escribir la especificación
 
-Escribimos el escenario (la prosa) antes antes de escribir el código correspondiente de la pruba de aceptación.
+Escribimos el escenario (la prosa) antes de escribir el código correspondiente de la prueba de aceptación.
 Esta es una práctica nueva, porque, hasta ahora, escribíamos las pruebas sin escribir el escenario al que corresponden.
 
 Cada funcionalidad puede tener múltiples criterios de aceptación.
@@ -193,7 +193,7 @@ Por eso el archivo empieza con `library(<paquete>)`: así solo alcanza la interf
  })
 ```
 
-Cuando la prueba existe y truena por la razón correcta, quitamos el `skip` de `specs/<funcionalidad>.spec.toml` para que qed rechaze la especificación y `make verify` truene.
+Cuando la prueba existe y truena por la razón correcta, quitamos el `skip` de `specs/<funcionalidad>.spec.toml` para que qed rechace la especificación y `make verify` truene.
 
 ### 3. Rojo
 
