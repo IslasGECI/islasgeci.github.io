@@ -2,16 +2,17 @@
 layout: page
 title: Review Checklists
 tagline: Guía de estilo
-description: Checklists for reviewing Class 1 and Class 3 pull requests, and for publishing reports, datasets, and software releases in Zenodo
+description: Checklists for reviewing Class 1 and Class 3 pull requests, data curation and for publishing reports, datasets, and software releases in Zenodo
 ---
 
-Five kinds of work each have their own review checklist:
+Six kinds of work each have their own review checklist:
 
 - **Class 1 repositories** contain general-purpose tools whose end users are analysts, such as packages, CLIs, and APIs. They do not produce concrete results and are usually hosted on GitHub.
 - **Class 3 repositories** depend on Class 1 repositories and produce concrete results about the islands and their species for biologists. They are usually hosted on Bitbucket.
 - **Reports** are published directly in Zenodo.
 - **Datasets** are curated before publication and then published directly in Zenodo.
 - **Software releases** are archived on Zenodo by the GitHub integration.
+- **Raw data curation** after the curation process this files are stored on our tabular data packages. 
 
 The conventions these checklists reference are defined in the [Style Guide](/guia_de_estilo/STYLEGUIDE).
 
@@ -143,3 +144,17 @@ Zenodo reads `.zenodo.json` and ignores `CITATION.cff` when both exist.
   Test: `gh api repos/{owner}/{repo}/git/ref/tags/vX.Y.Z --jq .ref` reports `refs/tags/vX.Y.Z`.
 - [ ] **Passing**: the release tags the remote `develop` HEAD, and that commit passed CI.
   Test: `gh api repos/{owner}/{repo}/commits/develop --jq .sha` equals `gh api repos/{owner}/{repo}/commits/vX.Y.Z --jq .sha`, and `gh run list --repo {owner}/{repo} --commit <sha>` lists at least one run with every conclusion `success`.
+
+## Checklist for cat data curation
+- [ ] **Scope**: Does the pull request or commits on local develop branch touch only data files and their corresponding datapackage.json? Are code, scripts, Makefile, pipelines, and configuration left out? Are derived, generated, and scratch files excluded?
+- [ ] **Passing**: Is the CI pipeline or at least the validation on the modified folders passing? Do the results match what the author likely intended?
+- [ ] **Schema conformance**: Does the header stay unchanged, with the same columns and order as the resource schema? Does every new value respect the defined types, enums, patterns, ranges, and required fields?
+- [ ] **Referential integrity**: Does every new ID, person, and zone exist in its catalog resource (cameras_positions, cameras_ids, traps_ids, positions_info, responsables, unique_lines/list_of_lines)? If a genuinely new ID is introduced, is its catalog resource updated in the same pull request?
+- [ ] **Uniqueness**: Are the primary keys still unique? Are there no exact or near-duplicate rows, and no rows that already existed before the update?
+- [ ] **Formatting**: Is the file UTF-8, LF, comma-delimited, with no trailing whitespace and consistent quoting? Are conventions consistent (ISO YYYY-MM-DD dates, . decimal separator, unpadded integers, NA for missing values)?
+- [ ] **Standardized values**: Are capitalization and spelling of names and categories consistent with the rest of the table? Are IDs padded consistently?
+- [ ] **Semantic consistency**: Does the zone match the ID prefix, and are the coordinates within range? Are the dates coherent (revision not before submission, capture not after submission, no future dates)? Are related fields logical (camera state vs observations, individuals vs photos, battery vs state)? Are the tables coherent with each other (field vs memory review, effort vs trap check log, monthly trappers counts)?
+- [ ] **Completeness**: Is there a record for each camera and trap expected in the period? Are there no NA values in logically required fields and no placeholders such as "por confirmar" or "revisar"?
+- [ ] **Provenance**: Does the pull request describe the source of the data (island, period, reception date)? Do the commits follow the repository convention?
+- [ ] **YAGNI**: Is the data added only for the period being updated, without speculative columns or records for dates not yet due?
+- [ ] **Good Things**: If you see something nice in the pull request, tell the developer, especially when they addressed one of your comments in a great way.
